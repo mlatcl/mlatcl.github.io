@@ -1,0 +1,35 @@
+.block__team-profile {
+    padding: 5rem 0;
+
+    @include bp(desktop) {
+        padding: 10rem 0;
+    }
+
+    .team-profile__biography {
+        padding: 3rem;
+        background-color: $lightest;
+
+        @include bp(tablet) {
+            padding: 5rem;
+        }
+
+        p {
+            margin-top: 0;
+            margin-bottom: 4rem;
+            font-size: 2rem;
+            line-height: 3.2rem;
+            color: $primary-blue;
+        }
+    }
+
+    .team-profile__contact {
+        padding: 5rem 0;
+
+        a {
+            font-size: 2.4rem;
+            line-height: 3.1rem;
+            color: $primary-blue;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/style.css">
+</head>
+
+<body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
+    {% include site-header.html %}
+    <main class="main">
+        {% include block_hero-standard.html %}
+        {% include block_research-overview.html %}
+        {% include block_research-projects.html %}
+        {% include block_research-related-people.html %}
+        {% include block_research-related-news.html %}
+    </main>
+    {% include site-footer.html %}
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
+</body>
+
+</html>

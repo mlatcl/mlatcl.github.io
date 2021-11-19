@@ -1,0 +1,25 @@
+<section class="block block__latest-news-events">
+    <div class="container">
+        <div class="latest-news-events__intro">
+            <div class="latest-news-events__intro-toggle">
+                <button class="active" data-toggle="news">News</button>
+                <button class="" data-toggle="events">Events</button>
+            </div>
+            <a class="latest-news-events__intro-link button-simple" href="{{site.baseurl}}/news/">View All News</a>
+        </div>
+        <div class="latest-news-events__listings latest-news-events__listings-news active">
+            {% for post in site.posts %}
+                {% if post.category == 'news' %}
+                    {% include news-events__post.html %}
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div class="latest-news-events__listings latest-news-events__listings-events">
+            {% for post in site.posts %}
+                {% if post.category == 'event' %}
+                    {% include news-events__post.html %}
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>

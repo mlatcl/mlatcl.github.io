@@ -1,0 +1,48 @@
+.block__partners {
+    margin: 5rem 0;
+
+    @include bp(desktop) {
+        margin: 10rem 0;
+    }
+    
+    .container {
+        padding: 2rem 3rem;
+        background-color: $lightest;
+
+        @include bp(tablet) {
+            padding: 4rem 5rem;
+        }
+
+        @include bp(desktop) {
+            padding: 7.5rem 15rem;
+        }
+
+        .partners__grid {
+            margin: 0 -1rem -1rem -1rem;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+
+            @include bp(tablet) {
+                margin: 0 -2rem -2rem -2rem;
+            }
+
+            .partners__logo {
+                width: calc(33.33% - 2rem);
+                margin: 0 1rem 1rem 1rem;
+                display: block;
+
+                @include bp(tablet) {
+                    width: calc(20% - 4rem);
+                    margin: 0 2rem 2rem 2rem;
+                }
+
+                img {
+                    width: 100%;
+                    height: auto;
+                    display: block;
+                }
+            }
+        }
+    }
+}

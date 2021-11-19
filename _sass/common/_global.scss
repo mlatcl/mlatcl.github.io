@@ -1,0 +1,69 @@
+// -------------------------------------------------------------
+// Global styles
+// -------------------------------------------------------------
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+html {
+	display: block !important;
+	box-sizing: border-box;
+	background: $light-grey;
+	font-size: 62.5%;
+	font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: antialiased;
+	text-rendering: optimizeLegibility;
+}
+
+body {
+	line-height: $baseline;
+	font-size: $global-font-size;
+	color: $text-color;
+	font-family: $global-font-family;
+	font-weight: $global-weight-normal;
+	overflow-x: hidden;
+}
+
+main {
+	margin-top: 54px;
+}
+
+.overlay {
+	display: none;
+
+	@include bp(tablet) {
+		display: block;
+		position: absolute;
+		background: rgba($dark, 0.3);
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 1;
+	}
+}
+
+.embed {
+	position: relative;
+	padding-bottom: 56.25%;
+	height: 0;
+	overflow: hidden;
+	max-width: 100%;
+
+	iframe,
+	object,
+	video,
+	embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+}

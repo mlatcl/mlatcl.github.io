@@ -1,0 +1,7 @@
+<section class="block block__news-events">
+    <div class="container">
+        {% for post in site.posts %}
+            {% include news-events__post.html %}
+        {% endfor %}
+    </div>
+</section>

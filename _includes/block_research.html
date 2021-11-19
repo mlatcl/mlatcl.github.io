@@ -1,0 +1,66 @@
+<section class="block block__research">
+    <div class="container">
+        {% assign flip = false %}
+        {% for item in site.research %}
+            <div class="research__item {% if flip == true %}research__item--flipped{% endif %}">
+                {% if flip == true %}
+                    <div class="research__item-details">
+                        <div>
+                            <div class="section-heading">
+                                <div>
+                                    <h2>{{ item.title }}</h2>
+                                    <span>
+                                        <!-- SVG -->
+                                                                                <!-- After Element -->
+                                    </span>
+                                </div>
+                            </div>
+                            <p>{{ item.description }}</p>
+                        </div>
+                        <a class="button" href="{{ item.url }}">
+                            Read More
+                            <span class="dot dot--top-left"></span>
+                            <span class="dot dot--top-right"></span>
+                            <span class="dot dot--bottom-left"></span>
+                            <span class="dot dot--bottom-right"></span>
+                        </a>
+                    </div>
+                    <div class="research__item-image">
+                        <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                    </div>
+                {% else %}
+                    <div class="research__item-image">
+                        <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                    </div>
+                    <div class="research__item-details">
+                        <div>
+                            <div class="section-heading">
+                                <div>
+                                    <h2>{{ item.title }}</h2>
+                                    <span>
+                                        <!-- SVG -->
+                                                                                <!-- After Element -->
+                                    </span>
+                                </div>
+                            </div>
+                            <p>{{ item.description }}</p>
+                        </div>
+                        <a class="button" href="{{ item.url }}">
+                            Read More
+                            <span class="dot dot--top-left"></span>
+                            <span class="dot dot--top-right"></span>
+                            <span class="dot dot--bottom-left"></span>
+                            <span class="dot dot--bottom-right"></span>
+                        </a>
+                    </div>
+                {% endif %}
+            </div>
+
+            {% if flip == true %}
+                {% assign flip = false %}
+            {% else %}
+                {% assign flip = true %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</section>
