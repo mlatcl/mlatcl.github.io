@@ -5,7 +5,7 @@
             <div class="column">
                 <span class="hero__dot hero__dot--top-left"></span>
                 <span class="hero__dot hero__dot--top-right"></span>
-                <a href="{{site.baseurl}}" class="hero__item hero__item--top-left">
+                <a href="{{site.url}}" class="hero__item hero__item--top-left">
                     <img class="brand" src="{{site.baseurl}}/{{site.logo}}" alt="Logo">
                 </a>
             </div>
@@ -39,11 +39,11 @@
                 <span class="hero__dot hero__dot--bottom-right"></span>
                 {% if page.collection == 'people' %}
                     <div class="hero__item hero__item--top-left">
-                        <a class="back-to-collection" href="{{}}">Back to people</a>
+                        <a class="back-to-collection" href="{{site.url}}/people/">Back to people</a>
                     </div>
                 {% elsif page.collection == 'research' %}
                     <div class="hero__item hero__item--top-left">
-                        <a class="back-to-collection" href="{{}}">Back to research</a>
+                        <a class="back-to-collection" href="{{site.url}}/research/">Back to research</a>
                     </div>
                 {% endif %}
                 <div class="hero__item hero__item--bottom-left">

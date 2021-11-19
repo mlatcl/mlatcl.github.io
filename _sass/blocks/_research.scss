@@ -6,6 +6,7 @@
     }
 
     .research__item {
+        margin-bottom: 2rem;
         padding: 3rem;
         display: flex;
         justify-content: space-between;
@@ -13,7 +14,12 @@
         background-color: $lightest;
 
         @include bp(tablet) {
+            margin-bottom: 4rem;
             padding: 5rem;
+        }
+
+        @include bp(desktop) {
+            margin-bottom: 10rem;
         }
 
         &-details {
@@ -21,6 +27,7 @@
             max-width: 490px;
             display: flex;
             flex-direction: column;
+            align-items: flex-start;
             justify-content: space-between;
             align-items: flex-start;
             order: 2;
@@ -36,6 +43,13 @@
 
             div {
                 flex: 1;
+
+                .section-heading {
+                    
+                    h2 {
+                        text-transform: none;
+                    }
+                }
 
                 p {
                     font-size: 1.8rem;
