@@ -148,10 +148,16 @@
             line-height: 1.8rem;
             color: $lightest;
             text-decoration: none;
+            transition: 300ms opacity, 300ms visibility;
 
             @include bp(tablet) {
                 font-size: 2rem;
                 line-height: 2.2rem;
+            }
+
+            .mobile-menu-active & {
+                opacity: 0;
+                visibility: hidden;
             }
         }
 
