@@ -8,3 +8,13 @@ collections:
     folder: '_posts/'
     fields:
       - { name: Title }
+  - name: 'people'
+    label: 'People'
+    folder: '_people/'
+    fields:
+      - { name: Title }
+  - name: 'researcg'
+    label: 'Research'
+    folder: '_research/'
+    fields:
+      - { name: Title }
