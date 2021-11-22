@@ -10,15 +10,18 @@ collections:
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/'
+    create: true
     fields:
       - { name: Title }
   - name: 'people'
     label: 'People'
     folder: '_people/'
+    create: true
     fields:
       - { name: Title }
   - name: 'researcg'
     label: 'Research'
     folder: '_research/'
+    create: true
     fields:
       - { name: Title }
