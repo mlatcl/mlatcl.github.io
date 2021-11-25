@@ -35,9 +35,19 @@ collections:
         name: 'homepage'
         file: '_data/homepage.yml'
         fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
           # About Section
           - label: 'About'
             name: 'about'
+            collapsed: true
             widget: 'object'
             fields:
               - label: 'Title'
@@ -55,6 +65,7 @@ collections:
           # Research Section
           - label: 'Research'
             name: 'research'
+            collapsed: true
             widget: 'object'
             fields:
               - label: 'Title'
@@ -72,6 +83,8 @@ collections:
           # Partners
           - label: 'Partners'
             name: 'partners'
+            collapsed: true
+            minimize_collapsed: true
             widget: 'list'
             fields: 
               - label: 'Image'
@@ -82,25 +95,94 @@ collections:
                 widget: 'string'
 
   # Blog Collection
-  - name: 'blog'
-    label: 'Blog'
+  - label: 'Blog'
+    name: 'blog'
     folder: '_posts/'
     create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
-      - name: 'Title'
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'post-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured-image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
 
   # People Collection
-  - name: 'people'
-    label: 'People'
+  - label: 'People'
+    name: 'people'
     folder: '_people/'
     create: true
     fields:
-      - name: 'Title'
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'people-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured-image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
 
   # Research Collection
-  - name: 'research'
-    label: 'Research'
+  - label: 'Research'
+    name: 'research'
     folder: '_research/'
     create: true
     fields:
-      - name: 'Title'
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'research-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured-image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+
+  # Project Collection
+  - label: 'Projects'
+    name: 'projects'
+    folder: '_projects/'
+    create: true
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'project-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured-image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
