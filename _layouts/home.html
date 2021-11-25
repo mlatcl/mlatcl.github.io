@@ -27,6 +27,55 @@ title: Home
         </div>
     </div>
 </section>
-{% include block_media-text.html %}
-{% include block_partners.html %}
+<section class="block block__media-text block__media-text--bg-white">
+    <div class="container">
+        <div class="media-text__text">
+            <div class="section-heading">
+                <h2>{{ site.data.homepage.research.title }}</h2>
+                <span></span>
+            </div>
+            <!-- Heading -->
+            <h3>{{ site.data.homepage.research.heading }}</h3>
+            <p>{{ site.data.homepage.research.content }}</p>
+            <a class="button" href="#">
+                Our Research
+                <span class="dot dot--top-left"></span>
+                <span class="dot dot--top-right"></span>
+                <span class="dot dot--bottom-left"></span>
+                <span class="dot dot--bottom-right"></span>
+            </a>
+        </div>
+        <div class="media-text__media">
+            <img src="{{ site.data.homepage.research.image }}">
+        </div>
+    </div>
+</section>
+<section class="block block__partners">
+    <div class="container">
+        <div class="partners__grid">
+
+            {{ for image in site.data.homepage.logo-grid }}
+            <p>Test</p>
+            {{ endfor }}
+
+            <!-- Loop -->
+            <a class="partners__logo" href="#">
+                <img src="{{site.baseurl}}/assets/images/cambridge-university.png" alt="University of Cambridge">
+            </a>
+            <a class="partners__logo" href="#">
+                <img src="{{site.baseurl}}/assets/images/cambridge-university.png" alt="University of Cambridge">
+            </a>
+            <a class="partners__logo" href="#">
+                <img src="{{site.baseurl}}/assets/images/cambridge-university.png" alt="University of Cambridge">
+            </a>
+            <a class="partners__logo" href="#">
+                <img src="{{site.baseurl}}/assets/images/cambridge-university.png" alt="University of Cambridge">
+            </a>
+            <a class="partners__logo" href="#">
+                <img src="{{site.baseurl}}/assets/images/cambridge-university.png" alt="University of Cambridge">
+            </a>
+            <!-- Endloop -->
+        </div>
+    </div>
+</section>
 {% include block_latest-news-events.html %}

@@ -52,6 +52,31 @@ collections:
               - label: 'Image'
                 name: 'image'
                 widget: 'image'
+          # Research Section
+          - label: 'Research'
+            name: 'research'
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Heading'
+                name: 'heading'
+                widget: 'string'
+              - label: 'Content'
+                name: 'content'
+                widget: 'text'
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+          # Logo Grid
+          - label: 'Logo Grid'
+            name: 'logo-grid'
+            widget: 'list'
+            fields: 
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
 
   # Blog Collection
   - name: 'blog'
