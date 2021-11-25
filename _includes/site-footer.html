@@ -25,17 +25,17 @@
                 </div>
                 <div class="footer__contact-details">
                     <div>
-                        {{site.data.site.address}}
+                        {{site.data.site.contact_details.address}}
                     </div>
                     <div>
-                        <a href="telto:{{ site.data.site.tel }}">Tel:
-                            {{ site.data.site.tel }}
+                        <a href="tel:{{ site.data.site.contact_details.tel }}">Tel:
+                            {{ site.data.site.contact_details.tel }}
                         </a>
-                        <a href="{{ site.data.site.fax }}">Fax:
-                            {{ site.data.site.fax }}
+                        <a href="tel:{{ site.data.site.contact_details.fax }}">Fax:
+                            {{ site.data.site.contact_details.fax }}
                         </a>
-                        <a href="mail:{{ site.data.site.email }}">Contact:
-                            {{ site.data.site.email }}
+                        <a href="mailto:{{ site.data.site.contact_details.email }}">Contact:
+                            {{ site.data.site.contact_details.email }}
                         </a>
                     </div>
                 </div>
@@ -46,13 +46,13 @@
                     <span></span>
                 </div>
                 <div class="footer__socials-links">
-                    <a href="{{site.data.site.twitter_link}}">
+                    <a href="{{site.data.site.social_details.twitter_link}}">
                         <img src="{{site.baseurl}}/{{site.twitter_svg}}" alt="Twitter Logo">
                     </a>
-                    <a href="{{site.data.site.facebook_link}}">
+                    <a href="{{site.data.site.social_details.facebook_link}}">
                         <img src="{{site.baseurl}}/{{site.facebook_svg}}" alt="Facebook Logo">
                     </a>
-                    <a href="{{site.data.site.instagram_link}}">
+                    <a href="{{site.data.site.social_details.instagram_link}}">
                         <img src="{{site.baseurl}}/{{site.instagram_svg}}" alt="Instagram Link">
                     </a>
                 </div>
