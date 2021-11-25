@@ -120,7 +120,7 @@ collections:
           - label: 'News'
             value: 'news'
       - label: 'Featured Image'
-        name: 'featured-image'
+        name: 'featured_image'
         widget: 'image'
       - label: 'Body'
         name: 'body'
