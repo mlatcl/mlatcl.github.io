@@ -7,6 +7,8 @@ local_backend: true
 media_folder: 'assets/uploads'
 
 collections:
+
+  # General Website Settings
   - name: 'website-settings'
     label: 'Website Settings'
     files:
@@ -14,64 +16,60 @@ collections:
         name: 'site'
         file: '_data/site.yml'
         fields:
-          - {
-            label: 'Tel',
-            name: 'tel',
-            widget: 'string',
-          }
-          - {
-            label: 'Fax',
-            name: 'fax',
-            widget: 'string',
-          }
-          - {
-            label: 'Email',
-            name: 'email',
-            widget: 'string',
-          }
-  
+          - label: 'Tel'
+            name: 'tel'
+            widget: 'string'
+          - label: 'Fax'
+            name: 'fax'
+            widget: 'string'
+          - label: 'Email'
+            name: 'email'
+            widget: 'string'
+
+  # Pages
   - name: 'pages'
     label: 'Pages'
     files:
+      # Homepage
       - label: 'Homepage'
         name: 'homepage'
         file: '_data/homepage.yml'
         fields:
-          - {
-            label: 'About',
-            name: 'about',
-            widget: 'object',
+          # About Section
+          - label: 'About'
+            name: 'about'
+            widget: 'object'
             fields:
-              - {
-                label: 'Heading',
-                name: 'heading',
-                widget: 'string',
-              }
-          }
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Heading'
+                name: 'heading'
+                widget: 'string'
+              - label: 'Content'
+                name: 'content'
+                widget: 'text'
 
+  # Blog Collection
   - name: 'blog'
     label: 'Blog'
     folder: '_posts/'
     create: true
     fields:
-      - { 
-          name: Title,
-        }
+      - name: 'Title'
 
+  # People Collection
   - name: 'people'
     label: 'People'
     folder: '_people/'
     create: true
     fields:
-      - { 
-          name: Title,
-        }
+      - name: 'Title'
 
+  # Research Collection
   - name: 'research'
     label: 'Research'
     folder: '_research/'
     create: true
     fields:
-      - { 
-          name: Title,
-        }
+      - name: 'Title'
