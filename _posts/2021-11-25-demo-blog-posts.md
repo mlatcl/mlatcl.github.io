@@ -1,9 +1,8 @@
 ---
 layout: post-single
 title: Demo blog posts
-excerpt: >-
-  
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat nisl augue, nec volutpat justo porta eu. Donec eget vulputate nulla.
+excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat
+  nisl augue, nec volutpat justo porta eu. Donec eget vulputate nulla.
 featured-image: /assets/uploads/pexels-photo-1207918.jpeg
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat nisl augue, nec volutpat justo porta eu. Donec eget vulputate nulla. Ut commodo purus ac orci pellentesque, ac egestas urna bibendum. Pellentesque pretium nisl non magna blandit, vitae semper mauris tincidunt. Duis vehicula nec turpis non lobortis. Proin suscipit arcu quis tortor tempus iaculis. Quisque imperdiet, sem eget finibus sodales, nisl lectus ultricies orci, eget elementum velit ex eu nunc. Nullam suscipit nisl et erat bibendum posuere. Donec a libero ex. Cras porta ligula quis lectus consectetur, non pulvinar ipsum condimentum. Vivamus a dui diam. Curabitur ac dolor sit amet diam gravida rhoncus sed sed mi.
