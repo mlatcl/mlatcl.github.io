@@ -54,6 +54,10 @@ title: Home
     <div class="container">
         <div class="partners__grid">
 
+            {{ for item in site.data.homepage.partners }}
+            <p>Test</p>
+            {{ endfor }}
+
             <!-- Loop -->
             <a class="partners__logo" href="#">
                 <img src="{{site.baseurl}}/assets/images/cambridge-university.png" alt="University of Cambridge">
