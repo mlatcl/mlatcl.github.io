@@ -69,14 +69,17 @@ collections:
               - label: 'Image'
                 name: 'image'
                 widget: 'image'
-          # Logo Grid
-          - label: 'Logo Grid'
-            name: 'logo-grid'
+          # Partners
+          - label: 'Partners'
+            name: 'partners'
             widget: 'list'
             fields: 
               - label: 'Image'
                 name: 'image'
                 widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
 
   # Blog Collection
   - name: 'blog'
