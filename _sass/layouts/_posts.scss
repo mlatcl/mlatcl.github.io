@@ -71,10 +71,10 @@
 
 // News/Events Single Post
 .block__post-single {
-	padding: 5rem 0;
+	padding: 0 0 5rem 0;
 
 	@include bp(desktop) {
-		padding: 10rem 0;
+		padding: 0 0 10rem 0;
 	}
 
 	.container {
