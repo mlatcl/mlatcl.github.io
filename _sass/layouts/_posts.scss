@@ -79,5 +79,31 @@
 
 	.container {
 		max-width: 920px;
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6,
+		p,
+		a,
+		li {
+			color: $primary-blue;
+		}
+
+		p,
+		a,
+		li {
+			font-size: 2rem;
+			line-height: 3.2rem;
+		}
+
+		img {
+			width: auto;
+			height: auto;
+			display: block;
+			margin: 5rem auto;
+		}
 	}
 }
