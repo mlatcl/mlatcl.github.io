@@ -49,6 +49,9 @@ collections:
               - label: 'Content'
                 name: 'content'
                 widget: 'text'
+              - label: 'image'
+                name: 'Image'
+                widget: 'image'
 
   # Blog Collection
   - name: 'blog'
