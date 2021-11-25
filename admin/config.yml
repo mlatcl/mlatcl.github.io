@@ -29,6 +29,19 @@ collections:
             name: 'email',
             widget: 'string',
           }
+  
+  - name: 'pages'
+    label: 'Pages'
+    files:
+      - label: 'Homepage'
+        name: 'homepage'
+        file: '_data/homepage.yml'
+        fields:
+          - {
+            label: 'About',
+            name: 'about',
+            widget: 'object',
+          }
 
   - name: 'blog'
     label: 'Blog'
@@ -48,7 +61,7 @@ collections:
           name: Title,
         }
 
-  - name: 'researcg'
+  - name: 'research'
     label: 'Research'
     folder: '_research/'
     create: true
