@@ -57,6 +57,13 @@
         @include bp(desktop) {
             width: calc(50% - 6rem);
         }
+
+        img {
+            width: 100%;
+            height: 100%;
+            display: block;
+            object-fit: cover;
+        }
     }
 
     &.block__media-text--padded {
