@@ -97,7 +97,7 @@ collections:
   # Blog Collection
   - label: 'Blog'
     name: 'blog'
-    folder: '_posts/'
+    folder: '_posts'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
