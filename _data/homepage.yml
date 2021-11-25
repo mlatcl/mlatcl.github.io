@@ -22,7 +22,13 @@ research:
   link_url: null
   image: /assets/uploads/pexels-photo-1207918.jpeg
 partners:
-  - image: /assets/uploads/pexels-photo-1207918.jpeg
+  - image: /assets/uploads/cambridge-university.png
     link: https://google.co.uk
   - link: https://google.co.uk
-    image: /assets/uploads/pexels-photo-1207918.jpeg
+    image: /assets/uploads/cambridge-university.png
+  - image: /assets/uploads/cambridge-university.png
+    link: https://google.co.uk
+  - image: /assets/uploads/cambridge-university.png
+    link: https://google.co.uk
+  - image: /assets/uploads/cambridge-university.png
+    link: https://google.co.uk
