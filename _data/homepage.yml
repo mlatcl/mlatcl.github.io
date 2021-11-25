@@ -1,15 +1,28 @@
 about:
   title: 01 About
-  heading: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at fermentum urna."
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at fermentum urna. Sed congue nisl sed ultricies gravida. Curabitur fringilla nulla vitae orci laoreet, at dictum justo ultricies. Donec imperdiet, magna vitae bibendum faucibus, elit mi elementum nibh, eget fermentum tortor nibh vel diam. Vivamus eu maximus tellus. Pellentesque eu ex nisl.
+  heading: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at
+    fermentum urna.
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at
+    fermentum urna. Sed congue nisl sed ultricies gravida. Curabitur fringilla
+    nulla vitae orci laoreet, at dictum justo ultricies. Donec imperdiet, magna
+    vitae bibendum faucibus, elit mi elementum nibh, eget fermentum tortor nibh
+    vel diam. Vivamus eu maximus tellus. Pellentesque eu ex nisl.
   link_title: null
   link_url: null
   image: /assets/uploads/pexels-photo-1207918.jpeg
-research: 
+research:
   title: 02 Research
-  heading: "Heading about how ML@CL use AI to make connections."
-  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at fermentum urna. Sed congue nisl sed ultricies gravida. Curabitur fringilla nulla vitae orci laoreet, at dictum justo ultricies. Donec imperdiet, magna vitae bibendum faucibus, elit mi elementum nibh, eget fermentum tortor nibh vel diam. Vivamus eu maximus tellus. Pellentesque eu ex nisl.
+  heading: Heading about how ML@CL use AI to make connections.
+  content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at
+    fermentum urna. Sed congue nisl sed ultricies gravida. Curabitur fringilla
+    nulla vitae orci laoreet, at dictum justo ultricies. Donec imperdiet, magna
+    vitae bibendum faucibus, elit mi elementum nibh, eget fermentum tortor nibh
+    vel diam. Vivamus eu maximus tellus. Pellentesque eu ex nisl.
   link_title: null
   link_url: null
   image: /assets/uploads/pexels-photo-1207918.jpeg
 partners:
+  - image: /assets/uploads/pexels-photo-1207918.jpeg
+    link: https://google.co.uk
+  - link: https://google.co.uk
+    image: /assets/uploads/pexels-photo-1207918.jpeg
