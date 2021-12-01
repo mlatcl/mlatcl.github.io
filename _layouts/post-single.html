@@ -46,7 +46,7 @@
                 <!-- Second Row | Nav -->
                 <div class="row">
                     {% include nav-primary.html %}
-        
+
                     <div class="column">
                         <span class="hero__dot hero__dot--top-left"></span>
                         <span class="hero__dot hero__dot--top-right"></span>
@@ -101,13 +101,32 @@
                         <span class="hero__dot hero__dot--bottom-right"></span>
                     </div>
                 </div>
-                
+
             </div>
         </section>
 
         <section class="block block__post-single">
             <div class="container">
                 {{ content }}
+            </div>
+        </section>
+
+        <section class="block block__related-news reduce-margin-top">
+            <div class="container container--divider margin-bottom"></div>
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Related News</h2>
+                    <span></span>
+                </div>
+                <div class="related-news__listings">
+                    <!-- Figure out counter -->
+                    <!-- Only want latest three -->
+                    {% for post in site.posts %}
+                    {% if post.category == 'news' %}
+                    {% include news-events__post.html %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
             </div>
         </section>
     </main>

@@ -173,6 +173,12 @@
                     };
                 });
 
+                // Research Overview - Expand Summary
+                $('.research-overview__short button').click(function () {
+                    console.log("Click")
+                    $(this).closest('.block__research-overview').toggleClass('expanded');
+                });
+
                 if ('IntersectionObserver' in window) {
                     // Intersection Observer Callback Function
                     blockObserverCallback = function (entries, observer) {

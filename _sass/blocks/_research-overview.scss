@@ -5,7 +5,88 @@
         margin: 10rem 0;
     }
 
+    &.expanded {
+        
+        .research-overview__short-expand {
+            
+            .expand-summary {
+                transform: translateY(-101%);
+            }
+
+            .minimise-summary {
+                transform: translateY(0%);
+            }
+        }
+
+        .research-overview__long {
+            display: block;
+        }
+    }
+
+    .container {
+        max-width: 930px;
+    }
+
     .section-heading {
         margin-bottom: 4rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p,
+    a,
+    li {
+        color: $primary-blue;
+    }
+
+    p,
+    a,
+    li {
+        font-size: 2rem;
+        line-height: 3.2rem;
+    }
+
+    .research-overview__short {
+
+        &-expand {
+            margin: 4rem 0;
+            position: relative;
+            overflow: hidden;
+
+            button {
+                margin: 2rem 0 0 0;
+                margin: 0;
+                padding: 0;
+                background-color: transparent;
+                border: none;
+                border-radius: 0;
+                font-size: 1.8rem;
+                font-weight: 700;
+                line-height: 2.3rem;
+                color: $orange;
+                text-align: left;
+                transition: 400ms;
+                cursor: pointer;
+            }
+
+            .expand-summary {
+                transform: translateY(0%);
+            }
+
+            .minimise-summary {
+                position: absolute;
+                top: 0;
+                left: 0;
+                transform: translateY(101%);
+            }
+        }
+    }
+
+    .research-overview__long {
+        display: none;
     }
 }

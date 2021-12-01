@@ -96,8 +96,17 @@
 
         <section class="block block__research-overview">
             <div class="container">
+                <div class="section-heading">
+                    <h2>Overview</h2>
+                    <span></span>
+                </div>
                 <div class="research-overview__short">
                     {{ page.overview_short | markdownify }}
+                    <div class="research-overview__short-expand">
+                        <!-- SVGS into buttons -->
+                        <button class="expand-summary">Expand Summary</button>
+                        <button class="minimise-summary">Minimise Summary</button>
+                    </div>
                 </div>
                 <div class="research-overview__long">
                     {{ page.overview_long | markdownify }}
@@ -114,16 +123,16 @@
                 <div class="projects__grid">
                     <!-- Update loop to relation widget -->
                     {% for item in site.projects %}
-                        <a href="{{ item.url }}" class="projects__item">
-                            <div class="projects__item-image">
-                                <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
-                            </div>
-                            <div class="projects__item-details">
-                                <h2>{{ item.title }}</h2>
-                                <p>{{ item.excerpt }}</p>
-                                <span>View Profile</span>
-                            </div>
-                        </a>
+                    <a href="{{ item.url }}" class="projects__item">
+                        <div class="projects__item-image">
+                            <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                        </div>
+                        <div class="projects__item-details">
+                            <h2>{{ item.title }}</h2>
+                            <p>{{ item.excerpt }}</p>
+                            <span>View Profile</span>
+                        </div>
+                    </a>
                     {% endfor %}
                 </div>
             </div>
