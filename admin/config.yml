@@ -208,6 +208,7 @@ collections:
       - label: 'Overview Long'
         name: 'overview_long'
         widget: 'markdown'
+        required: false
       - label: 'Related Projects'
         name: 'projects'
         widget: 'relation'
@@ -215,15 +216,15 @@ collections:
         search_fields: ["title.first"]
         value_field: "title.first"
         multiple: true
-        min: 0
+        required: false
       - label: 'Related People'
         name: 'people'
         widget: 'relation'
         collection: 'people'
-        search_fields: ["name.first"]
-        value_field: "name.first"
+        search_fields: ["title.first"]
+        value_field: "title.first"
         multiple: true
-        min: 0
+        required: false
 
   # Project Collection
   - label: 'Projects'
@@ -260,7 +261,7 @@ collections:
         name: 'people'
         widget: 'relation'
         collection: 'people'
-        search_fields: ["name.first"]
-        value_field: "name.first"
+        search_fields: ["title.first"]
+        value_field: "title.first"
         multiple: true
-        min: 0
+        required: false
