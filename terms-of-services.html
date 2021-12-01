@@ -3,4 +3,69 @@ layout: page
 title: Terms of Services
 ---
 
-{% include block_hero-standard.html %}
+<section class="block block__hero block__hero--standard">
+    <div class="container">
+        <!-- Top Row | Logo & Menu -->
+        <div class="row">
+            <div class="column">
+                <span class="hero__dot hero__dot--top-left"></span>
+                <span class="hero__dot hero__dot--top-right"></span>
+                <a href="{{site.url}}" class="hero__item hero__item--top-left">
+                    <img class="brand" src="{{site.baseurl}}/{{site.logo}}" alt="Logo">
+                </a>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <div class="hero__item hero__item--top-right">
+                    {% include menu-trigger.html %}
+                </div>
+            </div>
+        </div>
+        <!-- Second Row | Title & Nav -->
+        <div class="row">
+            {% include nav-primary.html %}
+
+            <div class="column">
+                <span class="hero__dot hero__dot--top-left"></span>
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-left"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+                <div class="hero__item hero__item--bottom-left">
+                    <h1 class="hero__title">{{ page.title }}</h1>
+                </div>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+            </div>
+        </div>
+    </div>
+</section>
