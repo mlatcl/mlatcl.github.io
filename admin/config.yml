@@ -158,17 +158,29 @@ collections:
         name: 'layout'
         widget: 'hidden'
         default: 'people-single'
-      - label: 'Title'
-        name: 'title'
+      - label: 'Name'
+        name: 'name'
         widget: 'string'
-      - label: 'Excerpt'
-        name: 'excerpt'
+      - label: 'Description'
+        name: 'description'
         widget: 'text'
       - label: 'Featured Image'
-        name: 'featured-image'
+        name: 'featured_image'
         widget: 'image'
-      - label: 'Body'
-        name: 'body'
+      - label: 'LinkedIn'
+        name: 'linkedin'
+        widget: 'string'
+      - label: 'Twitter'
+        name: 'twitter'
+        widget: 'string'
+      - label: 'Facebook'
+        name: 'facebook'
+        widget: 'string'
+      - label: 'Email'
+        name: 'email'
+        widget: 'string'
+      - label: 'Biography'
+        name: 'biography'
         widget: 'markdown'
 
   # Research Collection
@@ -188,11 +200,28 @@ collections:
         name: 'excerpt'
         widget: 'text'
       - label: 'Featured Image'
-        name: 'featured-image'
+        name: 'featured_image'
         widget: 'image'
-      - label: 'Body'
-        name: 'body'
+      - label: 'Overview Short'
+        name: 'overview_short'
         widget: 'markdown'
+      - label: 'Overview Long'
+        name: 'overview_long'
+        widget: 'markdown'
+      - label: 'Related Projects'
+        name: 'projects'
+        widget: 'relation'
+        collection: 'projects'
+        multiple: true
+        search_fields: ["title.first"]
+        value_field: "title.first"
+      - label: 'Related People'
+        name: 'people'
+        widget: 'relation'
+        collection: 'people'
+        multiple: true
+        search_fields: ["name.first"]
+        value_field: "name.first"
 
   # Project Collection
   - label: 'Projects'
@@ -211,8 +240,24 @@ collections:
         name: 'excerpt'
         widget: 'text'
       - label: 'Featured Image'
-        name: 'featured-image'
+        name: 'featured_image'
         widget: 'image'
-      - label: 'Body'
-        name: 'body'
-        widget: 'markdown'
+      - label: 'Project Funders'
+        name: 'project_funders'
+        collapsed: true
+        minimize_collapsed: true
+        widget: 'list'
+        fields: 
+          - label: 'Image'
+            name: 'image'
+            widget: 'image'
+          - label: 'Link'
+            name: 'link'
+            widget: 'string'
+      - label: 'Related People'
+        name: 'people'
+        widget: 'relation'
+        collection: 'people'
+        multiple: true
+        search_fields: ["name.first"]
+        value_field: "name.first"
