@@ -212,16 +212,18 @@ collections:
         name: 'projects'
         widget: 'relation'
         collection: 'projects'
-        multiple: true
         search_fields: ["title.first"]
         value_field: "title.first"
+        multiple: true
+        min: 0
       - label: 'Related People'
         name: 'people'
         widget: 'relation'
         collection: 'people'
-        multiple: true
         search_fields: ["name.first"]
         value_field: "name.first"
+        multiple: true
+        min: 0
 
   # Project Collection
   - label: 'Projects'
@@ -258,6 +260,7 @@ collections:
         name: 'people'
         widget: 'relation'
         collection: 'people'
-        multiple: true
         search_fields: ["name.first"]
         value_field: "name.first"
+        multiple: true
+        min: 0
