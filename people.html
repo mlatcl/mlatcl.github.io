@@ -3,5 +3,101 @@ layout: page
 title: Our People
 ---
 
-{% include block_hero-standard.html %}
-{% include block_team.html %}
+<section class="block block__hero block__hero--standard">
+    <div class="container">
+        <!-- Top Row | Logo & Menu -->
+        <div class="row">
+            <div class="column">
+                <span class="hero__dot hero__dot--top-left"></span>
+                <span class="hero__dot hero__dot--top-right"></span>
+                <a href="{{site.url}}" class="hero__item hero__item--top-left">
+                    <img class="brand" src="{{site.baseurl}}/{{site.logo}}" alt="Logo">
+                </a>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <div class="hero__item hero__item--top-right">
+                    {% include menu-trigger.html %}
+                </div>
+            </div>
+        </div>
+        <!-- Second Row | Title & Nav -->
+        <div class="row">
+            {% include nav-primary.html %}
+
+            <div class="column">
+                <span class="hero__dot hero__dot--top-left"></span>
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-left"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+                {% if page.collection == 'people' %}
+                    <div class="hero__item hero__item--top-left">
+                        <a class="back-to-collection" href="{{site.url}}/people/">Back to people</a>
+                    </div>
+                {% elsif page.collection == 'research' %}
+                    <div class="hero__item hero__item--top-left">
+                        <a class="back-to-collection" href="{{site.url}}/research/">Back to research</a>
+                    </div>
+                {% endif %}
+                <div class="hero__item hero__item--bottom-left">
+                    <h1 class="hero__title {% if page.collection == 'research' %} hero__title--research {% endif %}">{{ page.title }}</h1>
+                </div>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <span class="hero__dot hero__dot--bottom-right"></span>
+                {% if page.collection == 'people' %}
+                    <div class="hero__item hero__item--top-left">
+                        <img class="hero__image--people" src="{{page.featured_image}}" alt="Image of {{page.title}}">
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</section>
+<section class="block block__team">
+    <div class="container">
+        <div class="team__grid">
+            {% for item in site.people %}
+                <a href="{{ item.url }}" class="team__member">
+                    <div class="team__member-image">
+                        <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                    </div>
+                    <div class="team__member-details">
+                        <h2>{{ item.title }}</h2>
+                        <p>{{ item.description }}</p>
+                        <span>View Profile</span>
+                    </div>
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>

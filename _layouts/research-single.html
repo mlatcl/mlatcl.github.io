@@ -13,11 +13,163 @@
 <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
     {% include site-header.html %}
     <main class="main">
-        {% include block_hero-standard.html %}
-        {% include block_research-overview.html %}
-        {% include block_research-projects.html %}
-        {% include block_research-related-people.html %}
-        {% include block_research-related-news.html %}
+        <section class="block block__hero block__hero--standard">
+            <div class="container">
+                <!-- Top Row | Logo & Menu -->
+                <div class="row">
+                    <div class="column">
+                        <span class="hero__dot hero__dot--top-left"></span>
+                        <span class="hero__dot hero__dot--top-right"></span>
+                        <a href="{{site.url}}" class="hero__item hero__item--top-left">
+                            <img class="brand" src="{{site.baseurl}}/{{site.logo}}" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="column">
+                        <span class="hero__dot hero__dot--top-right"></span>
+                    </div>
+                    <div class="column">
+                        <span class="hero__dot hero__dot--top-right"></span>
+                    </div>
+                    <div class="column">
+                        <span class="hero__dot hero__dot--top-right"></span>
+                    </div>
+                    <div class="column">
+                        <span class="hero__dot hero__dot--top-right"></span>
+                    </div>
+                    <div class="column">
+                        <span class="hero__dot hero__dot--top-right"></span>
+                        <div class="hero__item hero__item--top-right">
+                            {% include menu-trigger.html %}
+                        </div>
+                    </div>
+                </div>
+                <!-- Second Row | Title & Nav -->
+                <div class="row">
+                    {% include nav-primary.html %}
+
+                    <div class="column">
+                        <span class="hero__dot hero__dot--top-left"></span>
+                        <span class="hero__dot hero__dot--top-right"></span>
+                        <span class="hero__dot hero__dot--bottom-left"></span>
+                        <span class="hero__dot hero__dot--bottom-right"></span>
+                        {% if page.collection == 'people' %}
+                        <div class="hero__item hero__item--top-left">
+                            <a class="back-to-collection" href="{{site.url}}/people/">Back to people</a>
+                        </div>
+                        {% elsif page.collection == 'research' %}
+                        <div class="hero__item hero__item--top-left">
+                            <a class="back-to-collection" href="{{site.url}}/research/">Back to research</a>
+                        </div>
+                        {% endif %}
+                        <div class="hero__item hero__item--bottom-left">
+                            <h1 class="hero__title {% if page.collection == 'research' %} hero__title--research {% endif %}">{{ page.title }}</h1>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <span class="hero__dot hero__dot--top-right"></span>
+                        <span class="hero__dot hero__dot--bottom-right"></span>
+                    </div>
+                    <div class="column">
+                        <span class="hero__dot hero__dot--top-right"></span>
+                        <span class="hero__dot hero__dot--bottom-right"></span>
+                    </div>
+                    <div class="column">
+                        <span class="hero__dot hero__dot--top-right"></span>
+                        <span class="hero__dot hero__dot--bottom-right"></span>
+                    </div>
+                    <div class="column">
+                        <span class="hero__dot hero__dot--top-right"></span>
+                        <span class="hero__dot hero__dot--bottom-right"></span>
+                    </div>
+                    <div class="column">
+                        <span class="hero__dot hero__dot--top-right"></span>
+                        <span class="hero__dot hero__dot--bottom-right"></span>
+                        {% if page.collection == 'people' %}
+                        <div class="hero__item hero__item--top-left">
+                            <img class="hero__image--people" src="{{page.featured_image}}" alt="Image of {{page.title}}">
+                        </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="block block__research-overview">
+            <div class="container">
+                <div class="research-overview__short">
+                    {{ page.overview_short | markdownify }}
+                </div>
+                <div class="research-overview__long">
+                    {{ page.overview_long | markdownify }}
+                </div>
+            </div>
+        </section>
+
+        <section class="block block__projects">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Projects</h2>
+                    <span></span>
+                </div>
+                <div class="projects__grid">
+                    <!-- Update loop to relation widget -->
+                    {% for item in site.projects %}
+                        <a href="{{ item.url }}" class="projects__item">
+                            <div class="projects__item-image">
+                                <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                            </div>
+                            <div class="projects__item-details">
+                                <h2>{{ item.title }}</h2>
+                                <p>{{ item.excerpt }}</p>
+                                <span>View Profile</span>
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <section class="block block__team">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Related People</h2>
+                    <span></span>
+                </div>
+                <div class="team__grid">
+                    <!-- Update loop to relation widget -->
+                    {% for item in site.people %}
+                    <a href="{{ item.url }}" class="team__member">
+                        <div class="team__member-image">
+                            <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                        </div>
+                        <div class="team__member-details">
+                            <h2>{{ item.title }}</h2>
+                            <p>{{ item.description }}</p>
+                            <span>View Profile</span>
+                        </div>
+                    </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
+
+        <section class="block block__related-news">
+            <div class="container">
+                <div class="section-heading">
+                    <h2>Related News</h2>
+                    <span></span>
+                </div>
+                <div class="related-news__listings">
+                    <!-- Figure out counter -->
+                    <!-- Only want latest three -->
+                    {% for post in site.posts %}
+                    {% if post.category == 'news' %}
+                    {% include news-events__post.html %}
+                    {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+        </section>
     </main>
     {% include site-footer.html %}
     <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery-3.6.0.min.js"></script>

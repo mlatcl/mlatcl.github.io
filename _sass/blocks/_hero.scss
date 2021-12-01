@@ -125,6 +125,25 @@
         }
     }
 
+    &.block__hero--small {
+        height: 365px;
+
+        .hero__title {
+            width: 400%;
+            padding-bottom: 1rem;
+            border-bottom: 4px solid $lightest;
+
+            @include bp(tablet) {
+                width: 200%;
+                padding-bottom: 3rem;
+            }
+
+            &.hero__title--research {
+                width: 300%;
+            }
+        }
+    }
+
     &.block__hero--standard {
         height: 365px;
 
@@ -158,7 +177,7 @@
             line-height: 1.8rem;
             color: $lightest;
             text-decoration: none;
-            transition: 300ms opacity, 300ms visibility;
+            transition: 300ms;
 
             @include bp(tablet) {
                 font-size: 2rem;
@@ -176,6 +195,12 @@
             height: 100%;
             display: block;
             object-fit: cover;
+            transition: 300ms;
+
+            .mobile-menu-active & {
+                opacity: 0;
+                visibility: hidden;
+            }
         }
     }
 
@@ -188,7 +213,7 @@
         }
 
         @include bp(desktop) {
-            height: 885px;
+            height: 800px;
             max-height: unset;
         }
 

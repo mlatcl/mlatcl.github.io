@@ -25,6 +25,31 @@
     .team-profile__contact {
         padding: 5rem 0;
 
+        .section-heading {
+            margin-bottom: 4rem;
+        }
+
+        &-socials {
+            margin: 0 0 4rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            
+            a {
+                margin-right: 4rem;
+                display: block;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                svg {
+                    width: auto;
+                    height: 29px;
+                    display: block;
+                }
+            }
+        }
+
         a {
             font-size: 2.4rem;
             line-height: 3.1rem;

@@ -3,5 +3,45 @@ layout: page
 title: News
 ---
 
-{% include block_hero-standard.html %}
-{% include block_news-events.html %}
+<section class="block block__hero block__hero--small">
+    <div class="container">
+        <!-- Top Row | Logo & Menu -->
+        <div class="row">
+            <div class="column">
+                <span class="hero__dot hero__dot--top-left"></span>
+                <span class="hero__dot hero__dot--top-right"></span>
+                <a href="{{site.url}}" class="hero__item hero__item--top-left">
+                    <img class="brand" src="{{site.baseurl}}/{{site.logo}}" alt="Logo">
+                </a>
+                <div class="hero__item hero__item--bottom-left">
+                    <h1 class="hero__title">{{ page.title }}</h1>
+                </div>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+            </div>
+            <div class="column">
+                <span class="hero__dot hero__dot--top-right"></span>
+                <div class="hero__item hero__item--top-right">
+                    {% include menu-trigger.html %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="block block__news-events">
+    <div class="container">
+        {% for post in site.posts %}
+            {% include news-events__post.html %}
+        {% endfor %}
+    </div>
+</section>

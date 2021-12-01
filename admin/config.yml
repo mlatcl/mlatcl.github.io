@@ -122,6 +122,8 @@ collections:
     folder: '_posts'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
     fields:
       - label: 'Layout'
         name: 'layout'
@@ -153,6 +155,9 @@ collections:
     name: 'people'
     folder: '_people/'
     create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
     fields:
       - label: 'Layout'
         name: 'layout'
@@ -188,6 +193,9 @@ collections:
     name: 'research'
     folder: '_research/'
     create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
     fields:
       - label: 'Layout'
         name: 'layout'
@@ -231,6 +239,9 @@ collections:
     name: 'projects'
     folder: '_projects/'
     create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
     fields:
       - label: 'Layout'
         name: 'layout'
