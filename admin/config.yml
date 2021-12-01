@@ -245,6 +245,9 @@ collections:
       - label: 'Featured Image'
         name: 'featured_image'
         widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
       - label: 'Project Funders'
         name: 'project_funders'
         collapsed: true
