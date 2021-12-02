@@ -39,6 +39,7 @@ footer_nav:
     link: /assessor-app/
 top_bar:
   image: /assets/uploads/cambridge-university.png
+  link: https://www.cam.ac.uk/
   top_bar_nav:
     - link: https://www.cam.ac.uk/about-the-university#study-at-cambridge
       label: Study at Cambridge
@@ -46,4 +47,3 @@ top_bar:
       label: About the University
     - link: https://www.cam.ac.uk/research/
       label: Research at Cambridge
-  link: https://www.cam.ac.uk/
