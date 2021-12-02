@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Blog
+title: Projects
 ---
 
 <section class="block block__hero block__hero--standard">
@@ -49,7 +49,7 @@ title: Blog
                 <span class="hero__dot hero__dot--bottom-left"></span>
                 <span class="hero__dot hero__dot--bottom-right"></span>
                 <div class="hero__item hero__item--bottom-left">
-                    <h1 class="hero__title">{{ page.title }}</h1>
+                    <h1 class="hero__title hero__title--research">{{ page.title }}</h1>
                 </div>
             </div>
             <div class="column">
@@ -67,6 +67,29 @@ title: Blog
             <div class="column">
                 <span class="hero__dot hero__dot--bottom-right"></span>
             </div>
+        </div>
+    </div>
+</section>
+<section class="block block__projects">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Projects</h2>
+            <span></span>
+        </div>
+        <div class="projects__grid">
+            <!-- Update loop to relation widget -->
+            {% for item in site.projects %}
+                <a href="{{ item.url }}" class="projects__item">
+                    <div class="projects__item-image">
+                        <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                    </div>
+                    <div class="projects__item-details">
+                        <h2>{{ item.title }}</h2>
+                        <p>{{ item.excerpt }}</p>
+                        <span>View Profile</span>
+                    </div>
+                </a>
+            {% endfor %}
         </div>
     </div>
 </section>

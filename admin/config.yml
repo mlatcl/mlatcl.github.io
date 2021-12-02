@@ -47,6 +47,65 @@ collections:
               - label: 'Instagram'
                 name: 'instagram_link'
                 widget: 'string'
+      # Navigation Menus
+      - label: 'Navigation Menus'
+        name: 'navigation_menus'
+        file: '_data/nav.yml'
+        fields:
+          # Main Nav
+          - label: 'Main Nav'
+            name: 'main_nav'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            required: false
+            fields: 
+              - label: 'Label'
+                name: 'label'
+                widget: 'string'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Submenu Item'
+                name: 'submenu_item'
+                collapsed: true
+                minimize_collapsed: true
+                widget: 'list'
+                required: false
+                fields: 
+                  - label: 'Label'
+                    name: 'label'
+                    widget: 'string'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
+          # Footer Nav
+          - label: 'Footer Nav'
+            name: 'footer_nav'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            required: false
+            fields: 
+              - label: 'Label'
+                name: 'label'
+                widget: 'string'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Submenu Item'
+                name: 'submenu_item'
+                collapsed: true
+                minimize_collapsed: true
+                widget: 'list'
+                required: false
+                fields: 
+                  - label: 'Label'
+                    name: 'label'
+                    widget: 'string'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
 
   # Pages
   - name: 'pages'

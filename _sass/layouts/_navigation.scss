@@ -1,19 +1,14 @@
 nav.nav-primary {
 	width: 100%;
-	position: absolute;
-	top: 0;
-	left: 0;
+	position: relative;
+	top: -4px;
+	transform: translateY(100%);
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
 	opacity: 0;
 	visibility: hidden;
 	z-index: -1;
 	transition: 400ms;
-
-	@include bp(tablet) {
-		transform: translateY(-50%);
-	}
 
 	.mobile-menu-active & {
 		opacity: 1;
@@ -27,41 +22,54 @@ nav.nav-primary {
 		height: 4px;
 		margin-right: 5rem;
 		position: relative;
-		transform: translateY(3px);
 		display: none;
 		background-color: $lightest;
 
 		@include bp(desktop) {
+			flex: none;
+			width: 180px;
 			display: block;
 		}
 	}
 
 	// Top Level
 	ul {
-		margin: 0 0 -1rem 0;
+		margin: 0 -1.5rem -1rem 0;
 		padding: 0;
+		display: flex;
+		justify-content: flex-end;
+		flex-wrap: wrap;
 		list-style-type: none;
+
+		@include bp(tablet) {
+			margin: 0 -3rem -1rem 0;
+		}
+
+		@include bp(desktop) {
+			margin: 0 -4rem -1rem 0;
+		}
+
+		@include bp(desktop-xl) {
+			margin: 0 -7rem -1rem 0;
+		}
 
 		li {
 			margin-right: 1.5rem;
 			margin-bottom: 1rem;
 			display: inline-block;
 			position: relative;
+			transform: translateY(-50%);
 
 			@include bp(tablet) {
 				margin-right: 3rem;
 			}
 
 			@include bp(desktop) {
-				margin-right: 5rem;
+				margin-right: 4rem;
 			}
 
 			@include bp(desktop-xl) {
 				margin-right: 7rem;
-			}
-
-			&:last-child {
-				margin-right: 0;
 			}
 
 			&:hover {
