@@ -47,6 +47,19 @@ collections:
               - label: 'Instagram'
                 name: 'instagram_link'
                 widget: 'string'
+          # Footer Settings
+          - label: 'Footer Images'
+            name: 'footer_images'
+            collapsed: true
+            widget: 'list'
+            required: false
+            fields: 
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
       # Navigation Menus
       - label: 'Navigation Menus'
         name: 'navigation_menus'
@@ -95,6 +108,28 @@ collections:
                 widget: 'string'
               - label: 'Submenu Item'
                 name: 'submenu_item'
+                collapsed: true
+                minimize_collapsed: true
+                widget: 'list'
+                required: false
+                fields: 
+                  - label: 'Label'
+                    name: 'label'
+                    widget: 'string'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
+          # Top Nav
+          - label: 'Top Bar'
+            name: 'top_bar'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Top Nav'
+                name: 'top_nav'
                 collapsed: true
                 minimize_collapsed: true
                 widget: 'list'

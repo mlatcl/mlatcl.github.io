@@ -20,6 +20,7 @@ main_nav:
     link: /blog/
   - label: Contact Us
     link: /contact-us/
+
 footer_nav:
   - label: About Us
     link: /about/
@@ -37,3 +38,6 @@ footer_nav:
     link: /terms-of-service/
   - label: Assessor App
     link: /assessor-app/
+
+top_bar:
+  - image:
