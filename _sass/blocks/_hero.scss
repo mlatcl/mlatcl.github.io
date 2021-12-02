@@ -5,7 +5,6 @@
     justify-content: center;
     align-items: center;
     background-color: $primary-blue;
-    overflow: hidden;
 
     &.block__hero--white {
         background-color: transparent;
@@ -269,6 +268,7 @@
             transform: translate(-50%, -50%);
             pointer-events: none;
             transition: 300ms opacity, 300ms visibility;
+            overflow: hidden;
 
             .mobile-menu-active & {
                 opacity: 0;

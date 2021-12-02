@@ -11,7 +11,7 @@
                     {% for item in site.data.nav.footer_nav %}
                         <li>
                             <a href="{{ item.link }}">{{ item.label }}</a>
-                            {% if item.link.submenu_item != nil %}
+                            {% if item.submenu_item != nil %}
                                 <div class="submenu">
                                     {% for item in item.submenu_item. %}
                                         <a href="{{ item.link }}">{{ item.label }}</a>
