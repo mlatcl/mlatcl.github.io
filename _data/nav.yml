@@ -1,5 +1,5 @@
 main_nav:
-  - label: Aboutt
+  - label: About
     link: /about/
     submenu_item:
       - label: Overview
