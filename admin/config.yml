@@ -119,15 +119,6 @@ collections:
                   - label: 'Link'
                     name: 'link'
                     widget: 'string'
-          # Top Nav
-          - label: 'Top Bar'
-            name: 'top_bar'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Image'
-                name: 'image'
-                widget: 'image'
 
   # Pages
   - name: 'pages'
