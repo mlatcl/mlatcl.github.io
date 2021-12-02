@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-main_nav: 
-
-footer_nav:
-=======
 main_nav:
   - label: About
     link: /about/
@@ -42,4 +37,3 @@ footer_nav:
     link: /terms-of-service/
   - label: Assessor App
     link: /assessor-app/
->>>>>>> 3c067a8ff0d5bca1f947336137e36f83a4dd9ab0
