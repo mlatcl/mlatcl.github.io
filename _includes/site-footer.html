@@ -8,14 +8,18 @@
                 </div>
 
                 <ul>
-                    <li><a href=" {{site.baseurl}}/about/">About Us</a></li>
-                    <li><a href=" {{site.baseurl}}/research/">Research</a></li>
-                    <li><a href=" {{site.baseurl}}/people/">Team</a></li>
-                    <li><a href=" {{site.baseurl}}/people/news/">News & Events</a></li>
-                    <li><a href=" {{site.baseurl}}/resources/">Resources</a></li>
-                    <li><a href=" {{site.baseurl}}/privacy/">Privacy</a></li>
-                    <li><a href=" {{site.baseurl}}/terms-of-service/">Terms of service</a></li>
-                    <li><a href=" {{site.baseurl}}/assessor-app/">Assessor App</a></li>
+                    {% for item in site.data.nav.footer_nav %}
+                        <li>
+                            <a href="{{ item.link }}">{{ item.label }}</a>
+                            {% if item.link.submenu_item != nil %}
+                                <div class="submenu">
+                                    {% for item in item.submenu_item. %}
+                                        <a href="{{ item.link }}">{{ item.label }}</a>
+                                    {% endfor %}
+                                </div>
+                            {% endif %}
+                        </li>
+                    {% endfor %}
                 </ul>
             </div>
             <div class="footer__contact column-m-12 column-t-4 column-d-6">
