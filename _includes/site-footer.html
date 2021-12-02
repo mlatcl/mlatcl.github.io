@@ -64,8 +64,11 @@
         </div>
         <div class="footer__lower">
             <div class="footer__logos">
-                <a href=""></a>
-                <a href=""></a>
+                {% for item in site.data.site.footer_images %}
+                    <a href="{{ item.link }}">
+                        <img src="{{ item.image }}" alt="Logo">
+                    </a>
+                {% endfor %}
             </div>
             <div class="footer__credits">
                 <a href="https://www.thelonelypixel.co.uk/">Designed and built by The Lonely Pixel</a>

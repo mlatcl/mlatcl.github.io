@@ -81,17 +81,35 @@ footer[role="contentinfo"] {
 					}
 				}
 			}
-
-			
 		}
 	}
 
 	.footer__lower {
-		padding-top: 6rem;
+		padding-top: 5rem;
 		display: flex;
 		justify-content: space-between;
+		align-items: center;
 		flex-wrap: wrap;
 		border-top: 1px solid $secondary-blue;
+
+		.footer__logos {
+			display: flex;
+
+			a {
+				margin-right: 7rem;
+				display: block;
+
+				&:last-child {
+					margin-right: 0;
+				}
+
+				img {
+					width: auto;
+					height: 40px;
+					display: block;
+				}
+			}
+		}
 
 		.footer__credits {
 
