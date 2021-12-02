@@ -1,3 +1,45 @@
+<<<<<<< HEAD
 main_nav: 
 
 footer_nav:
+=======
+main_nav:
+  - label: About
+    link: /about/
+    submenu_item:
+      - label: Overview
+        link: /about/overview/
+      - label: Team
+        link: /people/
+      - label: Current Opportunites
+        link: /about/current-opportunities
+  - label: Research
+    link: /research/
+  - label: News
+    link: /news/
+  - label: Events
+    link: /events/
+  - label: Resources
+    link: /resources/
+  - label: Blog
+    link: /blog/
+  - label: Contact Us
+    link: /contact-us/
+footer_nav:
+  - label: About Us
+    link: /about/
+  - label: Research
+    link: /research/
+  - label: Team
+    link: /people/
+  - label: News & Events
+    link: /news/
+  - label: Resources
+    link: /resources/
+  - label: Privacy
+    link: /privacy/
+  - label: Terms of Service
+    link: /terms-of-service/
+  - label: Assessor App
+    link: /assessor-app/
+>>>>>>> 3c067a8ff0d5bca1f947336137e36f83a4dd9ab0
