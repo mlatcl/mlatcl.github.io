@@ -17,6 +17,10 @@ collections:
         name: 'site'
         file: '_data/site.yml'
         fields:
+          # Site Logo
+          - label: 'Site Logo'
+            name: 'site_logo'
+            widget: 'image'
           # Contact Details
           - label: 'Contact Details'
             name: 'contact_details'
