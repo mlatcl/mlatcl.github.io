@@ -128,6 +128,19 @@ collections:
               - label: 'Image'
                 name: 'image'
                 widget: 'image'
+              - label: 'Top Bar Nav'
+                name: 'top_bar_nav'
+                collapsed: true
+                minimize_collapsed: true
+                widget: 'list'
+                required: false
+                fields: 
+                  - label: 'Label'
+                    name: 'label'
+                    widget: 'string'
+                  - label: 'Link'
+                    name: 'link'
+                    widget: 'string'
 
   # Pages
   - name: 'pages'
