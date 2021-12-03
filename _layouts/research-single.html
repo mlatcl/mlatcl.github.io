@@ -59,7 +59,22 @@
                         <span class="hero__dot hero__dot--bottom-left"></span>
                         <span class="hero__dot hero__dot--bottom-right"></span>
                         <div class="hero__item hero__item--top-left">
-                            <a class="back-to-collection" href="{{site.url}}/research/">Back to research</a>
+                            <a href="{{site.url}}/research/" class="back-to-collection">
+                                <svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                        <g id="Home-Concept-v1.0-b" transform="translate(-1583.000000, -759.000000)" fill="#FFFFFF">
+                                            <g id="Down" transform="translate(1583.000000, 759.000000)">
+                                                <rect id="Rectangle" x="8" y="8" width="4" height="4"></rect>
+                                                <rect id="Rectangle" x="4" y="4" width="4" height="4"></rect>
+                                                <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                                                <rect id="Rectangle" x="12" y="4" width="4" height="4"></rect>
+                                                <rect id="Rectangle" x="16" y="0" width="4" height="4"></rect>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+                                <p>Back to research</p>
+                            </a>
                         </div>
                         <div class="hero__item hero__item--bottom-left">
                             <h1 class="hero__title hero__title--large">{{ page.title }}</h1>
@@ -92,14 +107,14 @@
                 </div>
                 <div class="research-overview__short">
                     {{ page.overview_short | markdownify }}
-                    <div class="research-overview__short-expand">
-                        <!-- SVGS into buttons -->
-                        <button class="expand-summary">Expand Summary</button>
-                        <button class="minimise-summary">Minimise Summary</button>
-                    </div>
                 </div>
                 <div class="research-overview__long">
                     {{ page.overview_long | markdownify }}
+                </div>
+                <div class="research-overview__short-expand">
+                    <!-- SVGS into buttons -->
+                    <button class="expand-summary">Expand Summary</button>
+                    <button class="minimise-summary">Minimise Summary</button>
                 </div>
             </div>
         </section>

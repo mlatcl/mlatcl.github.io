@@ -16,6 +16,28 @@ nav.nav-primary {
 		z-index: 1;
 	}
 
+	&.nav-primary--alt {
+		
+		span {
+			background-color: $orange;
+		}
+
+		ul li {
+
+			a {
+				color: $orange;
+			}
+
+			.submenu {
+				background-color: $light-grey;
+
+				a {
+					color: $orange;
+				}
+			}
+		} 
+	}
+
 	span {
 		flex: 1;
 		max-width: 180px;
@@ -59,6 +81,7 @@ nav.nav-primary {
 			position: relative;
 			display: inline-block;
 			transform: translateY(-50%);
+			z-index: 10;
 
 			@include bp(tablet) {
 				margin-right: 3rem;
@@ -154,6 +177,17 @@ nav.nav-primary {
 	display: flex;
 	align-items: center;
 	cursor: pointer;
+
+	&.menu-trigger--alt {
+
+		p {
+			color: $primary-blue;
+		}
+
+		.menu-trigger__dots .dot {
+			background-color: $orange;
+		}
+	}
 
 	&.menu-open {
 

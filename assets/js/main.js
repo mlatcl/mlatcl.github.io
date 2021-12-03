@@ -174,8 +174,7 @@
                 });
 
                 // Research Overview - Expand Summary
-                $('.research-overview__short button').click(function () {
-                    console.log("Click")
+                $('.research-overview__short-expand button').click(function () {
                     $(this).closest('.block__research-overview').toggleClass('expanded');
                 });
 
