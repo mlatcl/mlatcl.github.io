@@ -323,7 +323,8 @@ collections:
         widget: 'relation'
         collection: 'projects'
         search_fields: ["title"]
-        value_field: "*"
+        value_field: "{{slug}}"
+        display_fields: ["title"]
         multiple: true
         required: false
       - label: 'Related People'
@@ -331,7 +332,8 @@ collections:
         widget: 'relation'
         collection: 'people'
         search_fields: ["title"]
-        value_field: "*"
+        value_field: "{{slug}}"
+        display_fields: ["title"]
         multiple: true
         required: false
 
@@ -377,6 +379,6 @@ collections:
         widget: 'relation'
         collection: 'people'
         search_fields: ["title"]
-        value_field: "*"
+        value_field: "title"
         multiple: true
         required: false
