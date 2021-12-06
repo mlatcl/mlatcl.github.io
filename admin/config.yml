@@ -323,7 +323,7 @@ collections:
         widget: 'relation'
         collection: 'projects'
         search_fields: ["title"]
-        value_field: "slug"
+        value_field: "title"
         display_fields: ["title"]
         multiple: true
         required: false
