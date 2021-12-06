@@ -130,7 +130,7 @@
                         {% assign project_slug = item %}
                         {% for item in site.projects %}
                             {% if item.slug == project_slug %}
-                                <a href="{{ item.value }}" class="projects__item">
+                                <a href="{{ item.url }}" class="projects__item">
                                     <div class="projects__item-image">
                                         <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
                                     </div>
