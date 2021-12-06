@@ -322,16 +322,16 @@ collections:
         name: 'projects'
         widget: 'relation'
         collection: 'projects'
-        search_fields: ["title.first"]
-        value_field: "title.first"
+        search_fields: ["title"]
+        value_field: "title"
         multiple: true
         required: false
       - label: 'Related People'
         name: 'people'
         widget: 'relation'
         collection: 'people'
-        search_fields: ["title.first"]
-        value_field: "title.first"
+        search_fields: ["title"]
+        value_field: "title"
         multiple: true
         required: false
 
@@ -376,7 +376,7 @@ collections:
         name: 'people'
         widget: 'relation'
         collection: 'people'
-        search_fields: ["title.first"]
-        value_field: "title.first"
+        search_fields: ["title"]
+        value_field: "title"
         multiple: true
         required: false
