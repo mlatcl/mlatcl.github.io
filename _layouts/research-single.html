@@ -127,8 +127,8 @@
                 </div>
                 <div class="projects__grid">
                     <!-- Update loop to relation widget -->
-                    {% for item in site.projects %}
-                    <a href="{{ item.url }}" class="projects__item">
+                    {% for item in page.projects %}
+                    <a href="{{ item.value }}" class="projects__item">
                         <div class="projects__item-image">
                             <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
                         </div>
