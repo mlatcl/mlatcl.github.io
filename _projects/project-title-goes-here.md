@@ -17,6 +17,8 @@ project_funders:
     image: /assets/uploads/cambridge-university.png
   - link: "#"
     image: /assets/uploads/cambridge-university.png
+people:
+  - aarash-feizi
 ---
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer non gravida odio. Fusce eget fringilla est, ullamcorper blandit tortor. In pretium turpis ut lacus dignissim, sagittis elementum sapien tempus. Vivamus eu ipsum faucibus, sagittis mauris ut, tempor tellus. Quisque tellus lorem, pulvinar quis turpis non, mollis faucibus justo. Nam fermentum, dui non efficitur varius, velit orci congue dui, non suscipit ante augue vel mi. Aliquam vel mauris ac ipsum blandit aliquet nec ac orci. 
 
