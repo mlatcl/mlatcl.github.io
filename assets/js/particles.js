@@ -8,11 +8,19 @@ document.addEventListener("DOMContentLoaded", function () {
     /* ---- CORE END ---- */
     /* ---- CREATING ZONE ---- */
 
+    function checkWidth() {
+        if (windowWidth <= 768) {
+            return 100;
+        } else {
+            return 175;
+        }
+    }
+
     /* ---- SETTINGS ---- */
     const numberParticlesStart = 250;
     const particleSpeed = 0.1;
     const velocity = 0.5;
-    const circleWidth = 175;
+    const circleWidth = checkWidth();
 
     /* ---- INIT ---- */
     let particles = [];

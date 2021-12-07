@@ -127,7 +127,7 @@
         }
 
         .brand {
-            max-width: 120px;
+            max-width: 100px;
 
             @include bp(tablet) {
                 max-width: 170px;
@@ -138,17 +138,17 @@
             width: 80%;
             max-width: 690px;
             margin: 0;
-            font-size: 2.8rem;
+            font-size: 2rem;
             font-weight: normal;
-            line-height: 3.6rem;
+            line-height: 2.4rem;
             color: $lightest;
             opacity: 1;
             visibility: visible;
             transition: 300ms opacity, 300ms visibility;
 
             @include bp(tablet) {
-                font-size: 5rem;
-                line-height: 6.6rem;
+                font-size: 3.2rem;
+                line-height: 3.6rem;
             }
 
             @include bp(desktop) {
@@ -189,18 +189,29 @@
             }
 
             svg {
+                width: 15px;
+                height: auto;
                 margin-right: 5px;
                 display: block;
                 transform: rotate(90deg) translateY(4px) translateX(-2px);
+
+                @include bp(tablet) {
+                    width: 20px;
+                }
             }
 
             p {
                 margin: 0;
-                font-size: 2rem;
+                font-size: 1.6rem;
                 font-weight: 500;
-                line-height: 2.6rem;
+                line-height: 2.2rem;
                 color: $lightest;
                 transform: translateY(-2px);
+
+                @include bp(tablet) {
+                    font-size: 2rem;
+                    line-height: 2.6rem;
+                }
             }
         }
 
@@ -246,7 +257,7 @@
     }
 
     &.block__hero--small {
-        height: calc(100vh - 54px);
+        height: calc(75vh - 54px);
 
         @include bp(tablet) {
             height: 365px;
@@ -259,11 +270,23 @@
 
             @include bp(tablet) {
                 width: 200%;
+                padding-bottom: 1.5rem;
+            }
+
+            @include bp(desktop) {
                 padding-bottom: 3rem;
             }
 
             &.hero__title--large {
                 width: 300%;
+
+                @include bp(tablet) {
+                    width: 400%;
+                }
+
+                @include bp(desktop) {
+                    width: 300%;
+                }
             }
 
             &.hero__title--people {
@@ -277,7 +300,7 @@
     }
 
     &.block__hero--standard {
-        height: calc(100vh - 54px);
+        height: calc(75vh - 54px);
 
         @include bp(tablet) {
             height: 580px;
@@ -290,11 +313,23 @@
 
             @include bp(tablet) {
                 width: 200%;
+                padding-bottom: 1.5rem;
+            }
+
+            @include bp(desktop) {
                 padding-bottom: 3rem;
             }
 
             &.hero__title--large {
                 width: 300%;
+
+                @include bp(tablet) {
+                    width: 400%;
+                }
+
+                @include bp(desktop) {
+                    width: 300%;
+                }
             }
 
             &.hero__title--people {
@@ -321,7 +356,7 @@
     }
 
     &.block__hero--large {
-        height: calc(100vh - 54px);
+        height: calc(75vh - 54px);
         max-height: 100vh;
 
         @include bp(tablet) {
