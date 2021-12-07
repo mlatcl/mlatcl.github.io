@@ -227,9 +227,9 @@ collections:
                 widget: 'string'
 
   # Blog Collection
-  - label: 'Blog'
-    name: 'blog'
-    folder: '_posts'
+  - label: 'News'
+    name: 'news'
+    folder: '_news'
     create: true
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     editor:
