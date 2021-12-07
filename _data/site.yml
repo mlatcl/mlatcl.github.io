@@ -1,4 +1,5 @@
-site_logo: /assets/uploads/logo-updated.svg
+site_logo: /assets/uploads/logo.svg
+site_logo_dark: 
 contact_details:
   tel: +44 (0)1223 334088
   fax: +44 (0)1223 334089
@@ -9,7 +10,7 @@ social_details:
   facebook_link: https://facebook.com/
   instagram_link: https://instagram.com/
 footer_images:
-  - image: /assets/uploads/logo-updated.svg
+  - image: /assets/uploads/logo.svg
     link: "#"
   - image: /assets/uploads/cambridge-university.png
     link: https://www.cam.ac.uk/

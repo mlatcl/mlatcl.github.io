@@ -21,6 +21,9 @@ collections:
           - label: 'Site Logo'
             name: 'site_logo'
             widget: 'image'
+          - label: 'Site Logo Dark'
+            name: 'site_logo_dark'
+            widget: 'image'
           # Contact Details
           - label: 'Contact Details'
             name: 'contact_details'
