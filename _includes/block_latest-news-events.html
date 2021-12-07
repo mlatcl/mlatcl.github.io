@@ -8,15 +8,15 @@
             <a class="latest-news-events__intro-link button-simple" href="{{site.baseurl}}/news/">View All News</a>
         </div>
         <div class="latest-news-events__listings latest-news-events__listings-news active">
-            {% for post in site.posts %}
-                {% if post.category == 'news' %}
+            {% for item in site.news %}
+                {% if item.category == 'news' %}
                     {% include news-events__post.html %}
                 {% endif %}
             {% endfor %}
         </div>
         <div class="latest-news-events__listings latest-news-events__listings-events">
-            {% for post in site.posts %}
-                {% if post.category == 'event' %}
+            {% for item in site.news %}
+                {% if item.category == 'event' %}
                     {% include news-events__post.html %}
                 {% endif %}
             {% endfor %}

@@ -201,9 +201,9 @@
                 </div>
 
                 <div class="related-news__listings">
-                    {% for post in site.posts limit:3 %}
-                        {% if post.url != page.url %}   
-                            {% if post.category == page.category %}
+                    {% for item in site.news limit:3 %}
+                        {% if item.url != page.url %}   
+                            {% if item.category == page.category %}
                                 {% include news-events__post.html %}
                             {% endif %}
                         {% endif %}
