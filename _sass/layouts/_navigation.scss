@@ -3,17 +3,24 @@ nav.nav-primary {
 	position: relative;
 	top: -4px;
 	transform: translateY(100%);
-	display: flex;
+	display: none;
 	justify-content: space-between;
 	opacity: 0;
 	visibility: hidden;
 	z-index: -1;
 	transition: 400ms;
 
+	@include bp(tablet) {
+		display: flex;
+	}
+
 	.mobile-menu-active & {
-		opacity: 1;
-		visibility: visible;
-		z-index: 1;
+
+		@include bp(tablet) {
+			opacity: 1;
+			visibility: visible;
+			z-index: 1;
+		}
 	}
 
 	&.nav-primary--alt {
@@ -164,6 +171,93 @@ nav.nav-primary {
 						margin-bottom: 6rem;
 						font-size: 2.4rem;
 						line-height: 3.1rem;
+					}
+				}
+			}
+		}
+	}
+}
+
+nav.nav-mobile {
+	position: relative;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+
+		li {
+			margin-bottom: 2rem;
+			padding-bottom: 2rem;
+			display: flex;
+			justify-content: space-between;
+			border-bottom: 1px solid $darkest-grey;
+
+			&:last-child {
+				margin-bottom: 0;
+				padding-bottom: 0;
+				border-bottom: none;
+			}
+
+			&.open {
+				.submenu {
+					transform: translateX(0);
+				}
+			}
+
+			a {
+				font-size: 2.3rem;
+				line-height: 2rem;
+				color: $lightest;
+				text-decoration: none;
+			}
+
+			svg {
+				width: 20px;
+				height: auto;
+				display: block;
+				transform: rotate(-90deg);
+			}
+
+			.submenu {
+				width: 100%;
+				height: 100%;
+				position: absolute;
+				top: 0;
+				left: 0;
+				display: flex;
+				flex-direction: column;
+				background-color: $primary-blue;
+				transform: translateX(110%);
+				transition: 400ms;
+				overflow-x: hidden;
+				overflow-y: scroll;
+
+				a {
+					margin-bottom: 2rem;
+					padding-bottom: 2rem;
+					border-bottom: 1px solid $darkest-grey;
+				}
+
+				.back {
+					margin-bottom: 2rem;
+					padding-bottom: 2rem;
+					display: flex;
+					border-bottom: 1px solid $darkest-grey;
+
+					svg {
+						width: 20px;
+						height: auto;
+						margin-right: 2rem;
+						display: block;
+						transform: rotate(90deg);
+					}
+
+					p {
+						margin: 0;
+						font-size: 2.3rem;
+						line-height: 2rem;
+						color: $lightest;
 					}
 				}
 			}

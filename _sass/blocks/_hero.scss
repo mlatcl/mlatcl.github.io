@@ -233,7 +233,11 @@
     }
 
     &.block__hero--small {
-        height: 365px;
+        height: calc(100vh - 54px);
+
+        @include bp(tablet) {
+            height: 365px;
+        }
 
         .hero__title {
             width: 400%;
@@ -252,7 +256,7 @@
     }
 
     &.block__hero--standard {
-        height: 365px;
+        height: calc(100vh - 54px);
 
         @include bp(tablet) {
             height: 580px;
@@ -288,7 +292,7 @@
     }
 
     &.block__hero--large {
-        height: 365px;
+        height: calc(100vh - 54px);
         max-height: 100vh;
 
         @include bp(tablet) {

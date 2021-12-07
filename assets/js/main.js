@@ -57,6 +57,11 @@
                     $('body, .nav-mobile').toggleClass('mobile-menu-active');
                 });
 
+                $('.mobile-menu-exit').click(function () {
+                    $('.block__hero .menu-trigger').removeClass('menu-open');
+                    $('body, .nav-mobile').removeClass('mobile-menu-active');
+                });
+
                 // Submenu Functionality
                 $('.nav-primary > li').click(function () {
                     var $this = $(this),
@@ -73,6 +78,15 @@
 
                         $ul.removeClass('menu-active');
                     }
+                });
+
+                // Mobile Nav Submenu
+                $('.nav-mobile li svg').click(function () {
+                    $(this).closest('li').addClass('open');
+                });
+
+                $('.nav-mobile li .submenu .back').click(function () {
+                    $(this).closest('li').removeClass('open');
                 });
 
                 // Hide Sub Menu when clicking outside

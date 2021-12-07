@@ -21,6 +21,20 @@
                         </li>
                     {% endfor %}
                 </ul>
+                <div class="cambridge-uni-quicklinks-footer" id="cambridge-uni-quicklinks-footer">
+                    <div class="section-heading">
+                        <h2>Cambridge Uni</h2>
+                        <span></span>
+                    </div>
+
+                    <ul>
+                        {% for item in site.data.nav.top_bar.top_bar_nav %}
+                            <li>
+                                <a href="{{ item.link }}" target="_blank" rel="noreferrer">{{ item.label }}</a>
+                            </li>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
             <div class="footer__contact column-m-12 column-t-4 column-d-6">
                 <div class="section-heading">

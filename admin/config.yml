@@ -16,6 +16,8 @@ collections:
       - label: 'Website Settings'
         name: 'site'
         file: '_data/site.yml'
+        editor:
+          preview: false
         fields:
           # Site Logo
           - label: 'Site Logo'
@@ -71,6 +73,8 @@ collections:
       - label: 'Navigation Menus'
         name: 'navigation_menus'
         file: '_data/nav.yml'
+        editor:
+          preview: false
         fields:
           # Main Nav
           - label: 'Main Nav'
@@ -160,6 +164,8 @@ collections:
       - label: 'Homepage'
         name: 'homepage'
         file: '_data/homepage.yml'
+        editor:
+          preview: false
         fields:
           # Hero Section
           - label: 'Hero'

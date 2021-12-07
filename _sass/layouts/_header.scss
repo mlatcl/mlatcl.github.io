@@ -42,26 +42,47 @@ header[role="banner"] {
             }
         }
 
-        .cambridge-uni-quicklinks a {
-            display: inline-block;
+        .cambridge-uni-quicklinks-footer {
+            display: block;
             font-size: 1.2rem;
             line-height: normal;
             font-weight: 700;
-            color: $lightest;
             text-decoration: none;
+            color: $lightest;
 
-            &::after {
-                content: "|";
-                margin-left: 1rem;
-                margin-right: 1rem;
-                display: inline-block;
-                color: $lightest;
+            @include bp(tablet) {
+                display: none;
+            }
+        }
+
+        .cambridge-uni-quicklinks {
+            display: none;
+
+            @include bp(tablet) {
+                display: block;
             }
 
-            &:last-child {
+            a {
+                display: inline-block;
+                font-size: 1.2rem;
+                line-height: normal;
+                font-weight: 700;
+                color: $lightest;
+                text-decoration: none;
+
                 &::after {
-                    content: "";
-                    display: none;
+                    content: "|";
+                    margin-left: 1rem;
+                    margin-right: 1rem;
+                    display: inline-block;
+                    color: $lightest;
+                }
+
+                &:last-child {
+                    &::after {
+                        content: "";
+                        display: none;
+                    }
                 }
             }
         }

@@ -48,6 +48,15 @@ footer[role="contentinfo"] {
 					}
 				}
 			}
+
+			.cambridge-uni-quicklinks-footer {
+				margin-top: 2rem;
+				display: block;
+
+				@include bp(tablet) {
+					display: none;
+				}
+			}
 		}
 
 		.footer__contact {
