@@ -187,8 +187,8 @@
                 <div class="related-news__listings">
                     <!-- Figure out counter -->
                     <!-- Only want latest three -->
-                    {% for item in site.news %}
-                    {% if item.category == 'news' %}
+                    {% for post in site.posts %}
+                    {% if post.category == 'news' %}
                     {% include news-events__post.html %}
                     {% endif %}
                     {% endfor %}
