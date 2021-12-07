@@ -28,7 +28,7 @@ facebook_svg: ./assets/images/social-fb.svg/
 instagram_svg: ./assets/images/social-in.svg/
 image_root: ./assets/images/
 baseurl: "https://affectionate-albattani-a37716.netlify.app/" # the subpath of your site, e.g. /blog
-url: "https://affectionate-albattani-a37716.netlify.app/about" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://affectionate-albattani-a37716.netlify.app/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
 
