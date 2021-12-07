@@ -26,15 +26,15 @@ title: News
                 <span class="hero__dot hero__dot--top-right"></span>
                 <span class="hero__dot hero__dot--bottom-right"></span>
             </div>
-            <div class="column">
+            <div class="column no-mobile">
                 <span class="hero__dot hero__dot--top-right"></span>
                 <span class="hero__dot hero__dot--bottom-right"></span>
             </div>
-            <div class="column">
+            <div class="column no-mobile">
                 <span class="hero__dot hero__dot--top-right"></span>
                 <span class="hero__dot hero__dot--bottom-right"></span>
             </div>
-            <div class="column">
+            <div class="column no-mobile">
                 <span class="hero__dot hero__dot--top-right"></span>
                 <span class="hero__dot hero__dot--bottom-right"></span>
             </div>
@@ -51,7 +51,7 @@ title: News
 <section class="block block__news-events">
     <div class="container">
         {% for post in site.posts %}
-        {% include news-events__post.html %}
+            {% include news-events__post.html %}
         {% endfor %}
     </div>
 </section>
