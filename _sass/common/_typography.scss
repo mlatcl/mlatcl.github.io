@@ -130,19 +130,27 @@ a {
     }
 
     &.section-heading--large {
-        h1,h2,h3,h4,h5,h6 {
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
             width: auto;
             margin: 0;
             padding-bottom: .5rem;
             position: relative;
             font-family: $global-font-family;
-            font-size: 2.6rem;
+            font-size: 1.6rem;
             font-weight: normal;
-            line-height: 3.4rem;
+            line-height: 2.4rem;
             text-transform: uppercase;
 
             @include bp(tablet) {
                 padding-bottom: 1rem;
+                font-size: 2.6rem;
+                line-height: 3.4rem;
             }
         }
     }

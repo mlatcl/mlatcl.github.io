@@ -166,9 +166,7 @@ ul.row {
         .column-p-order-#{$i} {
             order:#{$i};
         }
-
     }
-
 }
 
 @include bp(desktop) {
@@ -188,7 +186,26 @@ ul.row {
         .column-d-order-#{$i} {
             order:#{$i};
         }
-
     }
-
 }
+
+// .column-m-12 {
+//     flex-basis: 100%;
+//     max-width: 100%;
+// }
+
+// .column-t-12 {
+
+//     @include bp(tablet) {
+//         flex-basis: 100%;
+//         max-width: 100%;   
+//     }
+// }
+
+// .column-d-12 {
+
+//     @include bp(desktop) {
+//         flex-basis: 100%;
+//         max-width: 100%;   
+//     }
+// }

@@ -192,16 +192,21 @@
             <div class="container container--divider margin-bottom"></div>
             <div class="container">
                 <div class="section-heading">
-                    <h2>Related News</h2>
+                    {% if page.category == "news" %}
+                        <h2>Related News</h2>
+                    {% else %}
+                        <h2>Related Events</h2>
+                    {% endif %}
                     <span></span>
                 </div>
+
                 <div class="related-news__listings">
-                    <!-- Figure out counter -->
-                    <!-- Only want latest three -->
-                    {% for post in site.posts %}
-                    {% if post.category == 'news' %}
-                    {% include news-events__post.html %}
-                    {% endif %}
+                    {% for post in site.posts limit:3 %}
+                        {% if post.url != page.url %}   
+                            {% if post.category == page.category %}
+                                {% include news-events__post.html %}
+                            {% endif %}
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>

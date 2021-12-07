@@ -10,7 +10,11 @@
     }
 
     .section-heading {
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
+
+        @include bp(tablet) {
+            margin-bottom: 4rem;
+        }
     }
 
     h1,
@@ -28,7 +32,12 @@
     p,
     a,
     li {
-        font-size: 2rem;
-        line-height: 3.2rem;
+        font-size: 1.6rem;
+        line-height: 2.6rem;
+
+        @include bp(tablet) {
+            font-size: 2rem;
+            line-height: 3.2rem;
+        }
     }
 }

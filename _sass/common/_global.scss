@@ -69,9 +69,25 @@ main {
 }
 
 .margin-top {
-	margin-top: 7rem;
+	margin-top: 3rem;
+
+	@include bp(tablet) {
+		margin-top: 5rem;
+	}
+
+	@include bp(desktop) {
+		margin-top: 7rem;
+	}
 }
 
 .margin-bottom {
-	margin-bottom: 7rem;
+	margin-bottom: 3rem;
+
+	@include bp(tablet) {
+		margin-bottom: 5rem;
+	}
+
+	@include bp(desktop) {
+		margin-bottom: 7rem;
+	}
 }

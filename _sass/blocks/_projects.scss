@@ -6,7 +6,11 @@
     }
 
     .section-heading {
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
+
+        @include bp(tablet) {
+            margin-bottom: 4rem;
+        }
     }
 
    .projects__grid {
@@ -19,11 +23,16 @@
        }
 
        .projects__item {
-            width: calc(50% - 2rem);
-            margin: 0 1rem 2rem 1rem;
+            width: 100%;
+            margin: 0 0 2rem 0;
             text-decoration: none;
 
             @include bp(tablet) {
+                width: calc(50% - 2rem);
+                margin: 0 1rem 2rem 1rem;
+            }
+
+            @include bp(desktop) {
                 width: calc(33.33% - 4rem);
                 margin: 0 2rem 4rem 2rem;
             }
@@ -49,38 +58,55 @@
             }
 
             &-details {
-                padding: 3rem 2rem 4.5rem 2rem;
+                padding: 2rem;
                 border-left: 1px solid #CED0C8;
                 border-right: 1px solid #CED0C8;
                 border-bottom: 1px solid #CED0C8;
+            }
 
-                h2 {
-                    margin-bottom: 1.5rem;
-                    font-size: 2.4rem;
-                    line-height: 3.1rem;
-                    color: $primary-blue;
+            @include bp(desktop) {
+                padding: 3rem 2rem 4.5rem 2rem;
+            }
+
+            h2 {
+                margin-bottom: 1.5rem;
+                font-size: 2.4rem;
+                line-height: 3.1rem;
+                color: $primary-blue;
+            }
+
+            p {
+                margin-top: 0;
+                font-size: 1.6rem;
+                line-height: 2.2rem;
+                color: $primary-blue;
+
+                &:last-child {
+                    margin-bottom: 0;
                 }
 
-                p {
-                    margin-top: 0;
+                @include bp(tablet) {
                     font-size: 1.8rem;
                     line-height: 2.4rem;
-                    color: $primary-blue;
+                }
+            }
 
-                    &:last-child {
-                        margin-bottom: 0;
-                    }
+            span {
+                margin-top: 3rem;
+                display: block;
+                font-size: 1.8rem;
+                font-weight: 700;
+                line-height: 2.4rem;
+                color: $orange;
+
+                @include bp(tablet) {
+                    margin-top: 5rem;
                 }
 
-                span {
+                @include bp(desktop) {
                     margin-top: 7rem;
-                    display: block;
-                    font-size: 1.8rem;
-                    font-weight: 700;
-                    line-height: 2.4rem;
-                    color: $orange;
                 }
             }
         }
-   }
+    }
 }

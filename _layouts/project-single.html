@@ -135,21 +135,21 @@
                 </div>
                 <div class="team__grid">
                     {% for item in page.people %}
-                        {% assign people_slug = item %}
-                        {% for item in site.people %}
-                            {% if item.slug == people_slug %}
-                                <a href="{{ item.url }}" class="team__member">
-                                    <div class="team__member-image">
-                                        <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
-                                    </div>
-                                    <div class="team__member-details">
-                                        <h2>{{ item.title }}</h2>
-                                        <p>{{ item.description }}</p>
-                                        <span>View Profile</span>
-                                    </div>
-                                </a>
-                            {% endif %}
-                        {% endfor %}
+                    {% assign people_slug = item %}
+                    {% for item in site.people %}
+                    {% if item.slug == people_slug %}
+                    <a href="{{ item.url }}" class="team__member">
+                        <div class="team__member-image">
+                            <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                        </div>
+                        <div class="team__member-details">
+                            <h2>{{ item.title }}</h2>
+                            <p>{{ item.description }}</p>
+                            <span>View Profile</span>
+                        </div>
+                    </a>
+                    {% endif %}
+                    {% endfor %}
                     {% endfor %}
                 </div>
             </div>
@@ -160,48 +160,52 @@
             </div>
         </section>
         <section class="block block__pagination">
-            <div class="container">
+            <div class="container row row--justified">
                 {% if page.previous.url %}
-                    <a href="{{page.previous.url}}" class="pagination__previous">
-                        <svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g id="Home-Concept-v1.0-b" transform="translate(-1583.000000, -759.000000)" fill="#FFFFFF">
-                                    <g id="Down" transform="translate(1583.000000, 759.000000)">
-                                        <rect id="Rectangle" x="8" y="8" width="4" height="4"></rect>
-                                        <rect id="Rectangle" x="4" y="4" width="4" height="4"></rect>
-                                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
-                                        <rect id="Rectangle" x="12" y="4" width="4" height="4"></rect>
-                                        <rect id="Rectangle" x="16" y="0" width="4" height="4"></rect>
-                                    </g>
+                <a href="{{page.previous.url}}" class="pagination__link pagination__link-previous column-m-12 column-t-5">
+                    <svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Home-Concept-v1.0-b" transform="translate(-1583.000000, -759.000000)" fill="#DB3900">
+                                <g id="Down" transform="translate(1583.000000, 759.000000)">
+                                    <rect id="Rectangle" x="8" y="8" width="4" height="4"></rect>
+                                    <rect id="Rectangle" x="4" y="4" width="4" height="4"></rect>
+                                    <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                                    <rect id="Rectangle" x="12" y="4" width="4" height="4"></rect>
+                                    <rect id="Rectangle" x="16" y="0" width="4" height="4"></rect>
                                 </g>
                             </g>
-                        </svg>
-                        <div>
-                            <h4>Previous Project:</h4>
-                            <p>{{page.previous.title}}</p>
-                        </div>
-                    </a>
+                        </g>
+                    </svg>
+                    <div>
+                        <h4>Previous Project:</h4>
+                        <p>{{page.previous.title}}</p>
+                    </div>
+                </a>
+                {% else %}
+                <div></div>
                 {% endif %}
                 {% if page.next.url %}
-                    <a href="{{page.next.url}}" class="pagination__next">
-                        <svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-                                <g id="Home-Concept-v1.0-b" transform="translate(-1583.000000, -759.000000)" fill="#FFFFFF">
-                                    <g id="Down" transform="translate(1583.000000, 759.000000)">
-                                        <rect id="Rectangle" x="8" y="8" width="4" height="4"></rect>
-                                        <rect id="Rectangle" x="4" y="4" width="4" height="4"></rect>
-                                        <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
-                                        <rect id="Rectangle" x="12" y="4" width="4" height="4"></rect>
-                                        <rect id="Rectangle" x="16" y="0" width="4" height="4"></rect>
-                                    </g>
+                <a href="{{page.next.url}}" class="pagination__link pagination__link-next column-m-12 column-t-5">
+                    <div>
+                        <h4>Next Project:</h4>
+                        <p>{{page.next.title}}</p>
+                    </div>
+                    <svg width="20px" height="12px" viewBox="0 0 20 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                            <g id="Home-Concept-v1.0-b" transform="translate(-1583.000000, -759.000000)" fill="#DB3900">
+                                <g id="Down" transform="translate(1583.000000, 759.000000)">
+                                    <rect id="Rectangle" x="8" y="8" width="4" height="4"></rect>
+                                    <rect id="Rectangle" x="4" y="4" width="4" height="4"></rect>
+                                    <rect id="Rectangle" x="0" y="0" width="4" height="4"></rect>
+                                    <rect id="Rectangle" x="12" y="4" width="4" height="4"></rect>
+                                    <rect id="Rectangle" x="16" y="0" width="4" height="4"></rect>
                                 </g>
                             </g>
-                        </svg>
-                        <div>
-                            <h4>Previous Project:</h4>
-                            <p>{{page.next.title}}</p>
-                        </div>
-                    </a>
+                        </g>
+                    </svg>
+                </a>
+                {% else %}
+                <div></div>
                 {% endif %}
             </div>
         </section>

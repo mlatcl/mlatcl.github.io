@@ -13,33 +13,41 @@
 
     .media-text__text {
         width: 100%;
+        margin-bottom: 2rem;
 
         @include bp(tablet) {
-            width: calc(50% - 3rem);
-            max-width: 560px;
+            margin-bottom: 4rem;
         }
         
         @include bp(desktop) {
             width: calc(50% - 6rem);
+            max-width: 560px;
+            margin-bottom: 0;
         }
 
         h3 {
-            font-size: 2.6rem;
-            line-height: 3.4rem;
+            font-size: 2.2rem;
+            line-height: 3rem;
             color: $primary-blue;
+
+            @include bp(tablet) {
+                font-size: 2.6rem;
+                line-height: 3.4rem;
+            }
         }
 
         p {
-            font-size: 1.8rem;
-            line-height: 3.2rem;
+            font-size: 1.6rem;
+            line-height: 3rem;
+
+            @include bp(tablet) {
+                font-size: 1.8rem;
+                line-height: 3.2rem;
+            }
         }
 
         .button {
             margin-top: 2rem;
-            
-            @include bp(tablet) {
-                margin-top: 4rem;
-            }
 
             @include bp(desktop) {
                 margin-top: 6rem;
@@ -49,10 +57,6 @@
 
     .media-text__media {
         width: 100%;
-
-        @include bp(tablet) {
-            width: calc(50% - 3rem);
-        }
 
         @include bp(desktop) {
             width: calc(50% - 6rem);
@@ -81,12 +85,20 @@
             }
 
             .media-text__text {
-                order: 2;
+                order: 1;
                 margin-right: 0;
+
+                @include bp(desktop) {
+                    order: 2;
+                }
             }
 
             .media-text__media {
-                order: 1;
+                order: 2;
+
+                @include bp(desktop) {
+                    order: 1;
+                }
             }
         }
     }
