@@ -87,7 +87,7 @@ a {
         margin: 0;
         padding-bottom: .5rem;
         position: relative;
-        font-family: $global-font-family;
+        font-family: $header-font-family-alternate;
         font-size: 1.6rem;
         font-weight: normal;
         line-height: 2.4rem;
@@ -141,7 +141,7 @@ a {
             margin: 0;
             padding-bottom: .5rem;
             position: relative;
-            font-family: $global-font-family;
+            font-family: $header-font-family-alternate;
             font-size: 1.6rem;
             font-weight: normal;
             line-height: 2.4rem;
@@ -152,12 +152,6 @@ a {
                 font-size: 2.6rem;
                 line-height: 3.4rem;
             }
-        }
-    }
-
-    &.section-heading--altfont {
-        h1,h2,h3,h4,h5,h6 {
-            font-family: $header-font-family-alternate;
         }
     }
 }
