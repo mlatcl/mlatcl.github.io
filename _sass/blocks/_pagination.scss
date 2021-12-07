@@ -89,4 +89,31 @@
             }
         }
     }
+
+    &.block__pagination--simple {
+        padding: 2rem 0;
+        background-color: $lightest;
+
+        @include bp(tablet) {
+            padding: 4rem 0;
+        }
+
+        ul {
+            margin: 0 auto;
+            padding: 0;
+            display: flex;
+            list-style: none;
+
+            li {
+                margin: 0 2rem;
+
+                a {
+                    font-family: $header-font-family-alternate;
+                    text-transform: uppercase;
+                    text-underline-position: under;
+                    color: $orange;
+                }
+            }
+        }
+    }
 }
