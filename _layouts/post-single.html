@@ -192,20 +192,15 @@
             <div class="container container--divider margin-bottom"></div>
             <div class="container">
                 <div class="section-heading">
-                    {% if page.category == "news" %}
-                        <h2>Related News</h2>
-                    {% else %}
-                        <h2>Related Events</h2>
-                    {% endif %}
+                    <h2>Related News</h2>
                     <span></span>
                 </div>
 
                 <div class="related-news__listings">
-                    {% for post in site.posts limit:3 %}
-                        {% if post.url != page.url %}   
-                            {% if post.category == page.category %}
-                                {% include news-events__post.html %}
-                            {% endif %}
+                    {% assign page_category = page.category %}
+                    {% for post in site.categories.[page_category] limit:3 %}
+                        {% if post.url != page.url %}
+                            {% include news-events__post.html %}
                         {% endif %}
                     {% endfor %}
                 </div>
