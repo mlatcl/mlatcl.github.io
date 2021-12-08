@@ -53,8 +53,12 @@
 	&-content {
 		padding: 2rem 1rem;
 
+		@include bp(tablet) {
+			padding: 2rem;
+		}
+
 		@include bp(desktop) {
-			padding: 3rem 2rem;
+			padding: 3rem 4rem;
 		}
 
 		h3 {
