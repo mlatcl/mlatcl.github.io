@@ -198,11 +198,27 @@
 
                 <div class="related-news__listings">
                     {% assign page_category = page.category %}
+                    {% assign count_check = false %}
+                    
                     {% for post in site.categories.[page_category] limit:3 %}
                         {% if post.url != page.url %}
-                            {% include news-events__post.html %}
-                        {% endif %}
+                            {% assign count_check = true %}
+                        {% endif%}
                     {% endfor %}
+
+                    {% if count_check == false %}
+                        {% for post in site.categories.[page_category] limit:3 %}
+                            {% if post.url != page.url %}
+                                {% include news-events__post.html %}
+                            {% endif %}
+                        {% endfor %}
+                    {% else %}
+                        {% for post in site.categories.[page_category] limit:4 %}
+                            {% if post.url != page.url %}
+                                {% include news-events__post.html %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
                 </div>
             </div>
         </section>
