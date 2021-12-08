@@ -1,3 +1,5 @@
+const DBLP = require('../../node_modules/dblp-json/dblp.js');
+
 function printJS(jsObject) {
     console.log(JSON.stringify(jsObject, null, 2));
 }
