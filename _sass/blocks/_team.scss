@@ -63,9 +63,9 @@
 
             &-details {
                 padding: 2rem;
-                border-left: 1px solid #CED0C8;
-                border-right: 1px solid #CED0C8;
-                border-bottom: 1px solid #CED0C8;
+                border-left: 1px solid $dark-cream;;
+                border-right: 1px solid $dark-cream;;
+                border-bottom: 1px solid $dark-cream;;
 
                 @include bp(desktop) {
                     padding: 3rem 2rem 4.5rem 2rem;

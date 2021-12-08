@@ -69,6 +69,10 @@
                     position: absolute;
                     background-color: $darkest-grey;
 
+                    .layout-post-single & {
+                        background-color: $dark-cream;
+                    }
+
                     &--top-left {
                         top: 0;
                         left: 0;
@@ -228,7 +232,7 @@
                 height: 4px;
                 margin-bottom: 3rem;
                 display: block;
-                background-color: #CED0C8;
+                background-color: $dark-cream;
             }
 
             a {

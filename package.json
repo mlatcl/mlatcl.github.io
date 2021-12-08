@@ -1,0 +1,23 @@
+{
+  "name": "mlcl",
+  "version": "1.0.0",
+  "description": "MLCL",
+  "main": "/assets/js/main.js",
+  "dependencies": {
+    "dblp-json": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaronTLP/ml-cl.git"
+  },
+  "author": "The Lonely Pixel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaronTLP/ml-cl/issues"
+  },
+  "homepage": "https://github.com/AaronTLP/ml-cl#readme"
+}
