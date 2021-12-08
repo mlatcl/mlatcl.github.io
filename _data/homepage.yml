@@ -10,6 +10,8 @@ about:
     vitae bibendum faucibus, elit mi elementum nibh, eget fermentum tortor nibh
     vel diam. Vivamus eu maximus tellus. Pellentesque eu ex nisl.
   image: /assets/uploads/pexels-photo-1207918.jpeg
+  link_label: Read more
+  link_url: /about/
 research:
   title: 02 Research
   heading: Heading about how ML@CL use AI to make connections.
@@ -19,6 +21,8 @@ research:
     vitae bibendum faucibus, elit mi elementum nibh, eget fermentum tortor nibh
     vel diam. Vivamus eu maximus tellus. Pellentesque eu ex nisl.
   image: /assets/uploads/pexels-photo-1207918.jpeg
+  link_label: Our Research
+  link_url: /research/
 partners:
   - image: /assets/uploads/cambridge-university.png
     link: https://google.co.uk
