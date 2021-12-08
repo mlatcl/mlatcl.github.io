@@ -101,8 +101,8 @@ title: Home
             </div>
             <h3>{{ site.data.homepage.about.heading }}</h3>
             <p>{{ site.data.homepage.about.content }}</p>
-            <a class="button" href="#">
-                Read more
+            <a class="button" href="{{ site.data.homepage.about.link_label }}">
+                {{ site.data.homepage.about.link_url }}
                 <span class="dot dot--top-left"></span>
                 <span class="dot dot--top-right"></span>
                 <span class="dot dot--bottom-left"></span>
@@ -123,8 +123,8 @@ title: Home
             </div>
             <h3>{{ site.data.homepage.research.heading }}</h3>
             <p>{{ site.data.homepage.research.content }}</p>
-            <a class="button" href="#">
-                Our Research
+            <a class="button" href="{{ site.data.homepage.research.link_label }}">
+                {{ site.data.homepage.research.link_url }}
                 <span class="dot dot--top-left"></span>
                 <span class="dot dot--top-right"></span>
                 <span class="dot dot--bottom-left"></span>
