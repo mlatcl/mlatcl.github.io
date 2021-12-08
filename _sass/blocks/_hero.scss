@@ -267,6 +267,12 @@
             height: 365px;
         }
 
+        @include bp(desktop) {
+            height: auto;
+            min-height: 365px;
+            padding: 30px 0;
+        }
+
         .hero__title {
             width: 300%;
             padding-bottom: 1rem;
@@ -308,6 +314,12 @@
 
         @include bp(tablet) {
             height: 580px;
+        }
+
+        @include bp(desktop) {
+            height: auto;
+            min-height: 580px;
+            padding: 30px 0;
         }
 
         .hero__title {
@@ -368,8 +380,10 @@
         }
 
         @include bp(desktop) {
-            height: 800px;
+            height: auto;
+            min-height: 800px;
             max-height: unset;
+            padding: 30px 0;
         }
 
         .container {
