@@ -273,6 +273,10 @@
             padding: 30px 0;
         }
 
+        @include bp(desktop-xl) {
+            padding: 80px 0;
+        }
+
         .hero__title {
             width: 300%;
             padding-bottom: 1rem;
@@ -320,6 +324,10 @@
             height: auto;
             min-height: 580px;
             padding: 30px 0;
+        }
+
+        @include bp(desktop-xl) {
+            padding: 80px 0;
         }
 
         .hero__title {
@@ -384,6 +392,10 @@
             min-height: 800px;
             max-height: unset;
             padding: 30px 0;
+        }
+
+        @include bp(desktop-xl) {
+            padding: 80px 0;
         }
 
         .container {
