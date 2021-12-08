@@ -259,12 +259,7 @@ collections:
         widget: 'text'
       - label: 'Category'
         name: 'category'
-        widget: 'select'
-        options:
-          - label: 'Event'
-            value: 'event'
-          - label: 'News'
-            value: 'news'
+        widget: 'string'
       - label: 'Featured Image'
         name: 'featured_image'
         widget: 'image'
