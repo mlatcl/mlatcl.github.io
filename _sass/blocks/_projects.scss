@@ -64,10 +64,6 @@
                 border-bottom: 1px solid $dark-cream;;
             }
 
-            @include bp(desktop) {
-                padding: 3rem 2rem 4.5rem 2rem;
-            }
-
             h2 {
                 margin-bottom: 1.5rem;
                 font-size: 2.4rem;
