@@ -1,13 +1,17 @@
 ---
 layout: research-single
 title: AI deployment and system design
-excerpt: How can AI enhance scientific discovery?
+excerpt: What advances are needed to ensure that AI systems operate safely and
+  effectively in deployment?
 featured_image: /assets/uploads/pexels-photo-1207918.jpeg
-overview_short: >-
-  How can AI enhance scientific discovery?
-
-
-  By analysing complex datasets and uncovering previously unknown patterns, machine learning has the potential to accelerate scientific discovery across the sciences – from healthcare to climate science, fundamental physics to conservation, and more. The use of AI for scientific discovery offers opportunities to create exciting new research agendas that both advance data science methods and generate new insights for research. Realising this potential requires action to equip researchers from across disciplines with the skills they need to use machine learning in their work, and to build a community of practice at the interface of data science and other disciplines.
+overview_short: A significant proportion of attempted AI deployments fail,
+  highlighting a suite of practical issues that arise when trying to integrate
+  AI into real-world systems – from data management and use, to model
+  performance, to user experience. These failures not only hold back the
+  economic potential of AI, they also expose individuals, communities and
+  societies to new forms of harm. Our AI deployment and system design research
+  theme considers the interventions that can support safe and effective AI
+  systems in real-world contexts.
 overview_long: While excitement about the potential of artificial intelligence
   (AI) technologies continues to build, a gap is emerging between our
   aspirations for the benefits of AI and our ability to deploy these
