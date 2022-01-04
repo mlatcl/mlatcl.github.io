@@ -103,7 +103,7 @@ title: Our Research
                                 <h2>{{ item.title }}</h2>
                                 <span></span>
                             </div>
-                            <p>{{ item.excerpt }}</p>
+                            {{ item.description | markdownify }}
                         </div>
                         <a class="button" href="{{ item.url }}">
                             Read More
