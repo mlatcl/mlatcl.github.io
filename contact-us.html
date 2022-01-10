@@ -99,34 +99,39 @@ title: Contact Us
         <div class="contact__form">
             <form data-netlify="true" method="POST" name="contact"> 
                 <div class="form-field--half">
-                    <label>Name:
-                        <input name="name" type="text" />
+                    <label>Name*
+                        <input name="name" type="text" required/>
                     </label>
                 </div>
                 <div class="form-field--half">
-                    <label>Email:
-                        <input name="email" type="email" />
+                    <label>Email*
+                        <input name="email" type="email" required/>
                     </label>
                 </div>
                 <div class="form-field--half">
-                    <label>Phone Number:
-                        <input name="number" type="number" /></label>
+                    <label>Phone Number
+                        <input name="number" type="number"/></label>
                     </label>
                 </div>
-                    <label>Reason for enquiry:
-                        <input name="reason" type="text" /></label>
-                    </label>
                 <div class="form-field--half">
-                    <label>Reason for enquiry:
-                        <input name="reason" type="text" /></label>
+                    <label>Reason for enquiry*
+                        <input name="reason" type="text" required/></label>
                     </label>
                 </div>
                 <div class="form-field--full">
-                    <label>Message:
-                        <textarea name="message"></textarea>
+                    <label>Message
+                        <textarea name="message" required></textarea>
                     </label>
                 </div>
-                <button type="submit">Send</button>
+                <div class="form-field--full">
+                    <button class="button" type="submit">
+                        Send Message
+                        <span class="dot dot--top-left"></span>
+                        <span class="dot dot--top-right"></span>
+                        <span class="dot dot--bottom-left"></span>
+                        <span class="dot dot--bottom-right"></span>
+                    </button>
+                </div>
             </form>
         </div>
     </div>

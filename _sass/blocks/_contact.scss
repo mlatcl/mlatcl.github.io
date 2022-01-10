@@ -49,4 +49,52 @@
             }
         }
     }
+
+    .contact__form {
+        margin: 7rem 0;
+
+        form {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+
+            .form-field--half {
+                width: calc(50% - 3.5rem);
+            }
+
+            .form-field--full {
+                width: 100%;
+            }
+
+            label {
+                font-size: 1.8rem;
+                line-height: 2.8rem;
+                color: $dark;
+            }
+
+            input,
+            textarea {
+                margin-top: 2rem;
+                background-color: $lightest;
+                border: solid 1px $regular-grey;
+            }
+
+            input {
+                height: 80px;
+            }
+
+            textarea {
+                width: 100%;
+                min-height: 150px;
+                resize: none;
+            }
+
+            button {
+                margin-top: 6.5rem;
+                background-color: transparent;
+                border: none;
+                border-radius: 0;
+            }
+        }
+    }
 }
