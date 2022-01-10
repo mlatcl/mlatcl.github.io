@@ -93,9 +93,36 @@ title: Contact Us
                 </a>
             </div>
             <div class="contact__details-image">
-                <img alt="" src="/assets/uploads/pexels-photo-1207918.jpeg">
+                <img alt="" src="{{ site.data.contact.contact_details.image }}">
             </div>
         </div>
-        <div class="contact__form"></div>
+        <div class="contact__form">
+            <form data-netlify="true" method="POST" name="contact">
+                <p>
+                    <label>Your Name:
+                        <input name="name" type="text"/></label>
+                </p>
+                <p>
+                    <label>Your Email:
+                        <input name="email" type="email"/></label>
+                </p>
+                <p>
+                    <label>Your Role:
+                        <select multiple name="role[]">
+                            <option value="leader">Leader</option>
+                            <option value="follower">Follower</option>
+                        </select>
+                    </label>
+                </p>
+                <p>
+                    <label>Message:
+                        <textarea name="message"></textarea>
+                    </label>
+                </p>
+                <p>
+                    <button type="submit">Send</button>
+                </p>
+            </form>
+        </div>
     </div>
 </section>
