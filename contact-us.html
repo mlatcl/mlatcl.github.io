@@ -97,31 +97,36 @@ title: Contact Us
             </div>
         </div>
         <div class="contact__form">
-            <form data-netlify="true" method="POST" name="contact">
-                <p>
-                    <label>Your Name:
-                        <input name="name" type="text"/></label>
-                </p>
-                <p>
-                    <label>Your Email:
-                        <input name="email" type="email"/></label>
-                </p>
-                <p>
-                    <label>Your Role:
-                        <select multiple name="role[]">
-                            <option value="leader">Leader</option>
-                            <option value="follower">Follower</option>
-                        </select>
+            <form data-netlify="true" method="POST" name="contact"> 
+                <div class="form-field--half">
+                    <label>Name:
+                        <input name="name" type="text" />
                     </label>
-                </p>
-                <p>
+                </div>
+                <div class="form-field--half">
+                    <label>Email:
+                        <input name="email" type="email" />
+                    </label>
+                </div>
+                <div class="form-field--half">
+                    <label>Phone Number:
+                        <input name="number" type="number" /></label>
+                    </label>
+                </div>
+                    <label>Reason for enquiry:
+                        <input name="reason" type="text" /></label>
+                    </label>
+                <div class="form-field--half">
+                    <label>Reason for enquiry:
+                        <input name="reason" type="text" /></label>
+                    </label>
+                </div>
+                <div class="form-field--full">
                     <label>Message:
                         <textarea name="message"></textarea>
                     </label>
-                </p>
-                <p>
-                    <button type="submit">Send</button>
-                </p>
+                </div>
+                <button type="submit">Send</button>
             </form>
         </div>
     </div>
