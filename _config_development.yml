@@ -40,6 +40,8 @@ collections:
     output: true
   projects:
     output: true
+  opportunities:
+    output: true
 
 # Pagination
 paginate: 5
