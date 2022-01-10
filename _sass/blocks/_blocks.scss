@@ -66,3 +66,29 @@
         }
     }
 }
+
+.block__404 {
+    width: 100%;
+    height: calc(100vh - 54px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h1 {
+        margin-bottom: 2rem;
+        font-size: 6.2rem;
+        line-height: 7.2rem;
+        color: $primary-blue;
+    }
+
+    p {
+        font-size: 2.2rem;
+        line-height: 2.8rem;
+        color: $primary-blue;
+    }
+
+    .button {
+        margin-top: 2rem;
+    }
+}

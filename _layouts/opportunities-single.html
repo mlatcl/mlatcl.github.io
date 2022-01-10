@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="robots" content="noindex">
+        <title>ML@CL</title>
+        <link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/style.css">
+    </head>
+
+    <body class="layout-{{ page.layout }}{% if page.title %}  {{ page.title | slugify }}{% endif %}">
+        {% include site-header.html %}
+        <main class="main">
+            <section class="block block__hero block__hero--standard">
+                <div class="hero__bg">
+                    <img src="{{ page.featured_image }}">
+                </div>
+                <div class="container">
+                    <!-- Top Row | Logo & Menu -->
+                    <div class="row">
+                        <div class="hero__item hero__item--bottom-left">
+                            {% include nav-primary.html %}
+                        </div>
+                        <div class="column">
+                            <span class="hero__dot hero__dot--top-left"></span>
+                            <span class="hero__dot hero__dot--top-right"></span>
+                            <span class="hero__dot hero__dot--bottom-left"></span>
+                            <span class="hero__dot hero__dot--bottom-right"></span>
+                            <a href="{{site.url}}" class="hero__item hero__item--top-left">
+                                <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
+                            </a>
+                        </div>
+                        <div class="column">
+                            <span class="hero__dot hero__dot--top-right"></span>
+                            <span class="hero__dot hero__dot--bottom-right"></span>
+                        </div>
+                        <div class="column no-mobile">
+                            <span class="hero__dot hero__dot--top-right"></span>
+                            <span class="hero__dot hero__dot--bottom-right"></span>
+                        </div>
+                        <div class="column no-mobile">
+                            <span class="hero__dot hero__dot--top-right"></span>
+                            <span class="hero__dot hero__dot--bottom-right"></span>
+                        </div>
+                        <div class="column no-mobile">
+                            <span class="hero__dot hero__dot--top-right"></span>
+                            <span class="hero__dot hero__dot--bottom-right"></span>
+                        </div>
+                        <div class="column">
+                            <span class="hero__dot hero__dot--top-right"></span>
+                            <span class="hero__dot hero__dot--bottom-right"></span>
+                            <div class="hero__item hero__item--top-right">
+                                {% include menu-trigger.html %}
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Second Row | Title & Nav -->
+                    <div class="row">
+                        <div class="column">
+                            <span class="hero__dot hero__dot--bottom-left"></span>
+                            <span class="hero__dot hero__dot--bottom-right"></span>
+                            <div class="hero__item hero__item--bottom-left">
+                                <h1 class="hero__title hero__title--large">{{ page.title }}</h1>
+                            </div>
+                        </div>
+                        <div class="column">
+                            <span class="hero__dot hero__dot--bottom-right"></span>
+                        </div>
+                        <div class="column no-mobile">
+                            <span class="hero__dot hero__dot--bottom-right"></span>
+                        </div>
+                        <div class="column no-mobile">
+                            <span class="hero__dot hero__dot--bottom-right"></span>
+                        </div>
+                        <div class="column no-mobile">
+                            <span class="hero__dot hero__dot--bottom-right"></span>
+                        </div>
+                        <div class="column">
+                            <span class="hero__dot hero__dot--bottom-right"></span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        {% include site-footer.html %}
+        <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery-3.6.0.min.js"></script>
+        <script type="text/javascript" src="{{site.baseurl}}/assets/js/main.js"></script>
+    </body>
+</html>
