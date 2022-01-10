@@ -51,7 +51,8 @@
     }
 
     .contact__form {
-        margin: 7rem 0;
+        max-width: 1160px;
+        margin: 7rem auto;
 
         form {
             display: flex;
