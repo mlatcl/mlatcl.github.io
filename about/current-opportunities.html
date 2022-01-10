@@ -74,17 +74,17 @@ title: Current Opportunities
 <section class="block block__current-opportunities">
     <div class="container">
         {% for item in site.opportunities %}
-            <div class="research__item">
-                <h2>{{ item.title }}</h2>
-                <p>{{ item.excerpt }}</p>
-                <a class="button" href="{{ item.url }}">
-                    Read More
-                    <span class="dot dot--top-left"></span>
-                    <span class="dot dot--top-right"></span>
-                    <span class="dot dot--bottom-left"></span>
-                    <span class="dot dot--bottom-right"></span>
-                </a>
-            </div>
+        <div class="current-opportunities__item">
+            <h2>{{ item.title }}</h2>
+            <p>{{ item.excerpt }}</p>
+            <a class="button" href="{{ item.url }}">
+                Read More
+                <span class="dot dot--top-left"></span>
+                <span class="dot dot--top-right"></span>
+                <span class="dot dot--bottom-left"></span>
+                <span class="dot dot--bottom-right"></span>
+            </a>
+        </div>
         {% endfor %}
     </div>
 </section>
