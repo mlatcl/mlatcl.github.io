@@ -289,22 +289,6 @@ collections:
               - label: 'Image'
                 name: 'image'
                 widget: 'image'
-      # Opportunities
-      - label: 'Opportunities'
-        name: 'opportunities'
-        file: '_data/opportunities.yml'
-        editor:
-          preview: false
-        fields:
-          # Hero Section
-          - label: 'Hero'
-            name: 'hero'
-            collapsed: true
-            widget: 'object'
-            fields:
-              - label: 'Title'
-                name: 'title'
-                widget: 'string'
       # Contact
       - label: 'Contact'
         name: 'contact'
