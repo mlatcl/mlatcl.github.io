@@ -37,6 +37,14 @@
             right: 0;
         }
     }
+
+    &.button--white {
+        color: $lightest;
+
+        .dot {
+            background-color: $lightest;
+        }
+    }
 }
 
 .button-simple {
