@@ -72,7 +72,7 @@ title: About
 </section>
 <section class="block block__text">
     <div class="container">
-        {{ content }}
+        {{ site.data.about.body | markdownify }}
     </div>
 </section>
 <section class="block block__logo-grid">
