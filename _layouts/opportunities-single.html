@@ -13,9 +13,11 @@
         {% include site-header.html %}
         <main class="main">
             <section class="block block__hero block__hero--standard">
-                <div class="hero__bg">
-                    <img src="{{ page.featured_image }}">
-                </div>
+                {% if page.featured_image %}
+                    <div class="hero__bg">
+                        <img src="{{ page.featured_image }}">
+                    </div>
+                {% endif %}
                 <div class="container">
                     <!-- Top Row | Logo & Menu -->
                     <div class="row">

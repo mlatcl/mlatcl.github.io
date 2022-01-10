@@ -154,6 +154,14 @@ a {
             }
         }
     }
+
+    &.section-heading--altfont {
+
+        h2 {
+            font-family: $header-font-family;
+            text-transform: capitalize;
+        }
+    }
 }
 
 // Blockquotes

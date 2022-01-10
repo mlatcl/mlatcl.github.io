@@ -49,7 +49,7 @@ title: Contact Us
                 <span class="hero__dot hero__dot--bottom-left"></span>
                 <span class="hero__dot hero__dot--bottom-right"></span>
                 <div class="hero__item hero__item--bottom-left">
-                    <h1 class="hero__title">{{ page.title }}</h1>
+                    <h1 class="hero__title">{{ site.data.contact.hero.title }}</h1>
                 </div>
             </div>
             <div class="column">
@@ -68,5 +68,34 @@ title: Contact Us
                 <span class="hero__dot hero__dot--bottom-right"></span>
             </div>
         </div>
+    </div>
+</section>
+
+<section class="block block__contact">
+    <div class="container">
+        <div class="contact__details">
+            <div class="contact__details-content">
+                <div class="section-heading section-heading--large section-heading--altfont">
+                    <h2>Contact Details</h2>
+                    <span></span>
+                </div>
+                <div class="contact__details-address">
+                    {{site.data.site.contact_details.address}}
+                </div>
+                <a class="contact__details-tel" href="tel:{{ site.data.site.contact_details.tel }}">Tel:
+                    {{ site.data.site.contact_details.tel }}
+                </a>
+                <a class="contact__details-fax" href="tel:{{ site.data.site.contact_details.fax }}">Fax:
+                    {{ site.data.site.contact_details.fax }}
+                </a>
+                <a class="contact__details-email" href="mailto:{{ site.data.site.contact_details.email }}">Contact:
+                    {{ site.data.site.contact_details.email }}
+                </a>
+            </div>
+            <div class="contact__details-image">
+                <img alt="" src="/assets/uploads/pexels-photo-1207918.jpeg">
+            </div>
+        </div>
+        <div class="contact__form"></div>
     </div>
 </section>

@@ -1,0 +1,52 @@
+.block__contact {
+    margin: 8rem 0;
+
+    .contact__details {
+        padding: 4.5rem 8rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: $lightest;
+
+        p, 
+        a {
+            font-size: 1.8rem;
+            line-height: 3.2rem;
+            color: $primary-blue;
+        }
+
+        .contact__details-content {
+            width: calc(50% - 2rem);
+            padding: 3rem 0;
+            
+            .contact__details-address {
+                margin-bottom: 3rem;
+
+                p {
+                    margin: 0;
+                }
+            }
+
+            .contact__details-tel,
+            .contact__details-fax,
+            .contact__details-email {
+                display: block;
+                text-decoration: none;
+            }
+
+            .contact__details-email {
+                margin-top: 3rem;
+            }
+        }
+
+        .contact__details-image {
+            width: calc(50% - 2rem);
+
+            img {
+                width: 100%;
+                height: auto;
+                display: block;
+            }
+        }
+    }
+}

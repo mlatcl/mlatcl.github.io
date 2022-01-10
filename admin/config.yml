@@ -305,6 +305,15 @@ collections:
               - label: 'Title'
                 name: 'title'
                 widget: 'string'
+          # Contact Details
+          - label: 'Contact Details'
+            name: 'contact_details'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Image'
+                name: 'image'
+                widget: image
 
   # Blog Collection
   - label: 'Blog'
