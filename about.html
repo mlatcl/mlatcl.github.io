@@ -49,7 +49,7 @@ title: About
                 <span class="hero__dot hero__dot--bottom-left"></span>
                 <span class="hero__dot hero__dot--bottom-right"></span>
                 <div class="hero__item hero__item--bottom-left">
-                    <h1 class="hero__title">{{ page.title }}</h1>
+                    <h1 class="hero__title">{{ site.data.about.hero.title }}</h1>
                 </div>
             </div>
             <div class="column">
@@ -67,6 +67,35 @@ title: About
             <div class="column">
                 <span class="hero__dot hero__dot--bottom-right"></span>
             </div>
+        </div>
+    </div>
+</section>
+<section class="block block__text">
+    <div class="container">
+        {{ content }}
+    </div>
+</section>
+<section class="block block__logo-grid">
+    <div class="container">
+        <div class="logo-grid__grid">
+            {% for item in site.data.about.partners %}
+                <a class="logo-grid__logo" href="{{ item.link }}">
+                    <img src="{{ item.image }}">
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+<section class="block block__grid">
+    <div class="container">
+        <div class="grid__grid">
+            {% for item in site.data.about.grid %}
+                <a class="grid__item" href="{{ item.link }}">
+                    <h3>{{ item.title }}</h3>
+                    <p>{{ item.description }}</p>
+                    <img src="{{ item.image }}">
+                </a>
+            {% endfor %}
         </div>
     </div>
 </section>

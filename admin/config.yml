@@ -237,6 +237,90 @@ collections:
               - label: 'Link'
                 name: 'link'
                 widget: 'string'
+      # About
+      - label: 'About'
+        name: 'about'
+        file: '_data/about.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Content
+          - label: 'Body'
+            name: 'body'
+            widget: 'markdown'
+          # Partners
+          - label: 'Partners'
+            name: 'partners'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            fields: 
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+          # Grid
+          - label: 'Grid'
+            name: 'grid'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Description'
+                name: 'description'
+                widget: 'string'
+              - label: 'Link'
+                name: 'link'
+                widget: 'string'
+              - label: 'Image'
+                name: 'image'
+                widget: 'image'
+      # Opportunities
+      - label: 'Opportunities'
+        name: 'opportunities'
+        file: '_data/opportunities.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+      # Contact
+      - label: 'Contact'
+        name: 'contact'
+        file: '_data/contact.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
 
   # Blog Collection
   - label: 'Blog'
