@@ -313,7 +313,44 @@ collections:
             fields:
               - label: 'Image'
                 name: 'image'
-                widget: image
+                widget: 'image'
+      # Resources
+      - label: 'Resources'
+        name: 'resources'
+        file: '_data/resources.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Resources Section
+          - label: 'Resources'
+            name: 'resources'
+            collapsed: true
+            minimize_collapsed: true
+            widget: 'list'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+              - label: 'Category'
+                name: 'Category'
+                widget: 'select'
+                options: ["Policy", "Teaching", "Software"]
+              - label: 'Link'
+                name: 'Link'
+                widget: 'string'
+              - label: 'Icon'
+                name: 'icon'
+                widget: 'image'
+
 
   # Blog Collection
   - label: 'Blog'
