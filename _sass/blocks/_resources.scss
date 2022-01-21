@@ -1,0 +1,84 @@
+.block__resources {
+    margin: 6rem 0 19rem 0;
+
+    .resources__filter {
+        padding-bottom: 4rem;
+        border-bottom: 1px solid $dark-cream;
+
+        p, button {
+            display: inline-block;
+        }
+
+        p {
+            margin: 0 4rem 0 0; 
+            font-family: $global-font-family-alt;
+            font-size: 1.8rem;
+            font-weight: 700;
+            line-height: 2.3rem;
+        }
+
+        button {
+            padding: 1rem 2rem;
+            border: none;
+            box-shadow: none;
+            outline: none;
+            background-color: transparent;
+
+            font-family: $header-font-family;
+            font-size: 1.8rem;
+            font-weight: 500;
+            line-height: 2.4rem;
+            cursor: pointer;
+
+            &.active {
+                background-color: $lightest;
+                font-weight: 700;
+                color: $primary-blue;
+            }
+        }
+    }
+
+    .resources__grid {
+        margin: 9rem -2rem -4rem -2rem;
+        display: flex;
+        flex-wrap: wrap;
+
+        .resources__resource {
+            width: calc(33.33% - 4rem);
+            min-height: 240px;
+            margin: 0 2rem 4rem 2rem;
+            padding: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border: 1px solid $dark-cream;
+            text-decoration: none;
+            display: none;
+
+            &.active {
+                display: flex;
+            }
+
+            img {
+                width: auto;
+                height: 50px;
+                margin-bottom: 2rem;
+                display: block;
+            }
+
+            h3 {
+                font-size: 2.4rem;
+                line-height: 3.1rem;
+            }
+
+            p {
+                margin: 0;
+                font-family: $global-font-family-alt;
+                font-size: 1.8rem;
+                font-weight: 700;
+                line-height: 2.3rem;
+                color: $orange;
+            }
+        }
+    }
+}

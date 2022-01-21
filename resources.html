@@ -73,7 +73,23 @@ title: Resources
 
 <section class="block block__resources">
     <div class="container">
-        <div class="resources__filter"></div>
-        <div class="resources__grid"></div>
+        <div class="resources__filter">
+            <p>Filter:</p>
+            <button data-filter="all" class="active">All</button>
+            {% for item in site.data.resources.resources %}
+            <button data-filter="{{ item.category }}">{{ item.category }}</button>
+            {% endfor %}
+        </div>
+        <div class="resources__grid">
+            {% for item in site.data.resources.resources %}
+            <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="resources__resource all {{ item.category }} active">
+                <div>
+                    <img alt="" src="{{ item.icon }}">
+                    <h3>{{ item.title }}</h3>
+                </div>
+                <p>View Resource</p>
+            </a>
+            {% endfor %}
+        </div>
     </div>
 </section>

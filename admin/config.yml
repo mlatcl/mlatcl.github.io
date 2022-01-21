@@ -341,11 +341,11 @@ collections:
                 name: 'title'
                 widget: 'string'
               - label: 'Category'
-                name: 'Category'
+                name: 'category'
                 widget: 'select'
                 options: ["Policy", "Teaching", "Software"]
               - label: 'Link'
-                name: 'Link'
+                name: 'link'
                 widget: 'string'
               - label: 'Icon'
                 name: 'icon'

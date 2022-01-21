@@ -192,6 +192,16 @@
                     $(this).closest('.block__research-overview').toggleClass('expanded');
                 });
 
+                // Resoruces Filter
+                $('.resources__filter button').click(function () {
+                    console.log("Clicked");
+                    var filter = $(this).data('filter');
+                    console.log(filter);
+
+                    $('.resources__resource').removeClass('active');
+                    $('.resources__resource.' + filter).addClass('active');
+                });
+
                 // Intersection Observer
                 if ('IntersectionObserver' in window) {
                     // Intersection Observer Callback Function
