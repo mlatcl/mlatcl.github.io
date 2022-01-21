@@ -1,27 +1,27 @@
 hero:
   title: Resources
 resources:
-  - title: Resource name goes in here
-    category: Policy
-    link: https://google.co.uk/
+  - title: Resource name goes in here 01
+    Category: Policy
+    Link: https://google.co.uk/
     icon: /assets/uploads/policy-icon.svg
-  - title: Resource name goes in here
-    category: Teaching
-    link: https://google.co.uk/
+  - title: Resource name goes in here 02
+    Category: Teaching
+    Link: https://google.co.uk/
     icon: /assets/uploads/teaching-icon.svg
-  - title: Resource name goes in here
-    category: Software
-    link: https://google.co.uk/
+  - title: Resource name goes in here 03
+    Category: Software
+    Link: https://google.co.uk/
     icon: /assets/uploads/software-icon.svg
-  - title: Resource name goes in here
-    category: Policy
-    link: https://google.co.uk/
+  - title: Resource name goes in here 04
+    Category: Policy
+    Link: https://google.co.uk/
     icon: /assets/uploads/policy-icon.svg
-  - title: Resource name goes in here
-    category: Teaching
-    link: https://google.co.uk/
+  - title: Resource name goes in here 05
+    Category: Teaching
+    Link: https://google.co.uk/
     icon: /assets/uploads/teaching-icon.svg
-  - title: Resource name goes in here
-    category: Software
-    link: https://google.co.uk/
+  - title: Resource name goes in here 06
+    Category: Software
+    Link: https://google.co.uk/
     icon: /assets/uploads/software-icon.svg
