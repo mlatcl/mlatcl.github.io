@@ -194,9 +194,9 @@
 
                 // Resoruces Filter
                 $('.resources__filter button').click(function () {
-                    console.log("Clicked");
                     var filter = $(this).data('filter');
-                    console.log(filter);
+                    $('.resources__filter button').removeClass('active');
+                    $(this).addClass('active');
 
                     $('.resources__resource').removeClass('active');
                     $('.resources__resource.' + filter).addClass('active');
