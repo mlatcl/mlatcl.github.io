@@ -75,20 +75,21 @@ title: Resources
     <div class="container">
         <div class="resources__filter">
             <p>Filter:</p>
-            <button data-filter="all" class="active">All</button>
-            {% for item in site.data.resources.resources %}
-            <button data-filter="{{ item.category }}">{{ item.category }}</button>
+            <button class="active" data-filter="all">All</button>
+            {% assign titles = site.data.resources.resources | map: 'category' | uniq %}
+            {% for item in titles %}
+                <button data-filter="{{ item }}">{{ item }}</button>
             {% endfor %}
         </div>
         <div class="resources__grid">
             {% for item in site.data.resources.resources %}
-            <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="resources__resource all {{ item.category }} active">
-                <div>
-                    <img alt="" src="{{ item.icon }}">
-                    <h3>{{ item.title }}</h3>
-                </div>
-                <p>View Resource</p>
-            </a>
+                <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="resources__resource all {{ item.category }} active">
+                    <div>
+                        <img alt="" src="{{ item.icon }}">
+                        <h3>{{ item.title }}</h3>
+                    </div>
+                    <p>View Resource</p>
+                </a>
             {% endfor %}
         </div>
     </div>
