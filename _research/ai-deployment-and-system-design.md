@@ -9,7 +9,7 @@ excerpt: While excitement about the potential of artificial intelligence (AI)
   deploy AI systems at scale. Research in this theme considers the advances in
   AI and system design that can manage the complex interactions that arise in
   deployment.
-featured_image: /assets/uploads/pexels-photo-1207918.jpeg
+featured_image: /assets/uploads/stock-vector-europe-map-big-data-visualization-futuristic-map-infographic-information-aesthetics-visual-data-504234469.jpg
 overview_short: While excitement about the potential of artificial intelligence
   (AI) technologies continues to build, a gap is emerging between our
   aspirations for the benefits of AI and our ability to deploy these
