@@ -9,7 +9,7 @@ excerpt: Policy plays a crucial role in influencing where, how and for whose
   wider implications of technological change on individuals and communities.
   Research in this theme considers what policy levers can shape the development
   of AI technologies.
-featured_image: /assets/uploads/pexels-photo-1207918.jpeg
+featured_image: /assets/uploads/stock-photo-data-protection-cyber-security-privacy-business-internet-technology-concept-1472495273.jpg
 overview_short: Policy plays a crucial role in influencing where, how and for
   whose benefit machine learning systems are developed and deployed. Safe and
   reliable deployment of machine learning systems requires policy frameworks
