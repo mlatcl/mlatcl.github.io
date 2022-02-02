@@ -73,22 +73,7 @@ document.addEventListener("DOMContentLoaded", function () {
         if (Math.abs(this.vel.y) > this.vel.min) {
             this.vel.y *= velocity;
         }
-
-        // this.testBorder();
     };
-
-    // Particle.prototype.testBorder = function () {
-    //     if (this.x > windowWidth) {
-    //         this.setPosition(this.x, 'x');
-    //     } else if (this.x < 0) {
-    //         this.setPosition(windowWidth, 'x');
-    //     }
-    //     if (this.y > windowHeight) {
-    //         this.setPosition(this.y, 'y');
-    //     } else if (this.y < 0) {
-    //         this.setPosition(windowHeight, 'y');
-    //     }
-    // };
 
     Particle.prototype.setPosition = function (pos, coor) {
         if (coor === 'x') {
@@ -129,17 +114,11 @@ document.addEventListener("DOMContentLoaded", function () {
         init();
     }
 
-    setTimeout(function () {
+    setInterval(function () {
         particles = [];
         context.clearRect(0, 0, windowWidth, windowHeight);
         init();
     }, 60000);
-
-    // window.addEventListener('click', () => {
-    //     particles = [];
-    //     context.clearRect(0, 0, windowWidth, windowHeight);
-    //     init();
-    // });
 
     loop();
 });
