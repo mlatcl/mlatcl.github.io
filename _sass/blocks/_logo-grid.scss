@@ -29,7 +29,9 @@
             .logo-grid__logo {
                 width: calc(50% - 2rem);
                 margin: 0 1rem 2rem 1rem;
-                display: block;
+                display: flex;
+                justify-content: center;
+                align-items: center;
 
                 @include bp(tablet) {
                     width: calc(33.33% - 2rem);
