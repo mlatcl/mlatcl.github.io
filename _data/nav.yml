@@ -10,6 +10,15 @@ main_nav:
         link: /about/current-opportunities
   - label: Research
     link: /research/
+    submenu_item:
+      - link: /research/ai-deployment-and-system-design.html
+        label: AI Deployment & System Design
+      - link: /research/ai-for-research-and-innovation.html
+        label: AI for Research & Innovation
+      - link: /research/ai-policy-and-data-governance.html
+        label: AI Policy and Data Governance
+      - link: /research/machine-learning-theory-and-methods.html
+        label: Machine Learning Theory & Methods
   - label: News
     link: /news/
   - label: Events
