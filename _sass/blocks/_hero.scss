@@ -100,6 +100,14 @@
                 position: absolute;
                 z-index: 1;
 
+                &.limit-width {
+                    width: 100%;
+                }
+
+                &.limit-height {
+                    height: 100%;
+                }
+
                 &--top-left {
                     top: 0;
                     left: 0;
