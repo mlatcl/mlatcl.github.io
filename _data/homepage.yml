@@ -24,13 +24,13 @@ research:
   link_label: Our Research
   link_url: /research/
 partners:
-  - image: /assets/uploads/university_of_cambridge-logo.svg
+  - image: /assets/uploads/university-of-cambridge.png
     link: https://www.cam.ac.uk/
   - link: https://www.turing.ac.uk/
-    image: /assets/uploads/1200px-alan_turing_institute_logo.svg.png
-  - image: /assets/uploads/979de58c-027b-453d-8a56-ba9e119e5613-1569064075413.png
+    image: /assets/uploads/alan-turing-institute.png
+  - image: /assets/uploads/schmidt-futures.png
     link: https://www.schmidtfutures.com/
-  - image: /assets/uploads/standard-logo-vertical-blue-on-transparent.png
+  - image: /assets/uploads/pjmf.png
     link: https://www.mcgovern.org/
-  - image: /assets/uploads/wellcome-trust-logo.png
+  - image: /assets/uploads/wellcome-trust.png
     link: https://wellcome.org/
