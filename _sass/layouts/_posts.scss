@@ -52,6 +52,10 @@
 
 	&-content {
 		padding: 2rem 1rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: flex-start;
 
 		@include bp(tablet) {
 			padding: 2rem;
@@ -105,7 +109,9 @@
 	}
 
 	.container {
-		max-width: 870px;
+		// max-width: 870px;
+		width: 60%;
+		max-width: 940px;
 
 		h1,
 		h2,

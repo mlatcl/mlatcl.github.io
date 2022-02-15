@@ -381,6 +381,35 @@ collections:
         name: 'body'
         widget: 'markdown'
 
+  # News Collection
+  - label: 'News'
+    name: 'News'
+    folder: '_news'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'post-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Category'
+        name: 'category'
+        widget: 'string'
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+
   # People Collection
   - label: 'People'
     name: 'people'
@@ -406,18 +435,23 @@ collections:
       - label: 'LinkedIn'
         name: 'linkedin'
         widget: 'string'
+        required: false
       - label: 'Twitter'
         name: 'twitter'
         widget: 'string'
+        required: false
       - label: 'Facebook'
         name: 'facebook'
         widget: 'string'
+        required: false
       - label: 'Email'
         name: 'email'
         widget: 'string'
+        required: false
       - label: 'Biography'
         name: 'biography'
         widget: 'markdown'
+        required: false
 
   # Research Collection
   - label: 'Research'
@@ -496,6 +530,7 @@ collections:
         name: 'project_funders'
         collapsed: true
         minimize_collapsed: true
+        required: false
         widget: 'list'
         fields: 
           - label: 'Image'

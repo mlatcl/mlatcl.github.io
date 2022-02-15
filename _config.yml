@@ -34,6 +34,8 @@ github_username:  jekyll
 
 # Collections
 collections:
+  news:
+    output: true
   people:
     output: true
   research:
