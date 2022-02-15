@@ -4,7 +4,7 @@ title: "Flight-SEIR: Incorporating Flight Data to Improve Epidemiological
   Modelling and Disease Outbreak Prevention"
 excerpt: A modified version of the standard SEIR model that incorporates
   COVID-infected flights in and out of Canada could enable early detection of
-  outbreaks
+  outbreaksa
 category: news
 featured_image: /assets/uploads/pexels-photo-1207918.jpeg
 ---
