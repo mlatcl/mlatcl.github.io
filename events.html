@@ -3,7 +3,7 @@ layout: page
 title: Events
 ---
 
-<section class="block block__hero block__hero--standard">
+<section class="block block__hero block__hero--small">
     <div class="container">
         <!-- Top Row | Logo & Menu -->
         <div class="row">
@@ -18,6 +18,9 @@ title: Events
                 <a href="{{site.url}}" class="hero__item hero__item--top-left">
                     <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
                 </a>
+                <div class="hero__item hero__item--bottom-left">
+                    <h1 class="hero__title">{{ page.title }}</h1>
+                </div>
             </div>
             <div class="column">
                 <span class="hero__dot hero__dot--top-right"></span>
@@ -43,30 +46,12 @@ title: Events
                 </div>
             </div>
         </div>
-        <!-- Second Row | Title & Nav -->
-        <div class="row">
-            <div class="column">
-                <span class="hero__dot hero__dot--bottom-left"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-                <div class="hero__item hero__item--bottom-left">
-                    <h1 class="hero__title">{{ page.title }}</h1>
-                </div>
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-        </div>
+    </div>
+</section>
+<section class="block block__news-events">
+    <div class="container">
+        {% for item in site.events %}
+            {% include news-events__post.html %}
+        {% endfor %}
     </div>
 </section>

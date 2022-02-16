@@ -371,9 +371,6 @@ collections:
       - label: 'Excerpt'
         name: 'excerpt'
         widget: 'text'
-      - label: 'Category'
-        name: 'category'
-        widget: 'string'
       - label: 'Featured Image'
         name: 'featured_image'
         widget: 'image'
@@ -400,9 +397,6 @@ collections:
       - label: 'Excerpt'
         name: 'excerpt'
         widget: 'text'
-      - label: 'Category'
-        name: 'category'
-        widget: 'string'
       - label: 'Featured Image'
         name: 'featured_image'
         widget: 'image'
@@ -410,6 +404,32 @@ collections:
         name: 'body'
         widget: 'markdown'
 
+  # Events Collection
+  - label: 'Events'
+    name: 'Events'
+    folder: '_events'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'post-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+  
   # People Collection
   - label: 'People'
     name: 'people'
@@ -549,6 +569,32 @@ collections:
         multiple: true
         required: false
 
+  # Publications Collection
+  - label: 'Publications'
+    name: 'Publications'
+    folder: '_publications'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'post-single'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+      - label: 'Excerpt'
+        name: 'excerpt'
+        widget: 'text'
+      - label: 'Featured Image'
+        name: 'featured_image'
+        widget: 'image'
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+  
   # Opportunities Collection
   - label: 'Opportunities'
     name: 'opportunities'

@@ -34,7 +34,11 @@ github_username:  jekyll
 
 # Collections
 collections:
+  blog:
+    output: true
   news:
+    output: true
+  events:
     output: true
   people:
     output: true

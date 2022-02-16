@@ -8,10 +8,8 @@
             <a class="latest-news-events__intro-link button-simple" href="{{site.baseurl}}/news/">View All News</a>
         </div>
         <div class="latest-news-events__listings latest-news-events__listings-news active">
-            {% for item in site.news %}
-                {% if item.category == 'news' %}
-                    {% include news-events__post.html %}
-                {% endif %}
+            {% for item in site.news limit:3 %}
+                {% include news-events__post.html %}
             {% endfor %}
         </div>
         <div class="latest-news-events__listings latest-news-events__listings-events">
@@ -21,10 +19,8 @@
                 {% endif %}
             {% endfor %}
              -->
-            {% for item in site.news %}
-                {% if item.category == 'event' %}
-                    {% include news-events__post.html %}
-                {% endif %}
+            {% for item in site.events limit:3 %}
+                {% include news-events__post.html %}
             {% endfor %}
         </div>
     </div>

@@ -192,12 +192,10 @@
                         <span></span>
                     </div>
                     <div class="related-news__listings">
-                        <!-- Figure out counter -->
-                        <!-- Only want latest three -->
                         {% for item in site.news limit:3 %}
-                        {% if item.category == 'news' %}
-                        {% include news-events__post.html %}
-                        {% endif %}
+                            {% if item.category == 'news' %}
+                                {% include news-events__post.html %}
+                            {% endif %}
                         {% endfor %}
                     </div>
                 </div>
