@@ -6,6 +6,10 @@ excerpt: While excitement about the potential of artificial intelligence (AI)
   the benefits of AI and our ability to deploy these technologies to tackle
   real-world challenges.
 featured_image: /assets/uploads/pexels-photo-1207918.jpeg
+people:
+  - aarash-feizi
+publications:
+  - example-publication-1
 ---
 While excitement about the potential of artificial intelligence (AI) technologies continues to build, a gap is emerging between our aspirations for the benefits of AI and our ability to deploy these technologies to tackle real-world challenges.
 
