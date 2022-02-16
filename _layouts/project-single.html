@@ -163,11 +163,37 @@
                 </section>
             {% endif %}
 
-            <section class="block block__publications-feed">
+            {% if page.publications != nil %}
+            <section class="block block__projects">
                 <div class="container">
-
+                    <div class="section-heading">
+                        <h2>Related Publications</h2>
+                        <span></span>
+                    </div>
+                    <div class="projects__grid">
+                        {% for item in page.publications %}
+                        {% assign project_slug = item %}
+                        {% for item in site.publications %}
+                        {% if item.slug == project_slug %}
+                        <a href="{{ item.url }}" class="projects__item">
+                            <div class="projects__item-image">
+                                <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                            </div>
+                            <div class="projects__item-details">
+                                <div>
+                                    <h2>{{ item.title }}</h2>
+                                    <p>{{ item.excerpt }}</p>
+                                </div>
+                                <span>View Publication</span>
+                            </div>
+                        </a>
+                        {% endif %}
+                        {% endfor %}
+                        {% endfor %}
+                    </div>
                 </div>
             </section>
+            {% endif %}
 
             <section class="block block__pagination">
                 <div class="container row row--justified">
