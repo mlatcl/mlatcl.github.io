@@ -46,13 +46,15 @@ collections:
     output: true
   projects:
     output: true
+  publications:
+    output: true
   opportunities:
     output: true
 
 # Pagination
 paginate: 5
 
-paginate_path: "/news/page:num/"
+paginate_path: "/blog/page:num/"
 
 # Build settings
 theme: minima

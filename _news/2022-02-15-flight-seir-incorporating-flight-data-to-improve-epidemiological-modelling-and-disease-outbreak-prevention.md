@@ -1,5 +1,5 @@
 ---
-layout: post-single
+layout: news-single
 title: "Flight-SEIR: Incorporating Flight Data to Improve Epidemiological
   Modelling and Disease Outbreak Prevention"
 excerpt: A modified version of the standard SEIR model that incorporates

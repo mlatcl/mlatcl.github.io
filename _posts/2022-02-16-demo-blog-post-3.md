@@ -1,5 +1,5 @@
 ---
-layout: post-single
+layout: blog-single
 title: Demo Blog Post 3
 excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat
   nisl augue, nec volutpat justo porta eu. Donec eget vulputate nulla.

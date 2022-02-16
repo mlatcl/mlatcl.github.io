@@ -1,5 +1,5 @@
 ---
-layout: post-single
+layout: news-single
 title: Demo News Post 3
 excerpt: Test
 category: news
