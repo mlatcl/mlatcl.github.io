@@ -1,6 +1,6 @@
 ---
 layout: post-single
-title: Demo Blog Post - Event
+title: Demo Blog Post 1
 excerpt: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis volutpat
   nisl augue, nec volutpat justo porta eu. Donec eget vulputate nulla.
 category: event
