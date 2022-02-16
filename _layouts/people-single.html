@@ -166,6 +166,63 @@
                 </div>
             </div>
         </section>
+
+        {% if page.publications != nil %}
+            <section class="block block__projects">
+                <div class="container">
+                    <div class="section-heading">
+                        <h2>Publications</h2>
+                        <span></span>
+                    </div>
+                    <div class="projects__grid">
+                        {% for item in page.publications %}
+                            {% assign project_slug = item %}
+                            <h1>{{ project_slug }}</h1>
+
+                            {% for item in site.publications %}
+                                <h1>{{ item.slug }}</h1>
+                                {% if item.slug == project_slug %}
+                                    <a href="{{ item.url }}" class="projects__item">
+                                        <div class="projects__item-image">
+                                            <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                                        </div>
+                                        <div class="projects__item-details">
+                                            <div>
+                                                <h2>{{ item.title }}</h2>
+                                                <p>{{ item.excerpt }}</p>
+                                            </div>
+                                            <span>View Publication</span>
+                                        </div>
+                                    </a>
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+
+
+
+                        <!-- {% for item in page.publications %}
+                            {% assign project_slug = item %}
+                            {% for item in site.publications %}
+                                {% if item.slug == project_slug %}
+                                    <a href="{{ item.url }}" class="projects__item">
+                                        <div class="projects__item-image">
+                                            <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                                        </div>
+                                        <div class="projects__item-details">
+                                            <div>
+                                                <h2>{{ item.title }}</h2>
+                                                <p>{{ item.excerpt }}</p>
+                                            </div>
+                                            <span>View Publication</span>
+                                        </div>
+                                    </a>
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %} -->
+                    </div>
+                </div>
+            </section>
+        {% endif %}
     </main>
     {% include site-footer.html %}
     <script type="text/javascript" src="{{site.baseurl}}/assets/js/jquery-3.6.0.min.js"></script>
