@@ -1,0 +1,7 @@
+---
+layout: post-single
+title: Example Publication 3
+excerpt: Test
+featured_image: /assets/uploads/pexels-photo-1207918.jpeg
+---
+Test
