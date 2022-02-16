@@ -22,4 +22,6 @@ biography: >-
 
 
   * Update
+publications:
+  - 2022-02-16-example-publication-1
 ---
