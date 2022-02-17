@@ -108,6 +108,14 @@
 		padding: 0 0 5rem 0;
 	}
 
+	&.block__post-single--padtop {
+		padding: 2.5rem 0;
+
+		@include bp(tablet) {
+			padding: 5rem 0;
+		}
+	}
+
 	.container {
 		width: 90%;
 		max-width: 940px;
