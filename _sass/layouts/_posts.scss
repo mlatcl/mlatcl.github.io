@@ -109,8 +109,12 @@
 	}
 
 	.container {
-		width: 60%;
+		width: 90%;
 		max-width: 940px;
+
+		@include bp(tablet) {
+			width: 60%;
+		}
 
 		h1,
 		h2,

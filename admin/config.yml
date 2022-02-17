@@ -397,6 +397,15 @@ collections:
       - label: 'Excerpt'
         name: 'excerpt'
         widget: 'text'
+      - label: "Category"
+        name: "category"
+        widget: "select"
+        multiple: true
+        options:
+          - { label: "AI Deployment and System Design", value: "ai-deployment-and-system-design" }
+          - { label: "AI for Research and Innovation", value: "ai-for-research-and-innovation" }
+          - { label: "AI Policy and Data Governance", value: "ai-policy-and-data-governance" }
+          - { label: "Machine Learning Theory and Methods", value: "machine-learning-theory-and-methods" }
       - label: 'Featured Image'
         name: 'featured_image'
         widget: 'image'
@@ -603,9 +612,12 @@ collections:
       - label: 'Title'
         name: 'title'
         widget: 'string'
-      - label: 'Excerpt'
-        name: 'excerpt'
-        widget: 'text'
+      - label: 'Author'
+        name: 'author'
+        widget: 'string'
+      - label: 'References'
+        name: 'references'
+        widget: 'string'
       - label: 'Featured Image'
         name: 'featured_image'
         widget: 'image'

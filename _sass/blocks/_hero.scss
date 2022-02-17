@@ -108,6 +108,22 @@
                     height: 100%;
                 }
 
+                &.hero__item--mobile {
+                    display: block;
+
+                    @include bp(tablet) {
+                        display: none;
+                    }
+                }
+
+                &.hero__item--tablet {
+                    display: none;
+
+                    @include bp(tablet) {
+                        display: block;
+                    }
+                }
+
                 &--top-left {
                     top: 0;
                     left: 0;
@@ -238,14 +254,26 @@
             span {
                 width: 100%;
                 height: 4px;
-                margin-bottom: 3rem;
+                margin-bottom: 2rem;
                 display: block;
                 background-color: $dark-cream;
+
+                @include bp(tablet) {
+                    margin-bottom: 3rem;
+                }
             }
 
             a {
-                margin-bottom: 6rem;
+                margin-bottom: 2rem;
                 display: block;
+
+                @include bp(tablet) {
+                    margin-bottom: 4rem;
+                }
+
+                @include bp(desktop) {
+                    margin-bottom: 6rem;
+                }
 
                 &.twitter svg {
                     width: 24px;
@@ -416,7 +444,7 @@
                 text-align: center;
 
                 &.hero__title--post {
-                    width: 400%;
+                    width: 200%;
                     max-width: unset;
                     margin-bottom: 2rem;
                     position: relative;
@@ -424,8 +452,19 @@
                     left: unset;
                     transform: none;
                     text-align: left;
-                    font-size: 4.8rem;
-                    line-height: 6.8rem;
+                    font-size: 1.7rem;
+                    line-height: 2.2rem;
+
+                    @include bp(tablet) {
+                        width: 400%;
+                        font-size: 2.8rem;
+                        line-height: 3.8rem;
+                    }
+
+                    @include bp(desktop) {
+                        font-size: 4.8rem;
+                        line-height: 6.8rem;
+                    }
                 }
             }
 
@@ -455,13 +494,17 @@
             }
 
             .hero__post-border {
-                width: calc(400% + 8px);
+                width: calc(300% + 8px);
                 height: 5px;
                 margin-top: 4rem;
                 position: relative;
                 left: -4px;
                 display: block;
                 background-color: $orange;
+
+                @include bp(tablet) {
+                    width: calc(400% + 8px);
+                }
             }
         }
 

@@ -70,26 +70,26 @@ title: Publications
         </div>
     </div>
 </section>
-<section class="block block__projects">
+<section class="block block__publications">
     <div class="container">
         <div class="section-heading">
             <h2>Publications</h2>
             <span></span>
         </div>
-        <div class="projects__grid">
+        <div class="publications__list">
             {% for item in site.publications %}
-                <a href="{{ item.url }}" class="projects__item">
-                    <div class="projects__item-image">
-                        <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                <div class="publications__item">
+                    <div class="publications__item-left column-t-9">
+                        <h2 class="publications__item-title">{{ item.title }}</h2>
+                        <p class="publications__item-author">{{ item.author }}</p>
+                        <p class="publications__item-references">{{ item.references }}</p>
                     </div>
-                    <div class="projects__item-details">
-                        <div>
-                            <h2>{{ item.title }}</h2>
-                            <p>{{ item.excerpt }}</p>
-                        </div>
-                        <span>View Profile</span>
+                    <div class="publications__item-right column-t-2">
+                        <!-- Update -->
+                        <p class="publications__item-date">20 Nov 2021</p>
+                        <a href="{{ item.url }}" class="publications__item-link">Read More ></a>
                     </div>
-                </a>
+                </div>
             {% endfor %}
         </div>
     </div>
