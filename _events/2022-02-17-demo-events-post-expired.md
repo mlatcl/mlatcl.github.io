@@ -1,5 +1,5 @@
 ---
-layout: event-single
+layout: events-single
 title: Demo Events Post - Expired
 date: 2022-02-01T00:00:00.000Z
 excerpt: Test

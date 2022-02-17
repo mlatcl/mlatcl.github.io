@@ -14,14 +14,14 @@
             {% endfor %}
         </div>
         <div class="latest-news-events__listings latest-news-events__listings-events">
-            <!-- 
-            {% for post in site.categories.event %}
-                {% if post.category == 'event' %}
-                {% endif %}
-            {% endfor %}
-             -->
-            {% for item in site.events limit:3 %}
-            {% include news-events__post.html %}
+            {% assign todayDate = 'now' | date: '%s' %}
+            {% assign events = site.events | sort: "date" | limit:3 %}
+
+            {% for post in events %}
+            {% assign eventDate = post.date | date: '%s' %}
+            {% if todayDate <= eventDate %}
+            {% include events__post.html %}
+            {% endif %}
             {% endfor %}
         </div>
     </div>

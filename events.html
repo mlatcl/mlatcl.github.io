@@ -50,8 +50,14 @@ title: Events
 </section>
 <section class="block block__news-events">
     <div class="container">
-        {% for item in site.events %}
-            {% include news-events__post.html %}
+        {% assign todayDate = 'now' | date: '%s' %}
+        {% assign events = site.events | sort: "date" %}
+
+        {% for post in events %}
+            {% assign eventDate = post.date | date: '%s' %}
+            {% if todayDate <= eventDate %}
+                {% include events__post.html %}
+            {% endif %}
         {% endfor %}
     </div>
 </section>
