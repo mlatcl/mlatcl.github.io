@@ -182,6 +182,8 @@
                         var toggle = $(this).data('toggle');
                         $('.latest-news-events__intro-toggle button').removeClass('active');
                         $(this).addClass('active');
+                        $('.latest-news-events__intro-link').removeClass('active');
+                        $('.latest-news-events__intro-link-' + toggle).addClass('active');
                         $('.latest-news-events__listings').removeClass('active');
                         $('.latest-news-events__listings-' + toggle).addClass('active');
                     };
