@@ -51,19 +51,23 @@ collections:
   opportunities:
     output: true
 
-# Pagination
-paginate: 5
-
-paginate_path: "/blog/page:num/"
-
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate
-
+  - jekyll-paginate-v2
 sass:
   sass_dir: _sass
+
+# Pagination
+pagination:
+  enabled: true
+  per_page: 5
+  permalink: '/page/:num/'
+  title: ':title'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.

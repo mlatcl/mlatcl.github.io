@@ -1,5 +1,5 @@
 ---
-layout: event-single
+layout: events-single
 title: Demo Event Test 3
 date: 2022-03-31T23:00:00.000Z
 excerpt: Test
