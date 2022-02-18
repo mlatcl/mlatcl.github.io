@@ -7,6 +7,7 @@ excerpt: A modified version of the standard SEIR model that incorporates
   outbreaks
 category:
   - ai-deployment-and-system-design
+  - ai-for-research-and-innovation
 featured_image: /assets/uploads/pexels-photo-1207918.jpeg
 ---
 A modified version of the standard SEIR model that incorporates COVID-infected flights in and out of Canada could enable early detection of outbreaks, more accurately estimate the reproduction number of the disease and better evaluate the impact of travel restrictions and the implications of lifting these measures. 
