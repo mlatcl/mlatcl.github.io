@@ -18,6 +18,7 @@ people:
   - pierre-thodoroff
 publications:
   - example-publication-1
+  - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
 ---
 While excitement about the potential of artificial intelligence (AI) technologies continues to build, a gap is emerging between our aspirations for the benefits of AI and our ability to deploy these technologies to tackle real-world challenges.
 
