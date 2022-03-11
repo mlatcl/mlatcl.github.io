@@ -7,6 +7,9 @@ excerpt: Artificial intelligence (AI) has the potential to become an engine for
   from finding new astronomical phenomena to identifying new materials here on
   Earth.
 featured_image: /assets/uploads/andy-holmes-lupdjljv4_c-unsplash.jpg
+project_funders:
+  - image: /assets/uploads/schmidt-futures.png
+    link: https://www.schmidtfutures.com
 people:
   - aditya-ravuri
   - ahmad-abu-khazneh
