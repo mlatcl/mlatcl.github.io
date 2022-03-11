@@ -25,12 +25,12 @@ overview_long: >-
 projects:
   - autoai
 people:
-  - christian-cabrera-jojoa
-  - markus-kaiser
-  - morine-amutorine
   - andrei-paleyes
+  - christian-cabrera-jojoa
   - eric-meissner
   - jess-montgomery
+  - markus-kaiser
+  - morine-amutorine
   - neil-lawrence
   - pierre-thodoroff
 ---
