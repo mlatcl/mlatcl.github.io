@@ -11,6 +11,7 @@ people:
   - christian-cabrera-jojoa
   - eric-meissner
   - jess-montgomery
+  - mala-virdee
   - markus-kaiser
   - morine-amutorine
   - neil-lawrence
