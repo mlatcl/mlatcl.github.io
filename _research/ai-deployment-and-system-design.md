@@ -30,4 +30,9 @@ people:
   - christian-cabrera-jojoa
   - markus-kaiser
   - morine-amutorine
+  - andrei-paleyes
+  - eric-meissner
+  - jess-montgomery
+  - neil-lawrence
+  - pierre-thodoroff
 ---
