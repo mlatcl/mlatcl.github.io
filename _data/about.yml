@@ -26,14 +26,13 @@ partners:
     image: /assets/uploads/cambridge-university.png
 grid:
   - title: Our Research
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-      mollis enim ac arcu cursus, malesuada tincidunt nulla hendrerit. Quisque
-      eu gravida massa.
+    description: Our work addresses the full pipeline of AI system development, from
+      policy development to data acquisition, through model development to
+      system deployment.
     link: /research/
-    image: /assets/uploads/pexels-photo-1207918.jpeg
-  - description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-      mollis enim ac arcu cursus, malesuada tincidunt nulla hendrerit. Quisque
-      eu gravida massa.
+    image: /assets/uploads/nasa-q1p7bh3shj8-unsplash.jpg
+  - description: Our team combines expertise in systems design, machine learning
+      methods, software engineering, policy, and project management.
     title: Our People
-    image: /assets/uploads/pexels-photo-1207918.jpeg
+    image: /assets/uploads/mike-kononov-lfv0v3_2h6s-unsplash.jpg
     link: /people/
