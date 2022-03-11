@@ -33,4 +33,6 @@ biography: >-
 
 
   \- ML approaches to formal langauge generation and verification
+publications:
+  - solving-schrödinger-bridges-via-maximum-likelihood
 ---
