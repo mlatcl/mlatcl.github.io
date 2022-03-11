@@ -36,4 +36,5 @@ people:
   - jess-montgomery
   - morine-amutorine
   - neil-lawrence
+  - paula-bibby
 ---
