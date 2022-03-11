@@ -31,6 +31,7 @@ projects:
   - data-trusts-initiative
   - data-sharing-in-africa-lessons-from-covid-19
   - european-network-of-ai-excellence-centres
+  - delve-data-evaluation-and-learning-for-viral-epidemics
 people:
   - jess-montgomery
   - morine-amutorine
