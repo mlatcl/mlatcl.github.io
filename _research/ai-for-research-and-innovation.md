@@ -28,4 +28,15 @@ overview_long: >-
 projects:
   - human-cell-atlas
   - accelerate-science
+people:
+  - aditya-ravuri
+  - ahmad-abu-khazneh
+  - bianca-dumitrascu
+  - carl-henrik-ek
+  - challenger-mishra
+  - isaac-sebenius
+  - jess-montgomery
+  - justin-tan
+  - mala-virdee
+  - neil-lawrence
 ---
