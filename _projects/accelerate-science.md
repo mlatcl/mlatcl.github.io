@@ -7,6 +7,16 @@ excerpt: Artificial intelligence (AI) has the potential to become an engine for
   from finding new astronomical phenomena to identifying new materials here on
   Earth.
 featured_image: /assets/uploads/andy-holmes-lupdjljv4_c-unsplash.jpg
+people:
+  - aditya-ravuri
+  - ahmad-abu-khazneh
+  - bianca-dumitrascu
+  - carl-henrik-ek
+  - challenger-mishra
+  - isaac-sebenius
+  - jess-montgomery
+  - justin-tan
+  - neil-lawrence
 ---
 Artificial intelligence (AI) has the potential to become an engine for scientific discovery across disciplines – from predicting the impact of climate change, to using genetic data to create new healthcare treatments, and from finding new astronomical phenomena to identifying new materials here on Earth.
 
