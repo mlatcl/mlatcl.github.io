@@ -20,6 +20,11 @@ people:
   - jess-montgomery
   - justin-tan
   - neil-lawrence
+publications:
+  - assessing-psychosis-risk-using-quantitative-markers-of-disorganised-speech
+  - deep-learning-for-bioimage-analysis-in-developmental-biology
+  - optimal-marker-gene-selection-for-cell-type-discrimination-in-single-cell-analyses
+  - solving-schrödinger-bridges-via-maximum-likelihood
 ---
 Artificial intelligence (AI) has the potential to become an engine for scientific discovery across disciplines – from predicting the impact of climate change, to using genetic data to create new healthcare treatments, and from finding new astronomical phenomena to identifying new materials here on Earth.
 
