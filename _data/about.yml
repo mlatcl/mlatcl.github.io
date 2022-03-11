@@ -14,16 +14,16 @@ body: >-
 
   We examine where, how and for whose benefit machine learning systems are developed and deployed through our policy programme. Across our work, we engage closely with practitioners, domain experts and policymakers to develop AI tools that are fit for real-world deployment.
 partners:
-  - image: /assets/uploads/cambridge-university.png
-    link: "#"
-  - link: "#"
-    image: /assets/uploads/cambridge-university.png
-  - link: "#"
-    image: /assets/uploads/cambridge-university.png
-  - link: "#"
-    image: /assets/uploads/cambridge-university.png
-  - link: "#"
-    image: /assets/uploads/cambridge-university.png
+  - link: https://www.cam.ac.uk
+    image: /assets/uploads/university-of-cambridge.png
+  - image: /assets/uploads/alan-turing-institute.png
+    link: http://turing.ac.uk
+  - image: /assets/uploads/pjmf.png
+    link: https://www.mcgovern.org
+  - image: /assets/uploads/schmidt-futures.png
+    link: https://schmidtfutures.com
+  - image: /assets/uploads/wellcome-trust-alt.png
+    link: https://wellcome.org
 grid:
   - title: Our Research
     description: Our work addresses the full pipeline of AI system development, from
