@@ -1,7 +1,7 @@
 ---
 layout: people-single
 title: Morine Amutorine
-description: Temp
+description: Data Science Africa Fellow
 featured_image: /assets/uploads/morine-amutorine.jpeg
 linkedin: "#"
 twitter: "#"
