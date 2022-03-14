@@ -43,7 +43,7 @@
                 </div>
                 <div class="footer__contact-details">
                     <div>
-                        {{site.data.site.contact_details.address}}
+                        {{ site.data.site.contact_details.address | markdownify }}
                     </div>
                     <div>
                         <a href="tel:{{ site.data.site.contact_details.tel }}">Tel:
