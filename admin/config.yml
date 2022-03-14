@@ -418,7 +418,7 @@ collections:
 
   # Events Collection
   - label: 'Events'
-    name: 'Events'
+    name: 'events'
     folder: '_events'
     create: true
     slug: '{{slug}}'

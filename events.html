@@ -49,6 +49,12 @@ title: Events
     </div>
 </section>
 <section class="block block__news-events">
+    <h1>events archive</h1>
+    {% for item in site.events %}
+        <a href="{{ item.url }}" class="projects__item">
+            <h2>{{ item.title }}</h2>
+        </a>
+    {% endfor %}
     <div class="container">
         {% assign todayDate = 'now' | date: '%Y%m%d' %}
         {% assign events = site.events | sort: "date" %}
@@ -56,7 +62,25 @@ title: Events
         {% for post in events %}
             {% assign eventDate = post.date | date: '%Y%m%d' %}
             {% if todayDate <= eventDate %}
-                {% include events__post.html %}
+                <a class="news-events__post row row--justified" href="{{ post.url }}">
+                    <div class="news-events__post-image column-m-12-nest column-t-4-nest">
+                        <img src="{{ post.featured_image }}" alt="">
+                        <p class="post-date">{{ post.date | date: "%-d %B %Y" }}</p>
+                    </div>
+                    <div class="news-events__post-content column-m-12-nest column-t-8-nest">
+                        <div>
+                            <h3>{{ post.title}}</h3>
+                            <p>{{ post.excerpt }}</p>
+                        </div>
+                        <div class="button">
+                            Read More
+                            <span class="dot dot--top-left"></span>
+                            <span class="dot dot--top-right"></span>
+                            <span class="dot dot--bottom-left"></span>
+                            <span class="dot dot--bottom-right"></span>
+                        </div>
+                    </div>
+                </a>
             {% endif %}
         {% endfor %}
     </div>
