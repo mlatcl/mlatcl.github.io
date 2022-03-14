@@ -49,12 +49,6 @@ title: Events
     </div>
 </section>
 <section class="block block__news-events">
-    <h1>events archive</h1>
-    {% for item in site.events %}
-        <a href="{{ item.url }}" class="projects__item">
-            <h2>{{ item.title }}</h2>
-        </a>
-    {% endfor %}
     <div class="container">
         {% assign todayDate = 'now' | date: '%Y%m%d' %}
         {% assign events = site.events | sort: "date" %}
