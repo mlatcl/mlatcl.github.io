@@ -33,7 +33,7 @@ collections:
             widget: 'object'
             fields:
               - label: 'Address'
-                name: 'address',
+                name: 'address'
                 widget: 'text'
               - label: 'Tel'
                 name: 'tel'
