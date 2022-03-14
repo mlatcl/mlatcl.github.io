@@ -80,7 +80,7 @@ title: Contact Us
                     <span></span>
                 </div>
                 <div class="contact__details-address">
-                    {{ site.data.site.contact_details.address }}
+                    {{ site.data.site.contact_details.address | markdownify }}
                 </div>
                 <a class="contact__details-tel" href="tel:{{ site.data.site.contact_details.tel }}">Tel:
                     {{ site.data.site.contact_details.tel }}
