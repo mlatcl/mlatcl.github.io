@@ -19,7 +19,7 @@
             {% assign counter = 1 %}
 
             {% for post in events %}
-                {% assign eventDate = post.date | date: '%Y%m%d' %}
+                {% assign eventDate = post.event_date | date: '%Y%m%d' %}
                 {% if todayDate <= eventDate  %}
                     {% include events__post.html %}
 

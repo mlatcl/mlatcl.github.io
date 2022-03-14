@@ -1,7 +1,7 @@
 ---
 layout: event-single
 title: "AI: Reclaiming control"
-date: 2022-04-08T23:00:00.000Z
+event_date: 2022-04-08T23:00:00.000Z
 excerpt: Though artificial intelligence is ubiquitous in our homes and
   workplaces, there is widespread misunderstanding of what it really is. In this
   public lecture Neil Lawrence, DeepMind Professor of Machine Learning, will

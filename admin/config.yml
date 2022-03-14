@@ -432,10 +432,9 @@ collections:
       - label: 'Title'
         name: 'title'
         widget: 'string'
-      - label: 'Date'
-        name: 'date'
+      - label: 'Event Date'
+        name: 'event_date'
         widget: 'date'
-        default: ''
         date_format: "DD.MM.YYYY"
       - label: 'Excerpt'
         name: 'excerpt'
