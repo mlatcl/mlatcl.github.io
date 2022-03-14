@@ -34,7 +34,7 @@ collections:
             fields:
               - label: 'Address'
                 name: 'address'
-                widget: 'text'
+                widget: 'markdown'
               - label: 'Tel'
                 name: 'tel'
                 widget: 'string'
