@@ -76,11 +76,11 @@
                                         </g>
                                     </g>
                                 </svg>
-                                <p>Back to projects</p>
+                                <p>See all projects</p>
                             </a>
                         </div>
                         <div class="hero__item hero__item--bottom-left">
-                            <h1 class="hero__title hero__title--large">{{ page.title }}</h1>
+                            <h1 class="hero__title hero__title--large hero__title--post">{{ page.title }}</h1>
                         </div>
                     </div>
                     <div class="column">
@@ -113,87 +113,95 @@
         </section>
 
         {% if page.project_funders != nil %}
-        <section class="block block__logo-grid">
-            <div class="container">
-                <div class="section-heading">
-                    <h2>Project Funders</h2>
-                    <span></span>
-                </div>
-            </div>
-            <div class="container">
-                <div class="logo-grid__grid">
-                    {% for item in page.project_funders %}
-                    <a class="logo-grid__logo" href="{{ item.link }}">
-                        <img src="{{ item.image }}" alt="University of Cambridge">
-                    </a>
-                    {% endfor %}
-                </div>
-            </div>
-        </section>
+            {% assign projects_size = page.project_funders | size %}
+            {% if projects_size != 0 %}
+                <section class="block block__logo-grid">
+                    <div class="container">
+                        <div class="section-heading">
+                            <h2>Project Funders</h2>
+                            <span></span>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="logo-grid__grid">
+                            {% for item in page.project_funders %}
+                            <a class="logo-grid__logo" href="{{ item.link }}">
+                                <img src="{{ item.image }}" alt="University of Cambridge">
+                            </a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                </section>
+            {% endif %}
         {% endif %}
 
         {% if page.people != nil %}
-        <section class="block block__team">
-            <div class="container">
-                <div class="section-heading">
-                    <h2>Related People</h2>
-                    <span></span>
-                </div>
-                <div class="team__grid">
-                    {% for item in page.people %}
-                    {% assign people_slug = item %}
-                    {% for item in site.people %}
-                    {% if item.slug == people_slug %}
-                    <a href="{{ item.url }}" class="team__member">
-                        <div class="team__member-image">
-                            <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+            {% assign people_size = page.people | size %}
+            {% if people_size != 0 %}
+                <section class="block block__team">
+                    <div class="container">
+                        <div class="section-heading">
+                            <h2>Related People</h2>
+                            <span></span>
                         </div>
-                        <div class="team__member-details">
-                            <div>
-                                <h2>{{ item.title }}</h2>
-                                <p>{{ item.description }}</p>
-                            </div>
-                            <span>View Profile</span>
+                        <div class="team__grid">
+                            {% for item in page.people %}
+                            {% assign people_slug = item %}
+                            {% for item in site.people %}
+                            {% if item.slug == people_slug %}
+                            <a href="{{ item.url }}" class="team__member">
+                                <div class="team__member-image">
+                                    <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                                </div>
+                                <div class="team__member-details">
+                                    <div>
+                                        <h2>{{ item.title }}</h2>
+                                        <p>{{ item.description }}</p>
+                                    </div>
+                                    <span>View Profile</span>
+                                </div>
+                            </a>
+                            {% endif %}
+                            {% endfor %}
+                            {% endfor %}
                         </div>
-                    </a>
-                    {% endif %}
-                    {% endfor %}
-                    {% endfor %}
-                </div>
-            </div>
-        </section>
+                    </div>
+                </section>
+            {% endif %}
         {% endif %}
 
         {% if page.publications != nil %}
-        <section class="block block__publications">
-            <div class="container">
-                <div class="section-heading">
-                    <h2>Related Publications</h2>
-                    <span></span>
-                </div>
-                <div class="publications__list">
-                    {% for item in page.publications %}
-                    {% assign project_slug = item %}
-                    {% for item in site.publications %}
-                    {% if item.slug == project_slug %}
-                    <div class="publications__item">
-                        <div class="publications__item-left column-t-9">
-                            <h2 class="publications__item-title">{{ item.title }}</h2>
-                            <p class="publications__item-author">{{ item.author }}</p>
-                            <p class="publications__item-references">{{ item.references }}</p>
+            {% assign people_size = page.publications | size %}
+            {% if publications_size != 0 %}
+                <section class="block block__publications">
+                    <div class="container">
+                        <div class="section-heading">
+                            <h2>Related Publications</h2>
+                            <span></span>
                         </div>
-                        <div class="publications__item-right column-t-2">
-                            <!-- Update -->
-                            <p class="publications__item-date">20 Nov 2021</p>
-                            <a href="{{ item.url }}" class="publications__item-link">Read More ></a>
+                        <div class="publications__list">
+                            {% for item in page.publications %}
+                            {% assign project_slug = item %}
+                            {% for item in site.publications %}
+                            {% if item.slug == project_slug %}
+                            <div class="publications__item">
+                                <div class="publications__item-left column-t-9">
+                                    <h2 class="publications__item-title">{{ item.title }}</h2>
+                                    <p class="publications__item-author">{{ item.author }}</p>
+                                    <p class="publications__item-references">{{ item.references }}</p>
+                                </div>
+                                <div class="publications__item-right column-t-2">
+                                    <p class="publications__item-date">{{ item.date | date: "%-d %B %Y" }}</p>
+                                    <a href="{{ item.url }}" class="publications__item-link">Read More ></a>
+                                </div>
+                            </div>
+                            {% endif %}
+                            {% endfor %}
+                            {% endfor %}
                         </div>
                     </div>
-                    {% endif %}
-                    {% endfor %}
-                    {% endfor %}
-                </div>
-            </div>
-        </section>
+                </section>
+            {% endif %}
         {% endif %}
 
         <section class="block block__pagination">
