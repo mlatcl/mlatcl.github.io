@@ -1,5 +1,5 @@
 ---
-layout: events-single
+layout: event-single
 title: "AI: Reclaiming control"
 date: 2022-04-08T23:00:00.000Z
 excerpt: Though artificial intelligence is ubiquitous in our homes and

@@ -428,7 +428,7 @@ collections:
       - label: 'Layout'
         name: 'layout'
         widget: 'hidden'
-        default: 'events-single'
+        default: 'event-single'
       - label: 'Title'
         name: 'title'
         widget: 'string'

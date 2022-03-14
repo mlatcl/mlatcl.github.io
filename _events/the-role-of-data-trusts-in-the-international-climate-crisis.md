@@ -1,5 +1,5 @@
 ---
-layout: events-single
+layout: event-single
 title: The role of data trusts in the international climate crisis
 date: 2022-03-23T00:00:00.000Z
 excerpt: At 2022's AI:UK conference, the Global Partnership of AI will launch
