@@ -421,7 +421,7 @@ collections:
     name: 'Events'
     folder: '_events'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: '{{slug}}'
     editor:
       preview: false
     fields:
