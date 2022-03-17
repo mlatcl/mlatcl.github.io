@@ -3,7 +3,7 @@ layout: people-single
 title: Christian Cabrera Jojoa
 description: Research Associate, Cambridge University
 featured_image: /assets/uploads/christian-cabrera-jojoa.jpeg
-linkedin: "#"
+linkedin: https://www.linkedin.com/in/christian-cabrera-39a70254
 twitter: "#"
 facebook: "#"
 email: "#"
