@@ -28,6 +28,7 @@ overview_long: >-
 projects:
   - human-cell-atlas
   - accelerate-science
+  - climate-ensembling
 people:
   - aditya-ravuri
   - ahmad-abu-khazneh
