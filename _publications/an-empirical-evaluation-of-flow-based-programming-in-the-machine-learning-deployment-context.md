@@ -2,7 +2,7 @@
 layout: publication-single
 title: An Empirical Evaluation of Flow Based Programming in the Machine Learning
   Deployment Context.
-author: Paleyes, A., Cabrera, C., & Lawrence, N.D. (2022)
+author: Paleyes, A., Cabrera, C. and Lawrence, N.D. (2022)
 references: " 1st International Conference on AI Engineering – Software
   Engineering for AI (2022)"
 ---
