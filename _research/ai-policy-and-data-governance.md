@@ -23,10 +23,16 @@ overview_long: >-
   benefit?
 
 
-  Policy plays a crucial role in influencing where, how and for whose benefit machine learning systems are developed and deployed. Safe and reliable deployment of machine learning systems requires policy frameworks that embed trustworthy data governance; that promote the use of machine learning in areas where it has potential to improve public services and wellbeing; and that account for the wider implications of technological change on individuals and communities.
+  ML@CL’s policy projects identify policy interventions that can support the development of trustworthy AI technologies and that help share the benefits of AI across society. Working with partners in civil society, national government, and international organisations, our work considers:
 
 
-  ML@CL’s policy projects identify policy interventions that can support the development of trustworthy AI technologies and that help share the benefits of AI across society.
+  * how technological advances in AI can contribute to policy objectives;
+
+  * the role of data governance and stewardship as a foundation for AI that benefits citizens and society;
+
+  * what national strategies or policy frameworks are needed to support the development of trustworthy AI technologies and their deployment for societal benefit;
+
+  * how to deploy data science and AI in the service of national and international policy goals.
 projects:
   - data-trusts-initiative
   - data-sharing-in-africa-lessons-from-covid-19
