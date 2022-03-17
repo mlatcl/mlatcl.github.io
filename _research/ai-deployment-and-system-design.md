@@ -24,11 +24,14 @@ overview_long: >-
   A significant proportion of attempted AI deployments fail, highlighting a suite of practical issues that arise when trying to integrate AI into real-world systems – from data management and use, to model performance, to user experience. These failures not only hold back the economic potential of AI, they also expose individuals, communities and societies to new forms of harm. Our AI deployment and system design research theme considers the interventions that can support safe and effective AI systems in real-world contexts.
 projects:
   - autoai
+  - climate-ensembling
 people:
   - andrei-paleyes
+  - carl-henrik-ek
   - christian-cabrera-jojoa
   - eric-meissner
   - jess-montgomery
+  - mala-virdee
   - markus-kaiser
   - morine-amutorine
   - neil-lawrence
