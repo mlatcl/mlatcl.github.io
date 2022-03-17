@@ -25,6 +25,7 @@ overview_long: >-
 projects:
   - autoai
   - climate-ensembling
+  - data-oriented-architectures-for-ai-based-systems
 people:
   - andrei-paleyes
   - carl-henrik-ek
