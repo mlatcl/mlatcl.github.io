@@ -35,6 +35,7 @@ people:
   - bianca-dumitrascu
   - carl-henrik-ek
   - challenger-mishra
+  - diana-robinson
   - isaac-sebenius
   - jess-montgomery
   - justin-tan
