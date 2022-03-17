@@ -29,6 +29,7 @@ people:
   - andrei-paleyes
   - carl-henrik-ek
   - christian-cabrera-jojoa
+  - diana-robinson
   - eric-meissner
   - jess-montgomery
   - mala-virdee
