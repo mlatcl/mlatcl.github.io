@@ -13,4 +13,7 @@ biography: Christian’s research focuses on the intersection of machine learnin
   architectures with techniques from service-oriented computing and
   self-adaptive systems. He is particularly interested in the application of
   these methods to smart cities.
+publications:
+  - towards-better-data-discovery-and-collection-with-flow-based-programming
+  - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
 ---
