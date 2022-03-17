@@ -4,7 +4,7 @@ title: Neil Lawrence
 description: DeepMind Professor of Machine Learning, Cambridge University
 featured_image: /assets/uploads/neil-lawrence.jpeg
 linkedin: "#"
-twitter: "#"
+twitter: www.twitter/com/lawrennnd
 facebook: "#"
 email: "#"
 biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
@@ -18,7 +18,9 @@ biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   a Senior AI Fellowship from the Alan Turing Institute. Neil is also visiting
   Professor at the University of Sheffield and the co-host of Talking Machines.
 publications:
+  - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
   - example-publication-1
   - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
   - solving-schrödinger-bridges-via-maximum-likelihood
+  - towards-better-data-discovery-and-collection-with-flow-based-programming
 ---
