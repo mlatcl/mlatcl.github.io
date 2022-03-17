@@ -1,7 +1,7 @@
 ---
 layout: publication-single
 title: Towards better data discovery and collection with flow-based programming.
-author: "Paleyes, A., Cabrera, C., & Lawrence, N. (2021) "
+author: "Paleyes, A., Cabrera, C. and Lawrence, N.D. (2021) "
 references: In 2021 Neurips Data-Centric AI Workshop (DCAI),
   https://arxiv.org/abs/2108.04105
 ---
