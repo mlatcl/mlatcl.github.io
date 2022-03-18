@@ -36,9 +36,11 @@ people:
   - carl-henrik-ek
   - challenger-mishra
   - diana-robinson
+  - haoting-zhang
   - isaac-sebenius
   - jess-montgomery
   - justin-tan
+  - katie-green
   - mala-virdee
   - neil-lawrence
 ---
