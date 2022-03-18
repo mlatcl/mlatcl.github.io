@@ -1,6 +1,7 @@
 ---
 layout: publication-single
 title: International perspectives on the development of data institutions
+  (Working Paper 2)
 author: Data Trusts Initiative (2021)
 references: available at www.datatrusts.uk
 ---
