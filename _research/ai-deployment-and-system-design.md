@@ -6,16 +6,19 @@ excerpt: A gap is emerging between our aspirations for the benefits of AI and
   Achieving the full potential of AI – and its benefits for society and the
   economy – requires the ability to safely and effectively deploy AI systems at
   scale. Research in this theme considers the advances in AI and system design
-  that can manage the complex interactions that arise in deployment.
+  that can manage the complex interactions that arise in real-world
+  applications, from innovations in statistical emulation to software
+  engineering for machine learning deployment.
 featured_image: /assets/uploads/giuseppe-famiani-cffazycnbfg-unsplash.jpg
 overview_short: While excitement about the potential of artificial intelligence
   (AI) technologies continues to build, a gap is emerging between our
   aspirations for the benefits of AI and our ability to deploy these
   technologies to tackle real-world challenges. Achieving the full potential of
   AI – and its benefits for society and the economy – requires the ability to
-  safely and effectively deploy AI systems at scale. Research in this theme
+  safely and effectively deploy AI systems at scale.  Research in this theme
   considers the advances in AI and system design that can manage the complex
-  interactions that arise in deployment.
+  interactions that arise in real-world applications, from innovations in
+  statistical emulation to software engineering for machine learning deployment.
 overview_long: >-
   What advances are needed to ensure that AI systems operate safely and
   effectively in deployment?
@@ -27,11 +30,13 @@ overview_long: >-
   Research in this theme considers:
 
 
-  * how new software and data architectures can support system adaptability, scalability, and autonomy;
+  * systems and software engineering for machine learning deployment, investigating how new software and data architectures can support system adaptability, scalability, and autonomy;
 
-  * the role of emulation and simulation in improving AI system performance;
+  * statistical emulation and hierarchical probablistic modelling, exploring the role of emulation and simulation in improving AI system performance;
 
-  * what advances in modelling and system design can improve accuracy, robustness, safety and effectiveness.
+  * what advances in modelling and system design can improve accuracy, robustness, safety and effectiveness, including real-time inference and decision-making; and
+
+  * AI applications in healthcare, science, and industry.
 projects:
   - autoai
   - climate-ensembling
