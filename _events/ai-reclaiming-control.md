@@ -12,4 +12,4 @@ Though artificial intelligence is ubiquitous in our homes and workplaces, there 
 
 He’ll discuss how the artificial systems we have developed operate in a fundamentally different way to our own intelligence. He’ll describe how this difference in operational capability leads us to misunderstand the influence that decisions made by machine intelligence are having on our lives. Without this understanding we cannot take back control of those decisions from the machine. Along the way, he’ll chat with fellow Cambridge University researchers about how we maximise the benefits of these technologies while minimising the harms.
 
-For further information and to book, visit: https://www.festival.cam.ac.uk/events/ai-reclaiming-control
+For further information and to book, visit: <https://www.festival.cam.ac.uk/events/ai-reclaiming-control>
