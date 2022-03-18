@@ -2,7 +2,7 @@
 layout: people-single
 title: Andrei Paleyes
 description: PhD Student, Cambridge University
-featured_image: /assets/uploads/andrei-paleyes.jpeg
+featured_image: /assets/uploads/andrei.jpg
 linkedin: "#"
 twitter: "#"
 facebook: "#"
