@@ -12,7 +12,7 @@ body: >-
   ML@CL’s research programmes tackle different aspects of AI systems design and deployment. Our work on AI for innovation considers the opportunities AI creates for scientific discovery, and the new research agendas that emerge at the interface of AI and the sciences. Our programme on machine learning in deployment is investigating how technical advances can help address issues of interpretability, reliability, resilience and fairness in large AI systems. We examine where, how and for whose benefit machine learning systems are developed and deployed through our policy programme. 
 
 
-  Across our work, we engage closely with practitioners, domain experts and policymakers to develop AI tools that are fit for real-world deployment. On this site, you can find out more about our current projects and activities.
+  Across our work, we engage closely with practitioners, domain experts and policymakers to develop AI tools that are fit for real-world deployment. On this site, you can find out more about our current projects and activities. Our Current Opportunities page provides further information about job vacancies and opportunities for student projects supervised by ML@CL team members.
 partners:
   - link: https://www.cam.ac.uk
     image: /assets/uploads/university-of-cambridge.png
@@ -32,7 +32,7 @@ grid:
     link: /research/
     image: /assets/uploads/nasa-q1p7bh3shj8-unsplash.jpg
   - description: Our team combines expertise in systems design, machine learning
-      methods, software engineering, policy, and project management.
+      methods, software engineering, policy, and public engagement.
     title: Our People
     image: /assets/uploads/mike-kononov-lfv0v3_2h6s-unsplash.jpg
     link: /people/
