@@ -22,6 +22,16 @@ overview_long: >-
 
 
   A significant proportion of attempted AI deployments fail, highlighting a suite of practical issues that arise when trying to integrate AI into real-world systems – from data management and use, to model performance, to user experience. These failures not only hold back the economic potential of AI, they also expose individuals, communities and societies to new forms of harm. Our AI deployment and system design research theme considers the interventions that can support safe and effective AI systems in real-world contexts.
+
+
+  Research in this theme considers:
+
+
+  * how new software and data architectures can support system adaptability, scalability, and autonomy;
+
+  * the role of emulation and simulation in improving AI system performance;
+
+  * what advances in modelling and system design can improve accuracy, robustness, safety and effectiveness.
 projects:
   - autoai
   - climate-ensembling
