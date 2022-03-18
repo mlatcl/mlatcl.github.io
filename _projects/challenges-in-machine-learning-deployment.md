@@ -10,6 +10,8 @@ featured_image: /assets/uploads/mark-konig-ecgv8s2ipg0-unsplash.jpg
 people:
   - andrei-paleyes
   - neil-lawrence
+publications:
+  - challenges-in-machine-learning-deployment
 ---
 In addition to being a thriving academic discipline, machine learning is increasingly adopted as a solution to real world business problems. But underneath this seeming success lies a chasm of failures. In fact, according to recent surveys among industry practitioners, the majority of ML projects still fail. It turns out that deployment workflow of ML is far from trivial, and adds a pile of its own challenges on top of those that already exist in software development practice.
 
