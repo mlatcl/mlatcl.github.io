@@ -13,6 +13,7 @@ biography: Andrei is a PhD student with Neil Lawrence’s group. His primary
   University, and spent a number of years as a software engineer, working on
   everything from web applications to data center networks.
 publications:
-  - towards-better-data-discovery-and-collection-with-flow-based-programming
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
+  - challenges-in-machine-learning-deployment
+  - towards-better-data-discovery-and-collection-with-flow-based-programming
 ---
