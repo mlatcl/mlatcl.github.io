@@ -3,7 +3,7 @@ main_nav:
     link: /about/
     submenu_item:
       - label: Overview
-        link: /about/overview/
+        link: /about/
       - label: Team
         link: /people/
       - label: Current Opportunites
