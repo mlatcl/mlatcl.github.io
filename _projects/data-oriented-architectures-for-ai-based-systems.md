@@ -1,7 +1,7 @@
 ---
 layout: project-single
 title: Data-Oriented Architectures for AI-based Systems
-excerpt: Data Oriented Architecture (DOA) is an software architecture pattern
+excerpt: Data Oriented Architecture (DOA) is a software architecture pattern
   that creates data-driven, loosely coupled, decentralised, and open systems.
   DOA achieves these goals by exposing systems' data as first class citizen to
   distributed, stateless, and asynchronous systems’ components. These design
