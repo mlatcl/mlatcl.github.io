@@ -35,6 +35,7 @@ overview_long: >-
 projects:
   - autoai
   - climate-ensembling
+  - challenges-in-machine-learning-deployment
   - data-oriented-architectures-for-ai-based-systems
 people:
   - andrei-paleyes
