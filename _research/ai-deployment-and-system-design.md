@@ -42,6 +42,7 @@ projects:
   - climate-ensembling
   - challenges-in-machine-learning-deployment
   - data-oriented-architectures-for-ai-based-systems
+  - evaluation-of-dataflow-for-ml-deployment
 people:
   - andrei-paleyes
   - carl-henrik-ek
