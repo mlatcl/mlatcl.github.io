@@ -15,3 +15,5 @@ To better understand how data trusts can be taken from theory to practice, the D
 * How can data trusts be created in civil law jurisdictions?
 * Does the General Data Protection Regulation (GDPR) allow individuals to mandate their data rights to a trust (or other data intermediary)?
 * What combination of technical and legal infrastructure can give individuals more control over data about them?
+
+[Available at this link.](https://static1.squarespace.com/static/5e3b09f0b754a35dcb4111ce/t/60eeb409aa539923b58c4a4f/1626256394651/WP+3+-+DTI+-+research+agenda+-+June21.pdf)
