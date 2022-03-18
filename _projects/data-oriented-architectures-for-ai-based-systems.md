@@ -14,6 +14,9 @@ people:
   - christian-cabrera-jojoa
   - eric-meissner
   - neil-lawrence
+publications:
+  - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
+  - towards-better-data-discovery-and-collection-with-flow-based-programming
 ---
 Across the last decade novel machine learning (ML) algorithms have been used to solve problems in computer vision, speech and language that were previously considered highly challenging. This has triggered an upsurge in interest in artificial intelligence (AI). These algorithms originated in the academic community but are now being deployed in real-world environments that differ considerably from their development domains in terms of scale, complexity, and dynamic nature. Real-world environments produce large amounts of heterogeneous, variable and high dimensional data that poses new challenges to the deployment of ML algorithms in real-world systems. These challenges are present along the whole ML algorithms workflow from data management to deployment, monitoring and redeployment of ML models. 
 
