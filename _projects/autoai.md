@@ -18,6 +18,7 @@ people:
   - pierre-thodoroff
 publications:
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
+  - benchmarking-real-time-reinforcement-learning
   - example-publication-1
   - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
   - towards-better-data-discovery-and-collection-with-flow-based-programming
