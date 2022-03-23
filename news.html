@@ -50,7 +50,8 @@ title: News
 </section>
 <section class="block block__news-events">
     <div class="container">
-        {% for item in site.news %}
+        {% assign news_collection = site.news | sort: 'date' | reverse %}
+        {% for item in news_collection %}
             {% include news-events__post.html %}
         {% endfor %}
     </div>

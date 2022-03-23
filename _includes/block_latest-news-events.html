@@ -9,7 +9,8 @@
             <a class="latest-news-events__intro-link latest-news-events__intro-link-events button-simple" href="{{site.baseurl}}/events/">View All Events</a>
         </div>
         <div class="latest-news-events__listings latest-news-events__listings-news active">
-            {% for item in site.news limit:3 %}
+            {% assign news_collection = site.news | sort: 'date' | reverse %}
+            {% for item in news_collection limit:3 %}
                 {% include news-events__post.html %}
             {% endfor %}
         </div>

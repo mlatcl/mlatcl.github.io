@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Resources
+title: Privacy Policy
 ---
 
 <section class="block block__hero block__hero--standard">
@@ -49,7 +49,7 @@ title: Resources
                 <span class="hero__dot hero__dot--bottom-left"></span>
                 <span class="hero__dot hero__dot--bottom-right"></span>
                 <div class="hero__item hero__item--bottom-left">
-                    <h1 class="hero__title">{{ site.data.resources.hero.title }}</h1>
+                    <h1 class="hero__title hero__title--research">{{ page.title }}</h1>
                 </div>
             </div>
             <div class="column">
@@ -70,27 +70,8 @@ title: Resources
         </div>
     </div>
 </section>
-
-<section class="block block__resources">
+<section class="block block__text">
     <div class="container">
-        <div class="resources__filter">
-            <p>Filter:</p>
-            <button class="active" data-filter="all">All</button>
-            {% assign titles = site.data.resources.resources | map: 'Category' | uniq %}
-            {% for item in titles %}
-                <button data-filter="{{ item }}">{{ item }}</button>
-            {% endfor %}
-        </div>
-        <div class="resources__grid">
-            {% for item in site.data.resources.resources %}
-                <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="resources__resource all {{ item.Category }} active">
-                    <div>
-                        <img src="{{ item.icon }}">
-                        <h3>{{ item.title }}</h3>
-                    </div>
-                    <p>View Resource</p>
-                </a>
-            {% endfor %}
-        </div>
+        {{ site.data.privacy_policy.body | markdownify }}
     </div>
 </section>

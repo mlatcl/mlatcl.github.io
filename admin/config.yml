@@ -353,6 +353,81 @@ collections:
               - label: 'Icon'
                 name: 'icon'
                 widget: 'image'
+      # Assessor App
+      - label: 'Assessor App'
+        name: 'assessor_app'
+        file: '_data/assessor_app.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Content Section
+          - label: 'Content'
+            name: 'content'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Body'
+                name: 'body'
+                widget: 'markdown'
+      # Privacy Policy
+      - label: 'Privacy Policy'
+        name: 'privacy_policy'
+        file: '_data/privacy_policy.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Content Section
+          - label: 'Content'
+            name: 'content'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Body'
+                name: 'body'
+                widget: 'markdown'
+      # Terms of Service
+      - label: 'Terms of Service'
+        name: 'terms_of_service'
+        file: '_data/terms_of_service.yml'
+        editor:
+          preview: false
+        fields:
+          # Hero Section
+          - label: 'Hero'
+            name: 'hero'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Title'
+                name: 'title'
+                widget: 'string'
+          # Content Section
+          - label: 'Content'
+            name: 'content'
+            collapsed: true
+            widget: 'object'
+            fields:
+              - label: 'Body'
+                name: 'body'
+                widget: 'markdown'
 
 
   # Blog Collection
