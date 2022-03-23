@@ -24,6 +24,7 @@ publications:
   - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
   - data-governance-in-the-21st-century-citizen-dialogue-and-the-development-of-data-trusts
   - example-publication-1
+  - gaussian-process-latent-variable-flows-for-massively-missing-data
   - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
   - solving-schrödinger-bridges-via-maximum-likelihood
   - towards-better-data-discovery-and-collection-with-flow-based-programming
