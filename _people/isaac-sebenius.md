@@ -9,4 +9,6 @@ biography: Isaac is interested in developing new computational methods that
   characterize and predict the spectrum of psychotic disorders by using machine
   learning to combine multiple types of neuroimaging-derived brain connectivity
   as well as genetic and other biological data.
+publications:
+  - multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
 ---
