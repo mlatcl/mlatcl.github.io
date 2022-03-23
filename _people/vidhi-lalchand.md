@@ -10,4 +10,6 @@ biography: Vidhi is a Ph.D. student at the Cavendish Laboratory, a Turing
   Modelling. She is interested in applications of probabilistic machine learning
   to problems in contemporary sciences like high energy physics and astronomy.
   Her Ph.D. is funded by the Alan Turing Institute.
+publications:
+  - gaussian-process-latent-variable-flows-for-massively-missing-data
 ---
