@@ -83,7 +83,7 @@ title: Resources
         </div>
         <div class="resources__grid">
             {% for item in site.data.resources.resources %}
-                <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="resources__resource all {{ item.Category }} active">
+                <a href="{{ item.link }}" target="_blank" rel="noreferrer" class="resources__resource all {{ item.category }} active">
                     <div>
                         <img src="{{ item.icon }}">
                         <h3>{{ item.title }}</h3>
