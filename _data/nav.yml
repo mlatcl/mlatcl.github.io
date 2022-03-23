@@ -39,11 +39,11 @@ footer_nav:
   - label: Resources
     link: /resources/
   - label: Privacy
-    link: https://mlatcl.github.io/privacy.html
+    link: /privacy-policy/
   - label: Terms of Service
-    link: https://mlatcl.github.io/terms-of-service.html/
+    link: /terms-of-service/
   - label: Assessor App
-    link: https://mlatcl.github.io/assessor/
+    link: /assessor-app/
 top_bar:
   image: /assets/uploads/cambridge-university.png
   link: https://www.cam.ac.uk/
