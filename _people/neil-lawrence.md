@@ -1,13 +1,19 @@
 ---
 layout: people-single
+title: Neil D. Lawrence
+given: Neil D.
+family: Lawrence
+website: http://inverseprobability.com
+orcid: 0000-0001-9258-1030
+scholar: r3SJcvoAAAAJ
+twitter: lawrennd
+github: lawrennd
+crsid: ndl21
+start: 2019-10-01
 title: Neil Lawrence
 crsid: ndl21
 description: DeepMind Professor of Machine Learning, Cambridge University
 featured_image: /assets/uploads/neil-lawrence.jpeg
-linkedin: "#"
-twitter: www.twitter/com/lawrennnd
-facebook: "#"
-email: "#"
 biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   at the University of Cambridge. He has been working on machine learning models
   for over 20 years. He recently returned to academia after three years as
