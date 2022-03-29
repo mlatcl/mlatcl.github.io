@@ -10,8 +10,6 @@ twitter: lawrennd
 github: lawrennd
 crsid: ndl21
 start: 2019-10-01
-title: Neil Lawrence
-crsid: ndl21
 description: DeepMind Professor of Machine Learning, Cambridge University
 featured_image: /assets/uploads/neil-lawrence.jpeg
 biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
