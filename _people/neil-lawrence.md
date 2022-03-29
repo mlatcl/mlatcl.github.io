@@ -1,6 +1,7 @@
 ---
 layout: people-single
 title: Neil Lawrence
+crsid: ndl21
 description: DeepMind Professor of Machine Learning, Cambridge University
 featured_image: /assets/uploads/neil-lawrence.jpeg
 linkedin: "#"
