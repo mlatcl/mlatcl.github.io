@@ -21,4 +21,4 @@ DELVE contributed data driven analysis to complement the evidence base informing
 * Using emerging sources of data as new evidence from the unfolding pandemic comes to light
 * Coordinating with research groups nationally and internationally
 
-For further information about DELVE's work and for publications from the project, see: https://rs-delve.github.io/about.html
+For further information about DELVE's work and for publications from the project, see: <https://rs-delve.github.io/about.html>
