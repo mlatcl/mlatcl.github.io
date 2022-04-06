@@ -18,21 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_svg: ./assets/images/social-tw.svg/
-facebook_svg: ./assets/images/social-fb.svg/
-instagram_svg: ./assets/images/social-in.svg/
-image_root: ./assets/images/
-baseurl: "https://affectionate-albattani-a37716.netlify.app" # the subpath of your site, e.g. /blog
-url: "https://affectionate-albattani-a37716.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
-# Collections
 collections:
   blog:
     output: true
@@ -51,15 +39,24 @@ collections:
     output: true
   opportunities:
     output: true
-
-# Build settings
-theme: minima
+  policy:
+    output: true
+  minijobs:
+    output: true
+  seminars:
+    permalink: /seminars/:year/:month/:day/:title:output_ext
+    output: true
+  ad-hoc-seminars:
+    permalink: /adhoc/:year/:month/:day/:title:output_ext
+    output: true
+logo: logo.png
 plugins:
-  - jekyll-feed
-  - jekyll-paginate-v2
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-remote-theme
+- jekyll-paginate-v2
 sass:
   sass_dir: _sass
-
 # Pagination
 pagination:
   enabled: true
@@ -69,6 +66,37 @@ pagination:
   limit: 0
   sort_field: 'date'
   sort_reverse: true
+remote_theme: mlatcl/jekyll-theme
+style: mlatcl
+description: This is a page of ML researchers based in the Computer Laboratory working in collaboration with Carl Henrik Ek, Ferenc Huszar, Neil Lawrence and Jessica Montgomery.
+twitter_svg: ./assets/images/social-tw.svg/
+facebook_svg: ./assets/images/social-fb.svg/
+instagram_svg: ./assets/images/social-in.svg/
+image_root: ./assets/images/
+baseurl: ''
+markdown: kramdown
+twitter_username: mlatcl
+github_username: mlatcl
+display:
+  copy_button:
+    bibtex: true
+    endnote: true
+    ris: true
+    apa: true
+  comments: false
+ghub:
+  edit: true
+  repository: mlatcl.github.io
+future: true
+publisher: The Computer Laboratory
+author:
+  name: ML@CL
+  github: mlatcl
+
+analytics:
+  google: 
+    tracking_id: UA-184894912-1
+future: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
