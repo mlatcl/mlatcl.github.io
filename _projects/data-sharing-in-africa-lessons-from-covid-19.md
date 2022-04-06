@@ -7,7 +7,7 @@ excerpt: The COVID-19 pandemic intensified the need for timely and accurate data
   the spread of COVID-19 among their populations. Drawing from real-world
   examples, this projects the lessons offered by these innovations for future
   data policy frameworks.
-featured_image: /assets/uploads/fusion-medical-animation-npjp0dctoxo-unsplash.jpg
+image: fusion-medical-animation-npjp0dctoxo-unsplash.jpg
 people:
   - morine-amutorine
 ---
@@ -15,4 +15,4 @@ The COVID-19 pandemic intensified the need for timely and accurate data to infor
 
 Organised in collaboration with Data Science Africa, [this project](https://mamutorine.github.io/about/) is reviewing lessons from the use of data science in Africa’s COVID-19 response, with the aim of identifying policy interventions that can support more effective use of data. It is surveying innovations in data access and use, extracting insights that can inform future policy development, and developing a blueprint for effective data sharing collaborations.
 
-For further information, please visit: https://mamutorine.github.io/about/
+For further information, please visit: <https://mamutorine.github.io/about/>

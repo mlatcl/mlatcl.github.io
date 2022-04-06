@@ -8,12 +8,12 @@ excerpt: Data Oriented Architecture (DOA) is a software architecture pattern
   decisions enable DOA-based systems to achieve desirable properties such as
   data availability, reusability, and monitoring, as well as systems
   adaptability, scalability, and autonomy.
-featured_image: /assets/uploads/doa.jpg
+image: doa.jpg
 people:
   - andrei-paleyes
-  - christian-cabrera-jojoa
+  - christian-cabrera
   - eric-meissner
-  - neil-lawrence
+  - neil-d-lawrence
 publications:
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
   - towards-better-data-discovery-and-collection-with-flow-based-programming

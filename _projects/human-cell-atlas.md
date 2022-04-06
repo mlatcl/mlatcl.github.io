@@ -4,11 +4,11 @@ title: Human Cell Atlas
 excerpt: "The Human Cell Atlas programme aims to chart the properties of human
   cells, building a reference map of the human body that can be used to
   understand human health and to treat disease. "
-featured_image: /assets/uploads/anirudh-yqyaclw8o2u-unsplash.jpg
+image: anirudh-yqyaclw8o2u-unsplash.jpg
 project_funders: []
 people:
   - aditya-ravuri
-  - neil-lawrence
+  - neil-d-lawrence
   - vidhi-lalchand
 ---
 The Human Cell Atlas programme aims to chart the properties of human cells, building a reference map of the human body that can be used to understand human health and to treat disease. 

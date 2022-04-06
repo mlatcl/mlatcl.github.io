@@ -1,8 +1,10 @@
 ---
-layout: people-single
-title: Paula Bibby
+layout: person
+given: Paula
+family: Bibby
 description: Project Manager, Data Trusts Initiative
-featured_image: /assets/uploads/pb_headshot.jpg
+image: paula-bibby.jpg
+linkedin: paula-bibby-7403285a
 biography: Paula is the Data Trusts Initiative’s Project Manager. She oversees
   coordination of the Initiative’s research programmes, projects and engagement
   activities.

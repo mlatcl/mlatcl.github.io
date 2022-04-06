@@ -1,75 +1,8 @@
 ---
-layout: page
+layout: standard
 title: Projects
 ---
 
-<section class="block block__hero block__hero--standard">
-    <div class="container">
-        <!-- Top Row | Logo & Menu -->
-        <div class="row">
-            <div class="hero__item hero__item--bottom-left">
-                {% include nav-primary.html %}
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--top-left"></span>
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-left"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-                <a href="{{site.url}}" class="hero__item hero__item--top-left">
-                    <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
-                </a>
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-                <div class="hero__item hero__item--top-right">
-                    {% include menu-trigger.html %}
-                </div>
-            </div>
-        </div>
-        <!-- Second Row | Title & Nav -->
-        <div class="row">
-            <div class="column">
-                <span class="hero__dot hero__dot--bottom-left"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-                <div class="hero__item hero__item--bottom-left">
-                    <h1 class="hero__title hero__title--research">{{ page.title }}</h1>
-                </div>
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-        </div>
-    </div>
-</section>
 <section class="block block__projects">
     <div class="container">
         <div class="section-heading">
@@ -80,14 +13,14 @@ title: Projects
             {% for item in site.projects %}
                 <a href="{{ item.url }}" class="projects__item">
                     <div class="projects__item-image">
-                        <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                        <img src="{{site.url}}{{site.baseurl}}/assets/uploads/{{item.image}}" alt="Image of {{item.title}}">
                     </div>
                     <div class="projects__item-details">
                         <div>
                             <h2>{{ item.title }}</h2>
                             <p>{{ item.excerpt }}</p>
                         </div>
-                        <span>View Profile</span>
+                        <span>View Details</span>
                     </div>
                 </a>
             {% endfor %}

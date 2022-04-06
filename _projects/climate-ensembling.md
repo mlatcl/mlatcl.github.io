@@ -7,10 +7,10 @@ excerpt: General Circulation Models (GCMs) of Earth's climate provide robust
   scenarios. Translating these outputs to insights that can be used to manage
   the local-level impacts of climate change is challenging, and requires
   innovations in modelling, data management, and software engineering.
-featured_image: /assets/uploads/nasa-i9w4uy1pu-s-unsplash.jpg
+image: nasa-i9w4uy1pu-s-unsplash.jpg
 people:
   - mala-virdee
-  - christian-cabrera-jojoa
+  - christian-cabrera
   - eric-meissner
 ---
 General Circulation Models (GCMs) of Earth's climate provide robust simulations of large-scale average climatic variables, such as end-of-century global average temperature, under various future greenhouse gas emissions scenarios. Each GCM is an imperfect representation, reflecting the strengths and weaknesses of different approaches simulating historically observed climate. Averaging the simulations of a set of GCMs in a multi-model ensemble produces predictions that represent a best estimate given the possible range of approximate representations of the climate system, which provides critical information for formulation of climate mitigation policy.

@@ -1,8 +1,18 @@
 ---
-layout: people-single
-title: Vidhi Lalchand
+layout: person
+given: Vidhi
+family: Lalchand
+student: True
+url: 
+orcid: 
+twitter: 
+github: 
+linkedin: 
+start: 
+crsid: vr308
+supervisor: 
 description: PhD Student, Cambridge University
-featured_image: /assets/uploads/vidhi_lalchand.jpg
+image: vidhi-lalchand.jpg
 biography: Vidhi is a Ph.D. student at the Cavendish Laboratory, a Turing
   Scholar and a member of Christ's College, University of Cambridge. She is
   supervised by Prof. Carl Rasmussen and Dr. Christopher Lester. Her research
@@ -13,3 +23,4 @@ biography: Vidhi is a Ph.D. student at the Cavendish Laboratory, a Turing
 publications:
   - gaussian-process-latent-variable-flows-for-massively-missing-data
 ---
+

@@ -1,8 +1,18 @@
 ---
-layout: people-single
-title: Francisco Vargas
+layout: person
+given: Francisco
+family: Vargas
+student: True
+website: https://www.cst.cam.ac.uk/people/fav25 
+orcid:
+twitter: 
+github: 
+linkedin: 
+start: 2020-10-06
+crsid: fav25
+supervisor: ndl21
 description: PhD Student, Cambridge University
-featured_image: /assets/uploads/francisco.png
+image: francisco-vargas.png
 biography: Francisco is a PhD student in the Computer Laboratory. He is
   Interested in the duality between optimisation and sampling with a focus on
   applications. In particular,  exploring stochastic control based methodologies
@@ -22,3 +32,4 @@ publications:
   - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
   - model-comparison-for-semantic-grouping
 ---
+

@@ -5,16 +5,16 @@ excerpt: While excitement about the potential of artificial intelligence (AI)
   technologies continues to build, a gap is emerging between our aspirations for
   the benefits of AI and our ability to deploy these technologies to tackle
   real-world challenges.
-featured_image: /assets/uploads/alina-grubnyak-ziqkhi7417a-unsplash.jpg
+image: alina-grubnyak-ziqkhi7417a-unsplash.jpg
 people:
   - andrei-paleyes
-  - christian-cabrera-jojoa
+  - christian-cabrera
   - eric-meissner
-  - jess-montgomery
+  - jessica-montgomery
   - mala-virdee
   - markus-kaiser
   - morine-amutorine
-  - neil-lawrence
+  - neil-d-lawrence
   - pierre-thodoroff
 publications:
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context

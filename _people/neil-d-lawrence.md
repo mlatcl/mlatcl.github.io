@@ -1,6 +1,5 @@
 ---
-layout: people-single
-title: Neil D. Lawrence
+layout: person
 given: Neil D.
 family: Lawrence
 website: http://inverseprobability.com
@@ -8,10 +7,11 @@ orcid: 0000-0001-9258-1030
 scholar: r3SJcvoAAAAJ
 twitter: lawrennd
 github: lawrennd
+linkedin: neil-lawrence-129a22127
 crsid: ndl21
 start: 2019-10-01
 description: DeepMind Professor of Machine Learning, Cambridge University
-featured_image: /assets/uploads/neil-lawrence.jpeg
+image: neil-d-lawrence.jpg
 biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   at the University of Cambridge. He has been working on machine learning models
   for over 20 years. He recently returned to academia after three years as
@@ -34,3 +34,6 @@ publications:
   - solving-schrödinger-bridges-via-maximum-likelihood
   - towards-better-data-discovery-and-collection-with-flow-based-programming
 ---
+
+I am the inaugural DeepMind Professor of Machine Learning in the Department of Computer Science and Technology. I'm also a Senior AI Fellow at the Alan Turing Institute and a Visiting Professor at the University of Sheffield.
+

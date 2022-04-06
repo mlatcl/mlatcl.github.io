@@ -1,8 +1,18 @@
 ---
-layout: people-single
-title: Aditya Ravuri
+layout: person
+given: Aditya
+family: Ravuri
+student: True
+url: 
+orcid:
+twitter: 
+github: 
+linkedin: 
+start: 2021-10-07
+crsid: ar847
+supervisor: ndl21
 description: PhD Student, Cambridge University
-featured_image: /assets/uploads/aditya_ravuri.jpg
+image: aditya-ravuri.jpg
 biography: Aditya is interested in probabilistic machine learning, specifically
   in situations where there is interesting prior information available. As
   Gaussian processes routinely lend themselves to such applications, he enjoys
@@ -11,3 +21,4 @@ biography: Aditya is interested in probabilistic machine learning, specifically
 publications:
   - gaussian-process-latent-variable-flows-for-massively-missing-data
 ---
+

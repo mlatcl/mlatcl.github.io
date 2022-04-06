@@ -5,11 +5,11 @@ excerpt: DELVE is a multi-disciplinary group, convened by the Royal Society, to
   support a data-driven approach to learning from the different approaches
   countries are taking to managing the pandemic. DELVE operated through 2020,
   providing advice to the UK Government and SAGE.
-featured_image: /assets/uploads/martin-sanchez-j2c7yf223mk-unsplash.jpg
+image: martin-sanchez-j2c7yf223mk-unsplash.jpg
 people:
   - andrei-paleyes
-  - jess-montgomery
-  - neil-lawrence
+  - jessica-montgomery
+  - neil-d-lawrence
 ---
 COVID-19 brought a pressing need to analyse emerging data from countries around the world to identify the factors that could help slow the spread of the virus and help find long-term solutions to the pandemic. 
 

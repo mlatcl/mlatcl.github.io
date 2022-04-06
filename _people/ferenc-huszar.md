@@ -1,9 +1,17 @@
 ---
-layout: people-single
-title: Ferenc Huszar
+layout: person
+given: Ferenc
+family: Huszár
+website: https://www.inference.vc/about/
+orcid: 0000-0003-1302-6309
+scholar: koQCVT4AAAAJ
+twitter: fhuszar
+github: fhuszar
+linkedin: 
+date: 2020-07-06
+crsid: fh277
 description: Senior Lecturer, Cambridge University
-featured_image: /assets/uploads/ferenc.jpg
-twitter: https://twitter.com/fhuszar
+image: ferenc-huszar.jpg
 biography: "Ferenc finished my PhD in Machine Learning at the Cambridge
   University Engineering Department in 2013. At that time he worked on Bayesian
   inference, nonparametric and kernel methods. Since then, he has worked in the
@@ -18,3 +26,4 @@ biography: "Ferenc finished my PhD in Machine Learning at the Cambridge
   advise Twitter's ML Ethics, Transparency and Accountability (META) team as a
   staff research scientist."
 ---
+

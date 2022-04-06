@@ -6,7 +6,7 @@ excerpt: "How are machine learning and AI being used in modern brain research
   and more importantly, would you allow your medical treatment to be altered
   based on their findings? This panel discussion with Dr Sarah Morgan will
   explore the use of AI in brain research. "
-featured_image: /assets/uploads/jesse-orrico-rmwtvqn5rzu-unsplash.jpg
+image: jesse-orrico-rmwtvqn5rzu-unsplash.jpg
 ---
 Machine learning and Artificial Intelligence – two terms often used interchangeably - are both rapidly becoming invaluable tools in neuroscience research. But what are they? What is the difference between them? How are they being used in modern brain research and more importantly, would you allow your medical treatment to be altered based on their findings?
 

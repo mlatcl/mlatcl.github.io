@@ -1,12 +1,11 @@
 ---
-layout: people-single
-title: Morine Amutorine
+layout: person
+given: Morine
+family: Amutorine
 description: Data Science Africa Fellow
-featured_image: /assets/uploads/morine-amutorine.jpeg
-linkedin: "#"
-twitter: "#"
-facebook: "#"
-email: "#"
+image: morine-amutorine.jpeg
+linkedin: morine-amutorine
+twitter: theAmutorine
 biography: Morine is a software engineer turned data analyst, currently working
   with Pulse Lab Kampala. For the last 5 years, her analytics work has been
   dominated by social data including social media data (conducting real-time

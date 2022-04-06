@@ -6,7 +6,7 @@ excerpt: Artificial intelligence (AI) has the potential to become an engine for
   climate change, to using genetic data to create new healthcare treatments, and
   from finding new astronomical phenomena to identifying new materials here on
   Earth.
-featured_image: /assets/uploads/andy-holmes-lupdjljv4_c-unsplash.jpg
+image: andy-holmes-lupdjljv4_c-unsplash.jpg
 project_funders: []
 people:
   - aditya-ravuri
@@ -15,9 +15,9 @@ people:
   - carl-henrik-ek
   - challenger-mishra
   - isaac-sebenius
-  - jess-montgomery
+  - jessica-montgomery
   - justin-tan
-  - neil-lawrence
+  - neil-d-lawrence
 publications:
   - assessing-psychosis-risk-using-quantitative-markers-of-disorganised-speech
   - deep-learning-for-bioimage-analysis-in-developmental-biology

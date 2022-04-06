@@ -7,7 +7,7 @@ excerpt: "The Data Trusts Initiative is pleased to introduce our first cohort of
 category:
   - ai-deployment-and-system-design
   - ai-policy-and-data-governance
-featured_image: /assets/uploads/terry-starmore-yeqkvq6wkvw-unsplash.jpg
+image: terry-starmore-yeqkvq6wkvw-unsplash.jpg
 ---
 The Data Trusts Initiative is pleased to introduce our first cohort of **data trust pioneers** who will be leading the creation of real-world data trusts in 2022. 
 
@@ -35,4 +35,4 @@ The Data Trusts Initiative will be working in partnership with the pilots to dev
 
 The launch of these inaugural pilots marks a significant step in a project that has taken us from theory to real-world deployment in three fast-paced years. This rapid progression wouldn’t have been possible without the support and advice of a variety of private, public and not-for-profit actors who chose to champion the idea of ‘data trusts’ early on. We are grateful to the McGovern Foundation in particular for giving us the means to turn this idea into reality.
 
-For further information, visit: www.datatrusts.uk
+For further information, visit: <https://datatrusts.uk>

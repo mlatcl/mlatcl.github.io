@@ -1,12 +1,18 @@
 ---
-layout: people-single
-title: Pierre Thodoroff
+layout: person
+given: Pierre
+family: Thodoroff
+student: True
+website: https://pierthodo.github.io/
+orcid:
+twitter: 
+github: 
+linkedin: 
+start: 2020-10-06
+crsid: pt440
+supervisor: ndl21
 description: PhD Student, Cambridge University
-featured_image: /assets/uploads/pierre-thodoroff.jpeg
-linkedin: "#"
-twitter: "#"
-facebook: "#"
-email: "#"
+image: pierre-thodoroff.jpeg
 biography: >-
   Pierre is a PhD student, supervised by Neil Lawrence. Before joining ML@CL he
   was a researcher at the MILA Institute and an intern at IBM Research Israel.
@@ -21,3 +27,4 @@ biography: >-
 publications:
   - benchmarking-real-time-reinforcement-learning
 ---
+
