@@ -1,6 +1,7 @@
 ---
 layout: person
-title: Ahmad Abu-Khazneh
+given: Ahmad 
+family: Abu-Khazneh
 crsid: aa2382
 description: Senior Machine Learning Engineer, Accelerate Programme
 image: vladislav-nikonov-quzpqh5vno4-unsplash.jpg
