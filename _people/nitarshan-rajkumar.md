@@ -6,6 +6,7 @@ twitter: nitarshan
 linkedin: nitarshan
 description: PhD Student, Cambridge University
 biography: Nitarshan is a PhD student at the University of Cambridge, where he is advised by Ferenc Huszár and David Krueger, and generously funded by a scholarship from Twitter.
+image: vladislav-nikonov-quzpqh5vno4-unsplash.jpg
   His research focus is on empirical approaches to understanding how deep learning works, especially at scale, and he is also interested in policy considerations for the responsible development of AGI.
 
 
