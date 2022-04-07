@@ -1,6 +1,7 @@
 ---
 layout: person
-title: Diana Robinson
+given: Diana 
+family: Robinson
 description: PhD Student, Cambridge University
 image: diana.jpg
 crsid: dmpr3
