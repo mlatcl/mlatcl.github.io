@@ -39,8 +39,8 @@ projects:
   - european-network-of-ai-excellence-centres
   - delve-data-evaluation-and-learning-for-viral-epidemics
 people:
-  - jess-montgomery
+  - jessica-montgomery
   - morine-amutorine
-  - neil-lawrence
+  - neil-d-lawrence
   - paula-bibby
 ---

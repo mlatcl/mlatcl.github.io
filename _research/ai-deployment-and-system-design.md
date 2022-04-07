@@ -46,13 +46,13 @@ projects:
 people:
   - andrei-paleyes
   - carl-henrik-ek
-  - christian-cabrera-jojoa
+  - christian-cabrera
   - diana-robinson
   - eric-meissner
-  - jess-montgomery
+  - jessica-montgomery
   - mala-virdee
   - markus-kaiser
   - morine-amutorine
-  - neil-lawrence
+  - neil-d-lawrence
   - pierre-thodoroff
 ---

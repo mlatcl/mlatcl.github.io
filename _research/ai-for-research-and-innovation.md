@@ -52,9 +52,9 @@ people:
   - diana-robinson
   - haoting-zhang
   - isaac-sebenius
-  - jess-montgomery
+  - jessica-montgomery
   - justin-tan
   - katie-green
   - mala-virdee
-  - neil-lawrence
+  - neil-d-lawrence
 ---
