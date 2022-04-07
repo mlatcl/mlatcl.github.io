@@ -1,6 +1,7 @@
 ---
 layout: person
-title: Haoting Zhang
+given: Haoting 
+family: Zhang
 crsid: hz381
 description: PhD Student, Cambridge University
 image: haoting-zhang-hdruk_phdstudents_152-e1637057205409-348x348.jpg
