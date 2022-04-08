@@ -6,8 +6,8 @@ student: True
 url: 
 orcid:
 twitter: 
-github: https://github.com/fweberling
-linkedin: https://www.linkedin.com/in/friedrich-maximilian-weberling-581b3316a/
+github: fweberling
+linkedin: friedrich-maximilian-weberling-581b3316a/
 start: 2021-07-01
 crsid: fmw37
 supervisor: che29
