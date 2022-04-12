@@ -31,7 +31,7 @@ publications:
   - example-publication-1
   - gaussian-process-latent-variable-flows-for-massively-missing-data
   - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
-  - solving-schrödinger-bridges-via-maximum-likelihood
+  - solving-schroedinger-bridges-via-maximum-likelihood
   - towards-better-data-discovery-and-collection-with-flow-based-programming
 ---
 

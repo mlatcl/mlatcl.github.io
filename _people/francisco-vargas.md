@@ -24,12 +24,11 @@ biography: Francisco is a PhD student in the Computer Laboratory. He is
   the main focus.
 publications:
   - bayesian-learning-via-neural-schrödinger-föllmer-flows
-  - solving-schrödinger-bridges-via-maximum-likelihood
+  - solving-schroedinger-bridges-via-maximum-likelihood
   - exploring-the-linear-subspace-hypothesis-in-gender-bias-mitigation
   - adversarial-concept-erasure-in-kernel-space
   - efficient-representations-for-privacy-preserving-inference
   - shooting-schrödinger’s-cat
-  - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
   - model-comparison-for-semantic-grouping
 ---
 

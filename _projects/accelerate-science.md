@@ -22,7 +22,7 @@ publications:
   - assessing-psychosis-risk-using-quantitative-markers-of-disorganised-speech
   - deep-learning-for-bioimage-analysis-in-developmental-biology
   - optimal-marker-gene-selection-for-cell-type-discrimination-in-single-cell-analyses
-  - solving-schrödinger-bridges-via-maximum-likelihood
+  - solving-schroedinger-bridges-via-maximum-likelihood
   - multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
   - gaussian-process-latent-variable-flows-for-massively-missing-data
 ---
