@@ -5,9 +5,9 @@ author:
 - consortium:
     name: Data Trusts Initiative
   url: https://datatrusts.uk
-year: 2021
-published: 2021-06-09
 pdf: "https://static1.squarespace.com/static/5e3b09f0b754a35dcb4111ce/t/60eeb409aa539923b58c4a4f/1626256394651/WP+3+-+DTI+-+research+agenda+-+June21.pdf"
+published: 2021-06-09
+year: 2021
 abstract: "Despite much progress in establishing the case for data trusts as a necessary innovation in data stewardship, important questions remain about the function and form that such trusts should take when responding to real-world challenges. Addressing these questions requires further work to clarify how data trusts fit in the current data governance landscape, and to identify the operational strategies that can ensure their success.
 
 To better understand how data trusts can be taken from theory to practice, the Data Trusts Initiative is funding seven research projects that each address a gap in current understandings. These projects ask:

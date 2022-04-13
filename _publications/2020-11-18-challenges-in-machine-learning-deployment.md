@@ -1,6 +1,6 @@
 ---
 layout: techreport
-title: Challenges in machine learning deployment
+title: Challenges in Machine Learning Deployment
 author: 
 - given: Andrei 
   family: Paleyes
