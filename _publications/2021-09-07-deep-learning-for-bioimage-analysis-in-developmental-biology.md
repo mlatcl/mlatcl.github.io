@@ -8,7 +8,7 @@ author:
   given: Hannah G.
 - family: Dumitrascu
   given: Bianca
-- family Uhlmann
+- family: Uhlmann
   given: Virginie
 journal: Development
 volume: 148 
