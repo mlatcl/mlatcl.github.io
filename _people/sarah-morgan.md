@@ -19,6 +19,7 @@ biography: Sarah's research applies machine learning, network science and
   interested in using transcribed speech data to perform similar prediction
   problems.
 publications:
+  - assessing-psychosis-risk-using-quantitative-markers-of-disorganised-speech
   - multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
 ---
 
