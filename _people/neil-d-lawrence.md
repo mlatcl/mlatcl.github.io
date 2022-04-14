@@ -24,6 +24,7 @@ biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   Professor at the University of Sheffield and the co-host of Talking Machines.
 publications:
   - bottom-up-data-trusts-disturbing-the-one-size-fits-all-approach-to-data-governance
+  - decision-making-with-uncertainty
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
   - benchmarking-real-time-reinforcement-learning
   - challenges-in-machine-learning-deployment
