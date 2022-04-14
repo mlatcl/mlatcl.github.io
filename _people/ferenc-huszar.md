@@ -12,7 +12,7 @@ date: 2020-07-06
 crsid: fh277
 description: Senior Lecturer, Cambridge University
 image: ferenc-huszar.jpg
-biography: "Ferenc finished my PhD in Machine Learning at the Cambridge
+biography: "Ferenc finished his PhD in Machine Learning at the Cambridge
   University Engineering Department in 2013. At that time he worked on Bayesian
   inference, nonparametric and kernel methods. Since then, he has worked in the
   London technology sector: in various tech startups and briefly in venture
