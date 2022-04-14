@@ -10,7 +10,7 @@ author:
   given: Sarah E.
 - family: Bullmore
   given: Edward T.
-- family Liò
+- family: Liò
   given: Pietro
 published: 2021-10-25
 html: https://ieeexplore.ieee.org/document/9690626
