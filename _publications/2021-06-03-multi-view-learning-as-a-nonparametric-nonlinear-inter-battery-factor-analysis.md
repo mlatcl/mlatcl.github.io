@@ -31,7 +31,6 @@ firstpage: 1
 lastpage: 51
 key: Damianou-interbattery21
 website: https://jmlr.org/papers/v22/16-179.html 
-html: https://jmlr.org/papers/v22/16-179.html
 pdf: https://jmlr.org/papers/volume22/16-179/16-179.pdf
 year: 2021
 published: 2020-06-03
