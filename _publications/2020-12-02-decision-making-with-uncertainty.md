@@ -25,6 +25,7 @@ key: Diggle-decision20
 doi: 10.1111/1740-9713.01463
 html: https://rss.onlinelibrary.wiley.com/doi/full/10.1111/1740-9713.01463
 pdf: https://rss.onlinelibrary.wiley.com/doi/pdf/10.1111/1740-9713.01463
+website: https://rss.onlinelibrary.wiley.com/doi/10.1111/1740-9713.01463
 year: 2020
 published: 2020-12-02
 ---
