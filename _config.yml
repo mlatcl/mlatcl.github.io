@@ -37,6 +37,7 @@ collections:
     output: true
   publications:
     output: true
+    permalink: /publications/:title:output_ext
   opportunities:
     output: true
   policy:
