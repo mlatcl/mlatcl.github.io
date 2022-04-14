@@ -23,16 +23,17 @@ biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   a Senior AI Fellowship from the Alan Turing Institute. Neil is also visiting
   Professor at the University of Sheffield and the co-host of Talking Machines.
 publications:
+  - bottom-up-data-trusts-disturbing-the-one-size-fits-all-approach-to-data-governance
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
   - benchmarking-real-time-reinforcement-learning
   - challenges-in-machine-learning-deployment
   - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
   - data-governance-in-the-21st-century-citizen-dialogue-and-the-development-of-data-trusts
-  - example-publication-1
   - gaussian-process-latent-variable-flows-for-massively-missing-data
   - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
   - solving-schroedinger-bridges-via-maximum-likelihood
   - towards-better-data-discovery-and-collection-with-flow-based-programming
+  - empirical-bayes-transductive-meta-learning-with-synthetic-gradients
 ---
 
 I am the inaugural DeepMind Professor of Machine Learning in the Department of Computer Science and Technology. I'm also a Senior AI Fellow at the Alan Turing Institute and a Visiting Professor at the University of Sheffield.
