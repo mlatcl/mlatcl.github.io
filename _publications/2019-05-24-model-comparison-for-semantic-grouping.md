@@ -15,6 +15,7 @@ year: 2019
 pdf: http://proceedings.mlr.press/v97/vargas19a/vargas19a.pdf
 software: https://github.com/Babylonpartners/MCSG
 html: http://proceedings.mlr.press/v97/vargas19a.html
+website: http://proceedings.mlr.press/v97/vargas19a.html
 extras:
 - label: Supplementary PDF
   link: http://proceedings.mlr.press/v97/vargas19a/vargas19a-supp.pdf
