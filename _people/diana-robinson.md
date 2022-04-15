@@ -1,10 +1,13 @@
 ---
 layout: person
-given: Diana 
+given: Diana
 family: Robinson
+crsid: dmpr3
+student: true
+start: 2022-04-15
+end: ""
 description: PhD Student, Cambridge University
 image: diana.jpg
-crsid: dmpr3
 biography: >-
   Diana Robinson is a PhD candidate in computer science at the University of
   Cambridge, specialising in human-computer interaction. Her focus is on
