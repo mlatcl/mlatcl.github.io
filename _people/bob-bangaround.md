@@ -8,5 +8,5 @@ end: ""
 description: Bob is great
 image: /assets/uploads/vladislav-nikonov-quzpqh5vno4-unsplash.jpg
 publications:
-  - Challenges in Machine Learning Deployment
+  - Exploring the Linear Subspace Hypothesis in Gender Bias Mitigation
 ---
