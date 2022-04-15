@@ -627,7 +627,7 @@ collections:
       widget: 'relation'
       collection: 'Publications'
       search_fields: ["title"]
-      value_field: "{{title | slugify }}"
+      value_field: "{{title | slug }}"
       display_fields: ["title"]
       multiple: true
       required: false
