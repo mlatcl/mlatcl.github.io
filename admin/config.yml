@@ -560,7 +560,7 @@ collections:
     - label: "Cambridge crsid"
       hint: "E.g. ads21. If a ml@cl member doesn't have a crsid create a dummy one starting with five x's, e.g. xxxxx01."
       name: 'crsid'
-      widget: 'text'
+      widget: 'string'
     - name: start
       label: "Date of start in ml@cl"
       hint: "Provide the day that the individual started in the ml@cl group."
@@ -578,6 +578,7 @@ collections:
       name: website
       hint: "URL of the individual's personal homepage."
       widget: "string"
+      required: false
     - label: "ORCID number"
       name: orcid
       hint: "Open Researcher and Contributor ID number (see https://orcid.org)"
