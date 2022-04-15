@@ -535,12 +535,17 @@ collections:
       name: 'layout'
       widget: 'hidden'
       default: 'person'
-    - label: Family Name
-      name: family
-      widget: string
     - label: Given Name
       hint: "Include initials, e.g. Neil D."
       name: given
+      widget: string
+    - label: Preferred Name
+      hint: "If you don't normally use your full given name (e.g. you are known as Nick not Nicholas)"
+      name: preferred
+      required: false
+      widget: string
+    - label: Family Name
+      name: family
       widget: string
     - label: Prefix
       hint: Prefix of name (e.g. de, von, van)
