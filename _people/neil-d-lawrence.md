@@ -1,17 +1,15 @@
 ---
-layout: person
-given: Neil D.
-family: Lawrence
-website: http://inverseprobability.com
-orcid: 0000-0001-9258-1030
-scholar: r3SJcvoAAAAJ
-twitter: lawrennd
-github: lawrennd
-linkedin: neil-lawrence-129a22127
-crsid: ndl21
 start: 2019-10-01
+layout: person
+family: Lawrence
+given: Neil D.
+crsid: ndl21
 description: DeepMind Professor of Machine Learning, Cambridge University
 image: neil-d-lawrence.jpg
+github: lawrennd
+scholar: r3SJcvoAAAAJ
+linkedin: neil-lawrence-129a22127
+twitter: lawrennd
 biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   at the University of Cambridge. He has been working on machine learning models
   for over 20 years. He recently returned to academia after three years as
@@ -23,18 +21,17 @@ biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   a Senior AI Fellowship from the Alan Turing Institute. Neil is also visiting
   Professor at the University of Sheffield and the co-host of Talking Machines.
 publications:
-  - bottom-up-data-trusts-disturbing-the-one-size-fits-all-approach-to-data-governance
-  - decision-making-with-uncertainty
-  - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
-  - benchmarking-real-time-reinforcement-learning
-  - challenges-in-machine-learning-deployment
-  - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
-  - data-governance-in-the-21st-century-citizen-dialogue-and-the-development-of-data-trusts
-  - gaussian-process-latent-variable-flows-for-massively-missing-data
-  - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
-  - solving-schroedinger-bridges-via-maximum-likelihood
-  - towards-better-data-discovery-and-collection-with-flow-based-programming
-  - empirical-bayes-transductive-meta-learning-with-synthetic-gradients
+  - 2021-10-08-differentially-private-regression-and-classificaiton-with-sparse-gaussian-processes
+  - 2019-10-01-bottom-up-data-trusts-disturbing-the-one-size-fits-all-approach-to-data-governance
+  - 2020-04-26-empirical-bayes-transductive-meta-learning-with-synthetic-gradients
+  - 2020-11-18-challenges-in-machine-learning-deployment
+  - 2020-12-02-decision-making-with-uncertainty
+  - 2021-01-15-gaussian-process-latent-variable-flows-for-massively-missing-data
+  - 2021-05-12-creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
+  - 2021-08-31-solving-schroedinger-bridges-via-maximum-likelihood
+  - 2021-06-03-multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
+website: http://inverseprobability.com
+orcid: 0000-0001-9258-1030
 ---
 
 I am the inaugural DeepMind Professor of Machine Learning in the Department of Computer Science and Technology. I'm also a Senior AI Fellow at the Alan Turing Institute and a Visiting Professor at the University of Sheffield.
