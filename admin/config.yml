@@ -712,10 +712,12 @@ collections:
         default: "article"
       - label: 'Title'
         name: 'title'
+        hint: "Title of the paper as published. Please capitalise the title."
         widget: 'string'
       - label: 'Abstract'
         name: 'abstract'
         widget: 'markdown'
+        hint: "Abstract of the paper as publishied, or for books provide a synopsis."
       - label: 'Date of Publication'
         name: 'published'
         widget: 'datetime'
@@ -802,6 +804,7 @@ collections:
         required: false
       - label: 'Featured Image'
         name: 'featured_image'
+        hint: "Select an image from the paper to represent the work."
         widget: 'image'
         required: false
       - label: 'Body'
