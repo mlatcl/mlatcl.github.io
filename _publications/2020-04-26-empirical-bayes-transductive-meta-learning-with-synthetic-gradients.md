@@ -1,6 +1,8 @@
 ---
-title: Empirical Bayes Transductive Meta-Learning with Synthetic Gradients
 tex_title: Empirical {B}ayes Transductive Meta-Learning with Synthetic Gradients
+month: 12
+layout: inproceedings
+title: Empirical Bayes Transductive Meta-Learning with Synthetic Gradients
 abstract: |
   We propose a meta-learning approach that learns from multiple tasks
   in a transductive setting, by leveraging the unlabeled query set in
@@ -20,40 +22,39 @@ abstract: |
   state-of-the-art methods. Besides, we conduct two zero-shot learning
   experiments to further explore the potential of the synthetic
   gradient.
-author:
-- family: Hu
-  given: Shell Xu
-- family: Garcia Moreno
-  given: Pablo
-  url: https://www.linkedin.com/in/pablo-garc%C3%ADa-moreno-4b812087/?originalSubdomain=uk
-  institute: Amazon
-- family: Xiao
-  given: Yang
-- family: Shen
-  given: Xi
-- family: Obozinski
-  given: Guillaume
-  url: https://people.epfl.ch/guillaume.obozinski/?lang=en
-- family: Lawrence
-  given: Neil D.
-  gscholar: r3SJcvoAAAAJ
-  institute: University of Cambridge
-  twitter: lawrennd
-  url: http://inverseprobability.com
-- family: Damianou
-  given: Andreas
-  url: https://adamian.github.io/
-  institute: Amazon
-software: https://github.com/amzn/xfer
-container-title: International Conference on Learning Representations
-categories:
-- Hu-empirical20
-key: Hu-empirical20
-id: Hu-empirical20
-layout: inproceedings
-pdf: https://openreview.net/attachment?id=Hkg-xgrYvH&name=original_pdf
-openreview: Hkg-xgrYvH
-month: 12
 published: 2020-04-26
+author:
+  - family: Hu
+    given: Shell Xu
+  - family: Garcia Moreno
+    given: Pablo
+    url: https://www.linkedin.com/in/pablo-garc%C3%ADa-moreno-4b812087/?originalSubdomain=uk
+    institute: Amazon
+  - family: Xiao
+    given: Yang
+  - family: Shen
+    given: Xi
+  - family: Obozinski
+    given: Guillaume
+    url: https://people.epfl.ch/guillaume.obozinski/?lang=en
+  - family: Lawrence
+    given: Neil D.
+    gscholar: r3SJcvoAAAAJ
+    institute: University of Cambridge
+    twitter: lawrennd
+    url: http://inverseprobability.com
+  - family: Damianou
+    given: Andreas
+    url: https://adamian.github.io/
+    institute: Amazon
+container-title: International Conference on Learning Representations
+pdf: https://openreview.net/attachment?id=Hkg-xgrYvH&name=original_pdf
+software: https://github.com/amzn/xfer
+openreview: Hkg-xgrYvH
+arxiv: "2004.12696"
+id: Hu-empirical20
+categories:
+  - Hu-empirical20
 year: 2020
+key: Hu-empirical20
 ---
