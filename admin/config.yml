@@ -717,9 +717,24 @@ collections:
         widget: 'list'
         allow_add: true
         fields:
+        - label: Consortium
+          name: consortium
+          hint: "Some papers are written by a consortium of authors. If that's the case for this paper use this field to fill in the consortium."
+          widget: "object"
+          required: false
+          fields:
+          - name: name
+            label: Name
+            hint: Provide the name of the consortium.
+            widget: string
+          - name: url
+            label: Link
+            hint: Provide a URL link to the consortium.
+            widget: string
         - label: Given Name (include initials, e.g. Neil D.)
           name: given
           widget: string
+          required: false
         - label: Prefix (e.g. de, von, van)
           name: prefix
           required: false
@@ -727,9 +742,21 @@ collections:
         - label: Family Name
           name: family
           widget: string
+          required: false
         - label: Suffix
           name: suffix
           widget: string
+          required: false
+        - label: 'Person Page'
+          hint: "Use this field if the author is a member of ml@cl"
+          name: 'mlatcl_title'
+          widget: 'relation'
+          collection: 'people'
+          search_fields: ["author"]
+          value_field: "{{slug}}"
+          display_fields: ["author.family"]
+          multiple: false
+          required: false          
       - label: "Publisher Website"
         name: "website"
         widget: "string"
@@ -755,6 +782,9 @@ collections:
         name: 'featured_image'
         widget: 'image'
         required: false
+      - label: 'Abstract'
+        name: 'abstract'
+        widget: 'markdown'
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
