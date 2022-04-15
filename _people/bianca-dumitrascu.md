@@ -1,5 +1,6 @@
 ---
 layout: person
+given: Bianca
 family: Dumitrascu
 crsid: bmd39
 start: 2022-04-15
@@ -22,5 +23,4 @@ publications:
   - 2021-02-19-optimal-marker-gene-selection-for-cell-type-discrimination-in-single-cell-analyses
 position: Departmental Early Career Academic Fellow
 team: true
-given: Bianca
 ---

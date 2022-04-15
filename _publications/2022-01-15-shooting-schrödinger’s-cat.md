@@ -1,16 +1,16 @@
 ---
 layout: inproceedings
-title: Shooting Schrödinger’s Cat
+title: Shooting Schrödinger's Cat
 author: 
 - given: David 
   family: Lopes Fernandes
 - given: Francisco 
-  family: Vargas, 
+  family: Vargas
 - given: Carl Henrik 
   family: Ek
 - given: Neill D. F.
   family: Campbell
-openreview: https://openreview.net/forum?id=A8bxsnCAvDs
+openreview: A8bxsnCAvDs
 published: 2022-01-15
 year: 2022
 container-title: Fourth Symposium on Advances in Approximate Bayesian Inference
