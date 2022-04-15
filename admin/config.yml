@@ -527,6 +527,7 @@ collections:
     folder: '_people/'
     create: true
     slug: '{{slug}}'
+    identifier_field: crsid
     editor:
       preview: false
     fields:
@@ -538,7 +539,7 @@ collections:
         name: family
         widget: string
       - label: Given Name
-        hint: Include initials, e.g. Neil D.
+        hint: "Include initials, e.g. Neil D."
         name: given
         widget: string
       - label: Prefix
@@ -550,7 +551,7 @@ collections:
         hint: "Suffix of name (e.g. III or Jr)."
         name: suffix
         widget: string
-      - label: 'Cambridge crsid (e.g. ads21)'
+      - label: "Cambridge crsid (e.g. ads21). If member doesn't have a crsid create a dummy one starting with five x's, e.g. xxxxx01."
         name: 'crsid'
         widget: 'text'
       - start_date: "Date of start in ml@cl"
