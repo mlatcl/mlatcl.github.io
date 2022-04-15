@@ -11,6 +11,7 @@ author:
 - given: Nils
   family: Hammerla
 html: https://aclanthology.org/P19-1170/
+website: https://aclanthology.org/P19-1170/
 pdf: https://aclanthology.org/P19-1170.pdf
 software: https://github.com/babylonhealth/MultilingualFactorAnalysis
 video: https://vimeo.com/384494210

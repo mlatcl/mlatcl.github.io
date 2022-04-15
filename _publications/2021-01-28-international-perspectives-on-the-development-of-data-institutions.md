@@ -7,7 +7,7 @@ author:
     name: Data Trusts Initiative
   url: https://datatrusts.uk
 pdf: https://static1.squarespace.com/static/5e3b09f0b754a35dcb4111ce/t/603ce3325e1da817afe6b193/1614603061204/WP+2+-+DTI+-+global+perspectives.pdf
-html: https://datatrusts.uk/blogs/international-perspectives-on-data-institutions-lessons-for-data-trusts
+website: https://datatrusts.uk/blogs/international-perspectives-on-data-institutions-lessons-for-data-trusts
 date: 2021-01-28
 year: 2021
 abstract: "Data acquires value through use; it can create tailored projects and services for individuals, streamline organisational processes, and improve the delivery of public administration. The magnitude of the potential economic and social benefits that follow demand action to create frameworks and mechanisms that enable data sharing for public benefit. At the same time, these shifting patterns of data generation and use create new vulnerabilities for individuals, communities and society.

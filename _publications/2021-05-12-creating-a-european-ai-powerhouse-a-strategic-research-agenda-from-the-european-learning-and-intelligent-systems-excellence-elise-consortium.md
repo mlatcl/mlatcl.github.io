@@ -5,6 +5,7 @@ author:
 - consortium:
     name: ELISE Network
   url: https://www.elise-ai.eu/
+website: https://www.elise-ai.eu/work/agenda-and-programs
 pdf: "https://uploads-ssl.webflow.com/5f55e90f6a7294f66f94d30d/609a39235e25e3d64bb65053_ELISE-strategic-research-agenda-web.pdf"
 year: 2021
 published: 2021-05-12
