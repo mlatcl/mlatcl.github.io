@@ -631,6 +631,10 @@ collections:
       display_fields: ["title"]
       multiple: true
       required: false
+    - label: 'Body'
+      name: 'body'
+      widget: 'markdown'
+      required: false
 
   # Research Collection
   - label: 'Research'
