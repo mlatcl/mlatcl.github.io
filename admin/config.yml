@@ -754,31 +754,36 @@ collections:
             label: Name
             hint: Provide the name of the consortium.
             widget: string
+            required: false
           - name: url
             label: Link
             hint: Provide a URL link to the consortium.
             widget: string
+            required: false
       - label: "Publisher Website"
         name: "website"
         widget: "string"
+        required: false
       - label: "HTML Version of Paper (provide url)"
         name: "html"
         widget: "string"
+        required: false
       - label: "PDF Version of Paper (provide url)"
         name: "pdf"
         widget: "string"
+        required: false
       - label: "arXiv ID (if there's an arxiv version)"
         name: "arxiv"
         widget: "string"
+        required: false
       - label: "SSRN Number (if there's an SSRN version)"
         name: "ssrn"
         widget: "string"
+        required: false
       - label: "Link to Software (provide url)"
         name: "software"
         widget: "string"
-      - label: 'References'
-        name: 'references'
-        widget: 'string'
+        required: false
       - label: 'Featured Image'
         name: 'featured_image'
         widget: 'image'
@@ -789,6 +794,7 @@ collections:
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
+        required: false
   
   # Opportunities Collection
   - label: 'Opportunities'
