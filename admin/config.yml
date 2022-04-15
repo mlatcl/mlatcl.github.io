@@ -713,6 +713,7 @@ collections:
         name: 'title'
         widget: 'string'
       - label: "author"
+        name: author
         widget: 'list'
         allow_add: true
         fields:
