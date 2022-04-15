@@ -45,7 +45,7 @@ author:
   url: https://adamian.github.io/
   institute: Amazon
 software: https://github.com/amzn/xfer
-booktitle: International Conference on Learning Representations
+container-title: International Conference on Learning Representations
 categories:
 - Hu-empirical20
 key: Hu-empirical20
@@ -54,6 +54,6 @@ layout: inproceedings
 pdf: https://openreview.net/attachment?id=Hkg-xgrYvH&name=original_pdf
 openreview: Hkg-xgrYvH
 month: 12
-publish: 2020-04-26
+published: 2020-04-26
 year: 2020
 ---
