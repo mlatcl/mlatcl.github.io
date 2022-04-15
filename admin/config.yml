@@ -534,26 +534,34 @@ collections:
         name: 'layout'
         widget: 'hidden'
         default: 'person'
-      - label: Given Name (include initials, e.g. Neil D.)
-        name: given
-        widget: string
-      - label: Prefix (e.g. de, von, van)
-        name: prefix
-        required: false
-        widget: string
       - label: Family Name
         name: family
         widget: string
+      - label: Given Name
+        hint: Include initials, e.g. Neil D.
+        name: given
+        widget: string
+      - label: Prefix
+        hint: Prefix of name (e.g. de, von, van)
+        name: prefix
+        required: false
+        widget: string
       - label: Suffix
+        hint: "Suffix of name (e.g. III or Jr)."
         name: suffix
         widget: string
       - label: 'Cambridge crsid (e.g. ads21)'
         name: 'crsid'
         widget: 'text'
+      - start_date: "Date of start in ml@cl"
+        widget: 'datetime'
+        date_format: "YYYY-MM-DD"
+        time_format: false        
       - label: 'Description'
         name: 'description'
         widget: 'text'
       - label: 'Image'
+        hint: "Please provide a portrait of the person."
         name: 'image'
         widget: 'image'
       - label: 'GitHub ID'
