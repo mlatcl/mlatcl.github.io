@@ -526,7 +526,7 @@ collections:
     name: 'people'
     folder: '_people/'
     create: true
-    slug: '{{slug}}'
+    slug: '{{given}}-{{family}}'
     identifier_field: crsid
     editor:
       preview: false
@@ -723,7 +723,7 @@ collections:
         widget: 'relation'
         collection: 'Publications'
         search_fields: ["title"]
-        value_field: "{{slug}}"
+        value_field: "{{title | slugify}}"
         display_fields: ["title"]
         multiple: true
         required: false
@@ -733,7 +733,7 @@ collections:
     name: 'Publications'
     folder: '_publications'
     create: true
-    slug: '{{slug}}'
+    slug: '{{published | date: "%Y-%m-%d}}-{{title | slug}}'
     editor:
       preview: false
     fields:
