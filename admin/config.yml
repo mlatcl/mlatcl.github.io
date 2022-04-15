@@ -680,9 +680,9 @@ collections:
         name: 'people'
         widget: 'relation'
         collection: 'people'
-        search_fields: ["title"]
+        search_fields: ["given", "family"]
         value_field: "{{slug}}"
-        display_fields: ["title"]
+        display_fields: ["given", "family"]
         multiple: true
         required: false
       - label: 'Related Publications'
