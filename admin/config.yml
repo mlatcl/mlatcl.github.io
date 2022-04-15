@@ -739,9 +739,9 @@ collections:
           name: 'mlatcl_title'
           widget: 'relation'
           collection: 'people'
-          search_fields: "slug"
+          search_fields: ["author.given", "author.family"]
           value_field: "{{slug}}"
-          display_fields: ["author"]
+          display_fields: ["author.given", "author.family"]
           multiple: false
           required: false          
         - label: Consortium
