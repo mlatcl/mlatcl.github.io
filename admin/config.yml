@@ -839,6 +839,11 @@ collections:
         hint: "The name of the collection or proceedings in which the paper appears."
         widget: string
         required: false
+      - label: "Pages"
+        name: pages
+        hint: "The pages the paper is published on (if in numbers, provide as firstpage--lastpage)."
+        widget: string
+        required: false
       - label: "Publisher"
         name: publisher
         hint: "The name of the paper publisher (e.g. Springer)."
@@ -866,6 +871,11 @@ collections:
       - label: "Link to Software"
         hint: "If there's code for the paper available somewhere provide the URL to that code."
         name: "software"
+        widget: "string"
+        required: false
+      - label: "DOI"
+        hint: "If there's a DOI (see http://doi.org) for the paper provide it here (just the id, not the URL)."
+        name: "doi"
         widget: "string"
         required: false
       - label: "Open Review ID"
