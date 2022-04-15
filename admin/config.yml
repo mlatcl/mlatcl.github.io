@@ -550,23 +550,33 @@ collections:
     - label: Suffix
       hint: "Suffix of name (e.g. III or Jr)."
       name: suffix
+      required: false
       widget: string
-    - label: "Cambridge crsid (e.g. ads21). If member doesn't have a crsid create a dummy one starting with five x's, e.g. xxxxx01."
+    - label: "Cambridge crsid"
+      hint: "E.g. ads21. If a ml@cl member doesn't have a crsid create a dummy one starting with five x's, e.g. xxxxx01."
       name: 'crsid'
       widget: 'text'
-    - name: start_date
+    - name: start
       label: "Date of start in ml@cl"
       hint: "Provide the day that the individual started in the ml@cl group."
       widget: 'datetime'
       date_format: "YYYY-MM-DD"
       time_format: false
-    - name: end_date
+    - name: end
       label: "Date of finish in ml@cl"
       hint: "Provide the day that the individual finished in the ml@cl group."
       widget: 'datetime'
       date_format: "YYYY-MM-DD"
       time_format: false
       required: false
+    - label: "Personal Homepage"
+      name: website
+      hint: "URL of the individual's personal homepage."
+      widget: "string"
+    - label: "ORCID number"
+      name: orcid
+      hint: "Open Researcher and Contributor ID number (see https://orcid.org)"
+      widget: "string"
     - label: 'Description'
       name: 'description'
       widget: 'text'
