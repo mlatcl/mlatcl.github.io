@@ -716,6 +716,11 @@ collections:
       - label: 'Abstract'
         name: 'abstract'
         widget: 'markdown'
+      - label: 'Date of Publication'
+        name: 'published'
+        widget: 'datetime'
+        date_format: "YYYY-MM-DD"
+        time_format: false
       - label: "author"
         name: author
         widget: 'list'
