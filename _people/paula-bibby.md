@@ -11,6 +11,5 @@ linkedin: paula-bibby-7403285a
 biography: Paula is the Data Trusts Initiative’s Project Manager. She oversees
   coordination of the Initiative’s research programmes, projects and engagement
   activities.
-publications:
-  - Multilingual Factor Analysis
+publications: []
 ---
