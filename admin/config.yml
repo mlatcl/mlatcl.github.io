@@ -707,7 +707,8 @@ collections:
       - label: 'Layout'
         name: 'layout'
         widget: "select"
-        options: ["article", "inproceedings", "incollection", "techreport", "misc", "book"]
+        options: ["article", "inproceedings", "incollection", "techreport", "misc", "book", "proceedings"]
+        hint: "For journal papers use 'article', for conference papers use 'inproceedings', for book chapters use 'incollection', for arXiv, SSRN and other tech reports use 'techreport', for books use 'book', for proceedings use 'proceedings' for others use 'misc'."
         default: "article"
       - label: 'Title'
         name: 'title'
