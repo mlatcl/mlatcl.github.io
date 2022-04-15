@@ -795,7 +795,7 @@ collections:
           required: false
         - label: 'Person Page'
           hint: "Use this field if the author is a member of ml@cl"
-          name: 'mlatcl_title'
+          name: 'person_page'
           widget: 'relation'
           collection: 'people'
           search_fields: ["given", "family"]
@@ -837,6 +837,11 @@ collections:
       - label: "Link to Software"
         hint: "If there's code for the paper available somewhere provide the URL to that code."
         name: "software"
+        widget: "string"
+        required: false
+      - label: "Open Review ID"
+        hint: "If there's an Open Review version of the paper provide the id number only (not the URL)."
+        name: "openreview"
         widget: "string"
         required: false
       - label: "arXiv ID"
