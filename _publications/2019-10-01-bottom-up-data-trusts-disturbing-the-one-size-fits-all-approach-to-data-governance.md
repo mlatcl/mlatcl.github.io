@@ -1,6 +1,8 @@
 ---
+month: 12
 layout: article
-title: "Bottom-up Data Trusts: Disturbing the 'One Size Fits All' Approach to Data Governance"
+title: "Bottom-up Data Trusts: Disturbing the 'One Size Fits All' Approach to
+  Data Governance"
 abstract: |
   From the friends we make to the foods we like, via our shopping and
   sleeping habits, most aspects of our quotidian lives can now be
@@ -20,36 +22,36 @@ abstract: |
   data-sharing aspirations tend to be raised within altogether
   different conversations from those aimed at addressing the above
   concerns. Our data Trusts proposal challenges these boundaries.
-address: Oxford, UK
+extras:
+  - label: Data Trusts Initiative
+    link: http://datatrusts.uk
+lastpage: 252
+published: 2019-10-01
 author:
-- family: Delacroix
-  given: Sylvie
-  gscholar: 
-  institute: University of Birmingham
-  url: https://www.birmingham.ac.uk/staff/profiles/law/delacroix-sylvie.aspx
-- family: Lawrence
-  given: Neil D.
-  gscholar: r3SJcvoAAAAJ
-  institute: University of Cambridge
-  twitter: lawrennd
-  url: http://inverseprobability.com
+  - family: Delacroix
+    given: Sylvie
+    gscholar: null
+    institute: University of Birmingham
+    url: https://www.birmingham.ac.uk/staff/profiles/law/delacroix-sylvie.aspx
+  - family: Lawrence
+    given: Neil D.
+    gscholar: r3SJcvoAAAAJ
+    institute: University of Cambridge
+    twitter: lawrennd
+    url: http://inverseprobability.com
 journal: International Data Privacy Law
-categories:
-- Delacroix-trusts19
-key: Delacroix-trusts19
-id: Delacroix-trusts19
 volume: 9
 number: 4
-firstpage: 236
-lastpage: 252
-pdf: https://academic.oup.com/idpl/article-pdf/9/4/236/32744015/ipz014.pdf
+publisher: Oxford Academic
+address: Oxford, UK
 website: https://academic.oup.com/idpl/article/9/4/236/5579842
 html: https://academic.oup.com/idpl/article/9/4/236/5579842
-extras:
-- label: Data Trusts Initiative
-  link: http://datatrusts.uk
+pdf: https://academic.oup.com/idpl/article-pdf/9/4/236/32744015/ipz014.pdf
+id: Delacroix-trusts19
+ssrn: "3265315"
+categories:
+  - Delacroix-trusts19
 doi: 10.1093/idpl/ipz014
-month: 12
-published: 2019-10-01
-publisher: Oxford Academic
+firstpage: 236
+key: Delacroix-trusts19
 ---
