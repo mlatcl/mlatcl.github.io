@@ -1,18 +1,23 @@
 ---
-layout: person
 given: Francisco
 family: Vargas
-student: True
-website: https://www.cst.cam.ac.uk/people/fav25 
-orcid:
-twitter: 
-github: 
-linkedin: 
-start: 2020-10-06
 crsid: fav25
-supervisor: ndl21
+student: true
+start: 2020-10-06
+end: ""
+website: https://www.cst.cam.ac.uk/people/fav25
+orcid: null
 description: PhD Student, Cambridge University
 image: francisco-vargas.png
+github: null
+linkedin: null
+publications:
+  - 2020-11-17-exploring-the-linear-subspace-hypothesis-in-gender-bias-mitigation
+  - 2021-08-31-solving-schroedinger-bridges-via-maximum-likelihood
+  - 2019-05-24-model-comparison-for-semantic-grouping
+supervisor: ndl21
+layout: person
+twitter: null
 biography: Francisco is a PhD student in the Computer Laboratory. He is
   Interested in the duality between optimisation and sampling with a focus on
   applications. In particular,  exploring stochastic control based methodologies
@@ -22,13 +27,4 @@ biography: Francisco is a PhD student in the Computer Laboratory. He is
   formulations of different learning tasks to explore physically motivated
   efficient algorithms, always keeping the practical/application component as
   the main focus.
-publications:
-  - bayesian-learning-via-neural-schrödinger-föllmer-flows
-  - solving-schroedinger-bridges-via-maximum-likelihood
-  - exploring-the-linear-subspace-hypothesis-in-gender-bias-mitigation
-  - adversarial-concept-erasure-in-kernel-space
-  - efficient-representations-for-privacy-preserving-inference
-  - shooting-schrödinger’s-cat
-  - model-comparison-for-semantic-grouping
 ---
-
