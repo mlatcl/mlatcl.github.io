@@ -2,6 +2,8 @@
 layout: person
 given: Morine
 family: Amutorine
+crsid: XXXXX02
+start: 2021-03-01
 description: Data Science Africa Fellow
 image: morine-amutorine.jpeg
 linkedin: morine-amutorine
