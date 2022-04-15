@@ -533,17 +533,34 @@ collections:
       - label: 'Layout'
         name: 'layout'
         widget: 'hidden'
-        default: 'people-single'
-      - label: 'Title'
-        name: 'title'
-        widget: 'string'
+        default: 'person'
+      - label: Given Name (include initials, e.g. Neil D.)
+        name: given
+        widget: string
+      - label: Prefix (e.g. de, von, van)
+        name: prefix
+        required: false
+        widget: string
+      - label: Family Name
+        name: family
+        widget: string
+      - label: Suffix
+        name: suffix
+        widget: string
+      - label: 'Cambridge crsid (e.g. ads21)'
+        name: 'crsid'
+        widget: 'text'
       - label: 'Description'
         name: 'description'
         widget: 'text'
-      - label: 'Featured Image'
-        name: 'featured_image'
+      - label: 'Image'
+        name: 'image'
         widget: 'image'
-      - label: 'LinkedIn'
+      - label: 'GitHub ID'
+        name: 'github'
+        widget: 'string'
+        required: false
+      - label: 'LinkedIn ID'
         name: 'linkedin'
         widget: 'string'
         required: false
@@ -689,14 +706,47 @@ collections:
     fields:
       - label: 'Layout'
         name: 'layout'
-        widget: 'hidden'
-        default: 'publication-single'
+        widget: "select"
+        options: ["article", "inproceedings", "incollection", "techreport", "misc", "book"]
+        default: "article"
       - label: 'Title'
         name: 'title'
         widget: 'string'
-      - label: 'Author'
-        name: 'author'
-        widget: 'string'
+      - label: "author"
+        widget: 'list'
+        allow_add: true
+        fields:
+        - label: Given Name (include initials, e.g. Neil D.)
+          name: given
+          widget: string
+        - label: Prefix (e.g. de, von, van)
+          name: prefix
+          required: false
+          widget: string
+        - label: Family Name
+          name: family
+          widget: string
+        - label: Suffix
+          name: suffix
+          widget: string
+      - label: "Publisher Website"
+        name: "website"
+        widget: "string"
+      - label: "HTML Version of Paper (provide url)"
+        name: "html"
+        widget: "string"
+      - label: "PDF Version of Paper (provide url)"
+        name: "pdf"
+        widget: "string"
+      - label: "arXiv ID (if there's an arxiv version)"
+        name: "arxiv"
+        widget: "string"
+      - label: "SSRN Number (if there's an SSRN version)"
+        name: "ssrn"
+        widget: "string"
+      - label: "Link to Software (provide url)"
+        name: "software"
+        widget: "string"
       - label: 'References'
         name: 'references'
         widget: 'string'
