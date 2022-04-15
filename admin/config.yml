@@ -770,7 +770,7 @@ collections:
         format: "YYYY-MM-DD"
         date_format: "YYYY-MM-DD"
         time_format: false
-      - label: "author"
+      - label: "Authors"
         name: author
         widget: 'list'
         allow_add: true
@@ -819,7 +819,36 @@ collections:
             hint: Provide a URL link to the consortium.
             widget: string
             required: false
-      - label: "Publisher Website"
+      - label: "Journal"
+        name: journal
+        hint: "The name of the journal where the paper was published (if it is an article)."
+        widget: string
+        required: false
+      - label: "Volume"
+        name: volume
+        hint: "The volume number that the paper appears in."
+        widget: string
+        required: false
+      - label: "Number"
+        name: number
+        hint: "The issue number that the paper appears in."
+        widget: string
+        required: false
+      - label: "Collection/Proceedings Name"
+        name: container-title
+        hint: "The name of the collection or proceedings in which the paper appears."
+        widget: string
+        required: false
+      - label: "Publisher"
+        name: publisher
+        hint: "The name of the paper publisher (e.g. Springer)."
+        widget: string
+        required: false
+      - label: "Address"
+        name: address
+        hint: "The address of the publisher (e.g. NY, USA)."
+        required: false
+      - label: "Paper's Publisher Website"
         hint: "Provide the full URL to the paper on the website of the publisher"
         name: "website"
         widget: "string"
@@ -859,6 +888,56 @@ collections:
         hint: "Select an image from the paper to represent the work."
         widget: 'image'
         required: false
+      - label: "Editors"
+        name: editor
+        widget: 'list'
+        hint: "Provide the list of editors of the paper (if applicable)."
+        allow_add: true
+        fields:
+        - label: Family Name
+          name: family
+          widget: string
+          required: false
+        - label: Given Name
+          hint: "Include initials, e.g. Neil D."
+          name: given
+          widget: string
+          required: false
+        - label: Prefix
+          hint: "e.g. de, von, van"
+          name: prefix
+          required: false
+          widget: string
+        - label: Suffix
+          name: suffix
+          widget: string
+          required: false
+        - label: 'Person Page'
+          hint: "Use this field if the editor is a member of ml@cl"
+          name: 'person_page'
+          widget: 'relation'
+          collection: 'people'
+          search_fields: ["given", "family"]
+          value_field: "{{slug}}"
+          display_fields: ["given", "family"]
+          multiple: false
+          required: false          
+        - label: Consortium
+          name: consortium
+          hint: "Some works may be edited by a consortium of editors. If that's the case for this paper use this field to fill in the consortium details."
+          widget: "object"
+          required: false
+          fields:
+          - name: name
+            label: Name
+            hint: Provide the name of the consortium.
+            widget: string
+            required: false
+          - name: url
+            label: Link
+            hint: Provide a URL link to the consortium.
+            widget: string
+            required: false
       - label: 'Body'
         name: 'body'
         widget: 'markdown'

@@ -12,8 +12,12 @@ image: francisco-vargas.png
 github: null
 linkedin: null
 publications:
-  - 2020-11-17-exploring-the-linear-subspace-hypothesis-in-gender-bias-mitigation
+  - bayesian-learning-via-neural-schrödinger-föllmer-flows
   - 2021-08-31-solving-schroedinger-bridges-via-maximum-likelihood
+  - 2020-11-17-exploring-the-linear-subspace-hypothesis-in-gender-bias-mitigation
+  - adversarial-concept-erasure-in-kernel-space
+  - efficient-representations-for-privacy-preserving-inference
+  - 2022-01-15-shooting-schrödinger’s-cat
   - 2019-05-24-model-comparison-for-semantic-grouping
 supervisor: ndl21
 layout: person

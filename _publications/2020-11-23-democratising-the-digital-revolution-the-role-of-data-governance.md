@@ -13,7 +13,7 @@ editor:
   family: Braunschweig
 - given: M.
   family: Ghallab
-booktitle: Reflections on Artificial Intelligence for Humanity
+container-title: Reflections on Artificial Intelligence for Humanity
 published: 2020-11-23
 html: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3720208
 ssrn: 3720208
