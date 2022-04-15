@@ -561,18 +561,25 @@ collections:
       hint: "E.g. ads21. If a ml@cl member doesn't have a crsid create a dummy one starting with five x's, e.g. xxxxx01."
       name: 'crsid'
       widget: 'string'
+    - label: Student
+      name: student
+      widget: "boolean"
+      required: false
     - name: start
       label: "Date of start in ml@cl"
       hint: "Provide the day that the individual started in the ml@cl group."
       widget: 'datetime'
+      format: "YYYY-MM-DD"
       date_format: "YYYY-MM-DD"
       time_format: false
     - name: end
       label: "Date of finish in ml@cl"
       hint: "Provide the day that the individual finished in the ml@cl group."
       widget: 'datetime'
+      format: "YYYY-MM-DD"
       date_format: "YYYY-MM-DD"
       time_format: false
+      default: ""
       required: false
     - label: "Personal Homepage"
       name: website
@@ -620,7 +627,7 @@ collections:
       widget: 'relation'
       collection: 'Publications'
       search_fields: ["title"]
-      value_field: "{{title | slugify}}"
+      value_field: "{{title | slugify }}"
       display_fields: ["title"]
       multiple: true
       required: false
