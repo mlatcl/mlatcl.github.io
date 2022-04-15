@@ -21,15 +21,15 @@ biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   a Senior AI Fellowship from the Alan Turing Institute. Neil is also visiting
   Professor at the University of Sheffield and the co-host of Talking Machines.
 publications:
-  - 2021-10-08-differentially-private-regression-and-classificaiton-with-sparse-gaussian-processes
-  - 2019-10-01-bottom-up-data-trusts-disturbing-the-one-size-fits-all-approach-to-data-governance
-  - 2020-04-26-empirical-bayes-transductive-meta-learning-with-synthetic-gradients
-  - 2020-11-18-challenges-in-machine-learning-deployment
-  - 2020-12-02-decision-making-with-uncertainty
-  - 2021-01-15-gaussian-process-latent-variable-flows-for-massively-missing-data
-  - 2021-05-12-creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
-  - 2021-08-31-solving-schroedinger-bridges-via-maximum-likelihood
-  - 2021-06-03-multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
+  - differentially-private-regression-and-classificaiton-with-sparse-gaussian-processes
+  - bottom-up-data-trusts-disturbing-the-one-size-fits-all-approach-to-data-governance
+  - empirical-bayes-transductive-meta-learning-with-synthetic-gradients
+  - challenges-in-machine-learning-deployment
+  - decision-making-with-uncertainty
+  - gaussian-process-latent-variable-flows-for-massively-missing-data
+  - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
+  - solving-schroedinger-bridges-via-maximum-likelihood
+  - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
 website: http://inverseprobability.com
 orcid: 0000-0001-9258-1030
 ---
