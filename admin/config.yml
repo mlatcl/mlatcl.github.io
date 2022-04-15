@@ -722,11 +722,13 @@ collections:
           name: family
           widget: string
           required: false
-        - label: Given Name (include initials, e.g. Neil D.)
+        - label: Given Name
+          hint: "Include initials, e.g. Neil D."
           name: given
           widget: string
           required: false
-        - label: Prefix (e.g. de, von, van)
+        - label: Prefix
+          hint: "e.g. de, von, van"
           name: prefix
           required: false
           widget: string
