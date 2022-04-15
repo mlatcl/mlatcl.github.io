@@ -3,10 +3,7 @@ start: 2019-10-01
 layout: person
 family: Lawrence
 given: Neil D.
-suffix: Jr
 crsid: ndl21
-start_date: 2022-04-15T08:43:14.157Z
-end_date: ""
 description: DeepMind Professor of Machine Learning, Cambridge University
 image: neil-d-lawrence.jpg
 github: lawrennd
