@@ -713,6 +713,9 @@ collections:
       - label: 'Title'
         name: 'title'
         widget: 'string'
+      - label: 'Abstract'
+        name: 'abstract'
+        widget: 'markdown'
       - label: "author"
         name: author
         widget: 'list'
@@ -763,36 +766,39 @@ collections:
             widget: string
             required: false
       - label: "Publisher Website"
+        hint: "Provide the full URL to the paper on the website of the publisher"
         name: "website"
         widget: "string"
         required: false
-      - label: "HTML Version of Paper (provide url)"
+      - label: "HTML Version of Paper"
+        hint: "Provide the full URL to the HTML version."
         name: "html"
         widget: "string"
         required: false
-      - label: "PDF Version of Paper (provide url)"
+      - label: "PDF Version of Paper"
+        hint: Provide the full URL to the PDF version.
         name: "pdf"
         widget: "string"
         required: false
-      - label: "arXiv ID (if there's an arxiv version)"
+      - label: "Link to Software"
+        hint: "If there's code for the paper available somewhere provide the URL to that code."
+        name: "software"
+        widget: "string"
+        required: false
+      - label: "arXiv ID"
+        hint: "If there's an arxiv version of the paper provide the id number only (not the URL)."
         name: "arxiv"
         widget: "string"
         required: false
-      - label: "SSRN Number (if there's an SSRN version)"
+      - label: "SSRN Number"
+        hint: "If there's an SSRN version of the paper provide the id number only (not the URL)."
         name: "ssrn"
-        widget: "string"
-        required: false
-      - label: "Link to Software (provide url)"
-        name: "software"
         widget: "string"
         required: false
       - label: 'Featured Image'
         name: 'featured_image'
         widget: 'image'
         required: false
-      - label: 'Abstract'
-        name: 'abstract'
-        widget: 'markdown'
       - label: 'Body'
         name: 'body'
         widget: 'markdown'
