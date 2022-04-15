@@ -752,9 +752,9 @@ collections:
           name: 'mlatcl_title'
           widget: 'relation'
           collection: 'people'
-          search_fields: ["author"]
+          search_fields: "slug"
           value_field: "{{slug}}"
-          display_fields: ["author.family"]
+          display_fields: ["author"]
           multiple: false
           required: false          
       - label: "Publisher Website"
