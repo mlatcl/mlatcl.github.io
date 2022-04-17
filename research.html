@@ -18,7 +18,7 @@ permalink: /research/
                 {% if flip == true %}
 
                     <div class="research__item-image">
-                        <img src="{{site.url}}/{{site.baseurl}}/{{site.data.images.directory}}/{{project.featured_image}}" alt="Image of {{project.title}}">
+                        <img src="{{site.data.images.directory | relative_url }}/{{project.featured_image}}" alt="Image of {{project.title}}">
                     </div>
                     <div class="research__item-details">
                         <div>
@@ -54,7 +54,7 @@ permalink: /research/
                         </a>
                     </div>
                     <div class="research__item-image">
-                        <img src="{{site.url}}/{{site.baseurl}}/{{site.data.images.directory}}/{{project.featured_image}}" alt="Image of {{project.title}}">
+                        <img src="{{site.data.images.directory | relative_url }}/{{project.featured_image}}" alt="Image of {{project.title}}">
                     </div>
                 {% endif %}
             </div>
