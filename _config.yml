@@ -70,9 +70,9 @@ pagination:
 remote_theme: mlatcl/jekyll-theme
 style: mlatcl
 description: This is a page of ML researchers based in the Computer Laboratory working in collaboration with Carl Henrik Ek, Ferenc Huszar, Neil Lawrence and Jessica Montgomery.
-twitter_svg: ./assets/images/social-tw.svg/
-facebook_svg: ./assets/images/social-fb.svg/
-instagram_svg: ./assets/images/social-in.svg/
+twitter_svg: ./assets/images/social-tw.svg
+facebook_svg: ./assets/images/social-fb.svg
+instagram_svg: ./assets/images/social-in.svg
 image_root: ./assets/images/
 baseurl: ''
 markdown: kramdown
