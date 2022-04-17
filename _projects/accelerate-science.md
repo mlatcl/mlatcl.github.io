@@ -6,7 +6,7 @@ excerpt: Artificial intelligence (AI) has the potential to become an engine for
   climate change, to using genetic data to create new healthcare treatments, and
   from finding new astronomical phenomena to identifying new materials here on
   Earth.
-image: andy-holmes-lupdjljv4_c-unsplash.jpg
+featured_image: andy-holmes-lupdjljv4_c-unsplash.jpg
 project_funders: []
 people:
   - aditya-ravuri

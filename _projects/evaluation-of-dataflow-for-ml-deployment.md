@@ -6,7 +6,7 @@ excerpt: 'When deploying machine learning algorithms in real-world systems,
   the underlying reasons for these challenges to arise?", and proposes that the
   problem lies with the modern trend of building software systems as
   microservices.'
-image: shamin-haky-uhx-ghppcdg-unsplash.jpg
+featured_image: shamin-haky-uhx-ghppcdg-unsplash.jpg
 people:
   - andrei-paleyes
   - christian-cabrera

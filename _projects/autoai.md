@@ -5,7 +5,7 @@ excerpt: While excitement about the potential of artificial intelligence (AI)
   technologies continues to build, a gap is emerging between our aspirations for
   the benefits of AI and our ability to deploy these technologies to tackle
   real-world challenges.
-image: alina-grubnyak-ziqkhi7417a-unsplash.jpg
+featured_image: alina-grubnyak-ziqkhi7417a-unsplash.jpg
 people:
   - andrei-paleyes
   - christian-cabrera

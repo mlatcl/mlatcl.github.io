@@ -7,9 +7,11 @@ excerpt: The COVID-19 pandemic intensified the need for timely and accurate data
   the spread of COVID-19 among their populations. Drawing from real-world
   examples, this projects the lessons offered by these innovations for future
   data policy frameworks.
-image: fusion-medical-animation-npjp0dctoxo-unsplash.jpg
+featured_image: fusion-medical-animation-npjp0dctoxo-unsplash.jpg
 people:
   - morine-amutorine
+  - jessica-montgomery
+  - neil-d-lawrence
 ---
 The COVID-19 pandemic intensified the need for timely and accurate data to inform policymaking. Countries across Africa have developed, and are still developing, innovative uses of data and statistics to monitor the extent of the spread of COVID-19 among their populations. Countries across Africa have developed, and are still developing, innovative uses of data and statistics to monitor the extent of the spread of COVID-19 among their populations. Access to mobile phone data, for example, has allowed new ways of tracking the disease and its social implications.
 

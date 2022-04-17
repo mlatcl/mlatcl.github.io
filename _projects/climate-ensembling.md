@@ -7,7 +7,7 @@ excerpt: General Circulation Models (GCMs) of Earth's climate provide robust
   scenarios. Translating these outputs to insights that can be used to manage
   the local-level impacts of climate change is challenging, and requires
   innovations in modelling, data management, and software engineering.
-image: nasa-i9w4uy1pu-s-unsplash.jpg
+featured_image: nasa-i9w4uy1pu-s-unsplash.jpg
 people:
   - mala-virdee
   - christian-cabrera

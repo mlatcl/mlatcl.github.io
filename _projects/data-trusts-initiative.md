@@ -6,7 +6,7 @@ excerpt: Reaping the benefits of data and digital technologies will require
   develop new data-enabled products and services - while protecting individual
   rights and freedoms. Data trusts offer a mechanism to achieve this goal
   through participatory data stewardship.
-image: zac-ong-jhn1-mpgxjo-unsplash.jpg
+featured_image: zac-ong-jhn1-mpgxjo-unsplash.jpg
 people:
   - jessica-montgomery
   - neil-d-lawrence

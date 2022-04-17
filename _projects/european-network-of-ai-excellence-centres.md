@@ -4,7 +4,7 @@ title: European Network of AI Excellence Centres
 excerpt: European Learning and Intelligence Systems Excellence (ELISE) is a
   consortium of artificial intelligence (AI) research hubs that connects
   Europe’s leading researchers in machine learning and AI.
-image: nasa-q1p7bh3shj8-unsplash.jpg
+featured_image: nasa-q1p7bh3shj8-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery

@@ -6,7 +6,7 @@ excerpt: In addition to being a thriving academic discipline, machine learning
   underneath this seeming success lies a chasm of failures. This project studies
   reports of ML deployment, and investigates issues practitioners face at each
   step of the ML deployment pipeline
-image: mark-konig-ecgv8s2ipg0-unsplash.jpg
+featured_image: mark-konig-ecgv8s2ipg0-unsplash.jpg
 people:
   - andrei-paleyes
   - neil-d-lawrence
