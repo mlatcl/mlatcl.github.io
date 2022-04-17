@@ -10,7 +10,8 @@ linkedin:
 date: 2020-06-01
 crsid: che29
 supervisor: 
-description: Senior Lecturer, Cambridge University
+position: Senior Lecturer
+institution: Cambridge University
 image: carl-henrik-ek.jpg
 twitter: https://twitter.com/
 biography: >-

@@ -3,13 +3,12 @@ layout: person
 given: Sarah
 family: Morgan
 crsid: sem91
-position: Departmental Early Career Academic Fellow
+position: Departmental Early Career Academic Fellow, Accelerate Programme
+institution: Cambridge University
 desc:
 twitter: sarah_morgan_uk
 team: True
 priority: 4
-description: Departmental Early Career Academic Fellow, Accelerate Programme,
-  Cambridge University
 image: sarah-morgan.jpg
 twitter: https://twitter.com/sarah_morgan_uk
 biography: Sarah's research applies machine learning, network science and

@@ -12,7 +12,8 @@ linkedin: samueljamesbell
 start: 2020-10-08
 crsid: sjb326
 supervisor: ndl21
-description: PhD Student, Cambridge University
+position: PhD Student
+institution: Cambridge University
 image: samuel-bell.jpg
 biography: >-
   Sam applies the principles and methods of psychology to understanding neural

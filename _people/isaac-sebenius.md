@@ -2,7 +2,8 @@
 layout: person
 given: Isaac
 family: Sebenius
-description: PhD Student, Cambridge University
+position: PhD Student
+institution: Cambridge University
 image: isaac-sebenius.jpg
 biography: Isaac is interested in developing new computational methods that
   leverage biological knowledge to address open questions related to mental

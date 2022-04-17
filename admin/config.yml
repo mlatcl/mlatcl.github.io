@@ -72,6 +72,21 @@ collections:
               - label: 'Link'
                 name: 'link'
                 widget: 'string'
+      # Image settings
+      - label: "Image Settings"
+        name: images
+        file: "_data/boxes.yml"
+        editor:
+          preview: false
+        fields:
+          - label: Image directory
+            name: directory
+            widget: string
+            hint: The directory where images are stored.
+          - label: Person placeholder
+            name: person_placeholder
+            widget: image
+            hint: "A place-holder image for a person if they don't have one provided."
       # Navigation Menus
       - label: 'Navigation Menus'
         name: 'navigation_menus'
@@ -591,13 +606,19 @@ collections:
       hint: "Open Researcher and Contributor ID number (see https://orcid.org)"
       widget: "string"
       required: false
-    - label: 'Description'
-      name: 'description'
-      widget: 'text'
+    - label: 'Position'
+      name: 'position'
+      widget: 'string'
+      hint: "For example, PhD Student, MPhil Student, Lecturer etc."
+    - label: 'Institution'
+      name: 'institution'
+      hint: "For example, Cambridge University."
+      widget: 'string'
     - label: 'Image'
       hint: "Please provide a portrait of the person."
       name: 'image'
       widget: 'image'
+      required: false
     - label: 'GitHub ID'
       name: 'github'
       widget: 'string'

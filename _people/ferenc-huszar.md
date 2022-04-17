@@ -10,7 +10,8 @@ github: fhuszar
 linkedin: 
 date: 2020-07-06
 crsid: fh277
-description: Senior Lecturer, Cambridge University
+position: Senior Lecturer
+institution: Cambridge University
 image: ferenc-huszar.jpg
 biography: "Ferenc finished his PhD in Machine Learning at the Cambridge
   University Engineering Department in 2013. At that time he worked on Bayesian

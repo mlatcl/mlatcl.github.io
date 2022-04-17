@@ -4,7 +4,8 @@ layout: person
 family: Lawrence
 given: Neil D.
 crsid: ndl21
-description: DeepMind Professor of Machine Learning, Cambridge University
+position: The DeepMind Professor of Machine Learning
+institution: Cambridge University
 image: neil-d-lawrence.jpg
 github: lawrennd
 scholar: r3SJcvoAAAAJ

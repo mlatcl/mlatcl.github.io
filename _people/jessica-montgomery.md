@@ -9,7 +9,8 @@ twitter:
 github: 
 crsid: jkm40
 start: 2020-09-14
-description: Executive Director, Accelerate Science
+position: Executive Director, Accelerate Science
+institution: Cambridge University
 image: jessica-montgomery.jpg
 biography: Jess is Executive Director of the Accelerate Programme for Scientific
   Discovery, and Director of the Data Trusts Initiative. She has a range of

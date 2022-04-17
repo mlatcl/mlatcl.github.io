@@ -4,7 +4,8 @@ given: Nitarshan
 family: Rajkumar
 twitter: nitarshan
 linkedin: nitarshan
-description: PhD Student, Cambridge University
+position: PhD Student
+institution: Cambridge University
 image: vladislav-nikonov-quzpqh5vno4-unsplash.jpg
 biography: "Nitarshan is a PhD student at the University of Cambridge, where he is advised by Ferenc Huszár and David Krueger, and generously funded by a scholarship from Twitter.
 

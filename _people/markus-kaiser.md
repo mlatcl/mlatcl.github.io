@@ -14,7 +14,8 @@ supervisor:
 - 'ndl21'
 - 'che29'
 start: 2021-03-01
-description: Research Associate, Cambridge University; Research Scientist, Siemens AG
+position: Research Associate; Research Scientist
+institution: Cambridge University; SiemensAG
 image: markus-kaiser.jpg
 biography: Markus’s research seeks to encode expert knowledge into hierarchical
   probabilistic models to formulate informative prior assumptions. At Siemens,

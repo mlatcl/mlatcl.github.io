@@ -11,7 +11,8 @@ linkedin: meissnereric
 start: 2020-01-15
 crsid: erm70
 supervisor: ndl21
-description: PhD student, Cambridge University
+position: PhD student
+institution: Cambridge University
 image: eric-meissner.jpeg
 biography: Eric is a Ph.D. Candidate at the University of Cambridge supervised
   by Neil Lawrence. His research interests span probabilistic programming

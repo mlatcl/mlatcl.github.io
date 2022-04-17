@@ -11,7 +11,8 @@ linkedin:
 start: 2020-10-06
 crsid: pt440
 supervisor: ndl21
-description: PhD Student, Cambridge University
+position: PhD Student
+institution: Cambridge University
 image: pierre-thodoroff.jpeg
 biography: >-
   Pierre is a PhD student, supervised by Neil Lawrence. Before joining ML@CL he

@@ -1,16 +1,14 @@
 ---
+layout: person
 given: Francisco
 family: Vargas
 crsid: fav25
 student: true
 start: 2020-10-06
-end: ""
 website: https://www.cst.cam.ac.uk/people/fav25
-orcid: null
-description: PhD Student, Cambridge University
+position: PhD Student
+institution: Cambridge University
 image: francisco-vargas.png
-github: null
-linkedin: null
 publications:
   - bayesian-learning-via-neural-schrödinger-föllmer-flows
   - 2021-08-31-solving-schroedinger-bridges-via-maximum-likelihood
@@ -20,8 +18,6 @@ publications:
   - 2022-01-15-shooting-schrödinger’s-cat
   - 2019-05-24-model-comparison-for-semantic-grouping
 supervisor: ndl21
-layout: person
-twitter: null
 biography: Francisco is a PhD student in the Computer Laboratory. He is
   Interested in the duality between optimisation and sampling with a focus on
   applications. In particular,  exploring stochastic control based methodologies

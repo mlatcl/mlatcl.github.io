@@ -3,10 +3,9 @@ layout: person
 given: Challenger
 family: Mishra
 crsid: cm2099
-position: Departmental Early Career Academic Fellow
+position: Departmental Early Career Academic Fellow, Accelerate Programme
 department: Department of Computer Science and Technology
-description: Departmental Early Career Academic Fellow, Accelerate Programme,
-  Cambridge University
+institution: Cambridge University
 image: challenger-mishra.jpg
 twitter: challenger1987
 biography: Challenger is developing machine-driven approaches to problems in

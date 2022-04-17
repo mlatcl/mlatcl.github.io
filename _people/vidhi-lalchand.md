@@ -11,7 +11,8 @@ linkedin:
 start: 
 crsid: vr308
 supervisor: 
-description: PhD Student, Cambridge University
+position: PhD Student
+institution: Cambridge University
 image: vidhi-lalchand.jpg
 biography: Vidhi is a Ph.D. student at the Cavendish Laboratory, a Turing
   Scholar and a member of Christ's College, University of Cambridge. She is

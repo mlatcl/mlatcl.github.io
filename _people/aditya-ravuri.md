@@ -11,7 +11,8 @@ linkedin:
 start: 2021-10-07
 crsid: ar847
 supervisor: ndl21
-description: PhD Student, Cambridge University
+position: PhD Student
+institution: Cambridge University
 image: aditya-ravuri.jpg
 biography: Aditya is interested in probabilistic machine learning, specifically
   in situations where there is interesting prior information available. As

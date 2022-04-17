@@ -2,7 +2,8 @@
 layout: person
 given: Katie
 family: Green
-description: PhD Student, Cambridge University
+position: PhD Student
+institution: Cambridge University
 image: katie-green.jpg
 biography: Katie is a PhD student and member of the AI4ER CDT and is supervised
   across Computer Science and British Antarctic Survey. She is interested in the

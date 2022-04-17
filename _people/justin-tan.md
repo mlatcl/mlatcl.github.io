@@ -4,8 +4,8 @@ given: Justin
 family: Tan
 crsid: jt976
 position: PhD Student
+institution: Cambridge University
 team: True
-description: PhD Student, Cambridge University
 image: vladislav-nikonov-quzpqh5vno4-unsplash.jpg
 biography: Justin's research lies at the intersection of geometry and machine
   learning, searching for interesting structure in geometries which feature in

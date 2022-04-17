@@ -13,7 +13,8 @@ crsid: chc79
 start: 2021-03-01
 supervisor: ['ndl21', 'che29']
 start: 2021-03-01
-description: Research Associate, Cambridge University
+position: Research Associate
+institution: Cambridge University
 image: christian-cabrera-jojoa.jpeg
 biography: Christian’s research focuses on the intersection of machine learning
   and systems design. He explores how systems perspectives can help develop safe

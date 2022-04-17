@@ -5,8 +5,8 @@ family: Dumitrascu
 crsid: bmd39
 start: 2022-04-15
 end: ""
-description: Departmental Early Career Academic Fellow, Accelerate Programme,
-  Cambridge University
+position: Departmental Early Career Academic Fellow, Accelerate Programme
+institution: Cambridge University
 image: bianca-dumitrascu.jpg
 twitter: bidumit
 biography: Bianca works at the intersection of machine learning and genetics.
@@ -21,6 +21,5 @@ biography: Bianca works at the intersection of machine learning and genetics.
 publications:
   - 2021-09-07-deep-learning-for-bioimage-analysis-in-developmental-biology
   - 2021-02-19-optimal-marker-gene-selection-for-cell-type-discrimination-in-single-cell-analyses
-position: Departmental Early Career Academic Fellow
 team: true
 ---

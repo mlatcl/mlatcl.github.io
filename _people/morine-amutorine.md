@@ -4,7 +4,9 @@ given: Morine
 family: Amutorine
 crsid: XXXXX02
 start: 2021-03-01
-description: Data Science Africa Fellow
+visitor: True
+position: Data Science Africa Fellow
+institution: UN Global Pulse
 image: morine-amutorine.jpeg
 linkedin: morine-amutorine
 twitter: theAmutorine

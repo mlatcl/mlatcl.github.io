@@ -4,9 +4,10 @@ given: Diana
 family: Robinson
 crsid: dmpr3
 student: true
-start: 2022-04-15
+start: 2019-10-01
 end: ""
-description: PhD Student, Cambridge University
+position: PhD Student
+institution: Cambridge University
 image: diana.jpg
 biography: >-
   Diana Robinson is a PhD candidate in computer science at the University of

@@ -11,7 +11,8 @@ linkedin: andreipaleyes
 start: 2020-02-12
 crsid: ap2169
 supervisor: ndl21
-description: PhD Student, Cambridge University
+position: PhD Student
+institution: Cambridge University
 image: andrei.jpg
 biography: Andrei is a PhD student with Neil Lawrence’s group. His primary
   research focus is an intersection of software systems and machine learning.
