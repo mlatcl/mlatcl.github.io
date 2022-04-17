@@ -4,7 +4,7 @@ backend:
 
 local_backend: true
 
-media_folder: 'assets/uploads'
+media_folder: 'assets/images'
 
 collections:
 
@@ -647,6 +647,15 @@ collections:
       name: 'publications'
       widget: 'relation'
       collection: 'Publications'
+      search_fields: ["title"]
+      value_field: "{{slug}}"
+      display_fields: ["title"]
+      multiple: true
+      required: false
+    - label: 'Projects'
+      name: 'projects'
+      widget: 'relation'
+      collection: 'Projects'
       search_fields: ["title"]
       value_field: "{{slug}}"
       display_fields: ["title"]
