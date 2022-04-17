@@ -14,7 +14,7 @@ permalink: /projects/
             {% for item in site.projects %}
                 <a href="{{ item.url }}" class="projects__item">
                     <div class="projects__item-image">
-                        <img src="{{site.url}}{{site.baseurl}}/assets/uploads/{{item.image}}" alt="Image of {{item.title}}">
+                        <img src="{{site.url}}{{site.baseurl}}/{{site.data.images.directory}}/{{item.image}}" alt="Image of {{item.title}}">
                     </div>
                     <div class="projects__item-details">
                         <div>

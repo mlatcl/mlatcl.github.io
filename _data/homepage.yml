@@ -10,7 +10,7 @@ about:
     modelling, systems and software engineering for machine learning deployment;
     the application of AI for scientific discovery; and the development of
     policy frameworks for trustworthy and beneficial AI.
-  image: /assets/uploads/mike-kononov-lfv0v3_2h6s-unsplash.jpg
+  image: /assets/images/mike-kononov-lfv0v3_2h6s-unsplash.jpg
   link_label: Read more
   link_url: /about/
 research:
@@ -24,17 +24,17 @@ research:
     and decision-making, systems design, the application of AI in science and
     industry, data stewardship, and AI policymaking. Find out more about current
     projects on our Research pages.
-  image: /assets/uploads/ryoji-iwata-ibavuzsjjto-unsplash.jpg
+  image: /assets/images/ryoji-iwata-ibavuzsjjto-unsplash.jpg
   link_label: Our Research
   link_url: /research/
 partners:
-  - image: /assets/uploads/university-of-cambridge.png
+  - image: /assets/images/university-of-cambridge.png
     link: https://www.cam.ac.uk/
   - link: https://www.turing.ac.uk/
-    image: /assets/uploads/alan-turing-institute.png
-  - image: /assets/uploads/schmidt-futures.png
+    image: /assets/images/alan-turing-institute.png
+  - image: /assets/images/schmidt-futures.png
     link: https://www.schmidtfutures.com/
-  - image: /assets/uploads/pjmf.png
+  - image: /assets/images/pjmf.png
     link: https://www.mcgovern.org/
-  - image: /assets/uploads/wellcome-trust-alt.png
+  - image: /assets/images/wellcome-trust-alt.png
     link: https://wellcome.org/
