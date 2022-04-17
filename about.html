@@ -76,17 +76,7 @@ permalink: /about/
         {{ site.data.about.body | markdownify }}
     </div>
 </section>
-<section class="block block__logo-grid">
-    <div class="container">
-        <div class="logo-grid__grid">
-            {% for item in site.data.about.partners %}
-            <a class="logo-grid__logo" href="{{ item.link }}">
-                <img src="{{ item.image }}">
-            </a>
-            {% endfor %}
-        </div>
-    </div>
-</section>
+{% include partner-list.html %}
 <section class="block block__grid">
     <div class="container">
         <div class="grid__grid">
