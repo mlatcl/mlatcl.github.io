@@ -45,7 +45,7 @@ footer_nav:
   - label: Assessor App
     link: /assessor-app/
 top_bar:
-  image: /assets/uploads/cambridge-university.png
+  image: /assets/images/cambridge-university.png
   link: https://www.cam.ac.uk/
   top_bar_nav:
     - link: https://www.cam.ac.uk/about-the-university#study-at-cambridge

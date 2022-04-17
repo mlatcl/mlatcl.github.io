@@ -33,14 +33,14 @@ body: >-
   Across our work, we engage closely with practitioners, domain experts and policymakers to develop AI tools that are fit for real-world deployment. On this site, you can find out more about our current projects and activities. Our Current Opportunities page provides further information about job vacancies and opportunities for student projects supervised by ML@CL team members.
 partners:
   - link: https://www.cam.ac.uk
-    image: /assets/uploads/university-of-cambridge.png
-  - image: /assets/uploads/alan-turing-institute.png
+    image: /assets/images/university-of-cambridge.png
+  - image: /assets/images/alan-turing-institute.png
     link: http://turing.ac.uk
-  - image: /assets/uploads/pjmf.png
+  - image: /assets/images/pjmf.png
     link: https://www.mcgovern.org
-  - image: /assets/uploads/schmidt-futures.png
+  - image: /assets/images/schmidt-futures.png
     link: https://schmidtfutures.com
-  - image: /assets/uploads/wellcome-trust-alt.png
+  - image: /assets/images/wellcome-trust-alt.png
     link: https://wellcome.org
 grid:
   - title: Our Research
@@ -48,9 +48,9 @@ grid:
       policy development to data acquisition, through model development to
       system deployment.
     link: /research/
-    image: /assets/uploads/nasa-q1p7bh3shj8-unsplash.jpg
+    image: /assets/images/nasa-q1p7bh3shj8-unsplash.jpg
   - description: Our team combines expertise in systems design, machine learning
       methods, software engineering, policy, and public engagement.
     title: Our People
-    image: /assets/uploads/mike-kononov-lfv0v3_2h6s-unsplash.jpg
+    image: /assets/images/mike-kononov-lfv0v3_2h6s-unsplash.jpg
     link: /people/

@@ -19,7 +19,7 @@ By putting citizen voices at the heart of decisions about data use, data trusts 
 
 You can find out more about the Brixham data trust pilot [here](https://datatrusts.uk/pilot-brixham).
 
-![](/assets/uploads/terry-starmore-yeqkvq6wkvw-unsplash.jpg)
+![](/assets/images/terry-starmore-yeqkvq6wkvw-unsplash.jpg)
 
 The **Born in Scotland Data Trust**, led by Jessica Bell (University of Warwick), with Rebecca Reynolds (University of Edinburgh) and Ann Hagell ([The Association for Young People’s Health](https://www.youngpeopleshealth.org.uk/)) will build an infrastructure for trustworthy data stewardship around a pilot birth cohort study that ultimately seeks to tackle the economic and healthcare inequalities affecting communities in Scotland. Healthcare, administrative and social data will be collected from pregnant women and their children, and this pilot project will explore how data trusts can give research participants, including young people, a voice in decisions about data use.
 
@@ -27,7 +27,7 @@ The **Born in Scotland Data Trust**, led by Jessica Bell (University of Warwick
 
 You can find out more about the Born in Scotland data trust pilot[ here](https://datatrusts.uk/pilot-bis)
 
-![](/assets/uploads/klara-kulikova-o1rq5gwvory-unsplash.jpg)
+![](/assets/images/klara-kulikova-o1rq5gwvory-unsplash.jpg)
 
 This inaugural cohort of data trust pilot projects will take the first steps towards delivering data trusts that transform patterns of data use, creating a new model of bottom-up data stewardship that empowers individuals and communities. In the long-term, our ambition is that these pilots help deliver the economic and social benefits of data use while more effectively managing the harms or vulnerabilities that new uses of data can create.
 
