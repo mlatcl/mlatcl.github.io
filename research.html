@@ -5,71 +5,10 @@ permalink: /research/
 ---
 
 <section class="block block__hero block__hero--standard">
-    <div class="container">
-        <!-- Top Row | Logo & Menu -->
-        <div class="row">
-            <div class="hero__item hero__item--bottom-left">
-                {% include nav-primary.html %}
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--top-left"></span>
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-left"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-                <a href="{{site.url}}" class="hero__item hero__item--top-left">
-                    <img class="brand" src="{{ site.data.site.site_logo }}" alt="Logo">
-                </a>
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--top-right"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-                <div class="hero__item hero__item--top-right">
-                    {% include menu-trigger.html %}
-                </div>
-            </div>
-        </div>
-        <!-- Second Row | Title & Nav -->
-        <div class="row">
-            <div class="column">
-                <span class="hero__dot hero__dot--bottom-left"></span>
-                <span class="hero__dot hero__dot--bottom-right"></span>
-                <div class="hero__item hero__item--bottom-left">
-                    <h1 class="hero__title hero__title--research">{{ page.title }}</h1>
-                </div>
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column no-mobile">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-            <div class="column">
-                <span class="hero__dot hero__dot--bottom-right"></span>
-            </div>
-        </div>
-    </div>
+  <div class="container">
+    {% include top-row-logo-and-menu.html %}
+    {% include second-row-nav.html title=page.title %}
+  </div>
 </section>
 <section class="block block__research">
     <div class="container">
@@ -79,7 +18,7 @@ permalink: /research/
                 {% if flip == true %}
 
                     <div class="research__item-image">
-                        <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                        <img src="{{site.url}}/{{site.baseurl}}/{{site.data.images.directory}}/{{item.featured_image}}" alt="Image of {{item.title}}">
                     </div>
                     <div class="research__item-details">
                         <div>
@@ -115,7 +54,7 @@ permalink: /research/
                         </a>
                     </div>
                     <div class="research__item-image">
-                        <img src="{{item.featured_image}}" alt="Image of {{item.title}}">
+                        <img src="{{site.url}}/{{site.baseurl}}/{{site.data.images.directory}}/{{item.featured_image}}" alt="Image of {{item.title}}">
                     </div>
                 {% endif %}
             </div>
