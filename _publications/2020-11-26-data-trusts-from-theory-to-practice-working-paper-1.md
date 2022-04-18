@@ -1,7 +1,7 @@
 ---
 layout: techreport
 title: "Data trusts: from theory to practice (Working Paper 1)"
-abstract: >-
+abstract: |
   The challenge of data governance in the 21st century is to bridge aspirations
   to share data for personal or public benefit with concerns about the harms to
   individuals, communities and society that can emerge from data (mis)use.
@@ -15,8 +15,11 @@ abstract: >-
   institutions, gaps in understanding about the form and function of these
   trusts remain.
 
-
-  A workshop convened by the Data Trusts Initiative on 26 November 2020 set out to explore the areas in which further work is needed to advance the development of data trusts, delineating the questions where interdisciplinary research can help make progress in establishing data trusts that respond to real-world challenges.
+  A workshop convened by the Data Trusts Initiative on 26 November
+  2020 set out to explore the areas in which further work is needed to
+  advance the development of data trusts, delineating the questions
+  where interdisciplinary research can help make progress in
+  establishing data trusts that respond to real-world challenges.
 published: 2020-11-26
 author:
   - consortium:
