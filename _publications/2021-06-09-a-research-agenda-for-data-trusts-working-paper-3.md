@@ -24,11 +24,17 @@ abstract: >
 
 
   * What do recent use cases tell us about operational strategies for data trusts?
+
   * How can legal mechanisms associated with data trusts enhance participation in healthcare research?
+
   * How might data trusts operate in the urban context?
+  
   * How can data trusts support civic engagement and environmental stewardship in local communities?
+
   * How can data trusts be created in civil law jurisdictions?
+
   * Does the General Data Protection Regulation (GDPR) allow individuals to mandate their data rights to a trust (or other data intermediary)?
+
   * What combination of technical and legal infrastructure can give individuals more control over data about them?
 publisher: The Data Trusts Initiative
 pdf: https://static1.squarespace.com/static/5e3b09f0b754a35dcb4111ce/t/60eeb409aa539923b58c4a4f/1626256394651/WP+3+-+DTI+-+research+agenda+-+June21.pdf
