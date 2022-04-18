@@ -5,6 +5,7 @@ family: Sebenius
 position: PhD Student
 institution: Cambridge University
 image: isaac-sebenius.jpg
+crsid: iss31
 biography: |
   Isaac is interested in developing new computational methods that
   leverage biological knowledge to address open questions related to mental
