@@ -29,6 +29,9 @@ author:
   - consortium:
       name: Data Trusts Initiative
       url: https://datatrusts.uk
+      person_pages:
+        - jessica-montgomery
+        - neil-d-lawrence
 publisher: The Data Trusts Initiative
 website: https://datatrusts.uk/blogs/international-perspectives-on-data-institutions-lessons-for-data-trusts
 pdf: https://static1.squarespace.com/static/5e3b09f0b754a35dcb4111ce/t/603ce3325e1da817afe6b193/1614603061204/WP+2+-+DTI+-+global+perspectives.pdf
