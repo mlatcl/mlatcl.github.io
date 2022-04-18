@@ -545,6 +545,7 @@ collections:
     folder: '_people/'
     create: true
     slug: '{{given}}-{{family}}'
+    display_fields: ["given", "title"]
     identifier_field: crsid
     editor:
       preview: false
