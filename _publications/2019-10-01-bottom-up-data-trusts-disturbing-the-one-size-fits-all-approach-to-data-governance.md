@@ -1,8 +1,5 @@
 ---
 month: 12
-layout: article
-title: "Bottom-up Data Trusts: Disturbing the 'One Size Fits All' Approach to
-  Data Governance"
 abstract: |
   From the friends we make to the foods we like, via our shopping and
   sleeping habits, most aspects of our quotidian lives can now be
@@ -26,6 +23,9 @@ extras:
   - label: Data Trusts Initiative
     link: http://datatrusts.uk
 lastpage: 252
+layout: article
+title: "Bottom-up Data Trusts: Disturbing the 'One Size Fits All' Approach to
+  Data Governance"
 published: 2019-10-01
 author:
   - family: Delacroix
@@ -39,6 +39,7 @@ author:
     institute: University of Cambridge
     twitter: lawrennd
     url: http://inverseprobability.com
+    person_page: neil-d-lawrence
 journal: International Data Privacy Law
 volume: 9
 number: 4
@@ -48,10 +49,10 @@ website: https://academic.oup.com/idpl/article/9/4/236/5579842
 html: https://academic.oup.com/idpl/article/9/4/236/5579842
 pdf: https://academic.oup.com/idpl/article-pdf/9/4/236/32744015/ipz014.pdf
 id: Delacroix-trusts19
+doi: 10.1093/idpl/ipz014
 ssrn: "3265315"
 categories:
   - Delacroix-trusts19
-doi: 10.1093/idpl/ipz014
 firstpage: 236
 key: Delacroix-trusts19
 ---
