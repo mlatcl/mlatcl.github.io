@@ -496,7 +496,7 @@ collections:
       - label: 'Category'
         name: 'category'
         widget: 'relation'
-        collection: 'Research'
+        collection: 'research'
         search_fields: ["title"]
         value_field: "{{slug}}"
         display_fields: ["title"]
