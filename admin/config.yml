@@ -834,6 +834,7 @@ collections:
           search_fields: ["given", "family"]
           value_field: "{{slug}}"
           display_fields: ["given", "family"]
+          options_length: 999
           multiple: false
           required: false          
         - label: Consortium
