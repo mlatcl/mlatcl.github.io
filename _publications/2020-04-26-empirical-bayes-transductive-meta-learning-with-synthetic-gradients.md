@@ -43,6 +43,7 @@ author:
     institute: University of Cambridge
     twitter: lawrennd
     url: http://inverseprobability.com
+    person_page: neil-d-lawrence
   - family: Damianou
     given: Andreas
     url: https://adamian.github.io/
