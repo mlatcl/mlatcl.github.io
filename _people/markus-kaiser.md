@@ -13,7 +13,6 @@ start: 2021-03-01
 supervisor:
 - 'ndl21'
 - 'che29'
-start: 2021-03-01
 position: Research Associate; Research Scientist
 institution: Cambridge University; SiemensAG
 image: markus-kaiser.jpg
