@@ -5,12 +5,10 @@ family: Morgan
 crsid: sem91
 position: Departmental Early Career Academic Fellow, Accelerate Programme
 institution: Cambridge University
-desc:
 twitter: sarah_morgan_uk
 team: True
 priority: 4
 image: sarah-morgan.jpg
-twitter: https://twitter.com/sarah_morgan_uk
 biography: Sarah's research applies machine learning, network science and
   Natural Language Processing to better understand and predict mental health
   conditions. A main focus is using brain connectivity derived from MRI to
