@@ -4,7 +4,7 @@ title: "Data trusts: from theory to practice (Working Paper 1)"
 author: 
 - consortium:
     name: Data Trusts Initiative
-  url: https://datatrusts.uk
+    url: https://datatrusts.uk
 pdf: "https://static1.squarespace.com/static/5e3b09f0b754a35dcb4111ce/t/5fdb21f9537b3a6ff2315429/1608196603713/Working+Paper+1+-+data+trusts+-+from+theory+to+practice.pdf"
 website: https://datatrusts.uk/blogs/moving-from-theory-to-practice-how-do-we-create-real-world-data-trusts
 published: 2020-11-26
