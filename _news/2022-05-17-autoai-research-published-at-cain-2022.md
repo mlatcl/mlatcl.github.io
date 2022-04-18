@@ -6,7 +6,7 @@ excerpt: The AutoAI team will present new research on flow-based programming in
   Conference on AI Engineering.
 category:
   - ai-deployment-and-system-design
-image: alina-grubnyak-ziqkhi7417a-unsplash.jpg
+featured_image: alina-grubnyak-ziqkhi7417a-unsplash.jpg
 ---
 
 A new research paper by Andrei Paleyes, Christian Cabrera and Neil D. Lawrence is published this month at CAIN 2022, the first International Conference on AI Engineering, taking place on 16 and 17 May 2022.

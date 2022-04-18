@@ -7,7 +7,7 @@ excerpt: "The Data Trusts Initiative is pleased to introduce our first cohort of
 category:
   - ai-deployment-and-system-design
   - ai-policy-and-data-governance
-image: terry-starmore-yeqkvq6wkvw-unsplash.jpg
+featured_image: terry-starmore-yeqkvq6wkvw-unsplash.jpg
 ---
 The Data Trusts Initiative is pleased to introduce our first cohort of **data trust pioneers** who will be leading the creation of real-world data trusts in 2022. 
 
