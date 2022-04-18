@@ -1,4 +1,6 @@
 ---
+layout: inproceedings
+title: Model Comparison for Semantic Grouping
 abstract: We introduce a probabilistic framework for quantifying the semantic
   similarity between two groups of embeddings. We formulate the task of semantic
   similarity as a model comparison task in which we contrast a generative model
@@ -12,8 +14,6 @@ abstract: We introduce a probabilistic framework for quantifying the semantic
 extras:
   - label: Supplementary PDF
     link: http://proceedings.mlr.press/v97/vargas19a/vargas19a-supp.pdf
-layout: inproceedings
-title: Model Comparison for Semantic Grouping
 published: 2019-05-24
 author:
   - given: Francisco

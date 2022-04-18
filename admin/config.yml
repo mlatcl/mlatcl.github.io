@@ -653,6 +653,7 @@ collections:
       search_fields: ["title"]
       value_field: "{{slug}}"
       display_fields: ["title"]
+      options_length: 999
       multiple: true
       required: false
     - label: 'Projects'
@@ -662,6 +663,7 @@ collections:
       search_fields: ["title"]
       value_field: "{{slug}}"
       display_fields: ["title"]
+      options_length: 999
       multiple: true
       required: false
     - label: 'Body'
@@ -705,6 +707,7 @@ collections:
         search_fields: ["title"]
         value_field: "{{slug}}"
         display_fields: ["title"]
+        options_length: 999
         multiple: true
         required: false
       - label: 'Related People'
@@ -714,6 +717,7 @@ collections:
         search_fields: ["title"]
         value_field: "{{slug}}"
         display_fields: ["title"]
+        options_length: 999
         multiple: true
         required: false
 
@@ -762,6 +766,7 @@ collections:
         search_fields: ["given", "family"]
         value_field: "{{slug}}"
         display_fields: ["given", "family"]
+        options_length: 999
         multiple: true
         required: false
       - label: 'Related Publications'
@@ -771,6 +776,7 @@ collections:
         search_fields: ["title"]
         value_field: "{{slug}}"
         display_fields: ["title"]
+        options_length: 999
         multiple: true
         required: false
 
@@ -853,6 +859,17 @@ collections:
             hint: Provide a URL link to the consortium.
             widget: string
             required: false
+          - label: 'Person Page'
+            hint: "Use this field for memmbers of consortium from ml@cl"
+            name: 'person_pages'
+            widget: 'relation'
+            collection: 'people'
+            search_fields: ["given", "family"]
+            value_field: "{{slug}}"
+            display_fields: ["given", "family"]
+            options_length: 999
+            multiple: true
+            required: false          
       - label: "Journal"
         name: journal
         hint: "The name of the journal where the paper was published (if it is an article)."
