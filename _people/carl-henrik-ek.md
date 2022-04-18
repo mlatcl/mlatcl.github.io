@@ -13,7 +13,6 @@ supervisor:
 position: Senior Lecturer
 institution: Cambridge University
 image: carl-henrik-ek.jpg
-twitter: https://twitter.com/
 biography: >-
   Carl Henrik is a Senior Lecturer in Machine learning in the Department of
   Computer Science and Technology at the University of Cambridge. Learning is
