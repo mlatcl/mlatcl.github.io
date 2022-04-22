@@ -28,6 +28,7 @@ author:
       person_pages:
         - jessica-montgomery
         - neil-d-lawrence
+        - paula-bibby
 publisher: The Data Trusts Initiative
 website: https://datatrusts.uk/blogs/moving-from-theory-to-practice-how-do-we-create-real-world-data-trusts
 pdf: https://static1.squarespace.com/static/5e3b09f0b754a35dcb4111ce/t/5fdb21f9537b3a6ff2315429/1608196603713/Working+Paper+1+-+data+trusts+-+from+theory+to+practice.pdf
