@@ -1,6 +1,6 @@
 ---
 layout: research-single
-title: AI deployment and system design
+title: AI deployment and systems design
 excerpt: A gap is emerging between our aspirations for the benefits of AI and
   our ability to deploy these technologies to tackle real-world challenges.
   Achieving the full potential of AI – and its benefits for society and the
