@@ -32,7 +32,7 @@ overview_long: >-
 
   * systems and software engineering for machine learning deployment, investigating how new software and data architectures can support system adaptability, scalability, and autonomy;
 
-  * statistical emulation and hierarchical probablistic modelling, exploring the role of emulation and simulation in improving AI system performance;
+  * statistical emulation and hierarchical probabilistic modelling, exploring the role of emulation and simulation in improving AI system performance;
 
   * what advances in modelling and system design can improve accuracy, robustness, safety and effectiveness, including real-time inference and decision-making; and
 
