@@ -1,6 +1,6 @@
 ---
-layout: techreport
-title: Challenges in Machine Learning Deployment
+layout: article
+title: "Challenges in Machine Learning Deployment: A Survey of Case Studies"
 abstract: In recent years, machine learning has transitioned from a field of
   academic research interest to a field capable of solving real-world business
   problems. However, the deployment of machine learning models in production
