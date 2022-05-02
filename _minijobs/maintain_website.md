@@ -1,9 +1,19 @@
 ---
 layout: minijob
-title: Maintain Team Website
-assignee: vr308, erm70
+title: Maintain Team Website Infrastructure
+assignee:
+  - eric-meissner
+  - andrei-paleyes
 ---
+This minijob involves keeping the GitHub pages working.
 
-This minijob involves keeping the github pages (these ones!) up to date and organized.
-So things like, merging PRs, adding the new minijobs, fixing and issues with the site, etc.
-Also initially will involve getting it actually running / pretty.
+That involves maintaining the netlify interface <https://mlatcl.netlify.app/admin/>
+to ensure the CMS update works, enabling others to:
+
+1. add news events etc.
+
+2. Ensuring publications are updated regularly.
+
+3. Ensuring group events are regularly updated.
+
+4. Ensuring the people are represented across the group research themes.
