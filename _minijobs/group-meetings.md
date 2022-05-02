@@ -1,6 +1,6 @@
 ---
 layout: minijob
-title: Organise Group Meetings
+title: Organise Group Blackboard Meetings
 overview: Organise the group's Friday weekly meetings setting the topic each
   week and booking the room and advertising.
 assignee:
