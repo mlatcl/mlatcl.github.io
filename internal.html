@@ -4,8 +4,18 @@ title: Internal
 permalink: /internal/
 ---
 
+<section class="block block__publications">
+    <div class="container">
+        <div class="section-heading">
+            <h2>Mini-jobs</h2>
+            <span></span>
+        </div>
+        <div class="publications__list">
 {% assign jobs = site.minijobs | sort: "title" %}
 
 {% for job in jobs %}
     {% include listjob.html %}
 {% endfor %}
+        </div>
+    </div>
+</section>
