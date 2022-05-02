@@ -7,7 +7,7 @@ overview: Maintain oversight of the group web-page, looking after overall
 assignee:
   - andrei-paleyes
 ---
-This mini-job is at the heart of the groups operation. As well as maintaining the overall structure of the page, it involves educating the rest of the group in how the page works, and encouraging them to update as part of their own mini-jobs and research activities. 
+This mini-job is at the heart of the group's operation. As well as maintaining the overall structure of the page, it involves educating the rest of the group in how the page works, and encouraging them to update as part of their own mini-jobs and research activities. 
 
 Our page is a statically generated site that makes use of GitHub hosted Jekyll. There are two ways of updating pages, either by pull request to the GitHub repo directly, <https://github.com/mlatcl/mlatcl.github.io>, or through the Netlify Content Management System, <https://mlatcl.netlify.app/admin/>
 
