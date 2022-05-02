@@ -8,7 +8,6 @@ local_backend: true
 media_folder: 'assets/images'
 
 collections:
-
   # General Website Settings
   - name: 'website-settings'
     label: 'Website Settings'
