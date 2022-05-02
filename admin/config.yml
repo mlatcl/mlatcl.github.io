@@ -1020,9 +1020,15 @@ collections:
       - label: 'Title'
         name: 'title'
         widget: 'string'
+        hint: "The title of the mini-job."
+      - label: 'Short Overview'
+        name: 'overview'
+        widget: 'string'
+        hint: "Use this field to give a brief overview of the mini-job."
       - label: 'Body'
         name: 'body'
-        widget: 'markdown'    
+        widget: 'markdown'
+        hint: "Give a full description of the mini-job and what it involves."
       - label: 'Allocated to'
         hint: "Use this field to list who's doing this mini-job. Typically this is one person, but for larger jobs it could be more."
         name: 'assignee'
