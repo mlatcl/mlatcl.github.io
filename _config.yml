@@ -38,11 +38,12 @@ collections:
   publications:
     output: true
     permalink: /publications/:title:output_ext
+  minijobs:
+    output: true
+    permalink: /internal/minijobs/:title:output_ext
   opportunities:
     output: true
   policy:
-    output: true
-  minijobs:
     output: true
   seminars:
     permalink: /seminars/:year/:month/:day/:title:output_ext

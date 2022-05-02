@@ -1,0 +1,11 @@
+---
+layout: internal
+title: internal
+permalink: /internal/
+---
+
+{% assign jobs = site.minijobs | sort: "title" %}
+
+{% for job in jobs %}
+    {% include listjob.html %}
+{% endfor %}
