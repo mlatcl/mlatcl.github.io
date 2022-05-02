@@ -2,7 +2,6 @@
 layout: minijob
 title: Maintain Team Website Infrastructure
 assignee:
-  - eric-meissner
   - andrei-paleyes
 ---
 This minijob involves keeping the GitHub pages working.
