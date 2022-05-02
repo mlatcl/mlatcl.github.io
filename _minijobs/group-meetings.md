@@ -1,7 +1,7 @@
 ---
 layout: minijob
 title: Organise Group Meetings
-assignee: ndl21, pt440
+assignee:
+  - pierre-thodoroff
 ---
-
-Organise the group's weekly meetings setting the topic each week and booking the room.
+Organise the group's Friday weekly meetings setting the topic each week and booking the room and advertising.
