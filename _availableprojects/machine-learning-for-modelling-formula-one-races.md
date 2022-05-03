@@ -14,7 +14,7 @@ overview: >-
   between winning and losing the race.
 
 
-  There are commercial confidentiality issues over which areas will be studied, but interested students can discuss these areas directly with Neil.
+  There are commercial confidentiality issues over which areas will be studied, but interested students can discuss these areas directly with the supervisors.
 supervisors:
   - neil-d-lawrence
   - andrei-paleyes
