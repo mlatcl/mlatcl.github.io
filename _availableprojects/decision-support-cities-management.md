@@ -2,7 +2,8 @@
 month: 0
 layout: project-to-supervise
 running: true
-categories: prtii
+categories:
+  - prtii
 supervisors:
   - christian-cabrera
   - neil-d-lawrence
@@ -37,4 +38,3 @@ project_bigger_picture: This project is part of a wider project called AutoAI.
   will form part of the portfolio of AutoAI demonstrations.
 year: 2021
 ---
-<!----->
