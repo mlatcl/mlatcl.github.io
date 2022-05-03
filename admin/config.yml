@@ -1105,6 +1105,7 @@ collections:
         name: 'body'
         widget: 'markdown'
         hint: "Give any further descriptions of the project that you'd like to add"
+        required: false
   # Opportunities Collection
   - label: 'Opportunities'
     name: 'opportunities'
