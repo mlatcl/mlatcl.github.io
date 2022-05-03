@@ -1,5 +1,6 @@
 ---
 title: Machine Learning for Modelling Formula One Races
+running: true
 categories:
   - prtii
   - prtiii
@@ -18,6 +19,8 @@ overview: >-
 supervisors:
   - neil-d-lawrence
   - andrei-paleyes
+projects:
+  - autoai
 student_learn: You will learn about making real time data-driven decisions using
   machine learning. You will develop an understanding of how the pipeline of
   decision making depends on good software, how to interact with a customer who
@@ -34,5 +37,4 @@ project_bigger_picture: In academia it is rare to find a decision-making
   best-currently-available answer is provided and this project gives an
   opportunity to understand that process.
 year: 2012
-running: true
 ---
