@@ -1,23 +1,40 @@
 ---
-layout: available-project
+layout: available-projects
 title: Available Projects
 permalink: /internal/projects/
 ---
 
 <section class="block block__publications">
-    <div class="container">
-        <div class="section-heading">
-            <h2>Available Undergrad and Masters Projects</h2>
-            <span></span>
-        </div>
-        <div class="publications__list">
-{% assign projects = site.availableprojects | sort: "title" %}
-
-{% for project in projects %}
-{% if project.running %}
-{% include listavailableproject.html %}
-{% endif %}
-{% endfor %}
-        </div>
+  <div class="container">
+    <div class="section-heading">
+      <h2>Available Masters/Part III Projects</h2>
+      <span></span>
     </div>
+    <div class="publications__list">
+      {% assign projects = site.availableprojects | sort: "title" %}
+      
+      {% for project in projects %}
+      {% if project.running %}
+      {% if project.categories contains "prtiii" or project.categories contains "MPhil" %}
+      {% include listavailableproject.html %}
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+    </div>
+    <div class="section-heading">
+      <h2>Available Undergrad Projects</h2>
+      <span></span>
+    </div>
+    <div class="publications__list">
+      {% assign projects = site.availableprojects | sort: "title" %}
+      
+      {% for project in projects %}
+      {% if project.running %}
+      {% if project.categories contains "prtii"  %}
+      {% include listavailableproject.html %}
+      {% endif %}
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
 </section>
