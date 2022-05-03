@@ -15,7 +15,6 @@ overview: >-
   to the teams. Optimization of pit stop strategy can make the difference
   between winning and losing the race.
 
-
   There are commercial confidentiality issues over which areas will be studied, but interested students can discuss these areas directly with the supervisors.
 supervisors:
   - andrei-paleyes
