@@ -12,7 +12,7 @@ student_learn: You will learn about multi-objective optimisation. You will learn
   about Bayesian optimization and learn how to apply it to practical tasks. You
   will gain experience of building models using the PyTorch library.
 published: 2021-06-30
-title: Automatic discovery of trade-off between accuracy, privacy and fairness
+title: Automatic Discovery of Trade-off Between Accuracy, Privacy and Fairness
   for ML models
 overview: When machine learning models are deployed to solve real world
   problems, they are often trained on sensitive data, e.g. healthcare or
