@@ -1,7 +1,7 @@
 ---
 title: Data Driven Mechanistic Models for Systems Biology
-running: True
-layout: phdproject
+layout: project-to-supervise
+running: False
 categories:
 - PhD
 abstract: |-
@@ -13,9 +13,7 @@ abstract: |-
 key: Mechanistic:10
 month: 0
 supervisors:
-- firstname: Neil D.
-  lastname: Lawrence
-  url: http://inverseprobability.com
+- neil-d-lawrence
 published: 2010-01-01
 year: 2010
 ---

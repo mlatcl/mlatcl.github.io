@@ -1063,7 +1063,7 @@ collections:
       - label: "Categories"
         name: "categories"
         widget: "select"
-        options: ["prtii", "prtiii", "MPhil"]
+        options: ["prtii", "prtiii", "MPhil", "PhD"]
         multiple: true
       - label: 'Short Overview'
         name: 'overview'
