@@ -36,7 +36,6 @@ project_bigger_picture: >-
   portfolio of AutoAI demonstrations. We will also encourage publication of the
   project's result.
 
-
   Automatic trade-off between accuracy and privacy is studied in [this paper](https://arxiv.org/abs/1905.10862), and this project is a direct continuation of that work. Three-way trade-offs between accuracy, fairness and privacy were also [considered before](https://arxiv.org/abs/2102.05975), but not in a fully automated fashion.
 year: 2021
 running: true

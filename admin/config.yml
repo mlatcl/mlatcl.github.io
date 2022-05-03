@@ -1090,6 +1090,12 @@ collections:
         options_length: 999
         multiple: true
         required: false
+      - label: 'Date of Publication'
+        name: 'published'
+        widget: 'datetime'
+        format: "YYYY-MM-DD"
+        date_format: "YYYY-MM-DD"
+        time_format: false
       - label: 'What will student learn?'
         name: 'student_learn'
         widget: 'markdown'
