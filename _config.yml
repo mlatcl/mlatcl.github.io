@@ -35,6 +35,9 @@ collections:
     output: true
   projects:
     output: true
+  availableprojects:
+    output: true
+    permalink: /internal/projects/:title:output_ext
   publications:
     output: true
     permalink: /publications/:title:output_ext

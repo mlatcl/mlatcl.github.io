@@ -1003,9 +1003,8 @@ collections:
         name: 'body'
         widget: 'markdown'
         required: false
-  
   # Minijobs collection
-  - label: 'Minijobs List'
+  - label: 'Minijobs'
     name: 'minijobs'
     folder: '_minijobs/'
     create: true
@@ -1040,6 +1039,72 @@ collections:
         options_length: 999
         multiple: true
         required: false          
+  # Minijobs collection
+  - label: 'Projects for MPhil/PrtIII/PrtII'
+    name: 'availableprojects'
+    folder: '_availableprojects/'
+    create: true
+    slug: '{{slug}}'
+    editor:
+      preview: false
+    fields:
+      - label: 'Layout'
+        name: 'layout'
+        widget: 'hidden'
+        default: 'project-to-supervise'
+      - label: 'Title'
+        name: 'title'
+        widget: 'string'
+        hint: "The title of the project."
+      - label: 'Running'
+        name: 'running'
+        widget: 'boolean'
+        hint: "Set to true if the project is being made available."
+      - label: "Categories"
+        name: "categories"
+        widget: "select"
+        options: ["prtii", "prtiii", "MPhil"]
+      - label: 'Short Overview'
+        name: 'overview'
+        widget: 'markdown'
+        hint: "Use this field to give a brief overview of the project."
+      - label: 'Supervisors'
+        hint: "Use this field to list who's supervising the project. First listed is primary contact point. If a student is primary contact point you need a UTO as an additional supervisor."
+        name: 'supervisors'
+        widget: 'relation'
+        collection: 'people'
+        search_fields: ["given", "family"]
+        value_field: "{{slug}}"
+        display_fields: ["given", "family"]
+        options_length: 999
+        multiple: true
+      - label: 'Related Projects'
+        name: 'projects'
+        hint: "List any of the group's projects that this work is related to to provide further context."
+        widget: 'relation'
+        collection: 'projects'
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        options_length: 999
+        multiple: true
+        required: false
+      - label: 'What will student learn?'
+        name: 'student_learn'
+        widget: 'markdown'
+        hint: "Answer the FAQ question 'What will I learn in this project?'"
+      - label: 'What is the project objective?'
+        name: 'project_objective'
+        widget: 'markdown'
+        hint: "Answer the FAQ question 'What is the objective of this project?'"
+      - label: 'How does it fit in the bigger picture?'
+        name: 'project_bigger_picture'
+        widget: 'markdown'
+        hint: "Answer the FAQ question 'How does it fit in the bigger picture?'"
+      - label: 'Body'
+        name: 'body'
+        widget: 'markdown'
+        hint: "Give any further descriptions of the project that you'd like to add"
   # Opportunities Collection
   - label: 'Opportunities'
     name: 'opportunities'
