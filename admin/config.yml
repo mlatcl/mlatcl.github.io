@@ -1064,6 +1064,7 @@ collections:
         name: "categories"
         widget: "select"
         options: ["prtii", "prtiii", "MPhil"]
+        multiple: true
       - label: 'Short Overview'
         name: 'overview'
         widget: 'markdown'
