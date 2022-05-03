@@ -11,10 +11,10 @@ overview: >-
   year focussed on Formula One data. Formula one is a data intensive sport,
   information about the location of each team’s car during the race is provided
   to the teams. Optimization of pit stop strategy can make the difference
-  between winning and loosing the race.
+  between winning and losing the race.
 
 
-  There are commercial confidentiality issues over which areas will be studied, but interested students can discuss these areas directly with PNeil.
+  There are commercial confidentiality issues over which areas will be studied, but interested students can discuss these areas directly with Neil.
 supervisors:
   - neil-d-lawrence
   - andrei-paleyes
