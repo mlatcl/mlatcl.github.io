@@ -1,11 +1,14 @@
 ---
 month: 0
 layout: project-to-supervise
+running: true
 categories:
   - prtii
 supervisors:
   - markus-kaiser
   - neil-d-lawrence
+projects:
+  - accelerate-science
 student_learn: You will learn about Gaussian processes and associated ML
   modelling choices, interact with multiple deep learning frameworks and develop
   and publish a Python library.
@@ -37,5 +40,4 @@ project_bigger_picture: >-
 
   You will have a chance to interact with the wider team both in the machine learning and broader scientific communities.
 year: 2021
-running: true
 ---
