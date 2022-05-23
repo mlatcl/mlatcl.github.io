@@ -12,7 +12,8 @@ people:
   - christian-cabrera
   - neil-d-lawrence
 publications:
-  - towards-better-data-discovery-and-collection-with-flow-based-programming
+  - 2021-12-14-towards-better-data-discovery-and-collection-with-flow-based-programming
+  - 2022-05-16-an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
 ---
 As shown in "Challenges in machine learning deployment" project, when deploying machine learning algorithms in real-world systems, software developers face a new set of challenges. In this project we ask a question: "What are the underlying reasons for these challenges to arise?", and propose that the problem lies with the modern trend of building software systems as microservices. While microservice architectures are resilient, scalable and fast, we argue that they do not answer the demands of the data-driven world.
 
