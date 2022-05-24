@@ -1,22 +1,22 @@
 ---
 month: 0
 layout: project-to-supervise
+title: An Academic Scholar System
 running: true
 categories:
   - prtii
+overview: Academic publications systems such as Microsoft Academic and Google
+  Scholar track individual authors, their papers and who the've cited. Semantic
+  scholar makes its data freely available. In this project you will absorb the
+  semantic scholar data to provide a scalable cloud based scholar service.
 supervisors:
   - eric-meissner
   - neil-d-lawrence
 projects:
   - autoai
-student_learn: You will learn about the infrastructure behind data science and
-  machine learning and how to build such infrastructure in a cloud environment.
 published: 2021-06-01
-title: An Academic Scholar System
-overview: Academic publications systems such as Microsoft Academic and Google
-  Scholar track individual authors, their papers and who the've cited. Semantic
-  scholar makes its data freely available. In this project you will absorb the
-  semantic scholar data to provide a scalable cloud based scholar service.
+student_learn: You will learn about the infrastructure behind data science and
+  machine learning and how to build such infrastructures in a cloud environment.
 project_objective: You will provide a REST API that will allow researchers to
   explore academic research papers. There is flexibility, and you might provide
   data visualization tools in e.g. Bokeh that allow different views on the data.
