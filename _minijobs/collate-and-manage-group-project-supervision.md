@@ -3,6 +3,8 @@ layout: minijob
 title: Collate and Manage Group Project Supervision
 overview: Curate the list of projects that we offer to Part II, Part III and
   MPhil students.
+assignee:
+  - vidhi-lalchand
 ---
  Across the group many of our PhD students and post docs get involved in project supervision. You look after:
 
