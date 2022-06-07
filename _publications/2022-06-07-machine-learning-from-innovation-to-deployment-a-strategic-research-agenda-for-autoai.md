@@ -16,6 +16,16 @@ author:
   - consortium:
       name: The AutoAI Research Team
       url: https://mlatcl.github.io/projects/autoai.html
+      person_pages:
+        - andrei-paleyes
+        - carl-henrik-ek
+        - christian-cabrera
+        - eric-meissner
+        - jessica-montgomery
+        - mala-virdee
+        - markus-kaiser
+        - pierre-thodoroff
+        - neil-d-lawrence
 pdf: https://mlatcl.github.io/papers/autoai-sra.pdf
 ---
 Achieving the full potential of AI – and its benefits for society and the economy – requires the ability to safely and effectively deploy AI systems at scale. As those deploying AI technologies seek to tackle more sophisticated tasks, AI systems are becoming larger and more complex. This complexity gives rise to challenges in the interpretation, explanation, accuracy, and fairness of AI systems. These challenges lie behind many of the failures we see today. They stem from the connection between system complexity and new types of technical and intellectual debt – our ability to deploy complex decision-making systems has increased, but further work is now needed to manage performance in deployment and scrutinise how these systems operate in practice.
