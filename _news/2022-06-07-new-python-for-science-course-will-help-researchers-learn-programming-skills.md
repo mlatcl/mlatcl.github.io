@@ -1,13 +1,12 @@
 ---
 layout: news-single
 title: "New Python for Science course will help researchers learn programming skills "
-excerpt: The Accelerate Science Programme (based in this Department) and
-  education technology company Cambridge Spark are offering researchers across
-  Cambridge University a new self-learning module so they can learn programming
-  in Python.
+excerpt: The Accelerate Science Programme and education technology company
+  Cambridge Spark are offering researchers across Cambridge University a new
+  self-learning module so they can learn programming in Python.
 category:
   - ai-for-research-and-innovation
-featured_image: https://www.cst.cam.ac.uk/sites/www.cst.cam.ac.uk/files/accelerate-event-new-leading-image_2.jpg
+featured_image: /assets/images/logo-portrait_4.jpg
 ---
 ### The new Python for Science e-learning programme teaches researchers from across disciplines how to program using Python. It introduces the essential knowledge needed to process, manage and analyse data using Python and pandas (a software library written for the Python programming language for data manipulation and analysis). This will provide skills that researchers can immediately apply to their own data analysis.
 
