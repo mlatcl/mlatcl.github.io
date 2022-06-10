@@ -1,7 +1,7 @@
 ---
 title: Data Driven Mechanistic Models for Systems Biology
 layout: project-to-supervise
-running: False
+status: Hidden
 categories:
 - PhD
 abstract: |-

@@ -1,7 +1,7 @@
 ---
 layout: project-to-supervise
 title: "Machine Learning (Bayesian Methodology, Inference and Applications)  "
-running: true
+status: Available
 categories:
   - prtii
   - MPhil

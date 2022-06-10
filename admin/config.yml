@@ -1056,10 +1056,12 @@ collections:
         name: 'title'
         widget: 'string'
         hint: "The title of the project."
-      - label: 'Running'
-        name: 'running'
-        widget: 'boolean'
-        hint: "Set to true if the project is being made available."
+      - label: 'Status'
+        name: 'status'
+        widget: 'select'
+        options: ["Available", "Completed", "Hidden"]
+        multiple: false
+        hint: "Indicate if the project is available or completed. Hidden projects are not displayed."
       - label: "Categories"
         name: "categories"
         widget: "select"
@@ -1112,6 +1114,11 @@ collections:
         name: 'body'
         widget: 'markdown'
         hint: "Give any further descriptions of the project that you'd like to add"
+        required: false
+      - label: "File"
+        name: "file-link"
+        hint: "If the project was completed and the final thesis is available, give a link to it here."
+        widget: "string"
         required: false
   # Opportunities Collection
   - label: 'Opportunities'

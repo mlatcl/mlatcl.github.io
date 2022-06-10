@@ -1,7 +1,7 @@
 ---
 month: 0
 layout: project-to-supervise
-running: true
+status: Available
 categories:
   - prtii
 supervisors:

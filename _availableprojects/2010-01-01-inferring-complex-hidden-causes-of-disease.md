@@ -3,7 +3,7 @@ title: Inferring Complex Hidden Causes of Disease through Probabilistic Models
 layout: project-to-supervise
 categories:
 - PhD
-running: False
+status: Hidden
 year: 2010
 overview: |-
   The increased ability to measure individuals’ genetic profiles ( through single nucleotide polymorphisms), combined with the ability to characterize a disease activity through gene expression, and other biomarkers, should reveal more realistically complex webs of causal factors for disease. Understanding these causal factors would enable personalised interventions targeted to an individual’s genetic, environmental (including concurrent treatments) and treatment preference profile.

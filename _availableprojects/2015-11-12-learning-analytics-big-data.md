@@ -1,5 +1,5 @@
 ---
-running: False
+status: Hidden
 year: 2015
 title: "'Skill Learning': Analytics with Big Data"
 overview: |-

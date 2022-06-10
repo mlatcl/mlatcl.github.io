@@ -14,7 +14,7 @@ permalink: /internal/projects/
       {% assign projects = site.availableprojects | sort: "title" %}
       
       {% for project in projects %}
-      {% if project.running %}
+      {% if project.status == 'Available' %}
       {% if project.categories contains "prtiii" or project.categories contains "MPhil" %}
       {% include listavailableproject.html %}
       {% endif %}
@@ -33,7 +33,7 @@ permalink: /internal/projects/
       {% assign projects = site.availableprojects | sort: "title" %}
       
       {% for project in projects %}
-      {% if project.running %}
+      {% if project.status == 'Available' %}
       {% if project.categories contains "prtii"  %}
       {% include listavailableproject.html %}
       {% endif %}

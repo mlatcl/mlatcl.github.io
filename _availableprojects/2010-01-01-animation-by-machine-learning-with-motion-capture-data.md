@@ -1,7 +1,7 @@
 ---
 title: Animation by Machine Learning with Motion Capture Data
 layout: project-to-supervise
-running: False
+status: Hidden
 categories:
 - PhD
 year: 2010

@@ -1,5 +1,5 @@
 ---
-running: False
+status: Hidden
 title: Machine Learning Methodologies for Personalized Health
 overview: |-
   It is now possible to have several perspectives on a patient. mHealth provides information derived from mobile phones. Full genotyping of patients is becoming affordable, providing information about genetic background. The phenotype of disease is becoming better characterised than ever before. Techniques such as transcriptome analysis allow a highly detailed characterization of the state of a tissue. Finally the UK government’s midata initiative (and similar initiatives elsewhere) may eventually allow patients to provide information about their consumer spending habits as well as social network behaviour.\

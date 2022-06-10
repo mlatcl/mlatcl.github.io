@@ -1,0 +1,23 @@
+---
+layout: available-projects
+title: Completed Student Projects
+permalink: /internal/completed-projects/
+---
+
+<section class="block block__publications">
+  <div class="container">
+    <div class="section-heading">
+      <h2>Completed Projects</h2>
+      <span></span>
+    </div>
+    <div class="publications__list">
+      {% assign projects = site.availableprojects | sort: "title" %}
+      
+      {% for project in projects %}
+        {% if project.status == 'Completed' %}
+          {% include listavailableproject.html %}
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</section>

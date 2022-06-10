@@ -1,5 +1,5 @@
 ---
-running: False
+status: Hidden
 projectnumber: NDL-6
 year: 2012
 title: Motion Capture Data Modelling in Python

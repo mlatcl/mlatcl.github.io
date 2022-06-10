@@ -3,7 +3,7 @@ month: 0
 layout: project-to-supervise
 title: Automatic Discovery of Trade-off Between Accuracy, Privacy and Fairness
   for ML models
-running: false
+status: Completed
 categories:
   - mphil
   - prtiii

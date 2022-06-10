@@ -2,7 +2,7 @@
 month: 0
 layout: project-to-supervise
 title: Optimisation Benchmarks for Online RL
-running: false
+status: Completed
 categories:
   - prtii
   - prtiii

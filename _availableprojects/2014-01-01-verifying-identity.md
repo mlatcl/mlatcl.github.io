@@ -1,6 +1,6 @@
 ---
 layout: project-to-supervise
-running: False
+status: Hidden
 year: 2014
 title: Verifying Identity
 overview: |-
