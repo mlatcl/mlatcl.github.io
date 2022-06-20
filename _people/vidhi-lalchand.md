@@ -15,7 +15,7 @@ publications:
   - gaussian-process-latent-variable-flows-for-massively-missing-data
 supervisor: null
 url: null
-image: vidhi-lalchand.jpg
+image: /assets/images/whatsapp-image-2022-06-20-at-4.30.50-pm.jpeg
 linkedin: null
 twitter: null
 email: vr308@cam.ac.uk
