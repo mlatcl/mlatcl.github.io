@@ -16,7 +16,7 @@ publications:
 supervisor: null
 url: null
 image: /assets/images/vidhi-lalchand.jpg
-linkedin: null
+linkedin: https://www.linkedin.com/in/vidhi-lalchand-2297b53a/
 twitter: https://twitter.com/VRLalchand
 email: vr308@cam.ac.uk
 biography: >-
