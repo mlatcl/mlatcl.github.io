@@ -17,7 +17,7 @@ supervisor: null
 url: null
 image: /assets/images/whatsapp-image-2022-06-20-at-4.30.50-pm.jpeg
 linkedin: null
-twitter: null
+twitter: https://twitter.com/VRLalchand
 email: vr308@cam.ac.uk
 biography: >-
   Vidhi is a Ph.D. student at the Cavendish Laboratory, a Turing Scholar and a
