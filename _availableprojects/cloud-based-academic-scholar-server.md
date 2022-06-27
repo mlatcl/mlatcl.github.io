@@ -6,7 +6,7 @@ status: Available
 categories:
   - prtii
 overview: Academic publications systems such as Microsoft Academic and Google
-  Scholar track individual authors, their papers and who the've cited. Semantic
+  Scholar track individual authors, their papers and who they've cited. Semantic
   scholar makes its data freely available. In this project you will absorb the
   semantic scholar data to provide a scalable cloud based scholar service.
 supervisors:
