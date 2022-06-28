@@ -17,8 +17,8 @@ institution: Cambridge University
 image: vincentd.jpg
 biography: >-
 	Vincent is a PhD student in the Computational and Biological Learning Lab (CBL)
-	with Prof. Zoubin Ghahramani, and in the Machine Learning at Computer Lab
-	(ML@CL) with Prof. Carl Henrik Ek. He is also a member of Jesus College,
+	with Zoubin Ghahramani, and in the Machine Learning at Computer Lab
+	(ML@CL) with  Carl Henrik Ek. He is also a member of Jesus College,
 	University of Cambridge.
 
 	Vincent started his PhD in October 2020. Prior to that, he worked as a research
