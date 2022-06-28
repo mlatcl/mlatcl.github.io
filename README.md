@@ -10,8 +10,8 @@ The idea is that we can each update information about ourselves or activities in
 
 Pages are structured into 
 
-_research  Our main research themes (we have four of these)
-_projects  The projects we are working on with these themes)
-_people    Our reseaerchers and students
-_publications  Our publications
-
+ - _research  Our main research themes (we have four of these)
+ - _projects  The projects we are working on with these themes
+ - _people    Our researchers and students
+ - _publications  Our publications
+ - _availableprojects  Part II/Part III/MPhil projects proposals and archive
