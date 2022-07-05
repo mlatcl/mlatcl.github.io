@@ -7,7 +7,7 @@ start: 2022-07-11
 end: ""
 position: Senior Research Associate, Accelerate Programme for Scientific Discovery
 institution: Cambridge University
-image: /assets/images/soumyabanerjee_picture_website1.jpeg
+image: soumyabanerjee_picture_website1.jpeg
 biography: >-
   Soumya analyses complex problems and implement new statistical and machine
   learning techniques for deriving insights from large amounts of data. He works
