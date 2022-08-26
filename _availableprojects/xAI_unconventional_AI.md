@@ -65,8 +65,8 @@ References
 4. Banerjee S, Sofack GN, Papakonstantinou T, Avraam D, Burton P, et al. (2022) dsSurvival: Privacy preserving survival models for federated individual patient meta-analysis in DataSHIELD. BMC Res Notes 15: 197.
 
 supervisors:
-  - Soumya Banerjee
-  - lawrennd
+  - soumya-banerjee
+  - neil-d-lawrence
 projects:
   - autoai
 student_learn: >-
@@ -74,7 +74,7 @@ student_learn: >-
 
 This work is part of the Accelerate Programme for Scientific Discovery which aims to democratize access to AI tools and apply AI to problems from diverse disciplines. The student will be part of a growing community of inter-disciplinary AI researchers at the University of Cambridge.
 
-published: 2022-08-01
+published: 2022-08-26
 project_objective: >-
   The main objective is to develop a suite of techniques inspired by classical AI to inform explainable AI.
 project_bigger_picture: >-
