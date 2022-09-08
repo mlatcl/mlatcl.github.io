@@ -1,0 +1,13 @@
+hero:
+  title: Our Modules
+body: >-
+  #### Open Education of AI techniques
+grid:
+  - title: ML & The Physical World
+    description: This module focusses on the interface between a physical understanding of a problem and the use of surrogate modelling.
+    link: /mlphysical/
+    image: /assets/images/nasa-q1p7bh3shj8-unsplash.jpg
+  - description: This module focuses on the process of data science.
+    title: Advanced Data Science
+    image: /assets/images/mike-kononov-lfv0v3_2h6s-unsplash.jpg
+    link: /advds/
