@@ -1,7 +1,7 @@
 ---
 title: Cross-modal alignment  model for  audio to sentence.
 layout: project-to-supervise
-status: Hidden
+status: Visible
 categories:
 - Mphil
 year: 2022
