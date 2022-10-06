@@ -1,7 +1,7 @@
 ---
 title: Investigating  the Effect of Sequence Length  on the quality of clean speech generated
 layout: project-to-supervise
-status: Hidden
+status: open
 categories:
 - Mphil
 year: 2022
