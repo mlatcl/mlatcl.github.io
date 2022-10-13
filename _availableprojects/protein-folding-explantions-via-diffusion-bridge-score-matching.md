@@ -1,7 +1,7 @@
 ---
 layout: project-to-supervise
 title: Protein Folding Explantions via Diffusion Bridge Score Matching
-status: Completed
+status: Available
 categories:
   - MPhil
   - prtiii
