@@ -18,7 +18,7 @@ overview: >-
   W﻿e expect the student to lightly adapt the methods in \[3,4] to the optimisation setting in \[2] (This simply amounts to exploring low temperatures in the artificial target distribution induced by the loss function).  Furthermore exploring tasks in engineering as in \[1] might require being creative about the inductive biases baked into the NN parametrisation that we are working with.
 
 
-  T﻿he nature of this project will be mostly ML-engineering and playing around / being cretive about NN inductive biases. That said if the student is more mathematically/theory oritented we could explore extending the results in \[2] (which aply to the method in \[4] only) to the method in in \[3] using the mixing rates in \[7] and maybe comparing to things like \[8] (last bit would be very bonus/extra type of thing).
+  T﻿he nature of this project will be mostly ML-engineering and playing around / being cretive about NN inductive biases. That said if the student is more mathematically/theory oritented we could explore extending the results in \[2] (which apply to the method in \[4] only) to the method in in \[3] using the mixing rates in \[7] and maybe comparing to things like \[8] (last bit would be very bonus/extra type of thing).
 
 
   A﻿s alwyas the student should explore simple 1d and 2d toy optimisation examples to asses the validity of the method before moving onto real world examples.
