@@ -18,10 +18,10 @@ overview: >-
   W﻿e expect the student to lightly adapt the methods in \[3,4] to the optimisation setting in \[2] (This simply amounts to exploring low temperatures in the artificial target distribution induced by the loss function).  Furthermore exploring tasks in engineering as in \[1] might require being creative about the inductive biases baked into the NN parametrisation that we are working with.
 
 
-  T﻿he nature of this project will be mostly engineering and playing around / being cretive about NN inductive biases. That said if the student is more mathematically/theory oritented we could explore extending the results in \[2] (which aply to themethod in \[4] only) to the method in in \[3] using the mixing rates in \[7] and maybe comparing to things like \[8] (last bit would be very bonus/extra type of thing).
+  T﻿he nature of this project will be mostly ML-engineering and playing around / being cretive about NN inductive biases. That said if the student is more mathematically/theory oritented we could explore extending the results in \[2] (which aply to the method in \[4] only) to the method in in \[3] using the mixing rates in \[7] and maybe comparing to things like \[8] (last bit would be very bonus/extra type of thing).
 
 
-  A﻿s alwyas the student should explore simple 1d nd 2d toy optimisation examples to asses the validity of the method before moving onto more real world examples.
+  A﻿s alwyas the student should explore simple 1d and 2d toy optimisation examples to asses the validity of the method before moving onto real world examples.
 
 
   \[﻿1] [https://arxiv.org/pdf/1606.04474.pdf](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Farxiv.org%2Fpdf%2F1606.04474.pdf&data=05%7C01%7Cfav25%40cam.ac.uk%7Ca14bb2a0a3084b79cd9808daabbed5b1%7C49a50445bdfa4b79ade3547b4f3986e9%7C0%7C0%7C638011133352555862%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=muiHl7wxQCMJLQDDj7Nam9deOKTyzwb%2BreDb9ouRk3Q%3D&reserved=0) 
@@ -33,19 +33,19 @@ overview: >-
   \[﻿3] [https://openreview.net/forum?id=8pvnfTAbu1f](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fopenreview.net%2Fforum%3Fid%3D8pvnfTAbu1f&data=05%7C01%7Cfav25%40cam.ac.uk%7Ca14bb2a0a3084b79cd9808daabbed5b1%7C49a50445bdfa4b79ade3547b4f3986e9%7C0%7C0%7C638011133352555862%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=S%2Fodk%2FZBDwbkGpQ6d%2FjJCIEd3ATbwmxR%2BvaVEopE%2FlI%3D&reserved=0)
 
 
-  \[﻿4] https://arxiv.org/abs/2111.15141 
+  \[﻿4] <https://arxiv.org/abs/2111.15141> 
 
 
-  \[﻿5] https://arxiv.org/abs/2006.11239 
+  \[﻿5] <https://arxiv.org/abs/2006.11239> 
 
 
-  \[﻿6] https://arxiv.org/abs/2006.11239 
+  \[﻿6] <https://arxiv.org/abs/2006.11239> 
 
 
-  \[﻿7] https://arxiv.org/pdf/2209.11215.pdf
+  \[﻿7] <https://arxiv.org/pdf/2209.11215.pdf>
 
 
-  \[﻿8] https://arxiv.org/abs/1707.06618
+  \[﻿8] <https://arxiv.org/abs/1707.06618>
 supervisors:
   - francisco-vargas
   - neil-d-lawrence
