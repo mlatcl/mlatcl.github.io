@@ -23,14 +23,14 @@ overview: >-
 
   2. Extend the work in \[3] to the underdampened version. (Francisco can help with this)
 
-  3. Apply the extensions and adaptions of \[3] to work on the simple proteins of \[4] and compare to \[4].
+  3. Apply the extensions and adaptions of \[3] to work on the simple proteins of \[4] and compare to the method in  \[4]. 
 
   4. Consider ehnahncements / exentsions, would a full schrodinger bridge work better here ? 
 
   5. If time allowing , pick some of the most recently exciting discoveries from alphafold \[5] that have a known potential and try and see if we can get it working.
 
 
-  Point 5. is an "if time allows" type of objective and I predict most the time will be spent in 3. , succesful completion of 3 could lead to a publication at a top venue whilst 4. could have a broader impact on on the field. 
+  Point 5. is an "if time allows" type of objective and I predict most the time will be spent in 3. , succesful completion of 3 could lead to a publication at a top venue whilst 5. could have a broader impact on on the field. 
 
 
   Ideally a good background in the following could be very helpful for this project:
