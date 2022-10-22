@@ -48,15 +48,21 @@ overview: >-
 
     [1] Buolamwini, J., & Gebru, T. (2018). Gender shades: Intersectional accuracy disparities in commercial gender classification. FAccT.
 
+
     [2] De Vries, T., Misra, I., Wang, C., & Van der Maaten, L. (2019). Does object recognition work for everyone?. CVPR.
+
 
     [3] Bolukbasi, T., Chang, K. W., Zou, J. Y., Saligrama, V., & Kalai, A. T.  (2016). Man is to computer programmer as woman is to homemaker? Debiasing word embeddings. NeurIPS.
 
+
     [4] Jacobs, A., Z., & Wallach, H. (2021). Measurement and Fairness. FAccT.
+
 
     [5] Steegen, S., Tuerlinckx, F., Gelman, A., & Vanpaemel, W. (2016).  Increasing transparency through a multiverse analysis. Perspectives on Psychological Science.
 
+
     [6] Bell, S. J., Kampman, O. P., Dodge, J., & Lawrence, N. D. (2022).  Modeling the Machine Learning Multiverse. NeurIPS. 
+
 
     [7] Sagawa, S., Koh, P. W., Hashimoto, T. B., & Liang, P. (2019).  Distributionally robust neural networks for group shifts: On the importance of regularization for worst-case generalization. ICLR.
 supervisors:

@@ -50,11 +50,15 @@ overview: >-
 
     [1] Steegen, S., Tuerlinckx, F., Gelman, A., & Vanpaemel, W. (2016). Increasing transparency through a multiverse analysis. Perspectives on Psychological Science.
 
+
     [2] Bell, S. J., Kampman, O. P., Dodge, J., & Lawrence, N. D. (2022). Modeling the Machine Learning Multiverse. NeurIPS.
+
 
     [3] Goldberg, P., Williams, C., & Bishop, C. (1997). Regression with input-dependent noise: A Gaussian process treatment. NeurIPS.
 
+
     [4] Card, D., Henderson, P., Khandelwal, U., Jia, R., Mahowald, K., & Jurafsky, D. (2020, November). With Little Power Comes Great Responsibility. EMNLP.
+
 
     [5] Binois, M., Huang, J., Gramacy, R. B., & Ludkovski, M. (2019). Replication or exploration? Sequential design for stochastic simulation experiments.  Technometrics.
 supervisors:
