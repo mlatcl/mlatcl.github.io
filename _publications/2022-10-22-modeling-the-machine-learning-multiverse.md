@@ -13,7 +13,6 @@ published: 2022-10-21
 author:
   - given: Samuel
     family: Bell
-    mlatcl_title: samuel-bell
     person_page: samuel-bell
   - given: Onno
     family: Kampman
