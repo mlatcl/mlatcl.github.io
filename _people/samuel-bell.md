@@ -16,8 +16,8 @@ position: PhD Student
 institution: University of Cambridge
 image: samuel-bell.jpg
 publications:
-  - 2022-10-22-modeling-the-machine-learning-multiverse
-  - 2022-10-22-behavioral-experiments-for-understanding-catastrophic-forgetting
+  - modeling-the-machine-learning-multiverse
+  - behavioral-experiments-for-understanding-catastrophic-forgetting
 biography: >-
   Sam applies theoretical approaches, practical methods and metascientific ideas from experimental psychology to understanding machine learning systems, with a particular focus on neural network behaviour. He is primarily interested in machine learning fairness, robustness, and research reproducibility.
 
