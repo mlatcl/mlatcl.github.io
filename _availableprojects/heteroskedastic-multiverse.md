@@ -16,6 +16,7 @@ overview: >-
     hyperparameters in optimizer choice, and evaluate whether large batch training
     necessarily leads to a drop in generalisation performance.
 
+
     In a deep learning setting, the multiverse is large and contains continuous
     dimensions, making it challenging to rigorously explore. To overcome this, Bell
     et al. implement a simple Gaussian Process surrogate and turn to Bayesian
@@ -23,12 +24,14 @@ overview: >-
     the added benefit of allowing us to quantify our confidence in different
     regions of the multiverse.
 
+
     A simplifying assumption in Bell et al.’s approach is that the multiverse is
     homoskedastic: that each point has the same variance. This is unlikely to be
     the case when working with neural networks. This project will extend the
     underlying surrogate to account for heteroskedasticity. One possible approach
     to this is to explicitly model the noise as a function of the inputs using a
     separate Gaussian Process [3].
+
 
     This approach has an important consequence. In deep learning, it is typical to
     evaluate models using the mean performance over a number (usually 10) runs with
@@ -40,12 +43,19 @@ overview: >-
     re-running the same configuration and sampling a new point in the multiverse
     [5].
 
+
     If you’re interested in the project, get in touch with Samuel Bell
     (sjb326@cam.ac.uk) for an informal chat.
 
+
     [1] Steegen, S., Tuerlinckx, F., Gelman, A., & Vanpaemel, W. (2016). Increasing transparency through a multiverse analysis. Perspectives on Psychological Science.
-    [2] Bell, S. J., Kampman, O. P., Dodge, J., & Lawrence, N. D. (2022). Modeling the Machine Learning Multiverse. NeurIPS.  [3] Goldberg, P., Williams, C., & Bishop, C. (1997). Regression with input-dependent noise: A Gaussian process treatment. NeurIPS.
+
+    [2] Bell, S. J., Kampman, O. P., Dodge, J., & Lawrence, N. D. (2022). Modeling the Machine Learning Multiverse. NeurIPS.
+
+    [3] Goldberg, P., Williams, C., & Bishop, C. (1997). Regression with input-dependent noise: A Gaussian process treatment. NeurIPS.
+
     [4] Card, D., Henderson, P., Khandelwal, U., Jia, R., Mahowald, K., & Jurafsky, D. (2020, November). With Little Power Comes Great Responsibility. EMNLP.
+
     [5] Binois, M., Huang, J., Gramacy, R. B., & Ludkovski, M. (2019). Replication or exploration? Sequential design for stochastic simulation experiments.  Technometrics.
 supervisors:
   - samuel-bell
