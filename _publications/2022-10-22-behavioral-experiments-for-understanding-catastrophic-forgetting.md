@@ -14,6 +14,6 @@ author:
   - given: Neil D.
     family: Lawrence
     person_page: neil-d-lawrence
-container-title: AI Evaluation Beyond Metrics (EBeM), IJCAI 2022
+container-title: AI Evaluation Beyond Metrics (EBeM), IJCAI
 arxiv: 2110.10570
 ---

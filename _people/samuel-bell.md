@@ -9,11 +9,11 @@ twitter: neurosamuel
 scholar: yfgSAi8AAAAJ
 github: samueljamesbell
 linkedin: samueljamesbell
-start: 2020-10-08
+start: 2018-10-01
 crsid: sjb326
 supervisor: ndl21
 position: PhD Student
-institution: Cambridge University
+institution: University of Cambridge
 image: samuel-bell.jpg
 publications:
   - 2022-10-22-modeling-the-machine-learning-multiverse
@@ -28,5 +28,5 @@ biography: >-
   In between, Sam has also simulated financial crises in market risk at Goldman Sachs, built new retail banks at Thought Machine, and developed next generation credit scores at Credit Kudos.
 
 
-  He is also the Founder and Chair of The Preptrack Foundation, a registered charity building technology for HIV prevention. Their first app, [Preptrack](https://preptrack.co.uk/), helps people who use PrEP, the medication that eliminates risk of HIV infection.
+  Sam is also the Founder and Chair of The Preptrack Foundation, a registered charity building technology for HIV prevention. Their first app, [Preptrack](https://preptrack.co.uk/), helps people who use PrEP, the medication that eliminates risk of HIV infection.
 ---
