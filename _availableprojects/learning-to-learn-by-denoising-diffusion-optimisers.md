@@ -6,7 +6,7 @@ categories:
   - MPhil
   - prtiii
 overview: >-
-  T﻿he seminal paper Learning to Learn by Gradient Descent By Gradeint descent
+  The seminal paper Learning to Learn by Gradient Descent By Gradient Descent
   \[1] explores learning optimisers (rather than using SGD or Adam) through an
   RNN architecture which models time steps as training steps and an RL based
   loss. 
@@ -15,13 +15,13 @@ overview: >-
   In this project we aim to achieve a similar product but rather than RNNs and RL we would like to explore the closely linked diffusion models \[5,6] and stochastic control. In particular there is already theoretical work that motivates the use of these methodologies for global optimisation \[2], what now remains is to explore it in practice.
 
 
-  W﻿e expect the student to lightly adapt the methods in \[3,4] to the optimisation setting in \[2] (This simply amounts to exploring low temperatures in the artificial target distribution induced by the loss function).  Furthermore exploring tasks in engineering as in \[1] might require being creative about the inductive biases baked into the NN parametrisation that we are working with.
+  W﻿e expect the student to lightly adapt the methods in \[3,4] to the optimisation setting in \[2] (This simply amounts to exploring low temperatures in the artificial target distribution induced by the loss function).  Furthermore, exploring tasks in engineering as in \[1] might require being creative about the inductive biases baked into the NN parametrisation that we are working with.
 
 
-  T﻿he nature of this project will be mostly ML-engineering and playing around / being cretive about NN inductive biases. That said if the student is more mathematically/theory oritented we could explore extending the results in \[2] (which apply to the method in \[4] only) to the method in in \[3] using the mixing rates in \[7] and maybe comparing to things like \[8] (last bit would be very bonus/extra type of thing).
+  The nature of this project will be mostly ML-engineering and playing around / being creative about NN inductive biases. That said if the student is more mathematically/theory oriented we could explore extending the results in \[2] (which apply to the method in \[4] only) to the method in in \[3] using the mixing rates in \[7] and maybe comparing to things like \[8] (last bit would be very bonus/extra type of thing).
 
 
-  A﻿s alwyas the student should explore simple 1d and 2d toy optimisation examples to asses the validity of the method before moving onto real world examples.
+  A﻿s always the student should explore simple 1d and 2d toy optimisation examples to assess the validity of the method before moving onto real world examples.
 
 
   \[﻿1] [https://arxiv.org/pdf/1606.04474.pdf](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Farxiv.org%2Fpdf%2F1606.04474.pdf&data=05%7C01%7Cfav25%40cam.ac.uk%7Ca14bb2a0a3084b79cd9808daabbed5b1%7C49a50445bdfa4b79ade3547b4f3986e9%7C0%7C0%7C638011133352555862%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C3000%7C%7C%7C&sdata=muiHl7wxQCMJLQDDj7Nam9deOKTyzwb%2BreDb9ouRk3Q%3D&reserved=0) 
