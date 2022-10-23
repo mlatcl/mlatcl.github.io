@@ -1,0 +1,19 @@
+hero:
+  title: Our Modules
+body: >-
+  #### Open Education of AI techniques
+
+  We share our taught materials openly to assist others in spreading understanding of machine learning techniques.
+grid:
+  - title: ML & The Physical World
+    description: This module focusses on the interface between a physical understanding of a problem and the use of surrogate modelling.
+    link: /mlphysical/
+    image: /assets/images/nasa-q1p7bh3shj8-unsplash.jpg
+  - title: Advanced Data Science
+    description: This module focuses on the process of data science. 
+    image: /assets/images/mike-kononov-lfv0v3_2h6s-unsplash.jpg
+    link: /advds/
+  - title: Machine Learning and Adaptive Intelligence
+    description: This module provides a first course in machine learning techniques.
+    link: /mlai/
+    image: /assets/images/stock-photo-programmer-working-and-developing-software-in-office-1823014802.jpg

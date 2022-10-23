@@ -255,10 +255,10 @@ collections:
               - label: 'Link'
                 name: 'link'
                 widget: 'string'
-      # About
-      - label: 'About'
-        name: 'about'
-        file: '_data/about.yml'
+      # Teaching
+      - label: 'Teaching'
+        name: 'teaching'
+        file: '_data/teaching.yml'
         editor:
           preview: false
         fields:
@@ -275,22 +275,6 @@ collections:
           - label: 'Body'
             name: 'body'
             widget: 'markdown'
-          # Partners
-          - label: 'Partners'
-            name: 'partners'
-            collapsed: true
-            minimize_collapsed: true
-            widget: 'list'
-            fields: 
-              - label: 'Name'
-                name: 'name'
-                widget: 'string'
-              - label: 'Logo'
-                name: 'logo'
-                widget: 'image'
-              - label: 'Link'
-                name: 'link'
-                widget: 'string'
           # Grid
           - label: 'Grid'
             name: 'grid'
