@@ -10,27 +10,27 @@ overview: >-
   Using Diffusion Bridges and Score Matching.
 
 
-  R﻿ecent advances in Schrodinger Bridges \[1,2] have enabled to learn stochastic mappings between 2 probability distributions (p(x) and q(x)) such that the stochastic map (which is modelled by a diffusion / SDE) is regularised by some prior process (wether it be computational or physical).
+  Recent advances in Schrodinger Bridges \[1,2] have enabled to learn stochastic mappings between 2 probability distributions (p(x) and q(x)) such that the stochastic map (which is modelled by a diffusion / SDE) is regularised by some prior process (whether it be computational or physical).
 
 
-  T﻿his project seeks to explore these methodologies in particular the simpler case studied in \[3] where both the source and the target distributions are modeled as point masses (dirac delta functions / measures). We seek to apply the approach in \[3] to sampling physically meaningful transition paths between two protein configurations as done in \[4]. Ideally we would aim to start working with simple/toy proteins and then move on to larger scale tasks where one of the protein configuraitions is a flat amino-acid and proteins produced by alpha fold, the end product would be to generate a video which gives a physicallly plausible folding process for alphafold \[5] predictions.
+  This project seeks to explore these methodologies in particular the simpler case studied in \[3] where both the source and the target distributions are modeled as point masses (dirac delta functions / measures). We seek to apply the approach in \[3] to sampling physically meaningful transition paths between two protein configurations as done in \[4]. Ideally, we would aim to start working with simple/toy proteins and then move on to larger scale tasks where one of the protein configurations is a flat amino-acid and proteins produced by alpha fold, the end product would be to generate a video which gives a physically plausible folding process for alphafold \[5] predictions.
 
 
-  A﻿n example Time-line of the project could be:
+  An example Timeline of the project could be:
 
 
   1. Get the codebase of \[4] working and reproduce results on simple proteins.
 
   2. Extend the work in \[3] to the underdampened version. (Francisco can help with this)
 
-  3. Apply the extensions and adaptions of \[3] to work on the simple proteins of \[4] and compare to the method in  \[4]. 
+  3. Apply the extensions and adaptions of \[3] to work on the simple proteins of \[4] and compare to the method in \[4]. 
 
-  4. Consider ehnahncements / exentsions, would a full schrodinger bridge work better here ? 
+  4. Consider enhancements / extensions, would a full Schrödinger bridge work better here? 
 
-  5. If time allowing , pick some of the most recently exciting discoveries from alphafold \[5] that have a known potential and try and see if we can get it working.
+  5. If time allowing, pick some of the most recently exciting discoveries from alphafold \[5] that have a known potential and try and see if we can get it working.
 
 
-  Point 5. is an "if time allows" type of objective and I predict most the time will be spent in 3. , succesful completion of 3 could lead to a publication at a top venue whilst 5. could have a broader impact on on the field. 
+  Point 5. is an "if time allows" type of objective and I predict most the time will be spent in 3., successful completion of 3 could lead to a publication at a top venue whilst 5. could have a broader impact on the field.
 
 
   Ideally a good background in the following could be very helpful for this project:
@@ -38,9 +38,9 @@ overview: >-
 
   1. Timeseries models (Kalman filters, AR processes, Gaussian processes).
 
-  2. Introductory calculus (ODEs , Basic PDEs , limits).
+  2. Introductory calculus (ODEs, Basic PDEs, limits).
 
-  3. Probability Theory (Limit Theorems, Change of Variables, basic concentration inequalities e.g. Markov/Chebychev)
+  3. Probability Theory (Limit Theorems, Change of Variables, basic concentration inequalities e.g., Markov/Chebyshev)
 
   4. Variational Inference (MFVI, Amortised VI, Deep hierarchical latent variable models)
 
