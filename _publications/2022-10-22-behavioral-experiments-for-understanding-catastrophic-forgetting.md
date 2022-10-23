@@ -7,7 +7,7 @@ abstract:
     Alongside our empirical findings, we demonstrate and discuss an alternative, behavior-first approach to investigating emergent neural network phenomena.
 published: 2022-10-21
 author:
-  - given: Samuel
+  - given: Samuel J.
     family: Bell
     mlatcl_title: samuel-bell
     person_page: samuel-bell

@@ -1,6 +1,6 @@
 ---
 layout: person
-given: Samuel
+given: Samuel J.
 family: Bell
 student: True
 website: https://samueljamesbell.com
