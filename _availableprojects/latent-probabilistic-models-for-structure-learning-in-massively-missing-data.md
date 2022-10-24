@@ -13,7 +13,7 @@ overview: >-
   best to apply VAEs to datasets with missing data.
 
 
-  I﻿n this projects we intend to explore a novel incarnation of a Gaussian process latent variables which can swork with missing data. 
+  I﻿n this projects we intend to explore a novel incarnation of a Gaussian process latent variables which can work seamlessly with missing data, the architecture would include a pointNet encoder which will encode every partial data point as a set with indicator variables (capturing the dimension identity) and a classical Gaussian process decoder.
 
 
   T﻿he focus would be on assessing the quality of uncertainty calibration, structure learning in latent space, and reconstruction quality on previously unseen data.
