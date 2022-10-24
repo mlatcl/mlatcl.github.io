@@ -1,6 +1,7 @@
 ---
 layout: project-to-supervise
-title: Latent probabilistic models for structure learning in massively missing data
+title: Latent Probabilistic Models for Unsupervised Structure Learning in
+  Massively Missing Data
 status: Available
 categories:
   - prtiii
