@@ -348,7 +348,7 @@ collections:
               - label: 'Category'
                 name: 'category'
                 widget: 'select'
-                options: ["Policy", "Teaching", "Software"]
+                options: ["Policy", "Teaching", "Software", "Report"]
               - label: 'Link'
                 name: 'link'
                 widget: 'string'

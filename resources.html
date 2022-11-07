@@ -9,7 +9,7 @@ permalink: /resources/
         <div class="resources__filter">
             <p>Filter:</p>
             <button class="active" data-filter="all">All</button>
-            {% assign titles = site.data.resources.resources | map: 'Category' | uniq %}
+            {% assign titles = site.data.resources.resources | map: 'category' | uniq %}
             {% for item in titles %}
                 <button data-filter="{{ item }}">{{ item }}</button>
             {% endfor %}
