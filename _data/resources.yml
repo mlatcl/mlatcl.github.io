@@ -29,3 +29,18 @@ resources:
     icon: /assets/images/policy-icon.svg
     category: Policy
     link: https://datatrusts.uk/blogs/creating-a-pathway-to-successful-real-world-data-trusts
+  - title: AI@Cam Report
+    category: Report
+    link: https://www.cam.ac.uk/system/files/aicam_review_april22.pdf
+    icon: /assets/images/report-icon.svg
+  - title: ELLIS/ELISE Strategic Research Agenda
+    category: Report
+    link: https://uploads-ssl.webflow.com/5f55e90f6a7294f66f94d30d/609a39235e25e3d64bb65053_ELISE-strategic-research-agenda-web.pdf
+    icon: /assets/images/report-icon.svg
+  - title: AutoAI Strategic Research Agenda
+    category: Report
+    link: https://mlatcl.github.io/papers/autoai-sra.pdf
+    icon: /assets/images/report-icon.svg
+    
+      
+      
