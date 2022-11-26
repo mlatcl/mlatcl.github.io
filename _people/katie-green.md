@@ -6,6 +6,7 @@ position: PhD Student
 institution: Cambridge University
 image: katie-green.jpg
 start: 2021-10-04
+supervisor: bmd39
 crsid: kmmg2
 biography: Katie is a PhD student and member of the AI4ER CDT and is supervised
   across Computer Science and British Antarctic Survey. She is interested in the

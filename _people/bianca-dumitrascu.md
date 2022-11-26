@@ -3,8 +3,8 @@ layout: person
 given: Bianca
 family: Dumitrascu
 crsid: bmd39
-start: 2022-04-15
-end: ""
+start: 2020-10-01
+end: 2023-02-01
 position: Departmental Early Career Academic Fellow, Accelerate Programme
 institution: Cambridge University
 image: bianca-dumitrascu.jpg
