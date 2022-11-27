@@ -10,7 +10,7 @@ scholar: NITUwmcAAAAJ
 twitter: 
 github: cabrerac
 crsid: chc79
-supervisor: ['ndl21', 'che29']
+supervisor: ndl21
 start: 2021-03-01
 position: Research Associate
 institution: Cambridge University
