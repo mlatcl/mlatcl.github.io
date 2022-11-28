@@ -3,11 +3,11 @@ layout: person
 given: Aditya
 family: Ravuri
 student: True
-url: 
+url: https://www.falmity.com
 orcid:
 twitter: 
-github: 
-linkedin: 
+github: infprobscix
+linkedin: adityaravuri
 start: 2021-10-07
 crsid: ar847
 supervisor: ndl21
@@ -22,6 +22,5 @@ biography: Aditya's interests are mainly in probabilistic machine learning and h
   connections to HMMs and are widely applicable.
 
 publications:
-  - 2021-01-15-gaussian-process-latent-variable-flows-for-massively-missing-data
+  - gaussian-process-latent-variable-flows-for-massively-missing-data
 ---
-
