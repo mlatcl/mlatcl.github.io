@@ -3,7 +3,7 @@ layout: person
 given: Aditya
 family: Ravuri
 student: True
-url: https://scholar.google.com/citations?user=ugVeU9AAAAAJ
+website: https://scholar.google.com/citations?user=ugVeU9AAAAAJ
 orcid:
 twitter: 
 github: infprobscix
