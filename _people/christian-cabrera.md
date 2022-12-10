@@ -11,7 +11,7 @@ twitter:
 github: cabrerac
 crsid: chc79
 supervisor: ndl21
-start: 2021-03-01
+start: 2021-02-01
 position: Research Associate
 institution: Cambridge University
 image: christian-cabrera-jojoa.jpeg
