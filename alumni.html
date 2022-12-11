@@ -10,7 +10,7 @@ permalink: /alumni/
             {% for person in site.people %}{%if person.alumni %}{% include extractname.html entry=person %}
                 <a href="{{ person.url }}" class="team__member">
                     <div class="team__member-image">
-                        <img src="{{site.data.images.directory | relative_url }}/{%if person.image and person.image != "" %}{{person.image}}{% else %}{{site.data.images.person_placeholder}}{%endif%}" alt="Image of {{person.title}}">
+                        <img src="{%if person.image contains 'http'%}{{person.image}}{%else%}{{site.data.images.directory | relative_url }}/{%if person.image and person.image != "" %}{{person.image}}{% else %}{{site.data.images.person_placeholder}}{%endif%}{%endif%}" alt="Image of {{person.title}}">
                     </div>
                     <div class="team__member-details">
                         <div>
