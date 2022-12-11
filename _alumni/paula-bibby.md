@@ -4,7 +4,8 @@ given: Paula
 family: Bibby
 crsid: pb630
 start: 2022-04-15
-end: ""
+end: 2022-10-01
+alumni: True
 position: Project Manager, Data Trusts Initiative
 institution: Cambridge University
 image: paula-bibby.jpg
