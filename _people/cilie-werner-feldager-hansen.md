@@ -5,6 +5,7 @@ family: Werner Feldager Hansen
 student: True
 visitor: True
 website: https://www.dtu.dk/service/telefonbog/person?id=116303&tab=3&qt=dtuprojectquery
+image: https://orbit.dtu.dk/files-asset/275291001/116303_b3642f29.jpg
 orcid: 0000-0002-6458-1022
 twitter: ciliefeldager
 position: Visiting Student
