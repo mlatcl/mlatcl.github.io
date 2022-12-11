@@ -2,7 +2,7 @@
 layout: person
 given: Morine
 family: Amutorine
-crsid: XXXXX02
+crsid: xxma02
 start: 2021-03-01
 visitor: True
 position: Data Science Africa Fellow
