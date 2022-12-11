@@ -567,136 +567,8 @@ collections:
       name: student
       widget: "boolean"
       required: false
-    - name: start
-      label: "Date of start in ml@cl"
-      hint: "Provide the day that the individual started in the ml@cl group."
-      widget: 'datetime'
-      format: "YYYY-MM-DD"
-      date_format: "YYYY-MM-DD"
-      time_format: false
-    - name: end
-      label: "Date of finish in ml@cl"
-      hint: "Provide the day that the individual finished in the ml@cl group."
-      widget: 'datetime'
-      format: "YYYY-MM-DD"
-      date_format: "YYYY-MM-DD"
-      time_format: false
-      default: ""
-      required: false
-    - label: "Personal Homepage"
-      name: website
-      hint: "URL of the individual's personal homepage."
-      widget: "string"
-      required: false
-    - label: "ORCID number"
-      name: orcid
-      hint: "Open Researcher and Contributor ID number (see https://orcid.org)"
-      widget: "string"
-      required: false
-    - label: 'Position'
-      name: 'position'
-      widget: 'string'
-      hint: "For example, PhD Student, MPhil Student, Lecturer etc."
-    - label: 'Institution'
-      name: 'institution'
-      hint: "For example, Cambridge University."
-      widget: 'string'
-    - label: 'Image'
-      hint: "Please provide a portrait of the person."
-      name: 'image'
-      widget: 'image'
-      required: false
-    - label: 'GitHub ID'
-      name: 'github'
-      widget: 'string'
-      required: false
-    - label: 'LinkedIn ID'
-      name: 'linkedin'
-      widget: 'string'
-      required: false
-    - label: 'Twitter'
-      name: 'twitter'
-      widget: 'string'
-      required: false
-    - label: 'Facebook'
-      name: 'facebook'
-      widget: 'string'
-      required: false
-    - label: 'Email'
-      name: 'email'
-      widget: 'string'
-      required: false
-    - label: 'Biography'
-      name: 'biography'
-      widget: 'markdown'
-      required: false
-    - label: 'Related Publications'
-      name: 'publications'
-      widget: 'relation'
-      collection: 'Publications'
-      search_fields: ["title"]
-      value_field: "{{slug}}"
-      display_fields: ["title"]
-      options_length: 999
-      multiple: true
-      required: false
-    - label: 'Projects'
-      name: 'projects'
-      widget: 'relation'
-      collection: 'Projects'
-      search_fields: ["title"]
-      value_field: "{{slug}}"
-      display_fields: ["title"]
-      options_length: 999
-      multiple: true
-      required: false
-    - label: 'Body'
-      name: 'body'
-      widget: 'markdown'
-      required: false
-
-  # Alumni Collection
-  - label: 'Alumni'
-    name: 'alumni'
-    folder: '_alumni/'
-    create: true
-    slug: '{{given}}-{{family}}'
-    identifier_field: crsid
-    editor:
-      preview: false
-    fields:
-    - label: 'Layout'
-      name: 'layout'
-      widget: 'hidden'
-      default: 'person'
-    - label: Given Name
-      hint: "Include initials, e.g. Neil D."
-      name: given
-      widget: string
-    - label: Preferred Name
-      hint: "If you don't normally use your full given name (e.g. you are known as Nick not Nicholas)"
-      name: preferred
-      required: false
-      widget: string
-    - label: Family Name
-      name: family
-      widget: string
-    - label: Prefix
-      hint: Prefix of name (e.g. de, von, van)
-      name: prefix
-      required: false
-      widget: string
-    - label: Suffix
-      hint: "Suffix of name (e.g. III or Jr)."
-      name: suffix
-      required: false
-      widget: string
-    - label: "Cambridge crsid"
-      hint: "E.g. ads21. If a ml@cl member doesn't have a crsid create a dummy one starting with five x's, e.g. xxxxx01."
-      name: 'crsid'
-      widget: 'string'
-    - label: Student
-      name: student
+    - label: Alumni
+      name: alumni
       widget: "boolean"
       required: false
     - name: start
@@ -786,6 +658,8 @@ collections:
       name: 'body'
       widget: 'markdown'
       required: false
+
+  
   # Research Collection
   - label: 'Research'
     name: 'research'
