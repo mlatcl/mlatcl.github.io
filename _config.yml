@@ -31,8 +31,6 @@ collections:
     sort_by: event_date
   people:
     output: true
-  alumni:
-    output: true
   research:
     output: true
   projects:
