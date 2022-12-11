@@ -10,6 +10,8 @@ twitter:
 github: fweberling
 linkedin: friedrich-maximilian-weberling-581b3316a/
 start: 2021-07-01
+end: 2021-06-30
+alumni: True
 crsid: fmw37
 supervisor: che29
 position: Visiting Student

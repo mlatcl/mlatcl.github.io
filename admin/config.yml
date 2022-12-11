@@ -567,6 +567,10 @@ collections:
       name: student
       widget: "boolean"
       required: false
+    - label: Alumni
+      name: alumni
+      widget: "boolean"
+      required: false
     - name: start
       label: "Date of start in ml@cl"
       hint: "Provide the day that the individual started in the ml@cl group."
@@ -655,6 +659,7 @@ collections:
       widget: 'markdown'
       required: false
 
+  
   # Research Collection
   - label: 'Research'
     name: 'research'

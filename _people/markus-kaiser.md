@@ -11,6 +11,7 @@ github: mrksr
 crsid: mk2092
 start: 2021-03-01
 end: 2022-10-31
+alumni: True
 supervisor:
 - 'ndl21'
 - 'che29'
