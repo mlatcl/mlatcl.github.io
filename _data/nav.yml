@@ -6,6 +6,8 @@ main_nav:
         link: /about/
       - label: Team
         link: /people/
+      - label: Alumni
+        link: /alumni/
       - label: Current Opportunities
         link: /about/current-opportunities
   - label: Research
