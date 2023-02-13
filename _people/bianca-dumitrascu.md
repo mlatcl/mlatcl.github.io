@@ -22,4 +22,5 @@ publications:
   - 2021-09-07-deep-learning-for-bioimage-analysis-in-developmental-biology
   - 2021-02-19-optimal-marker-gene-selection-for-cell-type-discrimination-in-single-cell-analyses
 team: true
+alumni: true
 ---
