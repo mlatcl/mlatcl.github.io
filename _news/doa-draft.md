@@ -32,7 +32,7 @@ By studying existing works on DOA we were able to distill three major principles
 
 Together these principles result in a powerful paradigm that, at least in theory, should be able to address most of the challenges of ML deployment. Here is a diagram that shows a mapping between common challenge in the ML deployment workflow and the corresponding DOA principles.
 
-<insert an image from the paper here>
+![](assets/images/challenges-principles-map.png)
 
 ## DOA in the wild
 
