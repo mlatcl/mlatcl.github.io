@@ -4,9 +4,11 @@ title: New survey on adoption of data-oriented architecture
 excerpt: ""
 category:
   - ai-deployment-and-system-design
-featured_image: terry-starmore-yeqkvq6wkvw-unsplash.jpg
+featured_image: conny-schneider-pREq0ns_p_E-unsplash.jpg
 ---
 Our group has recently released [a new paper](https://arxiv.org/abs/2302.04810) surveying deployed ML systems for their compliance with the principles of Data-Oriented Architecture. Here we wanted to give a more informal summary of this paper, explain why we think DOA is particularly relevant to the AutoAI project, detail our findings, and showcase a few examples of real-life DOA systems.
+
+![](/assets/images/conny-schneider-pREq0ns_p_E-unsplash.jpg)
 
 ## Challenges of practical data science
 
@@ -32,7 +34,7 @@ By studying existing works on DOA we were able to distill three major principles
 
 Together these principles result in a powerful paradigm that, at least in theory, should be able to address most of the challenges of ML deployment. Here is a diagram that shows a mapping between common challenge in the ML deployment workflow and the corresponding DOA principles.
 
-![](assets/images/challenges-principles-map.png)
+![](/assets/images/challenges-principles-map.png)
 
 ## DOA in the wild
 
