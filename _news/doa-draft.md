@@ -64,9 +64,9 @@ You can watch the launch announcement of SCv2 [here](https://www.seldon.io/seldo
 ### Climate Ensembling
 The Climate Ensembling project in our group aims to leverage multiple climate simulation models to improve our ability to predict rare and extreme climate-related events. Optimal selection of GCM post-processing and ensemble methods for a specific climate risk prediction application requires multiple data-intensive experiments. To support this project we are building a set of libraries, referred to as Hypervisor, that can orchestrate these experiments in a data oriented way.
 
-Tasks that form the experiment pipeline are completely decoupled, and only interact via input and output data that is stored in AWS S3 buckets. Can we say anything about openness or decentralization?
+Tasks that form the experiment pipeline are completely decoupled, and only interact via input and output data that is stored in AWS S3 buckets. The system defines its own protocol for users to specify the tasks, which are nonetheless orchestrated in a centralized manner. Therefore the Hypervisor partially follows DOA principles.
 
-THe Hypervisor is currently in active development phase, we will update this page with a link to it as soon it is released.
+The Hypervisor code can be found in this [repository](https://github.com/cabrerac/auto-ai-doa), and its application to climate ensembling project is [here](https://github.com/meissnereric/climate-docker).
 
 ## Outlook
 
