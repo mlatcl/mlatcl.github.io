@@ -1,7 +1,7 @@
 ---
 layout: news-single
 title: New survey on adoption of data-oriented architecture
-excerpt: ""
+excerpt: "A new survey from the ML@CL group explores adoption of Data-Oriented Architecture paradigm for ML deployment."
 category:
   - ai-deployment-and-system-design
 featured_image: conny-schneider-pREq0ns_p_E-unsplash.jpg
