@@ -20,26 +20,26 @@ abstract: |
   different conversations from those aimed at addressing the above
   concerns. Our data Trusts proposal challenges these boundaries.
 extras:
-  - label: Data Trusts Initiative
-    link: http://datatrusts.uk
+- label: Data Trusts Initiative
+  link: http://datatrusts.uk
 lastpage: 252
 layout: article
 title: "Bottom-up Data Trusts: Disturbing the 'One Size Fits All' Approach to
   Data Governance"
 published: 2019-10-01
 author:
-  - family: Delacroix
-    given: Sylvie
-    gscholar: null
-    institute: University of Birmingham
-    url: https://www.birmingham.ac.uk/staff/profiles/law/delacroix-sylvie.aspx
-  - family: Lawrence
-    given: Neil D.
-    gscholar: r3SJcvoAAAAJ
-    institute: University of Cambridge
-    twitter: lawrennd
-    url: http://inverseprobability.com
-    person_page: neil-d-lawrence
+- family: Delacroix
+  given: Sylvie
+  gscholar: null
+  institute: University of Birmingham
+  url: https://www.birmingham.ac.uk/staff/profiles/law/delacroix-sylvie.aspx
+- family: Lawrence
+  given: Neil D.
+  gscholar: r3SJcvoAAAAJ
+  institute: University of Cambridge
+  twitter: lawrennd
+  url: http://inverseprobability.com
+  person_page: neil-d-lawrence
 journal: International Data Privacy Law
 volume: 9
 number: 4
@@ -52,7 +52,7 @@ id: Delacroix-trusts19
 doi: 10.1093/idpl/ipz014
 ssrn: "3265315"
 categories:
-  - Delacroix-trusts19
+- Delacroix-trusts19
 firstpage: 236
 key: Delacroix-trusts19
 ---
