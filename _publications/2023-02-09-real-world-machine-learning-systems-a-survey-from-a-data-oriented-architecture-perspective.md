@@ -20,5 +20,6 @@ author:
     family: Lawrence
     person_page: neil-d-lawrence
 website: https://arxiv.org/abs/2302.04810
+software: https://github.com/cabrerac/semi-automatic-literature-survey
 arxiv: 2302.04810
 ---
