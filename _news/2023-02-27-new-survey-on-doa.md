@@ -44,7 +44,7 @@ We found several systems that fully adopt the DOA principles, even if their auth
 
 Unsurprisingly we found the "Data as a First Class Citizen" principle to be widely adopted. A characteristic feature of systems that exhibit this principle is their use of distributed storage technologies, such as Apache Kafka, Spark Streaming, HDFS, or HBase. We therefore recommend practitioners to consider using similar data mediums as a primary interaction mechanism for components of their software.
 
-The majority of reviewed systems show strong preference for centralisation. Further research of fully distributed technologies, such as Edge and Fog computing, is necessary to make decentralisation a feasible option. Nevertheless at least third of reviewed papers displayed some of the qualities associated with decentralisation as understood by DOA. We recommend considering distributed computing protocols, such as DHTs and BFT, for building fully decentarlised data processing systems.
+The majority of reviewed systems show strong preference for centralisation. Further research of fully distributed technologies, such as Edge and Fog computing, is necessary to make decentralisation a feasible option. Nevertheless at least third of reviewed papers displayed some of the qualities associated with decentralisation as understood by DOA. We recommend considering distributed computing protocols, such as DHTs and BFT, for building fully decentralised data processing systems.
 
 Systems that collect data from data-generating components, such as sensors, are usually open. Outside of data ingestion layers architectures tend to be more closed and static, although notable exceptions from this trend do occur. We observed a high correlation between data coupling and openness in the selected works. MQTT and similar communication protocols seem to be a popular choice for building open systems.
 
@@ -58,7 +58,7 @@ To augment the vision of DOA principles and their practical implications, we now
 
 In 2022 our group started a collaboration with London-based MLOps startup [Seldon](https://www.seldon.io/) who provide scalable ML inference infrastructure to their customers. Together we designed and built the second iteration of their open source ML deployment framework, Seldon Core (SCv2). Even though Seldon's main focus is on ML inference, SCv2 can be seen as a general purpose dataflow engine with a particular focus on data centricity.
 
-SCv2 fully adopts DOA principles. Inference graph in SCv2 is represented as decoupled components running on Docker containers that communicate via Apache Kafka topics. The evaluation process is fully decentarlised, and the messages are exchanged in an industry-wide standardised protocol for ML inference, [V2 Inference Protocol](https://docs.seldon.io/projects/seldon-core/en/latest/reference/apis/v2-protocol.html).
+SCv2 fully adopts DOA principles. Inference graph in SCv2 is represented as decoupled components running on Docker containers that communicate via Apache Kafka topics. The evaluation process is fully decentralised, and the messages are exchanged in an industry-wide standardised protocol for ML inference, [V2 Inference Protocol](https://docs.seldon.io/projects/seldon-core/en/latest/reference/apis/v2-protocol.html).
 
 You can watch the launch announcement of SCv2 [here](https://www.seldon.io/seldon-core-v2-the-next-generation-open-data-centric-mlops), check out the [docs](https://docs.seldon.io/projects/seldon-core/en/v2/index.html) and play with the [code](https://github.com/SeldonIO/seldon-core/tree/v2).
 
