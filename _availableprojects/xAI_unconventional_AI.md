@@ -79,7 +79,7 @@ This would be an explainable AI model for a complex model of a physical system.
 
 The project would involve building a model that would generate insights from these complex systems (an artificial model of human creativity).
   
-  Project idea 8
+  Project idea 9
 
 Extend the Ramanujan machine by applying it to other data or other dynamical systems or using another machine learning approach.
 
