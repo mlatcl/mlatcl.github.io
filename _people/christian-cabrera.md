@@ -4,7 +4,7 @@ given: Christian
 family: Cabrera Jojoa
 student: False
 linkedin: christian-cabrera-39a70254
-website: 
+website: https://cabrerac.github.io/ 
 orcid: 
 scholar: NITUwmcAAAAJ
 twitter: 
@@ -19,9 +19,9 @@ biography: Christian’s research focuses on the intersection of machine learnin
   and systems design. He explores how systems perspectives can help develop safe
   and reliable machine learning technologies, combining data-oriented
   architectures with techniques from service-oriented computing and
-  self-adaptive systems. He is particularly interested in the application of
-  these methods to smart cities.
+  self-adaptive systems.
 publications:
+  - real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
   - towards-better-data-discovery-and-collection-with-flow-based-programming
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
 ---

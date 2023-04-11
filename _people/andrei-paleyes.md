@@ -23,6 +23,7 @@ publications:
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
   - challenges-in-machine-learning-deployment
   - towards-better-data-discovery-and-collection-with-flow-based-programming
+  - real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
 ---
 
-I am a PhD student with Professor Neil Lawrence's group, and my primary research focus is an intersection of software systems and machine learning. Prior to coming here I've received Masters degree from Belarusian State University, and then spent a number of years as a software engineer, working on everything from web applications to data center networks.
+Andrei is a PhD student with Professor Neil Lawrence's group, and his primary research focus is an intersection of software systems and machine learning. He also sometimes works on Bayesian optimisation and its applications. Prior to joining ML@CL he received Masters degree from Belarusian State University, and then spent a number of years as a software engineer, working on everything from web applications to data center networks.
