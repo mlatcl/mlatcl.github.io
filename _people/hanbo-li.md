@@ -1,6 +1,7 @@
 ---
 layout: person
-given: Hanbo
+given: Han-Bo
+preferred: Hanbo
 family: Li
 crsid: hbl26
 student: true
