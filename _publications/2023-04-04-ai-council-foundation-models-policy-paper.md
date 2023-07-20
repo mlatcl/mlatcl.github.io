@@ -13,7 +13,13 @@ abstract: |
   The Council has already established networks of expertise that Government can use to move quickly in developing its response to the opportunities and challenges presented by foundation models. Current interest in foundation models, coupled with the creation of the Department for Science, Innovation and Technology, provides an opportunity to establish an adaptive approach to AI policy, drawing from independent, expert advice that moves quickly to identify emerging issues, facilitate the development of policy responses, and support effective implementation. The AI Council can support Government in galvanising the community to deliver this progress, through both responding to rapid shifts in technical capabilities that demand near-term responses and building the UK’s AI ecosystem over the long-term.
 published: 2023-04-04
 author:
-  - consortium: The AI Council
+  - consortium: 
+      name: The AI Council
+      person_pages:
+	    - tabitha-goldstaub
+        - neil-d-lawrence
+        - jessica-montgomery
+    url: https://www.elise-ai.eu/
 pdf: https://mlatcl.github.io/papers/sos-letter-simplistic-narratives.pdf 
 year: 2023
 ---
