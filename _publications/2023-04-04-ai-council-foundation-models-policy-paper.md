@@ -1,8 +1,7 @@
 ---
-layout: inproceedings
+layout: techreport
 title: The UK foundation Models Opportunity
 abstract: |
-
   In December 2022, the AI Council’s memo on the policy implications
   of advances in foundation models highlighted the importance of rapid
   Government action to build national capability in this increasingly

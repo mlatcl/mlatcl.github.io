@@ -1,5 +1,5 @@
 ---
-layout: techreport
+layout: misc
 title: The UK Large Language Models Opportunity
 abstract: |
   HMG should take action to build national and sovereign capability in
