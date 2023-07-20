@@ -22,7 +22,6 @@ overview_long: >-
   What policy levers can shape the development of AI technologies for societal
   benefit?
 
-
   ML@CL’s policy projects identify policy interventions that can support the development of trustworthy AI technologies and that help share the benefits of AI across society. Working with partners in civil society, national government, and international organisations, our work considers:
 
 
@@ -34,13 +33,16 @@ overview_long: >-
 
   * how to deploy data science and AI in the service of national and international policy goals.
 projects:
+  - ai-council
   - data-trusts-initiative
   - data-sharing-in-africa-lessons-from-covid-19
   - european-network-of-ai-excellence-centres
   - delve-data-evaluation-and-learning-for-viral-epidemics
 people:
-  - jessica-montgomery
   - morine-amutorine
-  - neil-d-lawrence
   - paula-bibby
+  - sylvie-delacroix
+  - jessica-montgomery
+  - tabitha-goldstaub
+  - neil-d-lawrence
 ---
