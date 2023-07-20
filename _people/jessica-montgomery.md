@@ -29,6 +29,7 @@ publications:
   - data-governance-in-the-21st-century-citizen-dialogue-and-the-development-of-data-trusts
   - democratising-the-digital-revolution-the-role-of-data-governance
   - from-research-data-ethics-principles-to-practice-data-trusts-as-a-governance-tool
+  - ai-council-foundation-models-policy-paper
 ---
 
 Jess Montgomery is Executive Director of the Accelerate Programme for Scientific Discovery, a new initiative developing artificial intelligence tools and collaborations to advance research. Her interests in AI and its consequences for science and society stem from her policy career, in which she worked with parliamentarians, leading researchers and civil society organisations to bring scientific evidence to bear on major policy issues.

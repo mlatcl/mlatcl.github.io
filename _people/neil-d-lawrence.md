@@ -31,6 +31,9 @@ publications:
   - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
   - solving-schroedinger-bridges-via-maximum-likelihood
   - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
+  - large-language-model-opportunity
+  - ai-council-foundation-models-policy-paper
+  - letter-warning-about-simplistic-narratives
 website: http://inverseprobability.com
 orcid: 0000-0001-9258-1030
 ---
