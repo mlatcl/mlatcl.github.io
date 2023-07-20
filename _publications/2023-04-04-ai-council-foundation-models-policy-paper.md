@@ -56,10 +56,10 @@ author:
 - consortium: 
     name: The AI Council
     person_pages:
-	- tabitha-goldstaub
+    - tabitha-goldstaub
     - neil-d-lawrence
     - jessica-montgomery
-    url: https://www.elise-ai.eu/
+    url: https://www.gov.uk/government/groups/ai-council
 pdf: https://mlatcl.github.io/papers/sos-letter-simplistic-narratives.pdf 
 year: 2023
 ---
