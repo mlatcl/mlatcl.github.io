@@ -19,8 +19,9 @@ author:
 - consortium: 
     name: The AI Council
     person_pages:
-	- tabitha-goldstaub
+    - tabitha-goldstaub
     - neil-d-lawrence
+    url: https://www.gov.uk/government/groups/ai-council
 pdf: http://proceedings.mlr.press/v97/vargas19a/vargas19a.pdf
 year: 2022
 ---
