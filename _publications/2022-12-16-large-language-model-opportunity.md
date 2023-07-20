@@ -22,6 +22,6 @@ author:
     - tabitha-goldstaub
     - neil-d-lawrence
     url: https://www.gov.uk/government/groups/ai-council
-pdf: http://proceedings.mlr.press/v97/vargas19a/vargas19a.pdf
+pdf: https://mlatcl.github.io/papers/ai-council-llm-memo.pdf
 year: 2022
 ---

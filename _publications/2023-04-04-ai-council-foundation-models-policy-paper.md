@@ -60,6 +60,6 @@ author:
     - neil-d-lawrence
     - jessica-montgomery
     url: https://www.gov.uk/government/groups/ai-council
-pdf: https://mlatcl.github.io/papers/sos-letter-simplistic-narratives.pdf 
+pdf: https://mlatcl.github.io/papers/ai-council-foundation-models-policy-paper.pdf
 year: 2023
 ---
