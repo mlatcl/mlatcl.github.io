@@ -1,11 +1,8 @@
 ---
 layout: project-single
-title: DELVE (Data Evaluation and Learning for Viral Epidemics)
-excerpt: DELVE is a multi-disciplinary group, convened by the Royal Society, to
-  support a data-driven approach to learning from the different approaches
-  countries are taking to managing the pandemic. DELVE operated through 2020,
-  providing advice to the UK Government and SAGE.
-featured_image: martin-sanchez-j2c7yf223mk-unsplash.jpg
+title: The AI Council
+excerpt: The UK AI Council was an independent committee that provided advice on AI policy and strategy to the UK Government from 2018 – 2023. In 2022-23, the Council convened a series of discussions focused on the policy implications of advances in Large Language Models, with the aim of supporting rapid Government action to build national capability in Foundation Models. 
+featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
 people:
   - tabitha-goldstaub
   - neil-d-lawrence
@@ -15,7 +12,7 @@ publications:
   - ai-council-foundation-models-policy-paper
   - letter-warning-about-simplistic-narratives
 ---
-The UK AI Council was an independent committee that provided advice on AI policy and strategy to the UK Government from 2018 – 2023. In 2022-23, the Council convened a series of discussions focused on the policy implications of advances in Large Language Models, with the aim of supporting rapid Government action to build national capability in Foundation Models. 
+
 
 Outputs from this work with a substantial Cambridge contribution include:
 
