@@ -16,11 +16,11 @@ publications:
 
 Outputs from this work with a substantial Cambridge contribution include:
 
-* A policy paper on different approaches to data governance.
+* [A policy paper on legal mechanisms for data stewardship](https://www.adalovelaceinstitute.org/report/legal-mechanisms-data-stewardship/).
 
-* A letter to the Science Minister in December 2022 calling for coordinated action across Government, industry, and academia to develop an action plan to secure advantage in Large Language Models.
+* [A letter to the Science Minister](https://mlatcl.github.io/publications/large-language-model-opportunity.html) in December 2022 calling for coordinated action across Government, industry, and academia to develop an action plan to secure advantage in Large Language Models.
 
-* A briefing paper considering the policy implications of progress in Large Language Models, which draws from discussions at a stakeholder workshop with representatives from national government and international allies, academia, industry, and civil society, and deliberations within the Council. This calls for further action to implement core policy frameworks and presents the functions that a national capability in foundation models should deliver.
+* [A briefing paper](https://mlatcl.github.io/publications/ai-council-foundation-models-policy-paper.html) from April 2023 considering the policy implications of progress in Large Language Models, which draws from discussions at a stakeholder workshop with representatives from national government and international allies, academia, industry, and civil society, and deliberations within the Council. This calls for further action to implement core policy frameworks and presents the functions that a national capability in foundation models should deliver.
 
-* A letter to the Science Minister in TK calling for the UK to maintain policy focus on 
+* [A letter to the Secretary of State for Science, Innovation and Technology](https://mlatcl.github.io/publications/letter-warning-about-simplistic-narratives.html) in June 2023 highlighting ongoing measures dealing with the challenges of AI.
 
