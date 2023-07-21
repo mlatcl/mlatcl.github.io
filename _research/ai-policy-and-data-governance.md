@@ -34,6 +34,7 @@ overview_long: >-
   * how to deploy data science and AI in the service of national and international policy goals.
 projects:
   - ai-council
+  - centre-for-data-ethics-and-innovation
   - data-trusts-initiative
   - data-sharing-in-africa-lessons-from-covid-19
   - european-network-of-ai-excellence-centres
