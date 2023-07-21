@@ -43,7 +43,7 @@ people:
   - morine-amutorine
   - paula-bibby
   - sylvie-delacroix
-  - jessica-montgomery
   - tabitha-goldstaub
+  - jessica-montgomery
   - neil-d-lawrence
 ---
