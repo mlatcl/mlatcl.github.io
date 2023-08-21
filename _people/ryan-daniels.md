@@ -1,4 +1,5 @@
 ---
+layout: person
 given: Ryan
 family: Daniels
 crsid: rkd43
