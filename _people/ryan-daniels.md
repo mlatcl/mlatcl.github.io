@@ -1,3 +1,4 @@
+---
 given: Ryan
 family: Daniels
 crsid: rkd43
@@ -9,3 +10,4 @@ institution: Cambridge University
 image: 
 publications:
 biography: 
+---
