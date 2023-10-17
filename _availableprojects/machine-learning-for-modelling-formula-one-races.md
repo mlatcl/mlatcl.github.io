@@ -17,7 +17,8 @@ overview: >-
 
   There are commercial confidentiality issues over which areas will be studied, but interested students can discuss these areas directly with the supervisors.
 supervisors:
-  - andrei-paleyes
+  - hanbo-li
+  - ryan-daniels
   - neil-d-lawrence
 projects:
   - autoai
