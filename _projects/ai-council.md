@@ -24,3 +24,4 @@ Outputs from this work with a substantial Cambridge contribution include:
 
 * [A letter to the Secretary of State for Science, Innovation and Technology](https://mlatcl.github.io/publications/letter-warning-about-simplistic-narratives.html) in June 2023 highlighting ongoing measures dealing with the challenges of AI.
 
+* [Evidence given by Neil](https://parliamentlive.tv/event/index/d3aca5dd-31d2-4f72-af7d-95a4c9933d66) to the [House of Lords select committee](https://committees.parliament.uk/committee/170/communications-and-digital-committee/news/196281/communications-committee-launches-inquiry-into-large-language-models/). See also [the transcript here](https://committees.parliament.uk/oralevidence/13655/html/).
