@@ -8,7 +8,7 @@ author:
     family: Paleyes
   - given: Neil D.
     family: Lawrence
-container-title: EuroMLSys '23: Proceedings of the 3rd Workshop on Machine Learning and Systems
+container-title: Proceedings of the 3rd Workshop on Machine Learning and Systems (EuroMLSys)
 html: https://dl.acm.org/doi/10.1145/3578356.3592593
 software: https://github.com/apaleyes/causality-fbp
 arxiv: 2304.11987
