@@ -14,6 +14,7 @@ people:
   - christian-cabrera
   - eric-meissner
   - neil-d-lawrence
+  - pierre-thodoroff
 publications:
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
   - towards-better-data-discovery-and-collection-with-flow-based-programming
