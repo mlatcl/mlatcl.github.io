@@ -21,6 +21,8 @@ main_nav:
         label: AI Policy and Data Governance
       - link: /research/machine-learning-theory-and-methods.html
         label: Machine Learning Theory & Methods
+      - link: /publications/
+        label: Publications
   - label: News
     link: /news/
   - label: Events

@@ -11,7 +11,7 @@ author:
 - family: Lawrence
   given: Neil D.
 year: 2023
-published: 2022-03-16
+published: 2023-03-16
 container-title: "2nd International Conference on AI Engineering – Software Engineering for AI"
 html: https://ieeexplore.ieee.org/document/10164752
 software: https://github.com/apaleyes/dataflow-causal-graph
