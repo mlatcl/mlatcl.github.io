@@ -2,7 +2,7 @@
 layout: project-to-supervise
 title: Latent Probabilistic Models for Unsupervised Structure Learning in
   Massively Missing Data
-status: Available
+status: Hidden
 categories:
   - prtiii
   - MPhil
@@ -23,13 +23,13 @@ supervisors:
   - neil-d-lawrence
 published: 2022-10-24
 student_learn: >-
-  T﻿he student will have to learn the foundations of probabilistic modelling and
+  The student will have to learn the foundations of probabilistic modelling and
   latent variable models both mathematically and develop dexterity with coding
   them up in pytorch  or any other probabilistic programming framework. They
   will also learn about the key models in literature in this space.
 
 
-  C﻿omparative benchmarks: 
+  Comparative benchmarks: 
 
 
   \-﻿ VAEs for partially missing data: https://arxiv.org/pdf/1807.03653.pdf

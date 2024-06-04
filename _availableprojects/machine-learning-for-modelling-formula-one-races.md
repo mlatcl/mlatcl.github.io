@@ -1,7 +1,7 @@
 ---
 title: Machine Learning for Modelling Formula One Races
 layout: project-to-supervise
-status: Available
+status: Hidden
 categories:
   - prtii
   - prtiii

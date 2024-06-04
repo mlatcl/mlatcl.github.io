@@ -1,7 +1,7 @@
 ---
 title: Constrained Bayesian Optimisation with Unknown Constraints
 layout: project-to-supervise
-status: Available
+status: Hidden
 categories:
   - prtiii
   - MPhil

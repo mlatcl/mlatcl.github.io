@@ -1,7 +1,7 @@
 ---
 layout: project-to-supervise
 title: "Dynamical Gaussian processes for Sequential Data "
-status: Available
+status: Hidden
 categories:
   - MPhil
   - prtiii
