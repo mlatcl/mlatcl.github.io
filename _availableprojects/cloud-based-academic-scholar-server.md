@@ -2,7 +2,7 @@
 month: 0
 layout: project-to-supervise
 title: An Academic Scholar System
-status: Available
+status: Hidden
 categories:
   - prtii
 overview: Academic publications systems such as Microsoft Academic and Google

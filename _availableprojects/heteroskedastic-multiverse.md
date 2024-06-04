@@ -1,7 +1,7 @@
 ---
 layout: project-to-supervise
 title: Why 10 random seeds? Exploring a heteroskedastic multiverse
-status: Available
+status: Hidden
 categories:
   - MPhil
   - prtiii

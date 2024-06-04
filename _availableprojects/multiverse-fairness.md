@@ -1,7 +1,7 @@
 ---
 layout: project-to-supervise
 title: How fair is fairness? A multiverse analysis of fairness definitions
-status: Available
+status: Hidden
 categories:
   - MPhil
   - prtiii

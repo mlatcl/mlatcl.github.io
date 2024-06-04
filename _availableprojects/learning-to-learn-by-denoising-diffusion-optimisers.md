@@ -1,7 +1,7 @@
 ---
 layout: project-to-supervise
 title: Learning to Learn by Denoising Diffusion Optimisers
-status: Available
+status: Hidden
 categories:
   - MPhil
   - prtiii
