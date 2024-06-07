@@ -14,17 +14,14 @@ supervisor: ndl21
 position: PhD Student
 institution: Cambridge University
 image: aditya-ravuri.jpg
-biography: Aditya's interests are mainly in probabilistic machine learning and he
-  works on probabilistic interpretations of dimensionality reduction methods used in
-  single cell biology. His current work interprets a large class of DR methods such as
-  (t-)SNE and UMAP, LLE, LE, diffusion maps and spectral embedding methods as inference algorithms
-  corresponding to models on latent graphs, with connections to Gaussian processes on graphs and manifolds.
-  He also works on several case studies of using latent variable models in practice.
+biography: I'm mainly interested in probabilistic modelling for science and statistical machine learning. As
+  part of my PhD, I've shown that most classical dimensionality reduction methods (such as t-SNE, UMAP, MDS and
+  Laplacian embeddings) and modern representation learning algorithms (such as some contrastive methods) have
+  probabilistic interpretations as inference algorithms of probabilistic models akin to Gaussian processes.
+  I have also worked on several case studies on using latent variable models in practice, e.g. single-cell
+  data analysis, climate science, proteins and bioacoustics, and am interested in deployment (e.g. using
+  probabilistic programming).
 
 publications:
-  - gplvms-svi
-  - gauche-gps-in-chem
-  - scalable-interpretable-gplvms-scrna
-  - ice-cores-ppls
-  - gaussian-process-latent-variable-flows-for-massively-missing-data
+  - probdr
 ---
