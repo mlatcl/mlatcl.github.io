@@ -15,7 +15,7 @@ student_learn: >-
   and benchmarking their behaviour in a simulation environment.
 published: 2024-06-07
 title: Edge Service Placement based on Large Language Models (LLMs)
-  overview: "Edge computing architectures propose placing software services closer to end users. 
+overview: "Edge computing architectures propose placing software services closer to end users. 
   This distributed placement can enable super-low latency, data-intensive applications that can 
   benefit domains as diverse as virtual reality, gaming, and healthcare. The decision of what 
   services to deploy in which edge is an optimisation problem called service placement. Solutions 
