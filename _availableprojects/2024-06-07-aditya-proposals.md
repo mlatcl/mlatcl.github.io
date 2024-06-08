@@ -8,29 +8,29 @@ categories:
 overview: >-
   Each of the **five** following projects involves understanding and extending an existing
   probabilistic model commonly used in a scientific context to improve usability
-  and model understanding.
+  and model understanding. Please email me (ar847@cam.ac.uk) if interested.
 
   These projects will be supervised by Aditya Ravuri (4th year PhD student). If you're
-  thinking of applying, please ensure that you're either comfortable with the following
+  thinking of applying, please ensure that you're comfortable with the following
   or are willing to learn somewhat independently:
   1. basic statistical modelling: representation of models as collections of random
   variables, inference by maximizing the posterior or approximating it
   (variational inference).
-  2. an idea of the construction of the model discussed in the project that interests you.
+  2. a vague idea of the construction of the model discussed in the project that interests you.
   3. using python for implementations: most of the existing code for these projects is
-  written in torch in Python, but I'm happy to support usage of other languages such
+  written in torch in Python, but I'm happy to support the usage of other languages, such
   as R or Julia (although I don't have experience with using Julia) if there are good
   probabilistic programming abstractions available in them.
 
-  I'm willing to be very hands-on with the project (e.g. explaining the technical
+  I'm willing to be very hands-on with the project (e.g. going through the technical
   background, the premise, suggesting experiments, debugging etc.) but expect some
   level of ability to work and learn independently. The projects are listed in order of
   personal preference.
 
-  **Project One:** Can diffusion models match performance of mis-specified Hidden Markov
+  **Project One:** Can diffusion models match the performance of misspecified Hidden Markov
   Models for ice-core dating in very low data regimes?
   
-  This is a follow up to the work: https://arxiv.org/pdf/2210.16568
+  This is a follow-up to the work: https://arxiv.org/pdf/2210.16568
   
   In Antarctica, ice formed by many years of precipitation is extracted as large cylinders
   called ice-cores, and by studying the oscillating abundances of certain chemicals in the
@@ -41,20 +41,20 @@ overview: >-
   assuming a graphical model: d -> t -> s, where d and s correspond to the observed random
   variables depth of the ice core and the chemical concentration.
   
-  Hidden Markov Models (HMMs) are a very natural model with this graphical structure, such
-  that the model for s|t ~ normal (a cyclical function of t, sigma) and the transition
-  matrix for the latent time t_2 | t_1 is set up in such a way it can either stay in state
-  2012 (for example, when the ice core was collected) or advance to 2011.9 ensuring
+  Hidden Markov Models (HMMs) are a very natural model with this graphical structure.
+  The model for s is: s|t ~ normal (a cyclical function of t, sigma) and the transition
+  matrix for the latent time t_2 | t_1 is set up in such a way we can either stay in state
+  2012 (for example, when the ice core was collected) or advance to 2011.9, ensuring
   monotonicity.
 
-  These models are highly mis-specified in practice, i.e. the discrete states representing
-  time is very coarse (like 2012, 2011.75, 2011.5, ...), and I believe that a making these
+  These models are highly misspecified in practice, i.e. the discrete states representing
+  time is very coarse (like 2012, 2011.75, 2011.5, ...), and I believe that making these
   models continuous in a naive way (which leads to stochastic differential equations SDEs /
-  diffusions) breaks them because this mis-specification is important. Moreover, exact
+  diffusions) breaks them because this misspecification is important. Moreover, exact
   inference is possible in HMMs and not with the SDEs I've constructed, which I think also
   plays a part.
   
-  The project will explore if it's possible to construct an SDE that matches performance of
+  The project will explore if it's possible to construct an SDE that matches the performance of
   the HMM using very little data. The project will mainly be about stochastic differential
   equations used as models (note that integrators are available online, for example: https://github.com/google-research/torchsde
   so there's no expectation to code any of this up from scratch, the main experimentation
@@ -67,9 +67,9 @@ overview: >-
   they're screaming about.
   
   We have a baseline model (a simple RNN that takes spectrograms/MFCCs and outputs
-  probabilities of call/not call by time point) working, and a classification model that
+  probabilities of call/not call by time point) working and a classification model that
   shows promise when applied to audio that definitely corresponds to calls. However, a 
-  unified online (streaming) model is still something that needs to be developed. I'm
+  unified online (streaming) model still needs to be developed. I'm
   currently in the process of showing that contrastive (SSL) models like wav2vec are also
   good featurizers.
   
@@ -86,9 +86,9 @@ overview: >-
   
   For a specific study on immune cells, gene expression data was collected at scale, and a
   dimensionality reduction on this data using a GPLVM extracted dimensions of genetically
-  important variation and confounding effects that describes the high dimensional data.
+  important variation and confounding effects.
   
-  The Gaussian process model used was, each gene expression vector X_i ~ normal(a simple
+  The Gaussian process model used was: gene expression vector ~ multivariate_normal(a simple
   mean, an interesting GP kernel based on science).
   
   Inference in this model is very slow, hence, we proposed a sparse variational Gaussian
