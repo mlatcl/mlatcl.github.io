@@ -27,8 +27,8 @@ overview: >-
   level of ability to work and learn independently. The projects are listed in order of
   personal preference.  \
     \
-  **Project One:** Can diffusion models match the performance of misspecified Hidden Markov
-  Models for ice-core dating in very low data regimes?   \
+  **Project One: Can diffusion models match the performance of misspecified Hidden Markov
+  Models for ice-core dating in very low data regimes?**   \
     \
   This is a follow-up to the work: https://arxiv.org/pdf/2210.16568  \
     \
@@ -60,7 +60,7 @@ overview: >-
   so there's no expectation to code any of this up from scratch, the main experimentation
   should be on the model side, as automatic inference is of importance).  \
     \
-  **Project Two:** Automatic detection and classification of monkey calls from bioacoustic data  \
+  **Project Two: Automatic detection and classification of monkey calls from bioacoustic data**  \
     \
   We have a lot of soundscape data collected from monkey enclosures in zoos in the UK.
   A straightforward machine learning goal: identify when the monkeys scream and what
@@ -80,7 +80,7 @@ overview: >-
   improving the GUI (dash web app) that exists at the moment to view the outputs of these
   models.  \
     \
-  **Project Three:** Application of the sparse variational GPLVM (Gaussian process latent variable model) for the analysis of single cell data and eQTLs  \
+  **Project Three: Application of the sparse variational GPLVM (Gaussian process latent variable model) for the analysis of single cell data and eQTLs**  \
     \
   This is a follow up project from: https://arxiv.org/pdf/2405.03879, https://arxiv.org/pdf/2209.06716  \
     \
@@ -144,9 +144,9 @@ overview: >-
   is also a possibility on working on the theory to make some of these interpretations
   better by tightening the bounds or coming up with better approximations by
   moment-matching.  \
-  \
+   \
   **Project Six: LLMs for statistics**  \
-  \
+   \
   Also a less defined project, would be happy to supervise an LLM fine-tuning project looking
   at question answering for statistical questions (I'd imagine that it'd be easy to get these
   question answer pairs by sampling statements from texts and using another LLM to form sets of
