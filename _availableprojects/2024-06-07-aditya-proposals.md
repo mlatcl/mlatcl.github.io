@@ -154,8 +154,7 @@ overview: >-
   modelling intuition can be recovered from these models. My experience with chatgpt4 ad 3.5 is
   that they're rather bad. \
  \
-  Happy to consider other ideas along such topics. \
-
+  Happy to consider other ideas along such topics.
 supervisors:
   - aditya-ravuri
 published: 2024-06-07
