@@ -13,13 +13,10 @@ overview: >-
   These projects will be supervised by Aditya Ravuri (4th year PhD student). If you're
   thinking of applying, please ensure that you're comfortable with the following
   or are willing to learn somewhat independently:  \
- \
   1. basic statistical modelling: representation of models as collections of random
   variables, inference by maximizing the posterior or approximating it
   (variational inference).  \
- \
   2. a vague idea of the construction of the model discussed in the project that interests you.  \
-     \
   3. using python for implementations: most of the existing code for these projects is
   written in torch in Python, but I'm happy to support the usage of other languages, such
   as R or Julia (although I don't have experience with using Julia) if there are good
@@ -121,13 +118,14 @@ overview: >-
   y ~ x_a + s(x_b), sigma ~ 0 + x_c
   ```
   corresponding to:  \
-   \
-  y | x ~ N(a + b*x, sigma^2)  \
-  y | x ~ N(a * x_a + f_theta(x_b), exp(x_c))  \
+  ```
+  y | x ~ N(a + b*x, sigma^2) 
+  y | x ~ N(a * x_a + f_theta(x_b), exp(x_c))
+  ```
    \
   **Project Five: Exploring immediate applications of ProbDR**  \
     \
-  Based on: https://arxiv.org/pdf/2405.17412, https://arxiv.org/pdf/2304.07658 
+  Based on: https://arxiv.org/pdf/2405.17412, https://arxiv.org/pdf/2304.07658  \
     \
   I've shown that most dimensionality reduction methods that compress
   a high dimensional matrix Y (n rows of independently sampled d dimensional data points)
