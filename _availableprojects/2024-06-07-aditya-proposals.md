@@ -8,11 +8,11 @@ categories:
 overview: >-
   Each of the **six** following projects involves understanding and extending an existing
   probabilistic model commonly used in a scientific context to improve usability
-  and model understanding. Please email me (ar847@cam.ac.uk) if interested.
+  and model understanding. Please email me (ar847@cam.ac.uk) if interested. \
 
   These projects will be supervised by Aditya Ravuri (4th year PhD student). If you're
   thinking of applying, please ensure that you're comfortable with the following
-  or are willing to learn somewhat independently:
+  or are willing to learn somewhat independently: \
   1. basic statistical modelling: representation of models as collections of random
   variables, inference by maximizing the posterior or approximating it
   (variational inference).
