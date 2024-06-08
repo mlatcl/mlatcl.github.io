@@ -6,7 +6,7 @@ categories:
   - MPhil
   - prtiii
 overview: >-
-  Each of the **five** following projects involves understanding and extending an existing
+  Each of the **six** following projects involves understanding and extending an existing
   probabilistic model commonly used in a scientific context to improve usability
   and model understanding. Please email me (ar847@cam.ac.uk) if interested.
 
