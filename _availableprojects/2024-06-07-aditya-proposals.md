@@ -144,6 +144,16 @@ overview: >-
   better by tightening the bounds or coming up with better approximations by
   moment-matching.
 
+  **Project Six: LLMs for statistics**
+
+  Also a less defined project, would be happy to supervise an LLM fine-tuning project looking
+  at question answering for statistical questions (I'd imagine that it'd be easy to get these
+  question answer pairs by sampling statements from texts and using another LLM to form sets of
+  plausible questions). This can instead be stan (a probabilistic programming language) code
+  completion type thing instead. In either case, I'm interested to see if a level of statistical
+  modelling intuition can be recovered from these models. My experience with chatgpt4 ad 3.5 is
+  that they're rather bad.
+
   Happy to consider other ideas along such topics.
 
 supervisors:
