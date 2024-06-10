@@ -53,8 +53,8 @@ overview: >-
     
     
   Hidden Markov Models (HMMs) are a very natural model with this graphical structure.
-  The model for s is: s|t ~ normal (a cyclical function of t, sigma) and the transition
-  matrix for the latent time t_2 | t_1 is set up in such a way we can either stay in state
+  The model for s is: `s|t ~ normal (a cyclical function of t, sigma)` and the transition
+  matrix for the latent time `t_2 | t_1` is set up in such a way we can either stay in state
   2012 (for example, when the ice core was collected) or advance to 2011.9, ensuring
   monotonicity.  
   
