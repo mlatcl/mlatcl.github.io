@@ -1,6 +1,6 @@
 ---
 layout: person
-given: Oluwatomasin
+given: Oluwatomisin
 preferred: Tomasin
 family: Dada
 crsid: oid20
