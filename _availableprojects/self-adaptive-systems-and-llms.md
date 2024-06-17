@@ -16,12 +16,14 @@ student_learn: >-
   and how they are used to solve problems in different domains and scenarios.
 published: 2024-06-07
 title: Self-Adaptive Systems and Large Language Models (LLMs)
-overview: "Software systems are increasingly complex and include different actors and components interacting
-  in dynamic environments. Maintaining such systems is a difficult task where human intervention is not feasible.
-  Autonomous computing has explored approaches to optimise systems' performance by changing their structure,
-  behaviour, or environment variables. These approaches rely on feedback loops that accumulate knowledge from
-  the system interactions to inform autonomous decision-making. However, this knowledge is often limited,
-  constraining the systems' interpretability and adaptability."
+overview: "Software systems are increasingly complex and include different actors and components interacting in
+dynamic environments. Maintaining such systems is a difficult task where human intervention is not feasible.
+Autonomous computing has explored approaches to optimise systems' performance by changing their structure,
+behaviour, or environment variables. These approaches rely on feedback loops that accumulate knowledge from the
+system interactions to inform autonomous decision-making. However, this knowledge is often limited, constraining
+the systems' interpretability and adaptability. This project proposes to explore the capabilities of Large Language
+Models (LLMs) for self-adaptive systems. The main idea is to replace current autonomous RL-agents with LLM-based
+agents to make self-adaptive decisions."
 project_objective: "Rapid advances in Large Language Models (LLMs) open new opportunities to include these tools
   in complex decision-making processes. This project explores the inclusion of LLMs as software agents to make
   self-adaptive decisions by replacing the traditional agents based on Reinforcement Learning (RL). The project's

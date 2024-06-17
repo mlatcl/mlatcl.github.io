@@ -15,14 +15,14 @@ student_learn: >-
   and benchmarking their behaviour in a simulation environment.
 published: 2024-06-07
 title: Edge Service Placement based on Large Language Models (LLMs)
-overview: "Edge computing architectures propose placing software services closer to end users. 
-  This distributed placement can enable super-low latency, data-intensive applications that can 
-  benefit domains as diverse as virtual reality, gaming, and healthcare. The decision of what 
-  services to deploy in which edge is an optimisation problem called service placement. Solutions 
-  to the service placement problem must consider latency requirements and resource constraints while 
-  assigning services to edge servers in an automatic fashion. Exact, approximation, heuristics, and 
-  meta-heuristic algorithms are traditional approaches to solving such an optimisation problem. 
-  However, service placement is still an active research area."
+overview: "Edge computing architectures propose placing software services closer to end users. This
+distributed placement can enable super-low latency, data-intensive applications that can benefit domains as
+diverse as virtual reality, gaming, and healthcare. The decision of what services to deploy in which edge is
+an optimisation problem called service placement. Solutions to the service placement problem must consider
+latency requirements and resource constraints while assigning services to edge servers in an automatic fashion.
+Exact, approximation, heuristics, and meta-heuristic algorithms are traditional approaches to solving such an
+optimisation problem. This project proposes to explore the capabilities of Large Language Models (LLMs) to make
+the placement decisions. The main idea is to replace current algorithms with a LLM-based agent."
 project_objective: "Rapid advances in Large Language Models (LLMs) open new opportunities to include 
   these tools in complex decision-making processes. This project explores the inclusion of LLMs as software 
   agents that address the service placement problem. The project's first step would be integrating one or 
