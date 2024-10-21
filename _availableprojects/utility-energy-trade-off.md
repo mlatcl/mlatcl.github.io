@@ -2,7 +2,7 @@
 month: 06
 layout: project-to-supervise
 title: Automatic Discovery of Trade-off Between Utility and Energy Comsumption of ML models
-status: Available
+status: Hidden
 categories:
   - mphil
   - prtiii
