@@ -5,6 +5,7 @@ family: Lalchand
 crsid: vr308
 student: true
 start: 2022-02-07
+end: 2023-10-01
 website: https://www.vidhilalchand.co.uk
 orcid: null
 position: Research Associate

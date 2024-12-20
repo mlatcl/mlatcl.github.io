@@ -9,13 +9,16 @@ featured_image: alina-grubnyak-ziqkhi7417a-unsplash.jpg
 people:
   - andrei-paleyes
   - christian-cabrera
-  - eric-meissner
   - jessica-montgomery
-  - mala-virdee
-  - markus-kaiser
   - morine-amutorine
   - neil-d-lawrence
+  - diana-robinson
+alumni:
+  - eric-meissner
+  - mala-virdee
+  - markus-kaiser
   - pierre-thodoroff
+
 publications:
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
   - benchmarking-real-time-reinforcement-learning

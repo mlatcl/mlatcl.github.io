@@ -18,6 +18,7 @@ firstpage: 1
 lastpage: 41
 key: Smith-differentially21
 doi: 
+sscholar: 202712625
 html: https://jmlr.org/papers/v22/19-017.html
 pdf: https://jmlr.org/papers/volume22/19-017/19-017.pdf
 software: https://github.com/lionfish0/dp4gp

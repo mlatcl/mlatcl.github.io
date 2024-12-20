@@ -10,6 +10,7 @@ scholar: yfgSAi8AAAAJ
 github: samueljamesbell
 linkedin: samueljamesbell
 start: 2018-10-01
+end: 2023-04-19
 crsid: sjb326
 supervisor: ndl21
 position: PhD Student
