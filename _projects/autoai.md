@@ -21,10 +21,17 @@ alumni:
 
 publications:
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
+  - challenges-in-deploying-machine-learning-a-survey-of-case-studies
   - benchmarking-real-time-reinforcement-learning
-  - example-publication-1
-  - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
+  - data-flowgraphs-as-complete-causal-graphs
+  - automatic-trade-off-between-utility-privacy-and-fairness-in-machine-learning-models
+  - multifidelity-experimental-design-for-ice-sheet-simulation
+  - self-sustaining-software-systems
+  - requirements-are-all-you-need
   - towards-better-data-discovery-and-collection-with-flow-based-programming
+  - can-causality-accelerate-experimentation-in-software-systems
+  - the-systems-engineering-approach-in-times-of-large-language-models
+  - increasing-data-sharing-and-use-for-social-good
 ---
 While excitement about the potential of artificial intelligence (AI) technologies continues to build, a gap is emerging between our aspirations for the benefits of AI and our ability to deploy these technologies to tackle real-world challenges.
 
