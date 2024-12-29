@@ -20,6 +20,7 @@ alumni:
   - pierre-thodoroff
 
 publications:
+  - real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
   - challenges-in-deploying-machine-learning-a-survey-of-case-studies
   - benchmarking-real-time-reinforcement-learning
