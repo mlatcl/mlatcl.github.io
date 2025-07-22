@@ -1,7 +1,7 @@
 ---
-month: 06
+month: 07
 layout: project-to-supervise
-status: Hidden
+status: Available
 categories:
   - prtii
   - prtiii
@@ -10,11 +10,11 @@ supervisors:
   - christian-cabrera
   - neil-d-lawrence
 projects:
-  - autoai
+  - s4
 student_learn: >-
   You will learn about autonomous computing and self-adaptive systems, their architecture,
   and how they are used to solve problems in different domains and scenarios.
-published: 2024-06-07
+published: 2025-06-07
 title: Self-Adaptive Systems and Large Language Models (LLMs)
 overview: "Software systems are increasingly complex and include different actors and components interacting in
 dynamic environments. Maintaining such systems is a difficult task where human intervention is not feasible.
@@ -35,5 +35,5 @@ project_objective: "Rapid advances in Large Language Models (LLMs) open new oppo
 project_bigger_picture: "This project is part of the [Self-Sustaining Software Systems (S4)](https://arxiv.org/abs/2401.11370) 
   research agenda. The goal behind S4 is to enable a new concept for adaptable systems. S4 aims to build knowledge loops
   between different knowledge sources to improve their adaptability."
-year: 2024
+year: 2025
 ---
