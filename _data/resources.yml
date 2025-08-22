@@ -43,5 +43,5 @@ resources:
     icon: /assets/images/report-icon.svg
   - title: ML@CL Library of Libraries
     category: Software
-    link: https://github.com/mlatcl/libraries
+    link: https://github.com/mlatcl/library
     icon: /assets/images/software-icon.svg
