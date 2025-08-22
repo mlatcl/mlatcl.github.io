@@ -41,6 +41,7 @@ resources:
     category: Report
     link: https://mlatcl.github.io/papers/autoai-sra.pdf
     icon: /assets/images/report-icon.svg
-    
-      
-      
+  - title: ML@CL Library of Libraries
+    category: Software
+    link: https://github.com/mlatcl/libraries
+    icon: /assets/images/software-icon.svg
