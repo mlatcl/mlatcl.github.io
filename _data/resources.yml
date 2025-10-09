@@ -1,6 +1,10 @@
 hero:
   title: Resources
 resources:
+  - title: Machine Learning Foundations Course
+    icon: /assets/images/teaching-icon.svg
+    category: Teaching
+    link: https://mlatcl.github.io/mlfc/
   - title: Machine Learning and the Physical World lecture course
     icon: /assets/images/teaching-icon.svg
     category: Teaching
