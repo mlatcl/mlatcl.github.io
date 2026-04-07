@@ -9,7 +9,7 @@ supervisors:
 projects:
   - 
 student_learn: >-
-  You will gain hands-on experience building neural networks and dynamic programming approaches, building on classic approaches to a famous problem. 
+  You will gain hands-on experience building neural networks and dynamic programming systems, building on classic approaches to a famous problem. 
 published: 2026-04-07
 title: 5asideCHESS Engine and Tablebase
 overview: "The idea of this project is to build an [Engine](https://en.wikipedia.org/wiki/Chess_engine) and [Tablebase](https://en.wikipedia.org/wiki/Endgame_tablebase) for a Cambridge-based smaller variant of the classic game. This project would be carried out in contact with Ross Smith from [5asideCHESS](https://5asidechess.com/what-is-5asidechess/), an organisation focused on improving social connections. Offered to motivated students passionate about machine learning and chess."
