@@ -1,7 +1,7 @@
 ---
 month: 04
 layout: project-to-supervise
-status: Hidden
+status: Available
 categories:
   - prtii
   - prtiii
