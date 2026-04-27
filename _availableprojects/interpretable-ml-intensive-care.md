@@ -33,7 +33,7 @@ project_objective: "You will select and reproduce one or more published machine 
   results and validating them against the original baselines. You could then apply and compare
   interpretability techniques (e.g., SHAP, attention-based explanations, or concept-based methods)
   to understand which features drive predictions and whether these explanations align with clinical
-  knowledge.
+  knowledge."
 project_bigger_picture: "This project is part of the [aICU project](https://science.ai.cam.ac.uk/2026/02/19/how-can-we-use-ai-to-support-clinical-decision-making-in-intensive-care),
   initiated at Karolinska Institutet in partnership with the University of Cambridge,
   aims to support safe, interpretable, and clinically meaningful decision-making by establishing
