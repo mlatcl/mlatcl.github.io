@@ -27,4 +27,5 @@ biography: Francisco is a PhD student in the Computer Laboratory. He is
   formulations of different learning tasks to explore physically motivated
   efficient algorithms, always keeping the practical/application component as
   the main focus.
+alumni: true
 ---

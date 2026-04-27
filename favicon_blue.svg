@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="66px" height="66px" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<rect x="0" y="0" width="48" height="48" rx="16" ry="16" fill="#0B1926"/>
+
+  <style>
+    .mark { fill: #ffffff; }
+    .lines { stroke: #ffffff; }
+  </style>
+
+  <g transform="translate(1,1)">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Home-Concept-v1.0-b">
+        <g id="Logo-Option-B-Final">transform="translate(199, 155)">
+          <g id="Mark" class="mark">
+            <g id="M">
+              <g id="Group-7">
+                <rect opacity="0.2" x="0" y="0" width="4" height="4"/>
+                <rect x="0" y="14" width="4" height="4"/>
+                <rect x="0" y="28" width="4" height="4"/>
+                <rect opacity="0.2" x="0" y="42" width="4" height="4"/>
+              </g>
+              <g id="Group-8" transform="translate(13.347826, 0)">
+                <rect x="0.652173913" y="14" width="4" height="4"/>
+                <rect x="0.652173913" y="0" width="4" height="4"/>
+                <rect x="0.652173913" y="28" width="4" height="4"/>
+                <rect x="0.652173913" y="42" width="4" height="4"/>
+              </g>
+              <g id="Group-7" transform="translate(28, 0)">
+                <rect x="0" y="0" width="4" height="4"/>
+                <rect x="0" y="14" width="4" height="4"/>
+                <rect x="0" y="28" width="4" height="4"/>
+                <rect x="0" y="42" width="4" height="4"/>
+              </g>
+              <g id="Group-7" transform="translate(42, 0)">
+                <rect opacity="0.2" x="0" y="0" width="4" height="4"/>
+                <rect x="0" y="14" width="4" height="4"/>
+                <rect x="0" y="28" width="4" height="4"/>
+                <rect opacity="0.2" x="0" y="42" width="4" height="4"/>
+              </g>
+            </g>
+          </g>
+          <g id="Connections" class="lines" transform="translate(0, 1)" stroke-linecap="square">
+            <line x1="16.5" y1="43.5" x2="1.5" y2="28.5" opacity="0.2"/>
+            <line x1="44.5" y1="43.5" x2="29.5" y2="28.5" opacity="0.2" transform="translate(37,36) scale(-1,1) translate(-37,-36)"/>
+            <line x1="44.5" y1="15.5" x2="29.5" y2="0.5" opacity="0.2" transform="translate(37,8) scale(-1,-1) translate(-37,-8)"/>
+            <line x1="16.5" y1="15.5" x2="1.5" y2="0.5" opacity="0.2" transform="translate(9,8) scale(1,-1) translate(-9,-8)"/>
+            <line x1="2" y1="15.5" x2="2" y2="29.5" opacity="0.2"/>
+            <line x1="44" y1="15.5" x2="44" y2="29.5" opacity="0.2"/>
+            <line x1="16.5" y1="1" x2="29.5" y2="1" opacity="0.2"/>
+            <line x1="16.5" y1="43" x2="29.5" y2="43" opacity="0.2"/>
+            <line x1="16" y1="0.5" x2="16" y2="43.5" opacity="0.2"/>
+            <line x1="30" y1="0.5" x2="30" y2="43.5" opacity="0.2"/>
+            <line x1="43.5" y1="15" x2="0.5" y2="15" opacity="0.2"/>
+            <line x1="43.5" y1="29" x2="0.5" y2="29" opacity="0.2"/>
+            <g id="M" transform="translate(14.5, 14.076457)">
+              <line x1="1.5" y1="15.4235429" x2="1.5" y2="1.4235429"/>
+              <line x1="2.5" y1="14.9235429" x2="16.5" y2="14.9235429" opacity="0.2"/>
+              <line x1="15.5" y1="15.4235429" x2="15.5" y2="1.4235429"/>
+              <line x1="8" y1="7.4235429" x2="15.6640783" y2="1" transform="translate(11.832039,4.211771) rotate(-8) translate(-11.832039,-4.211771)"/>
+              <line x1="1.21156602" y1="7.4235429" x2="8.87564435" y2="1" transform="translate(5.043605,4.211771) scale(-1,1) rotate(-7) translate(-5.043605,-4.211771)"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
