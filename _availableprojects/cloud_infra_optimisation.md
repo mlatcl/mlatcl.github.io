@@ -7,7 +7,7 @@ categories:
   - mphil
   - prtiii
 overview: Machine learning (ML) and optimisation techniques are increasingly used
-  to help solve decision-making problems that would be difficult
+  to help solve decision-making problems that would be difficult 
   or time-consuming to address manually. One such problem is the configuration of
   cloud infrastructure, where many deployment parameters can affect several
   competing objectives at the same time. This project investigates the use of
