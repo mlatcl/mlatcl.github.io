@@ -37,3 +37,6 @@ gem 'jekyll-paginate-v2'
 gem 'jekyll-remote-theme'
 
 gem 'csv'
+gem 'base64'
+gem 'bigdecimal'
+
