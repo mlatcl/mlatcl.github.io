@@ -7,7 +7,7 @@ categories:
   - mphil
   - prtiii
 overview: Machine learning (ML) and optimisation techniques are increasingly used
-  to help solve decision-making problems that would be difficult 
+  to help solve decision-making problems that would be difficult
   or time-consuming to address manually. One such problem is the configuration of
   cloud infrastructure, where many deployment parameters can affect several
   competing objectives at the same time. This project investigates the use of
@@ -38,7 +38,7 @@ project_bigger_picture: >-
   portfolio of Interfaces demonstrations. We will also encourage publication of the
   project's result.
 
-  This idea continues the line of work done by our research team of applying multi-objective Bayesian optimisation to study trade-offs involved in building ML models: [2D utility/privacy](https://arxiv.org/abs/1905.10862), [3D utility/privacy/fairness](https://arxiv.org/abs/2311.15691), [2D utility/energy] (https://arxiv.org/abs/2601.08991).
+  This idea continues the line of work done by our research team of applying multi-objective Bayesian optimisation to study trade-offs involved in building ML models: [2D utility/privacy](https://arxiv.org/abs/1905.10862), [3D utility/privacy/fairness](https://arxiv.org/abs/2311.15691), [2D utility/energy](https://arxiv.org/abs/2601.08991).
 year: 2026
 ---
 
