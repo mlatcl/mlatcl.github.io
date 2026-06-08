@@ -1,7 +1,7 @@
 ---
 month: 07
 layout: project-to-supervise
-status: Available
+status: Completed
 categories:
   - prtii
   - prtiii
@@ -32,7 +32,7 @@ project_objective: "Rapid advances in Large Language Models (LLMs) open new oppo
   [OpenRL](https://wandb.ai/openrlbenchmark/openrlbenchmark/reportlist), etc). You would then compare the LLMs-based
   agent's performance against current baselines. Finally, you would explore possible alternatives to improve the LLMs'
   results with techniques such as Retrieved Augmented Generation (RAG)."
-project_bigger_picture: "This project is part of the [Self-Sustaining Software Systems (S4)](https://arxiv.org/abs/2401.11370) 
+project_bigger_picture: "This project is part of the [Self-Sustaining Software Systems (S4)](https://arxiv.org/abs/2401.11370)
   research agenda. The goal behind S4 is to enable a new concept for adaptable systems. S4 aims to build knowledge loops
   between different knowledge sources to improve their adaptability."
 year: 2025
