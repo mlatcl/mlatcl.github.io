@@ -1,7 +1,7 @@
 ---
 layout: project-to-supervise
 title: Improving Probabilistic Models for Machine Learning in Science
-status: Available
+status: Hidden
 categories:
   - MPhil
   - prtiii
