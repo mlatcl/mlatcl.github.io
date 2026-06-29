@@ -2,20 +2,17 @@
 layout: person
 given: Radzim
 family: Sendyka
-crsid: rs2071
-supervisor: ndl21
-start: 2023-09-01
-end: ""
-website: "https://radzim.github.io"
-orcid: 0009-0002-4072-2828
-position: Machine Learning Engineer
-institution: Cambridge University
-image: radzim-sendyka.jpg
-url: 
+student: True
+website: https://science.ai.cam.ac.uk/team/radzim-sendyka
 orcid:
 twitter: 
-github: radzim
+github: 
 linkedin: 
-biography: |
-  Radzim is a Machine Learning Engineer in the Department of Computer Science and Technology, where he explores the practical applications of data science and machine learning in real-world contexts, with emphasis on collaboration with domain experts from various scientific fields, like Assyriology.
+start: 2025-10-01
+crsid: 
+supervisor: ndl21
+position: PhD Student
+institution: Cambridge University
+image: radzim-sendyka.jpg
+biography: Radzim explores the practical applications of data science and machine learning in real-world contexts, with emphasis on collaboration with domain experts from various scientific fields, like Assyriology.
 ---
