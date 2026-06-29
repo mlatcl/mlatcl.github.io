@@ -39,6 +39,7 @@ overview_long: >-
   * AI applications in healthcare, science, and industry.
 projects:
   - autoai
+  - interfaces
   - climate-ensembling
   - challenges-in-machine-learning-deployment
   - data-oriented-architectures-for-ai-based-systems
