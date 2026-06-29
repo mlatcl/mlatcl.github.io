@@ -1,8 +1,8 @@
 ---
-layout: techreport
-title: "Real-world Machine Learning Systems: A survey from a Data-Oriented Architecture Perspective"
-abstract: With the upsurge of interest in artificial intelligence machine learning (ML) algorithms, originally developed in academic environments, are now being deployed as parts of real-life systems that deal with large amounts of heterogeneous, dynamic, and high-dimensional data. Deployment of ML methods in real life is prone to challenges across the whole system life-cycle from data management to systems deployment, monitoring, and maintenance. Data-Oriented Architecture (DOA) is an emerging software engineering paradigm that has the potential to mitigate these challenges by proposing a set of principles to create data-driven, loosely coupled, decentralised, and open systems. However DOA as a concept is not widespread yet, and there is no common understanding of how it can be realised in practice. This review addresses that problem by contextualising the principles that underpin the DOA paradigm through the ML system challenges. We explore the extent to which current architectures of ML-based real-world systems have implemented the DOA principles. We also formulate open research challenges and directions for further development of the DOA paradigm.
-published: 2023-02-23
+layout: article
+title: "Machine Learning Systems: A Survey from a Data-Oriented Perspective"
+abstract: Engineers are deploying ML models as parts of real-world systems with the upsurge of AI technologies. Real-world environments challenge the deployment of such systems because these environments produce large amounts of heterogeneous data, and users require increasingly efficient responses. These requirements push prevalent software architectures to the limit when deploying ML-based systems. Data-Oriented Architecture (DOA) is an emerging style that better equips systems to integrate ML models. Even though articles on deployed ML-based systems do not mention DOA, their authors make design decisions that implicitly follow DOA. Implicit decisions create a knowledge gap, limiting practitioners’ ability to implement ML-based systems. This article surveys why, how, and to what extent practitioners have adopted DOA to implement ML-based systems. We overcome the knowledge gap by answering these questions and explicitly showing the design decisions and practices behind these systems. The survey follows a well-known systematic and semi-automated methodology for reviewing articles in software engineering. The majority of reviewed works partially adopt DOA. Such an adoption enables systems to address big data management, low-latency processing, resource management, security, and privacy requirements. Based on these findings, we formulate practical advice to facilitate the deployment of ML-based systems.
+published: 2025-01-01
 author:
   - given: Christian
     family: Cabrera
@@ -19,7 +19,10 @@ author:
   - given: Neil D.
     family: Lawrence
     person_page: neil-d-lawrence
-website: https://arxiv.org/abs/2302.04810
+journal: ACM Computing Surveys
+website: https://doi.org/10.1145/3769292
+doi: doi.org/10.1145/3769292
+pdf: https://doi.org/10.1145/3769292
 software: https://github.com/cabrerac/semi-automatic-literature-survey
 arxiv: 2302.04810
 ---
