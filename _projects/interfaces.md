@@ -2,7 +2,7 @@
 layout: project-single
 title: Interfaces
 excerpt: The Interfaces research programme develops interpretable, self-sustaining
-  multi-agent AI systems — treating software as the interface between socio-technical
+  multi-agent AI systems, treating software as the interface between socio-technical
   needs and AI capabilities, with validation in healthcare and other high-stakes settings.
 featured_image: alina-grubnyak-ziqkhi7417a-unsplash.jpg
 people:
