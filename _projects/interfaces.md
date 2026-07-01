@@ -18,9 +18,9 @@ publications:
   - the-systems-engineering-approach-in-times-of-large-language-models
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
 ---
-The **Interfaces** research programme extends the [AutoAI](/projects/autoai.html) project at ML@CL. It takes a systems perspective on AI deployment: software is the interface between socio-technical needs and AI model capabilities. The programme targets interpretable, self-sustaining systems where multiple autonomous components cooperate, adapt, and remain accountable in real-world deployments.
+The **Interfaces** research programme at ML@CL focuses on interpretable, self-sustaining multi-agent AI systems for real-world deployment. It takes a systems perspective on AI adoption: software is the interface between socio-technical needs and AI model capabilities. The programme builds on research themes developed in the [AutoAI](/projects/autoai.html) project, the [data-oriented architectures](https://dl.acm.org/doi/full/10.1145/3769292) concept, and the [Self-Sustaining Software Systems (S4)](https://dl.acm.org/doi/abs/10.1145/3643657.3643910) agenda.
 
-Interfaces builds on [data-oriented architectures](https://dl.acm.org/doi/full/10.1145/3769292) and the [Self-Sustaining Software Systems (S4)](https://dl.acm.org/doi/abs/10.1145/3643657.3643910) agenda. Research themes include multi-agent observability, systems engineering for large language models, cooperative intelligence, and methods to approximate understanding of composed system behaviour.
+Research themes include multi-agent observability, systems engineering for large language models, cooperative intelligence, and methods to approximate understanding of composed system behaviour.
 
 ## Validation and partnerships
 
