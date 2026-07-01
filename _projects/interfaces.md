@@ -9,7 +9,6 @@ people:
   - christian-cabrera
   - neil-d-lawrence
   - diana-robinson
-  - carl-henrik-ek
   - radzim-sendyka
   - andrei-paleyes
 publications:
