@@ -28,7 +28,3 @@ Research themes include multi-agent observability, systems engineering for large
 The programme works with the [aICU research initiative](https://ki.se/en/research/research-areas-centres-and-networks/research-groups/anaesthesia-and-intensive-care-rebecka-rubenson-wahlinanna-schandls-research-group/the-aicu-project-developing-next-generation-decision-support-tools-for-intensive-care) at Karolinska Institutet and Södersjukhuset, in partnership with ML@CL, to develop and evaluate AI-based decision support for intensive care.
 
 Public open-source artefacts include [DOAgent](https://github.com/cabrerac/doagent), a library for observable multi-agent systems. Other research prototypes are developed in collaboration with clinical and industry partners.
-
-**Programme lead:** [Christian Cabrera-Jojoa](/people/christian-cabrera.html)
-
-**Programme manager:** [Hanni Sondermann](/people/hanni-sondermann.html)
