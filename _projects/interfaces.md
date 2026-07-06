@@ -30,4 +30,5 @@ The programme works with the [aICU research initiative](https://ki.se/en/researc
 Public open-source artefacts include [DOAgent](https://github.com/cabrerac/doagent), a library for observable multi-agent systems. Other research prototypes are developed in collaboration with clinical and industry partners.
 
 **Programme lead:** [Christian Cabrera-Jojoa](/people/christian-cabrera.html)
+
 **Programme manager:** [Hanni Sondermann](/people/hanni-sondermann.html)
