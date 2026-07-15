@@ -13,7 +13,7 @@ image: carl-henrik-ek.jpg
 github: carlhenrikek
 twitter: carlhenrikek
 biography: |
-  Carl Henrik is a Senior Lecturer in Machine learning in the Department of
+  Carl Henrik is a Professor of Machine learning in the Department of
   Computer Science and Technology at the University of Cambridge. Learning is
   the task of creating structure of uncertainty by making assumptions of the
   world. The science of machine learning is concerned with how to formulate
