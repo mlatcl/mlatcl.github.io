@@ -12,8 +12,8 @@ start: 2020-09-14
 position: Executive Director, Accelerate Science
 institution: Cambridge University
 image: jessica-montgomery.jpg
-biography: Jess is Executive Director of the Accelerate Programme for Scientific
-  Discovery, and Director of the Data Trusts Initiative. She has a range of
+biography: Jess is Director of ai@cam and the Accelerate Programme for Scientific
+  Discovery. She has a range of
   collaborations in areas where AI is being used to tackle real-world
   challenges. These explore the roles that technological advances, scientific
   evidence, policy development and public dialogue can play in sharing the
