@@ -5,18 +5,17 @@ family: Amutorine
 crsid: xxma02
 start: 2021-03-01
 visitor: True
+alumni: true
 position: Data Science Africa Fellow
 institution: UN Global Pulse
 image: morine-amutorine.jpeg
 linkedin: morine-amutorine
 twitter: theAmutorine
-biography: Morine is a software engineer turned data analyst, currently working
-  with Pulse Lab Kampala. For the last 5 years, her analytics work has been
-  dominated by social data including social media data (conducting real-time
-  content analysis and knowledge translation research), public radio (analysing
-  public perceptions on topics that inform the work of the SDGs) and Google
-  search data (to reveal knowledge gaps, identify public concerns about the
-  novel coronavirus and detect disparities in health information availability).
-  Her research fellowship with Data Science Africa is aimed at uncovering
-  opportunities and challenges associated with data sharing in Africa.
+biography: Morine is a software engineer turned data analyst who worked with
+  Pulse Lab Kampala. Her analytics work has focused on social data including
+  social media data (real-time content analysis and knowledge translation),
+  public radio (public perceptions informing SDG work) and Google search data
+  (knowledge gaps and health information disparities). Her research fellowship
+  with Data Science Africa explored opportunities and challenges associated with
+  data sharing in Africa.
 ---

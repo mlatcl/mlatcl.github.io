@@ -9,8 +9,8 @@ orcid:
 twitter: 
 github: fweberling
 linkedin: friedrich-maximilian-weberling-581b3316a/
-start: 2021-07-01
-end: 2021-06-30
+start: 2021-06-01
+end: 2021-07-31
 alumni: True
 crsid: fmw37
 supervisor: che29

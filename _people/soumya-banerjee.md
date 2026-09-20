@@ -5,7 +5,7 @@ family: Banerjee
 crsid: sb2333
 start: 2022-07-11
 end: ""
-position: Senior Research Associate, Accelerate Programme for Scientific Discovery
+position: Assistant Research Professor
 institution: Cambridge University
 image: soumyabanerjee_picture_website1.jpeg
 biography: >-

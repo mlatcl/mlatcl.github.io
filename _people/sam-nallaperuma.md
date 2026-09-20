@@ -5,12 +5,12 @@ family: Nallaperuma
 crsid: snn26
 start: 2023-10-01
 end: ""
-position: Senior Research Associate, Accelerate Programme
+position: Assistant Research Professor
 institution: Cambridge University
 image: 
 twitter: sam123sam_
 biography: |
-  Sam is a senior postdoctoral researcher at the Department of
+  Sam is an Assistant Research Professor at the Department of
   Computer Science and an AI for Science Fellow. Sam contributes to
   interdisciplinary research with her experience in artificial
   intelligence, collaborating across multiple disciplines to solve
