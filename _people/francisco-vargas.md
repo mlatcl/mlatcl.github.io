@@ -18,7 +18,6 @@ publications:
   - efficient-representations-for-privacy-preserving-inference
   - shooting-schrödinger’s-cat
   - adversarial-concept-erasure-in-kernel-space
-  - bayesian-learning-via-neural-schrödinger-föllmer-flows
   - bayesian-learning-via-schroedinger-follmer-flows
   - dimensionality-reduction-as-probabilistic-inference
 supervisor: ndl21
