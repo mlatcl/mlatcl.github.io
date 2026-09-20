@@ -10,7 +10,7 @@ prerequisites: >-
 supervisors:
   - neil-d-lawrence
 projects:
-  - interfaces
+  - information-topography
 student_learn: >-
   You will learn information geometry (Fisher metric as a Riemannian structure on
   probability manifolds), constrained maximum-entropy dynamics, and the GENERIC /

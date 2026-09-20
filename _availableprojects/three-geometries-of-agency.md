@@ -11,6 +11,7 @@ supervisors:
   - neil-d-lawrence
   - christian-cabrera
 projects:
+  - information-topography
   - interfaces
 student_learn: >-
   You will study three geometries of changing probability: Fisher–Rao / Crooks

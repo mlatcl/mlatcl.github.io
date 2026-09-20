@@ -16,8 +16,10 @@ overview_short: Probability provides a language for us to describe our knowledge
   building interpretable computational structures that can be used for decision
   making.
 overview_long: ""
-projects: []
+projects:
+  - information-topography
 people:
   - carl-henrik-ek
   - ferenc-huszar
+  - neil-d-lawrence
 ---

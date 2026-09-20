@@ -10,8 +10,7 @@ prerequisites: >-
 supervisors:
   - neil-d-lawrence
 projects:
-  - interfaces
-  - accelerate-science
+  - ai-adoption
 student_learn: >-
   You will learn process mining (discovery, enhancement, organisational mining),
   how to build handoff and social networks from event logs, and how to operationalise

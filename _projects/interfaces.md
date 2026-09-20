@@ -23,6 +23,8 @@ The **Interfaces** research programme at ML@CL focuses on interpretable, self-su
 
 Research themes include multi-agent observability, systems engineering for large language models, cooperative intelligence, and methods to approximate understanding of composed system behaviour.
 
+Interfaces is the engineered-systems pillar of the InfoTop agenda. Mathematical foundations are developed in [Information Topography](/projects/information-topography.html); comparative field studies of institutions adopting AI are developed in [AI Adoption](/projects/ai-adoption.html).
+
 ## Validation and partnerships
 
 The programme works with the [aICU research initiative](https://ki.se/en/research/research-areas-centres-and-networks/research-groups/anaesthesia-and-intensive-care-rebecka-rubenson-wahlinanna-schandls-research-group/the-aicu-project-developing-next-generation-decision-support-tools-for-intensive-care) at Karolinska Institutet and Södersjukhuset, in partnership with ML@CL, to develop and evaluate AI-based decision support for intensive care.

@@ -10,7 +10,7 @@ prerequisites: >-
 supervisors:
   - neil-d-lawrence
 projects:
-  - interfaces
+  - information-topography
 student_learn: >-
   You will learn axiomatic information dynamics, open-system thermodynamics
   (Lindblad versus top-down steepest-entropy-ascent approaches), and how to test

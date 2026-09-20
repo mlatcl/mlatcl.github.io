@@ -11,6 +11,7 @@ supervisors:
   - neil-d-lawrence
   - christian-cabrera
 projects:
+  - information-topography
   - interfaces
 student_learn: >-
   You will learn the Good Regulator Theorem and its modern strengthenings

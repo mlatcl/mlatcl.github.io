@@ -29,6 +29,9 @@ publications:
   - prompt-variability-effects-on-llm-code-generation
   - llm-performance-for-code-generation-on-noisy-tasks
   - the-atomic-human
+  - the-no-barber-principle-towards-formalised-selection-in-the-inaccessible-game
+  - the-origin-of-the-inaccessible-game
+  - the-inaccessible-game
   - accelerating-ai-for-science-open-data-science-for-science
   - increasing-data-sharing-and-use-for-social-good
   - the-systems-engineering-approach-in-times-of-large-language-models

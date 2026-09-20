@@ -40,6 +40,8 @@ overview_long: >-
 projects:
   - autoai
   - interfaces
+  - ai-adoption
+  - information-topography
   - climate-ensembling
   - challenges-in-machine-learning-deployment
   - data-oriented-architectures-for-ai-based-systems

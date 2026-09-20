@@ -33,6 +33,7 @@ overview_long: >-
 
   * how to deploy data science and AI in the service of national and international policy goals.
 projects:
+  - ai-adoption
   - ai-council
   - centre-for-data-ethics-and-innovation
   - data-trusts-initiative
