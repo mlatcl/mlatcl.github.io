@@ -22,36 +22,36 @@ biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   a Senior AI Fellowship from the Alan Turing Institute. Neil is also visiting
   Professor at the University of Sheffield and the co-host of Talking Machines.
 publications:
-  - 2026-09-10-national-commission-into-the-regulation-of-ai-in-healthcare
-  - 2026-09-03-ai-for-science-reframing-ais-role-in-discovery
-  - 2026-07-28-mind-the-gap-connecting-ai-innovation-to-widespread-public-value
-  - 2026-04-13-ifogsim-placement-a-simulation-framework-for-edge-service-placement
-  - 2025-04-14-the-human-visual-system-can-inspire-new-interaction-paradigms-for-llms
-  - 2026-04-01-prompt-variability-effects-on-llm-code-generation
-  - 2025-05-26-llm-performance-for-code-generation-on-noisy-tasks
-  - 2024-06-06-the-atomic-human
-  - 2026-04-21-the-no-barber-principle-towards-formalised-selection-in-the-inaccessible-game
-  - 2026-01-18-the-origin-of-the-inaccessible-game
-  - 2025-11-10-the-inaccessible-game
-  - 2024-08-21-accelerating-ai-for-science-open-data-science-for-science
-  - 2024-11-18-increasing-data-sharing-and-use-for-social-good
-  - 2024-11-16-the-systems-engineering-approach-in-times-of-large-language-models
-  - 2024-05-22-requirements-are-all-you-need
-  - 2024-01-21-self-sustaining-software-systems
-  - 2023-02-09-real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
-  - 2023-03-07-ai-for-science-an-emerging-agenda
-  - 2021-10-08-differentially-private-regression-and-classificaiton-with-sparse-gaussian-processes
-  - 2019-10-01-bottom-up-data-trusts-disturbing-the-one-size-fits-all-approach-to-data-governance
-  - 2020-04-26-empirical-bayes-transductive-meta-learning-with-synthetic-gradients
-  - 2022-04-30-challenges-in-machine-learning-deployment
-  - 2020-12-02-decision-making-with-uncertainty
-  - 2021-01-15-gaussian-process-latent-variable-flows-for-massively-missing-data
-  - 2021-05-12-creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
-  - 2021-08-31-solving-schroedinger-bridges-via-maximum-likelihood
-  - 2021-06-03-multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
-  - 2022-12-16-large-language-model-opportunity
-  - 2023-04-04-ai-council-foundation-models-policy-paper
-  - 2023-06-06-letter-warning-about-simplistic-narratives
+  - national-commission-into-the-regulation-of-ai-in-healthcare
+  - ai-for-science-reframing-ais-role-in-discovery
+  - mind-the-gap-connecting-ai-innovation-to-widespread-public-value
+  - ifogsim-placement-a-simulation-framework-for-edge-service-placement
+  - the-human-visual-system-can-inspire-new-interaction-paradigms-for-llms
+  - prompt-variability-effects-on-llm-code-generation
+  - llm-performance-for-code-generation-on-noisy-tasks
+  - the-atomic-human
+  - the-no-barber-principle-towards-formalised-selection-in-the-inaccessible-game
+  - the-origin-of-the-inaccessible-game
+  - the-inaccessible-game
+  - accelerating-ai-for-science-open-data-science-for-science
+  - increasing-data-sharing-and-use-for-social-good
+  - the-systems-engineering-approach-in-times-of-large-language-models
+  - requirements-are-all-you-need
+  - self-sustaining-software-systems
+  - real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
+  - ai-for-science-an-emerging-agenda
+  - differentially-private-regression-and-classificaiton-with-sparse-gaussian-processes
+  - bottom-up-data-trusts-disturbing-the-one-size-fits-all-approach-to-data-governance
+  - empirical-bayes-transductive-meta-learning-with-synthetic-gradients
+  - challenges-in-machine-learning-deployment
+  - decision-making-with-uncertainty
+  - gaussian-process-latent-variable-flows-for-massively-missing-data
+  - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
+  - solving-schroedinger-bridges-via-maximum-likelihood
+  - multi-view-learning-as-a-nonparametric-nonlinear-inter-battery-factor-analysis
+  - large-language-model-opportunity
+  - ai-council-foundation-models-policy-paper
+  - letter-warning-about-simplistic-narratives
 website: http://inverseprobability.com
 orcid: 0000-0001-9258-1030
 ---

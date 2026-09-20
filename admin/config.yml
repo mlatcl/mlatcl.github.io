@@ -781,7 +781,9 @@ collections:
     name: 'Publications'
     folder: '_publications'
     create: true
-    slug: '{{published}}-{{title | slug}}'
+    # Filename slug must match Jekyll's document.slug (no date prefix).
+    # Publication date lives in the published field, not the filename.
+    slug: '{{title | slug}}'
     editor:
       preview: false
     fields:

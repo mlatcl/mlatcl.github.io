@@ -16,12 +16,12 @@ people:
   - neil-d-lawrence
   - pierre-thodoroff
 publications:
-  - 2022-05-16-an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
-  - 2021-12-14-towards-better-data-discovery-and-collection-with-flow-based-programming
-  - 2023-03-16-dataflow-graphs-as-complete-causal-graphs
-  - 2023-05-08-causal-fault-localisation-in-dataflow-systems
-  - 2023-02-09-real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
-  - 2022-10-22-desiderata-for-next-generation-of-ml-model-serving
+  - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
+  - towards-better-data-discovery-and-collection-with-flow-based-programming
+  - dataflow-graphs-as-complete-causal-graphs
+  - causal-fault-localisation-in-dataflow-systems
+  - real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
+  - desiderata-for-next-generation-of-ml-model-serving
 ---
 Across the last decade novel machine learning (ML) algorithms have been used to solve problems in computer vision, speech and language that were previously considered highly challenging. This has triggered an upsurge in interest in artificial intelligence (AI). These algorithms originated in the academic community but are now being deployed in real-world environments that differ considerably from their development domains in terms of scale, complexity, and dynamic nature. Real-world environments produce large amounts of heterogeneous, variable and high dimensional data that poses new challenges to the deployment of ML algorithms in real-world systems. These challenges are present along the whole ML algorithms workflow from data management to deployment, monitoring and redeployment of ML models. 
 

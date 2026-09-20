@@ -9,7 +9,7 @@ featured_image: fusion-medical-animation-npjp0dctoxo-unsplash.jpg
 people:
   - neil-d-lawrence
 publications:
-  - 2026-09-10-national-commission-into-the-regulation-of-ai-in-healthcare
+  - national-commission-into-the-regulation-of-ai-in-healthcare
 ---
 
 The [National Commission into the Regulation of AI in

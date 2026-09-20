@@ -8,9 +8,9 @@ people:
   - neil-d-lawrence
   - jessica-montgomery
 publications:
-  - 2022-12-16-large-language-model-opportunity
-  - 2023-04-04-ai-council-foundation-models-policy-paper
-  - 2023-06-06-letter-warning-about-simplistic-narratives
+  - large-language-model-opportunity
+  - ai-council-foundation-models-policy-paper
+  - letter-warning-about-simplistic-narratives
 ---
 
 

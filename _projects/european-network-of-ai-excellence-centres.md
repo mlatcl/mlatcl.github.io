@@ -9,7 +9,7 @@ people:
   - neil-d-lawrence
   - jessica-montgomery
 publications:
-  - 2021-05-12-creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
+  - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
 ---
 European Learning and Intelligence Systems Excellence (ELISE) is a consortium of artificial intelligence (AI) research hubs that connects Europe’s leading researchers in machine learning and AI. ELISE’s vision is of a powerhouse of European AI that advances machine learning technologies and their application to areas of pressing scientific and social interest. 
 

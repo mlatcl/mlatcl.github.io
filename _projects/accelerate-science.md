@@ -19,12 +19,12 @@ people:
   - justin-tan
   - neil-d-lawrence
 publications:
-  - 2021-12-13-assessing-psychosis-risk-using-quantitative-markers-of-disorganised-speech
-  - 2021-09-07-deep-learning-for-bioimage-analysis-in-developmental-biology
-  - 2021-02-19-optimal-marker-gene-selection-for-cell-type-discrimination-in-single-cell-analyses
-  - 2021-08-31-solving-schroedinger-bridges-via-maximum-likelihood
-  - 2021-10-25-multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
-  - 2021-01-15-gaussian-process-latent-variable-flows-for-massively-missing-data
+  - assessing-psychosis-risk-using-quantitative-markers-of-disorganised-speech
+  - deep-learning-for-bioimage-analysis-in-developmental-biology
+  - optimal-marker-gene-selection-for-cell-type-discrimination-in-single-cell-analyses
+  - solving-schroedinger-bridges-via-maximum-likelihood
+  - multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
+  - gaussian-process-latent-variable-flows-for-massively-missing-data
 ---
 Artificial intelligence (AI) has the potential to become an engine for scientific discovery across disciplines – from predicting the impact of climate change, to using genetic data to create new healthcare treatments, and from finding new astronomical phenomena to identifying new materials here on Earth.
 

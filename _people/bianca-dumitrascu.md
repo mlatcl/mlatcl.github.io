@@ -19,8 +19,8 @@ biography: Bianca works at the intersection of machine learning and genetics.
   learning and graphical neural networks as models to study the effects and
   side-effects of drug cocktails.
 publications:
-  - 2021-09-07-deep-learning-for-bioimage-analysis-in-developmental-biology
-  - 2021-02-19-optimal-marker-gene-selection-for-cell-type-discrimination-in-single-cell-analyses
+  - deep-learning-for-bioimage-analysis-in-developmental-biology
+  - optimal-marker-gene-selection-for-cell-type-discrimination-in-single-cell-analyses
 team: true
 alumni: true
 ---
