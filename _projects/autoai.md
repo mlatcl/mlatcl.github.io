@@ -22,9 +22,9 @@ alumni:
 publications:
   - real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
   - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
-  - challenges-in-deploying-machine-learning-a-survey-of-case-studies
+  - challenges-in-machine-learning-deployment
   - benchmarking-real-time-reinforcement-learning
-  - data-flowgraphs-as-complete-causal-graphs
+  - dataflow-graphs-as-complete-causal-graphs
   - automatic-trade-off-between-utility-privacy-and-fairness-in-machine-learning-models
   - multifidelity-experimental-design-for-ice-sheet-simulation
   - self-sustaining-software-systems
