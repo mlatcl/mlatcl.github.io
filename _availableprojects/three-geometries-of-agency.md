@@ -5,11 +5,13 @@ status: Available
 categories:
   - prtiii
   - mphil
+prerequisites: >-
+  [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or equivalent preparation in information theory, maximum entropy, and information geometry.
 supervisors:
   - neil-d-lawrence
   - christian-cabrera
 projects:
-  - information-topography
+  - interfaces
 student_learn: >-
   You will study three geometries of changing probability: Fisher–Rao / Crooks
   thermodynamic length, Wasserstein optimal transport, and Schrödinger bridges
@@ -18,8 +20,6 @@ student_learn: >-
 published: 2026-09-20
 title: Three Geometries of Agency — Crooks, Wasserstein, and Schrödinger Bridges
 overview: >-
-  **Prerequisite:** students should take [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or show equivalent preparation in information theory, maximum entropy, and information geometry.
-
   The IEI module treats intelligent agency as transport of probability mass and
   distinguishes three geometries that must not be collapsed: (1) Fisher–Rao / Crooks
   thermodynamic length (near-equilibrium, dissipation bounded by $\mathcal{L}^2/\tau$);

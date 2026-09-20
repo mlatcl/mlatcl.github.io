@@ -5,11 +5,13 @@ status: Available
 categories:
   - prtiii
   - mphil
+prerequisites: >-
+  [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or equivalent preparation in information theory, maximum entropy, and information geometry.
 supervisors:
   - neil-d-lawrence
   - christian-cabrera
 projects:
-  - information-topography
+  - interfaces
 student_learn: >-
   You will learn the Good Regulator Theorem and its modern strengthenings
   (information-bottlenecked "Gooder" regulators; embodied / observer-attributed
@@ -19,8 +21,6 @@ student_learn: >-
 published: 2026-09-20
 title: Testing Good Regulator Notions in Agentic Loops
 overview: >-
-  **Prerequisite:** students should take [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or show equivalent preparation in information theory, maximum entropy, and information geometry.
-
   Conant and Ashby's Good Regulator Theorem is often quoted as "every good
   regulator must be a model of the system," but the bare result mainly yields
   determinism $H(A\mid S)=0$ among minimal entropy-minimising policies, this is a weak

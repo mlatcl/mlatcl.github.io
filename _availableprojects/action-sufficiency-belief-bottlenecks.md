@@ -5,11 +5,13 @@ status: Available
 categories:
   - prtiii
   - mphil
+prerequisites: >-
+  [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or equivalent preparation in information theory, maximum entropy, and information geometry.
 supervisors:
   - neil-d-lawrence
   - christian-cabrera
 projects:
-  - information-topography
+  - interfaces
 student_learn: >-
   You will learn information-bottleneck and rate–distortion ideas applied to LLM
   agents, how to evaluate context compression beyond task success, and how to
@@ -19,8 +21,6 @@ student_learn: >-
 published: 2026-09-20
 title: Action-Sufficiency Audits for LLM Belief Bottlenecks
 overview: >-
-  **Prerequisite:** students should take [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or show equivalent preparation in information theory, maximum entropy, and information geometry.
-
   Long-horizon LLM agents cannot keep full histories in context. Recent systems
   compress interaction into belief states or summaries: ABBEL maintains
   natural-language belief bottlenecks; CoACT optimises observation compression for

@@ -5,12 +5,13 @@ status: Available
 categories:
   - prtiii
   - mphil
+prerequisites: >-
+  [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or equivalent preparation in information theory, maximum entropy, and information geometry.
 supervisors:
   - neil-d-lawrence
   - christian-cabrera
 projects:
-  - information-topography
-  - s4
+  - interfaces
 student_learn: >-
   You will learn knowledge-hierarchy models of organisations (Garicano),
   information-bottleneck accounts of multi-agent relay compression, and
@@ -20,8 +21,6 @@ student_learn: >-
 published: 2026-09-20
 title: Escalation as Conductance Intervention — Measuring Agentic Debt
 overview: >-
-  **Prerequisite:** students should take [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or show equivalent preparation in information theory, maximum entropy, and information geometry.
-
   Knowledge hierarchies escalate exceptions upward so scarce expertise handles hard
   cases (Garicano, 2000). Generative AI changes that calculus: automation versus
   augmentation shifts who faces routine work and who absorbs exceptions (recent

@@ -5,10 +5,12 @@ status: Available
 categories:
   - prtiii
   - mphil
+prerequisites: >-
+  [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or equivalent preparation in information theory, maximum entropy, and information geometry.
 supervisors:
   - neil-d-lawrence
 projects:
-  - information-topography
+  - interfaces
 student_learn: >-
   You will learn axiomatic information dynamics, open-system thermodynamics
   (Lindblad versus top-down steepest-entropy-ascent approaches), and how to test
@@ -18,8 +20,6 @@ student_learn: >-
 published: 2026-09-20
 title: Opening the Inaccessible Game without External Adjudication
 overview: >-
-  **Prerequisite:** students should take [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or show equivalent preparation in information theory, maximum entropy, and information geometry.
-
   The inaccessible game is deliberately closed and agent-free: marginal entropy
   conservation $\sum_i h_i = C$ and maximum-entropy production generate an
   information topography without pre-specified channels. Real organisations and

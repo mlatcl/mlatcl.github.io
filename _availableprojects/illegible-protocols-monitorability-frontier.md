@@ -5,12 +5,13 @@ status: Available
 categories:
   - prtiii
   - mphil
+prerequisites: >-
+  [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or equivalent preparation in information theory, maximum entropy, and information geometry.
 supervisors:
   - neil-d-lawrence
   - christian-cabrera
 projects:
-  - information-topography
-  - s4
+  - interfaces
 student_learn: >-
   You will learn emergent communication in multi-agent systems, monitorability and
   steganography risks for LLM agents, and how to measure protocol illegibility
@@ -20,8 +21,6 @@ student_learn: >-
 published: 2026-09-20
 title: Illegible Protocols under Bandwidth — The Monitorability Frontier
 overview: >-
-  **Prerequisite:** students should take [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or show equivalent preparation in information theory, maximum entropy, and information geometry.
-
   Classical emergent-communication work showed agents invent efficient but opaque
   codes under bandwidth limits. LLM multi-agent systems inherit the risk in a new
   form: under token budgets they can drift from English into shorter protocols

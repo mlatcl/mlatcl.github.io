@@ -5,10 +5,12 @@ status: Available
 categories:
   - prtiii
   - mphil
+prerequisites: >-
+  [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or equivalent preparation in information theory, maximum entropy, and information geometry.
 supervisors:
   - neil-d-lawrence
 projects:
-  - information-topography
+  - interfaces
 student_learn: >-
   You will learn information geometry (Fisher metric as a Riemannian structure on
   probability manifolds), constrained maximum-entropy dynamics, and the GENERIC /
@@ -19,8 +21,6 @@ student_learn: >-
 published: 2026-09-20
 title: Fisher Conductance as a Predictive Information Topography
 overview: >-
-  **Prerequisite:** students should take [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or show equivalent preparation in information theory, maximum entropy, and information geometry.
-
   Information theory characterises what can be transmitted through a channel, but
   does not explain how communication structure arises. The inaccessible game
   (Lawrence, 2025) derives a dynamical system from information-theoretic axioms in

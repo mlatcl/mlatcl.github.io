@@ -5,12 +5,14 @@ status: Available
 categories:
   - prtiii
   - mphil
+prerequisites: >-
+  [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or equivalent preparation in information theory, maximum entropy, and information geometry.
 supervisors:
   - neil-d-lawrence
   - christian-cabrera
 projects:
-  - information-topography
-  - s4
+  - interfaces
+  - data-oriented-architectures-for-ai-based-systems
 student_learn: >-
   You will learn directed information and transfer entropy (TE), modern neural /
   generative TE estimators, causal message-intervention audits for multi-agent
@@ -20,8 +22,6 @@ student_learn: >-
 published: 2026-09-20
 title: Causal Information-Flow Instrumentation for Multi-Agent LLM Systems
 overview: >-
-  **Prerequisite:** students should take [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or show equivalent preparation in information theory, maximum entropy, and information geometry.
-
   Multi-agent LLM systems are fully instrumentable: every message, tool call, and
   memory write can be logged. Transfer entropy and directed information are the
   natural language for directed flow, with recent estimators (TREET; AGM-TE) and

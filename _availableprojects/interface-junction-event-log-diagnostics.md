@@ -5,10 +5,13 @@ status: Available
 categories:
   - prtiii
   - mphil
+prerequisites: >-
+  [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or equivalent preparation in information theory, maximum entropy, and information geometry.
 supervisors:
   - neil-d-lawrence
 projects:
-  - information-topography
+  - interfaces
+  - accelerate-science
 student_learn: >-
   You will learn process mining (discovery, enhancement, organisational mining),
   how to build handoff and social networks from event logs, and how to operationalise
@@ -18,8 +21,6 @@ student_learn: >-
 published: 2026-09-20
 title: Interface-Junction Diagnostics on Organisational Event Logs
 overview: >-
-  **Prerequisite:** students should take [L172 Information, Energy and Intelligence (IEI)](https://www.cl.cam.ac.uk/teaching/2627/L172/), or show equivalent preparation in information theory, maximum entropy, and information geometry.
-
   Process mining recovers process models, bottlenecks, and organisational handoff
   networks from event logs; recent work adds LLM assistance and BPMN extensions for
   human–agent collaboration. Hand-off design literature stresses confidence
