@@ -25,6 +25,10 @@ resources:
     icon: /assets/images/teaching-icon.svg
     category: Teaching
     link: https://mlatcl.github.io/deepnn/
+  - title: Information, Entropy and Intelligence lecture course
+    icon: /assets/images/teaching-icon.svg
+    category: Teaching
+    link: https://mlatcl.github.io/iei/
   - title: Emukit software
     icon: /assets/images/software-icon.svg
     category: Software

@@ -17,3 +17,7 @@ grid:
     description: This module provides a first course in machine learning foundations.
     link: /mlfc/
     image: /assets/images/stock-photo-programmer-working-and-developing-software-in-office-1823014802.jpg
+  - title: Information, Entropy and Intelligence
+    description: This module develops the mathematical connections between thermodynamics, information theory, and Bayesian inference as a toolkit for intelligent systems.
+    link: /iei/
+    image: /assets/images/stock-vector-europe-map-big-data-visualization-futuristic-map-infographic-information-aesthetics-visual-data-504234469.jpg

@@ -28,6 +28,7 @@ publications:
   - automatic-trade-off-between-utility-privacy-and-fairness-in-machine-learning-models
   - multifidelity-experimental-design-for-ice-sheet-simulation
   - self-sustaining-software-systems
+  - machine-learning-from-innovation-to-deployment-a-strategic-research-agenda-for-autoai
   - requirements-are-all-you-need
   - towards-better-data-discovery-and-collection-with-flow-based-programming
   - can-causality-accelerate-experimentation-in-software-systems
