@@ -40,6 +40,8 @@ projects:
   - data-sharing-in-africa-lessons-from-covid-19
   - european-network-of-ai-excellence-centres
   - delve-data-evaluation-and-learning-for-viral-epidemics
+  - gds-responsible-ai-advisory-panel
+  - mhra-national-ai-commission
 people:
   - morine-amutorine
   - paula-bibby
