@@ -34,7 +34,7 @@ intelligence through the embodiment factor — the extreme imbalance between hum
 computation and communication — and on the inaccessible-game formalism, which
 derives topographic dynamics from information-theoretic axioms without
 pre-specified agents or channels. Teaching in [L172 Information, Energy and
-Intelligence](https://www.cl.cam.ac.uk/teaching/2627/L172/) develops the same
+Intelligence](https://mlatcl.github.io/iei/) develops the same
 mathematical machinery with students.
 
 ## Research themes

@@ -1,7 +1,7 @@
 ---
 title: Unconventional AI and explainable AI
 layout: project-to-supervise
-status: Available
+status: Hidden
 categories:
   - prtiii
   - MPhil
