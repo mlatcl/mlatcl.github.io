@@ -25,5 +25,5 @@ biography: >-
   proteins and bioacoustics.
 
 publications:
-  - probdr
+  - 2023-04-15-dimensionality-reduction-as-probabilistic-inference
 ---
