@@ -8,8 +8,8 @@ start: 2022-02-07
 end: 2023-10-01
 website: https://www.vidhilalchand.co.uk
 orcid: null
-position: Research Associate
-institution: Cambridge University
+position: Eric and Wendy Schmidt Center Postdoctoral Fellow
+institution: Broad Institute of MIT and Harvard
 github: null
 publications:
   - gaussian-process-latent-variable-flows-for-massively-missing-data
@@ -18,11 +18,15 @@ image: vidhi-lalchand.jpg
 linkedin: https://www.linkedin.com/in/vidhi-lalchand-2297b53a/
 twitter: https://twitter.com/VRLalchand
 email: vr308@cam.ac.uk
+alumni: true
 biography: >-
-  Vidhi is a Ph.D. student at the Cavendish Laboratory, a Turing Scholar and a
-  member of Christ's College, University of Cambridge. Since Feb, 2022 she is
-  also postdoctoral research associate working on the Human Cell-ATLAS project
-  supervised by Prof. Neil Lawrence.
-
-  Her PhD is supervised by Prof. Carl Rasmussen and Dr Christopher Lester. Her research interests are in Bayesian Non-parametrics, Gaussian Processes and Hierarchical Modelling. She is interested in applications of probabilistic machine learning to problems in contemporary sciences like computational biology, high energy physics and astronomy. Her Ph.D. is funded by the Alan Turing Institute and Qualcomm Innovation Fellowship (Europe).
+  Vidhi is an Eric and Wendy Schmidt Center Postdoctoral Fellow at the Broad
+  Institute of MIT and Harvard, working with Caroline Uhler on generative models,
+  representation learning, and drug discovery. She completed her PhD at the
+  University of Cambridge in 2024 (Cavendish Laboratory and CBL), supervised by
+  Carl Rasmussen and Neil Lawrence. From February 2022 to October 2023 she was
+  also a research associate in ML@CL working on the Human Cell Atlas project.
+  Her research interests are in Bayesian non-parametrics, Gaussian processes and
+  hierarchical modelling, with applications to computational biology, drug
+  discovery and astronomy.
 ---

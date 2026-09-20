@@ -5,10 +5,11 @@ family: Tan
 crsid: jt976
 position: PhD Student
 institution: Cambridge University
-biography: Justin's research lies at the intersection of geometry and machine
-  learning, searching for interesting structure in geometries which feature in
-  string theory and other areas of mathematical physics. Previously he worked in
-  experimental particle physics at the Belle II experiment.
+end: 2026-05-05
+alumni: true
+biography: >-
+  Justin completed his PhD at ML@CL. His research lay at the intersection of
+  geometry and machine learning, searching for interesting structure in geometries
+  which feature in string theory and other areas of mathematical physics.
+  Previously he worked in experimental particle physics at the Belle II experiment.
 ---
-
-Justin's research lies at the intersection of geometry and machine learning, searching for interesting structure in geometries which feature in string theory and other areas of mathematical physics. Previously he worked in experimental particle physics at the Belle II experiment.

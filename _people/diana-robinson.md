@@ -5,15 +5,16 @@ family: Robinson
 crsid: dmpr3
 student: true
 start: 2019-10-01
-end: ""
+end: 2025-03-04
 position: PhD Student
 institution: Cambridge University
 image: diana.jpg
+alumni: true
 biography: >-
-  Diana Robinson is a PhD candidate in computer science at the University of
-  Cambridge, specialising in human-computer interaction. Her focus is on
+  Diana Robinson completed her PhD in computer science at the University of
+  Cambridge in 2025, specialising in human-computer interaction. Her focus was on
   interaction design of clinical decision support tools, looking at ways of
-  representing and working with uncertainty in this context. Diana is also a
+  representing and working with uncertainty in this context. Diana was also a
   Student Fellow at the Leverhulme Centre for the Future of Intelligence where
   she was previously a research assistant exploring ethical questions relating
   to AI in applications ranging from immigration to medicine. 

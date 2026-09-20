@@ -13,16 +13,17 @@ start: 2018-10-01
 end: 2023-04-19
 crsid: sjb326
 supervisor: ndl21
-position: PhD Student
-institution: University of Cambridge
+position: Research Scientist
+institution: Meta FAIR
 image: samuel-bell.jpg
+alumni: true
 publications:
   - modeling-the-machine-learning-multiverse
   - behavioral-experiments-for-understanding-catastrophic-forgetting
 biography: >-
-  Sam applies theoretical approaches, practical methods and metascientific ideas from experimental psychology to understanding machine learning systems, with a particular focus on neural network behaviour. He is primarily interested in machine learning fairness, robustness, and research reproducibility.
+  Sam is a Research Scientist at Meta FAIR. He applies theoretical approaches, practical methods and metascientific ideas from experimental psychology to understanding machine learning systems, with a particular focus on neural network behaviour. He is primarily interested in machine learning fairness, robustness, and research reproducibility.
 
-  He is a machine learning PhD student in the ML@CL group at the University of Cambridge (Queens’ College), supervised by Prof. Neil Lawrence. Sam was a visiting student at The Alan Turing Institute during the 2021/2 academic year, and has recently worked with the socially-responsible AI team at FAIR (Meta AI) Paris. During his master’s he worked on deep learning and natural language processing at the Cambridge Computer Laboratory. He did his bachelor’s in computer science at the University of Manchester, graduating 2013.
+  He completed his machine learning PhD in the ML@CL group at the University of Cambridge (Queens’ College) in 2023, supervised by Prof. Neil Lawrence. Sam was a visiting student at The Alan Turing Institute during the 2021/2 academic year, and worked with the socially-responsible AI team at FAIR (Meta AI) Paris. During his master’s he worked on deep learning and natural language processing at the Cambridge Computer Laboratory. He did his bachelor’s in computer science at the University of Manchester, graduating 2013.
 
   In between, Sam has also simulated financial crises in market risk at Goldman Sachs, built new retail banks at Thought Machine, and developed next generation credit scores at Credit Kudos.
 
