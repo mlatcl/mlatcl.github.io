@@ -40,6 +40,7 @@ overview_long: >-
 projects:
   - autoai
   - interfaces
+  - aicu
   - ai-adoption
   - information-topography
   - climate-ensembling
