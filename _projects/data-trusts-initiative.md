@@ -12,11 +12,11 @@ people:
   - neil-d-lawrence
   - paula-bibby
 publications:
-  - data-governance-in-the-21st-century-citizen-dialogue-and-the-development-of-data-trusts
-  - democratising-the-digital-revolution-the-role-of-data-governance
-  - from-research-data-ethics-principles-to-practice-data-trusts-as-a-governance-tool
-  - data-trusts-from-theory-to-practice-working-paper-1
-  - international-perspectives-on-the-development-of-data-institutions
+  - 2021-06-25-data-governance-in-the-21st-century-citizen-dialogue-and-the-development-of-data-trusts
+  - 2020-11-23-democratising-the-digital-revolution-the-role-of-data-governance
+  - 2021-01-12-from-research-data-ethics-principles-to-practice-data-trusts-as-a-governance-tool
+  - 2020-11-26-data-trusts-from-theory-to-practice-working-paper-1
+  - 2021-01-28-international-perspectives-on-the-development-of-data-institutions
   - 2021-06-09-a-research-agenda-for-data-trusts-working-paper-3
 ---
 Our interactions in the workplace, at home or with public services are increasingly mediated by digital technologies. These technologies have great potential to boost economic growth and enhance our wellbeing, but these novel patterns of data use can also leave us vulnerable in new ways. 

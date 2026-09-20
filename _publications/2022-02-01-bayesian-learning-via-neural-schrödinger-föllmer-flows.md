@@ -4,6 +4,7 @@ title: Bayesian Learning via Neural Schrödinger-Föllmer Flows
 author: 
 - given: Francisco 
   family: Vargas
+  person_page: francisco-vargas
 - given: Andrius
   family: Ovsianas
 - given: David 

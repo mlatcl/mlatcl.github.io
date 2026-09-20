@@ -20,20 +20,20 @@ alumni:
   - pierre-thodoroff
 
 publications:
-  - real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
-  - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
-  - challenges-in-machine-learning-deployment
-  - benchmarking-real-time-reinforcement-learning
-  - dataflow-graphs-as-complete-causal-graphs
-  - automatic-trade-off-between-utility-privacy-and-fairness-in-machine-learning-models
-  - multifidelity-experimental-design-for-ice-sheet-simulation
-  - self-sustaining-software-systems
-  - machine-learning-from-innovation-to-deployment-a-strategic-research-agenda-for-autoai
-  - requirements-are-all-you-need
-  - towards-better-data-discovery-and-collection-with-flow-based-programming
-  - can-causality-accelerate-experimentation-in-software-systems
-  - the-systems-engineering-approach-in-times-of-large-language-models
-  - increasing-data-sharing-and-use-for-social-good
+  - 2023-02-09-real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
+  - 2022-05-16-an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
+  - 2022-04-30-challenges-in-machine-learning-deployment
+  - 2021-12-13-benchmarking-real-time-reinforcement-learning
+  - 2023-03-16-dataflow-graphs-as-complete-causal-graphs
+  - 2023-11-27-automatic-trade-off-between-utility-privacy-and-fairness-in-machine-learning-models
+  - 2023-07-17-multifidelity-experimental-design-for-ice-sheet-simulation
+  - 2024-01-21-self-sustaining-software-systems
+  - 2022-06-07-machine-learning-from-innovation-to-deployment-a-strategic-research-agenda-for-autoai
+  - 2024-05-22-requirements-are-all-you-need
+  - 2021-12-14-towards-better-data-discovery-and-collection-with-flow-based-programming
+  - 2024-06-11-can-causality-accelerate-experimentation-in-software-systems
+  - 2024-11-16-the-systems-engineering-approach-in-times-of-large-language-models
+  - 2024-11-18-increasing-data-sharing-and-use-for-social-good
 ---
 While excitement about the potential of artificial intelligence (AI) technologies continues to build, a gap is emerging between our aspirations for the benefits of AI and our ability to deploy these technologies to tackle real-world challenges.
 

@@ -13,11 +13,11 @@ people:
   - diana-robinson
   - hanni-sondermann
 publications:
-  - real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
-  - self-sustaining-software-systems
-  - requirements-are-all-you-need
-  - the-systems-engineering-approach-in-times-of-large-language-models
-  - an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
+  - 2023-02-09-real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
+  - 2024-01-21-self-sustaining-software-systems
+  - 2024-05-22-requirements-are-all-you-need
+  - 2024-11-16-the-systems-engineering-approach-in-times-of-large-language-models
+  - 2022-05-16-an-empirical-evaluation-of-flow-based-programming-in-the-machine-learning-deployment-context
 ---
 The **Interfaces** research programme at ML@CL focuses on interpretable, self-sustaining multi-agent AI systems. It takes a systems perspective on AI adoption: software systems are the interface between socio-technical needs and AI model capabilities. The programme builds on research themes developed in the [AutoAI](/projects/autoai.html) project, the [data-oriented architectures](https://dl.acm.org/doi/full/10.1145/3769292) concept, and the [Self-Sustaining Software Systems (S4)](https://dl.acm.org/doi/abs/10.1145/3643657.3643910) agenda.
 

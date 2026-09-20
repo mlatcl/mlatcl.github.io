@@ -16,5 +16,5 @@ biography: >-
   by using machine learning to combine multiple types of neuroimaging-derived
   brain connectivity as well as genetic and other biological data.
 publications:
-  - multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
+  - 2021-10-25-multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
 ---

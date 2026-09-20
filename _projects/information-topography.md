@@ -9,10 +9,10 @@ featured_image: conny-schneider-pREq0ns_p_E-unsplash.jpg
 people:
   - neil-d-lawrence
 publications:
-  - the-atomic-human
-  - the-inaccessible-game
-  - the-origin-of-the-inaccessible-game
-  - the-no-barber-principle-towards-formalised-selection-in-the-inaccessible-game
+  - 2024-06-06-the-atomic-human
+  - 2025-11-10-the-inaccessible-game
+  - 2026-01-18-the-origin-of-the-inaccessible-game
+  - 2026-04-21-the-no-barber-principle-towards-formalised-selection-in-the-inaccessible-game
 ---
 
 The **Information Topography** programme develops a generative theory of

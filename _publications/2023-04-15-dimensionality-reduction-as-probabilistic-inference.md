@@ -9,6 +9,7 @@ author:
     family: Ravuri
   - given: Francisco
     family: Vargas
+    person_page: francisco-vargas
   - given: Vidhi
     family: Lalchand
   - given: Neil D.

@@ -6,6 +6,7 @@ author:
   family: Ravfogel
 - given: Francisco 
   family: Vargas
+  person_page: francisco-vargas
 - given: Yoav 
   family: Goldberg
 - given: Ryan 

@@ -6,6 +6,7 @@ author:
   family: Lopes Fernandes
 - given: Francisco 
   family: Vargas
+  person_page: francisco-vargas
 - given: Carl Henrik 
   family: Ek
 - given: Neill D. F.

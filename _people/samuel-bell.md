@@ -18,8 +18,8 @@ institution: Meta FAIR
 image: samuel-bell.jpg
 alumni: true
 publications:
-  - modeling-the-machine-learning-multiverse
-  - behavioral-experiments-for-understanding-catastrophic-forgetting
+  - 2022-10-22-modeling-the-machine-learning-multiverse
+  - 2022-10-22-behavioral-experiments-for-understanding-catastrophic-forgetting
 biography: >-
   Sam is a Research Scientist at Meta FAIR. He applies theoretical approaches, practical methods and metascientific ideas from experimental psychology to understanding machine learning systems, with a particular focus on neural network behaviour. He is primarily interested in machine learning fairness, robustness, and research reproducibility.
 

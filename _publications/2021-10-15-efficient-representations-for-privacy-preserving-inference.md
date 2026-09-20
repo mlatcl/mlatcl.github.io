@@ -6,6 +6,7 @@ author:
   family: Xuanyuan
 - given: Francisco 
   family: Vargas
+  person_page: francisco-vargas
 - given: Stephen 
   family: Cummins
 arxiv: 2110.08321

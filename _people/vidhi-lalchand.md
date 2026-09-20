@@ -12,7 +12,7 @@ position: Eric and Wendy Schmidt Center Postdoctoral Fellow
 institution: Broad Institute of MIT and Harvard
 github: null
 publications:
-  - gaussian-process-latent-variable-flows-for-massively-missing-data
+  - 2021-01-15-gaussian-process-latent-variable-flows-for-massively-missing-data
 supervisor: ndl21
 image: vidhi-lalchand.jpg
 linkedin: https://www.linkedin.com/in/vidhi-lalchand-2297b53a/

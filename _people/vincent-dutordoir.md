@@ -26,8 +26,8 @@ biography: >-
   making, with a special focus on (deep) Gaussian processes and Neural Diffusion
   Processes.
 publications:
-  - sparse-gaussian-processes-with-spherical-harmonic-features
-  - deep-neural-networks-as-point-estimates-for-deep-gaussian-processes
+  - 2020-05-24-sparse-gaussian-processes-with-spherical-harmonic-features
+  - 2021-11-22-deep-neural-networks-as-point-estimates-for-deep-gaussian-processes
 ---
 
 Vincent is a PhD student in the Computational and Biological Learning Lab (CBL) with Zoubin Ghahramani, and in the Machine Learning at Computer Lab (ML@CL) with Carl Henrik Ek. He is also a member of Jesus College, University of Cambridge.

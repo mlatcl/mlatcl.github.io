@@ -20,6 +20,6 @@ biography: |
 
   Tabitha is the author of [How To Talk To Robots - A Girl's guide to a World Dominated by AI](https://harpercollins.co.uk/products/how-to-talk-to-robots-a-girls-guide-to-a-future-dominated-by-ai-tabitha-goldstaub).
 publications:
-  - large-language-model-opportunity
-  - ai-council-foundation-models-policy-paper
+  - 2022-12-16-large-language-model-opportunity
+  - 2023-04-04-ai-council-foundation-models-policy-paper
 ---

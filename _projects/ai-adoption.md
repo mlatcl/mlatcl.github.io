@@ -10,13 +10,13 @@ people:
   - jessica-montgomery
   - neil-d-lawrence
 publications:
-  - the-atomic-human
-  - mind-the-gap-connecting-ai-innovation-to-widespread-public-value
-  - ai-council-foundation-models-policy-paper
-  - data-governance-in-the-21st-century-citizen-dialogue-and-the-development-of-data-trusts
-  - data-trusts-from-theory-to-practice-working-paper-1
-  - bottom-up-data-trusts-disturbing-the-one-size-fits-all-approach-to-data-governance
-  - democratising-the-digital-revolution-the-role-of-data-governance
+  - 2024-06-06-the-atomic-human
+  - 2026-07-28-mind-the-gap-connecting-ai-innovation-to-widespread-public-value
+  - 2023-04-04-ai-council-foundation-models-policy-paper
+  - 2021-06-25-data-governance-in-the-21st-century-citizen-dialogue-and-the-development-of-data-trusts
+  - 2020-11-26-data-trusts-from-theory-to-practice-working-paper-1
+  - 2019-10-01-bottom-up-data-trusts-disturbing-the-one-size-fits-all-approach-to-data-governance
+  - 2020-11-23-democratising-the-digital-revolution-the-role-of-data-governance
 ---
 The **AI Adoption** programme asks how organisations and public institutions can
 take up AI so that it meets real needs, remains under democratic control, and

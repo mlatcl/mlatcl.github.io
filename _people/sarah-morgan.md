@@ -20,8 +20,8 @@ biography: >-
   trajectories for patients with schizophrenia. She is also interested in using
   transcribed speech data for similar prediction problems.
 publications:
-  - assessing-psychosis-risk-using-quantitative-markers-of-disorganised-speech
-  - multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
+  - 2021-12-13-assessing-psychosis-risk-using-quantitative-markers-of-disorganised-speech
+  - 2021-10-25-multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
 ---
 
 Sarah was a Departmental Career Acceleration Fellow under the Accelerate Science Programme. She remains an affiliated lecturer in the Computer Lab and has accepted a position as a Senior Lecturer at King's College London.
