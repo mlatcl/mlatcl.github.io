@@ -8,7 +8,6 @@ excerpt: Information topography is the geometry of how information flows through
 featured_image: conny-schneider-pREq0ns_p_E-unsplash.jpg
 people:
   - neil-d-lawrence
-  - carl-henrik-ek
 publications:
   - the-atomic-human
   - the-inaccessible-game
