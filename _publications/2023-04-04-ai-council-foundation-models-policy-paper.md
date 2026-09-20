@@ -1,6 +1,7 @@
 ---
 layout: techreport
-title: The UK foundation Models Opportunity
+title: "The UK Foundation Models Opportunity (AI Council Briefing)"
+publisher: AI Council
 abstract: |
   In December 2022, the AI Council’s memo on the policy implications
   of advances in foundation models highlighted the importance of rapid

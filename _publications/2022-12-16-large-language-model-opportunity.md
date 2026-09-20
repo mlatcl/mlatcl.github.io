@@ -1,6 +1,6 @@
 ---
 layout: misc
-title: The UK Large Language Models Opportunity
+title: "The UK Large Language Models Opportunity (AI Council Memo)"
 abstract: |
   HMG should take action to build national and sovereign capability in
   Large Language Models, a type of Artificial Intelligence trained to
@@ -22,6 +22,7 @@ author:
     - tabitha-goldstaub
     - neil-d-lawrence
     url: https://www.gov.uk/government/groups/ai-council
+publisher: AI Council
 pdf: https://mlatcl.github.io/papers/ai-council-llm-memo.pdf
 year: 2022
 ---
