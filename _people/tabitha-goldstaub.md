@@ -9,13 +9,12 @@ twitter: tabithagold
 linkedin: tabithagoldstaub 
 crsid: 
 start: 2023-07-20
-end: 2024-05-01
 position: Co-Founder
 institution: Lichen AI
 image: tabitha-goldstaub.jpg
-alumni: true
+collaborator: true
 biography: |
-  Tabitha is an advisor to government, academia and business on all things AI. She is Co-Founder of Lichen AI and a Non-Executive Director of Innovate Cambridge and Luminate.
+  Tabitha is an advisor to government, academia and business on all things AI. She is Co-Founder of Lichen AI and a Non-Executive Director of Innovate Cambridge and Luminate. She has collaborated with ML@CL on AI policy work.
 
   She was Executive Director of Innovate Cambridge (2022–2024), an initiative supporting an inclusive and sustainable innovation strategy for the Greater Cambridge Region. Former Chair of the UK government's AI Council and member of the Digital Economy Council. She co-founded CogX and the video distribution company Rightster (IPO 2011).
 
@@ -24,4 +23,3 @@ publications:
   - large-language-model-opportunity
   - ai-council-foundation-models-policy-paper
 ---
-

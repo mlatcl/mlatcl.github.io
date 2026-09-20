@@ -7,7 +7,7 @@ permalink: /people/
 <section class="block block__team">
     <div class="container">
         <div class="team__grid">
-            {% for person in site.people %}{% unless person.alumni %}{% include extractname.html entry=person %}
+            {% for person in site.people %}{% unless person.alumni or person.collaborator %}{% include extractname.html entry=person %}
                 <a href="{{ person.url }}" class="team__member">
                     <div class="team__member-image">
                         <img src="{%if person.image contains 'http'%}{{person.image}}{%else%}{{site.data.images.directory | relative_url }}/{%if person.image and person.image != "" %}{{person.image}}{% else %}{{site.data.images.person_placeholder}}{%endif%}{%endif%}" alt="Image of {{person.title}}">
