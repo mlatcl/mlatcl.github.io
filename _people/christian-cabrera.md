@@ -21,6 +21,7 @@ biography: Christian leads the Interfaces research programme at ML@CL. His work
   Clinical validation includes the aICU partnership with Karolinska Institutet.
 publications:
   - real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
+  - ifogsim-placement-a-simulation-framework-for-edge-service-placement
   - prompt-variability-effects-on-llm-code-generation
   - llm-performance-for-code-generation-on-noisy-tasks
   - self-sustaining-software-systems

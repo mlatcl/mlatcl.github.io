@@ -22,6 +22,8 @@ biography: Jess is Director of ai@cam and the Accelerate Programme for Scientifi
   worked with senior parliamentarians, leading researchers and civil society
   organisations to bring scientific evidence to bear on major policy issues.
 publications:
+  - accelerating-ai-for-science-open-data-science-for-science
+  - increasing-data-sharing-and-use-for-social-good
   - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
   - data-trusts-from-theory-to-practice-working-paper-1
   - international-perspectives-on-the-development-of-data-institutions

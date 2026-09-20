@@ -24,4 +24,10 @@ biography: >-
 
 
   Diana holds an MBA from the Cambridge Judge Business School and a BA in philosophy from Princeton University.
+publications:
+  - the-human-visual-system-can-inspire-new-interaction-paradigms-for-llms
+  - prompt-variability-effects-on-llm-code-generation
+  - llm-performance-for-code-generation-on-noisy-tasks
+  - requirements-are-all-you-need
+  - investigating-uncertainty-in-postoperative-bleeding-management
 ---

@@ -15,4 +15,7 @@ position: PhD Student
 institution: Cambridge University
 image: radzim-sendyka.jpg
 biography: Radzim explores the practical applications of data science and machine learning in real-world contexts, with emphasis on collaboration with domain experts from various scientific fields, like Assyriology.
+publications:
+  - prompt-variability-effects-on-llm-code-generation
+  - llm-performance-for-code-generation-on-noisy-tasks
 ---

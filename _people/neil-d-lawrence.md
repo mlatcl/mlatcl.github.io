@@ -22,6 +22,17 @@ biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   a Senior AI Fellowship from the Alan Turing Institute. Neil is also visiting
   Professor at the University of Sheffield and the co-host of Talking Machines.
 publications:
+  - ifogsim-placement-a-simulation-framework-for-edge-service-placement
+  - the-human-visual-system-can-inspire-new-interaction-paradigms-for-llms
+  - prompt-variability-effects-on-llm-code-generation
+  - llm-performance-for-code-generation-on-noisy-tasks
+  - the-atomic-human
+  - accelerating-ai-for-science-open-data-science-for-science
+  - increasing-data-sharing-and-use-for-social-good
+  - the-systems-engineering-approach-in-times-of-large-language-models
+  - requirements-are-all-you-need
+  - self-sustaining-software-systems
+  - real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective
   - differentially-private-regression-and-classificaiton-with-sparse-gaussian-processes
   - bottom-up-data-trusts-disturbing-the-one-size-fits-all-approach-to-data-governance
   - empirical-bayes-transductive-meta-learning-with-synthetic-gradients
