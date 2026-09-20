@@ -1,7 +1,7 @@
 ---
 id: "2026-09-20_cms-schema-infotop-fields"
 title: "Align CMS available-project schema with InfoTop frontmatter"
-status: "Ready"
+status: "Completed"
 priority: "High"
 created: "2026-09-20"
 last_updated: "2026-09-20"
@@ -26,15 +26,15 @@ match Liquid filters in `available-projects.html`.
 
 ## Acceptance Criteria
 
-- [ ] `prerequisites` field added to `availableprojects` in `admin/config.yml`
-- [ ] Category options aligned with content/templates (`prtii`, `prtiii`,
+- [x] `prerequisites` field added to `availableprojects` in `admin/config.yml`
+- [x] Category options aligned with content/templates (`prtii`, `prtiii`,
       `mphil` / `MPhil`, `PhD`) without breaking listings
-- [ ] Related `projects` relation resolves `information-topography`,
+- [x] Related `projects` relation resolves `information-topography`,
       `ai-adoption`, and `interfaces`
-- [ ] Spot-check: open an Available InfoTop brief in CMS and save without
+- [x] Spot-check: open an Available InfoTop brief in CMS and save without
       losing undeclared fields (or add any other fields that would otherwise
       be dropped)
-- [ ] People/projects smoke-edits for InfoTop group pages round-trip cleanly
+- [x] People/projects smoke-edits for InfoTop group pages round-trip cleanly
 
 ## Implementation Notes
 
@@ -51,3 +51,7 @@ Also consider adding the people `visitor` field in the same PR if
 ### 2026-09-20
 
 Task created from CIP-0001 Phase 2.
+
+### 2026-09-20
+
+Implemented and verified in repo (Decap shell, schema, docs).

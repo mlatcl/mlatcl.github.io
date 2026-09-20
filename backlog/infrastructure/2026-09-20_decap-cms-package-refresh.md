@@ -1,7 +1,7 @@
 ---
 id: "2026-09-20_decap-cms-package-refresh"
 title: "Refresh admin shell from Netlify CMS v2 to Decap CMS"
-status: "Ready"
+status: "Completed"
 priority: "High"
 created: "2026-09-20"
 last_updated: "2026-09-20"
@@ -25,10 +25,10 @@ Identity widget in `admin/index.html` with Decap CMS 3, and update
 
 ## Acceptance Criteria
 
-- [ ] `admin/index.html` loads Decap CMS 3 (pinned known-good version)
-- [ ] Netlify Identity widget removed unless still required for the chosen auth
-- [ ] `local_backend` smoke test works for maintainers
-- [ ] `admin/README.md` describes Decap CMS and https://mlatcl.netlify.app/admin/
+- [x] `admin/index.html` loads Decap CMS 3 (pinned known-good version)
+- [x] Netlify Identity widget removed unless still required for the chosen auth
+- [x] `local_backend` smoke test works for maintainers
+- [x] `admin/README.md` describes Decap CMS and https://mlatcl.netlify.app/admin/
 
 ## Implementation Notes
 
@@ -44,3 +44,7 @@ continue to open admin on the Netlify host for OAuth.
 ### 2026-09-20
 
 Task created from CIP-0001 Phase 1. Auth path already confirmed.
+
+### 2026-09-20
+
+Implemented and verified in repo (Decap shell, schema, docs).

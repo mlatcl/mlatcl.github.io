@@ -15,7 +15,7 @@ permalink: /internal/projects/
       
       {% for project in projects %}
       {% if project.status == 'Available' %}
-      {% if project.categories contains "prtiii" or project.categories contains "MPhil" %}
+      {% if project.categories contains "prtiii" or project.categories contains "MPhil" or project.categories contains "mphil" %}
       {% include listavailableproject.html %}
       {% endif %}
       {% endif %}

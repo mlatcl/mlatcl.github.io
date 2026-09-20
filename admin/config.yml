@@ -571,6 +571,11 @@ collections:
       name: alumni
       widget: "boolean"
       required: false
+    - label: Visitor
+      name: visitor
+      widget: "boolean"
+      required: false
+      hint: "Set for visiting researchers or visiting students (for example Visiting Researcher)."
     - name: start
       label: "Date of start in ml@cl"
       hint: "Provide the day that the individual started in the ml@cl group."
@@ -1054,8 +1059,14 @@ collections:
       - label: "Categories"
         name: "categories"
         widget: "select"
-        options: ["prtii", "prtiii", "MPhil", "PhD"]
+        options: ["prtii", "prtiii", "MPhil", "mphil", "PhD"]
         multiple: true
+        hint: "Prefer MPhil (capital M) for masters briefs. Both MPhil and mphil are recognised on the public list."
+      - label: 'Prerequisites'
+        name: 'prerequisites'
+        widget: 'markdown'
+        required: false
+        hint: "Required preparation (modules, background). Markdown links are supported, for example to the IEI module site."
       - label: 'Short Overview'
         name: 'overview'
         widget: 'markdown'
@@ -1072,7 +1083,7 @@ collections:
         multiple: true
       - label: 'Related Projects'
         name: 'projects'
-        hint: "List any of the group's projects that this work is related to to provide further context."
+        hint: "List any of the group's projects that this work is related to to provide further context (for example information-topography, interfaces, ai-adoption)."
         widget: 'relation'
         collection: 'projects'
         search_fields: ["title"]
@@ -1090,14 +1101,17 @@ collections:
       - label: 'What will student learn?'
         name: 'student_learn'
         widget: 'markdown'
+        required: false
         hint: "Answer the FAQ question 'What will I learn in this project?'"
       - label: 'What is the project objective?'
         name: 'project_objective'
         widget: 'markdown'
+        required: false
         hint: "Answer the FAQ question 'What is the objective of this project?'"
       - label: 'How does it fit in the bigger picture?'
         name: 'project_bigger_picture'
         widget: 'markdown'
+        required: false
         hint: "Answer the FAQ question 'How does it fit in the bigger picture?'"
       - label: 'Body'
         name: 'body'

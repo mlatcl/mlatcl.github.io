@@ -1,7 +1,7 @@
 ---
 id: "2026-09-20_cms-editor-docs-netlify-url"
 title: "Update site docs to Decap CMS and Netlify admin URL"
-status: "Ready"
+status: "Completed"
 priority: "Medium"
 created: "2026-09-20"
 last_updated: "2026-09-20"
@@ -25,10 +25,10 @@ https://mlatcl.netlify.app/admin/ (not GitHub Pages `/admin/`).
 
 ## Acceptance Criteria
 
-- [ ] Root `README.md` names Decap CMS and the Netlify admin URL
-- [ ] `_minijobs/maintain_website.md` updated likewise
-- [ ] Explicit note that GitHub Pages `/admin/` cannot complete GitHub login
-- [ ] Short guidance on proposing an Available student project via CMS
+- [x] Root `README.md` names Decap CMS and the Netlify admin URL
+- [x] `_minijobs/maintain_website.md` updated likewise
+- [x] Explicit note that GitHub Pages `/admin/` cannot complete GitHub login
+- [x] Short guidance on proposing an Available student project via CMS
       (status, categories, supervisors, prerequisites, related projects)
 
 ## Implementation Notes
@@ -45,3 +45,7 @@ ship the URL clarification.
 ### 2026-09-20
 
 Task created from CIP-0001 Phase 3 documentation items.
+
+### 2026-09-20
+
+Implemented and verified in repo (Decap shell, schema, docs).

@@ -1,7 +1,7 @@
 ---
 id: "2026-09-20_cms-people-visitor-field"
 title: "Add visitor boolean to Decap CMS people collection"
-status: "Proposed"
+status: "Completed"
 priority: "Medium"
 created: "2026-09-20"
 last_updated: "2026-09-20"
@@ -27,10 +27,10 @@ Editors saving a person through the CMS can drop or fail to set visitor status.
 
 ## Acceptance Criteria
 
-- [ ] `admin/config.yml` people collection includes a `visitor` boolean field
-- [ ] Field hint explains when to use it (visiting researchers / students)
-- [ ] Editing an existing visitor via CMS preserves `visitor: true` on save
-- [ ] Diana Robinson and Andrei Paleyes remain correctly flagged after a CMS
+- [x] `admin/config.yml` people collection includes a `visitor` boolean field
+- [x] Field hint explains when to use it (visiting researchers / students)
+- [x] Editing an existing visitor via CMS preserves `visitor: true` on save
+- [x] Diana Robinson and Andrei Paleyes remain correctly flagged after a CMS
       round-trip smoke test
 
 ## Implementation Notes
@@ -50,3 +50,7 @@ should treat visitors specially beyond position title.
 
 Task created after updating Diana Robinson to Visiting Researcher and noticing
 the CMS schema gap.
+
+### 2026-09-20
+
+Implemented and verified in repo (Decap shell, schema, docs).
