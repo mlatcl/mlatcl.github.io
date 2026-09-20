@@ -1,11 +1,41 @@
-_site
-.sass-cache
-.jekyll-cache
+# Jekyll / GitHub Pages
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-vendor
+.bundle/
+vendor/
 
-# VibeSafe System Files (Auto-added during installation)
-# These are VibeSafe infrastructure - not your project content
+# Ruby / Bundler (local installs)
+*.gem
+.ruby-version
+.ruby-gemset
+
+# Python / local tooling
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+*~
+*.swp
+*.swo
+*.code-workspace
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Netlify local CLI state
+.netlify/
+
+# VibeSafe system files (auto-added during installation)
+# These are VibeSafe infrastructure — not project content
 
 # Backlog system files
 backlog/README.md
@@ -13,13 +43,12 @@ backlog/task_template.md
 backlog/update_index.py
 backlog/index.md
 
-# CIP system files  
+# CIP system files
 cip/README.md
 cip/cip_template.md
 
 # Cursor AI rules (VibeSafe-managed)
 .cursor/rules/
-# Generated project tenet cursor rules
 .cursor/rules/project_tenet_*.mdc
 
 # VibeSafe scripts and tools
@@ -47,7 +76,3 @@ tenets/combine_tenets.py
 # VibeSafe documentation (system files)
 docs/whats_next_script.md
 docs/yaml_frontmatter_examples.md
-
-# Environments
-.venv/
-
