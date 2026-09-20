@@ -1,7 +1,6 @@
 ---
 layout: incollection
-title: "Data Governance in the 21st century: Citizen Dialogue and the
-  Development of Data Trusts"
+title: "Data Governance in the 21st century: Citizen Dialogue and the Development of Data Trusts"
 abstract: As more data is created from a growing range of digitally mediated
   interactions, there are opportunities to use data in policy – from nowcasting
   metrics for economic performance, to the design of targeted public-health

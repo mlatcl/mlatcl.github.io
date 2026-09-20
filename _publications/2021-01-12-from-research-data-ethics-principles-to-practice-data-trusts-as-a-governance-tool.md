@@ -1,7 +1,6 @@
 ---
 layout: techreport
-title: "From Research Data Ethics Principles to Practice: Data Trusts as a
-  Governance Tool"
+title: "From Research Data Ethics Principles to Practice: Data Trusts as a Governance Tool"
 abstract: Artificial intelligence and data science offer tools that could
   advance the pace of discovery across research domains. By processing large
   datasets, extracting insights from new data sources, and identifying patterns

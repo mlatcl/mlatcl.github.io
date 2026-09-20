@@ -1,7 +1,6 @@
 ---
 layout: techreport
-title: "Machine Learning from Innovation to Deployment: A Strategic Research
-  Agenda for AutoAI"
+title: "Machine Learning from Innovation to Deployment: A Strategic Research Agenda for AutoAI"
 abstract: While excitement about the potential of artificial intelligence (AI)
   technologies continues to build, a gap is emerging between our aspirations for
   the benefits of AI and our ability to deploy these technologies to tackle

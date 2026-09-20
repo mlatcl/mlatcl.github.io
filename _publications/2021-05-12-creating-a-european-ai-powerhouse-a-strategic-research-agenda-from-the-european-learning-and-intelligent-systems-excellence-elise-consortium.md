@@ -1,7 +1,6 @@
 ---
 layout: techreport
-title: "Creating a European AI Powerhouse: A Strategic Research Agenda from the
-  European Learning and Intelligent Systems Excellence (ELISE) consortium"
+title: "Creating a European AI Powerhouse: A Strategic Research Agenda from the European Learning and Intelligent Systems Excellence (ELISE) consortium"
 abstract: |
   ELISE’s vision is of a Powerhouse of European AI. Motivated by the
   ambition to establish European leadership in AI and create a new

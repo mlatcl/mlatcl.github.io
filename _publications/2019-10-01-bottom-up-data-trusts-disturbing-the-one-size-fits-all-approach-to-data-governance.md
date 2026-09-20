@@ -24,8 +24,7 @@ extras:
   link: http://datatrusts.uk
 lastpage: 252
 layout: article
-title: "Bottom-up Data Trusts: Disturbing the 'One Size Fits All' Approach to
-  Data Governance"
+title: "Bottom-up Data Trusts: Disturbing the 'One Size Fits All' Approach to Data Governance"
 published: 2019-10-01
 author:
 - family: Delacroix

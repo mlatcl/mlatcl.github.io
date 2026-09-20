@@ -529,7 +529,9 @@ collections:
     folder: '_people/'
     create: true
     slug: '{{given}}-{{family}}'
-    identifier_field: crsid
+    # List entries by name in the CMS UI (CRSid remains a field for Cambridge identity).
+    identifier_field: family
+    summary: '{{given}} {{family}}'
     editor:
       preview: false
     fields:
@@ -710,7 +712,7 @@ collections:
         collection: 'people'
         search_fields: ["given", "family"]
         value_field: "{{slug}}"
-        display_fields: ["given", "title"]
+        display_fields: ["{{given}} {{family}}"]
         options_length: 999
         multiple: true
         required: false
@@ -759,7 +761,7 @@ collections:
         collection: 'people'
         search_fields: ["given", "family"]
         value_field: "{{slug}}"
-        display_fields: ["given", "family"]
+        display_fields: ["{{given}} {{family}}"]
         options_length: 999
         multiple: true
         required: false
@@ -833,7 +835,7 @@ collections:
           collection: 'people'
           search_fields: ["given", "family"]
           value_field: "{{slug}}"
-          display_fields: ["given", "family"]
+          display_fields: ["{{given}} {{family}}"]
           options_length: 999
           multiple: false
           required: false          
@@ -860,7 +862,7 @@ collections:
             collection: 'people'
             search_fields: ["given", "family"]
             value_field: "{{slug}}"
-            display_fields: ["given", "family"]
+            display_fields: ["{{given}} {{family}}"]
             options_length: 999
             multiple: true
             required: false          
@@ -974,7 +976,7 @@ collections:
           collection: 'people'
           search_fields: ["given", "family"]
           value_field: "{{slug}}"
-          display_fields: ["given", "family"]
+          display_fields: ["{{given}} {{family}}"]
           multiple: false
           required: false          
         - label: Consortium
@@ -1029,7 +1031,7 @@ collections:
         collection: 'people'
         search_fields: ["given", "family"]
         value_field: "{{slug}}"
-        display_fields: ["given", "family"]
+        display_fields: ["{{given}} {{family}}"]
         options_length: 999
         multiple: true
         required: false          
@@ -1078,7 +1080,7 @@ collections:
         collection: 'people'
         search_fields: ["given", "family"]
         value_field: "{{slug}}"
-        display_fields: ["given", "family"]
+        display_fields: ["{{given}} {{family}}"]
         options_length: 999
         multiple: true
       - label: 'Related Projects'
