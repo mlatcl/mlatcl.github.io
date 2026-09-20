@@ -13,6 +13,7 @@ vendor/
 
 # Python / local tooling
 .venv/
+.venv-vibesafe/
 __pycache__/
 *.py[cod]
 .pytest_cache/
@@ -47,12 +48,20 @@ backlog/index.md
 cip/README.md
 cip/cip_template.md
 
-# Cursor AI rules (VibeSafe-managed)
+# Requirements system files
+requirements/README.md
+requirements/requirement_template.md
+
+# Cursor / AI assistant context (VibeSafe-managed)
 .cursor/rules/
 .cursor/rules/project_tenet_*.mdc
+.github/copilot-instructions.md
+CLAUDE.md
+AGENTS.md
 
 # VibeSafe scripts and tools
 scripts/whats_next.py
+scripts/validate_vibesafe_structure.py
 install-whats-next.sh
 whats-next
 
