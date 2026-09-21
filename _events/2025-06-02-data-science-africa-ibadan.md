@@ -1,5 +1,7 @@
 ---
-layout: news-single
+layout: event-single
+event_date: 2025-06-02
+date: 2025-06-02
 title: Data Science Africa 2025 in Ibadan
 excerpt: Neil Lawrence gave a keynote at DSA’s summer school and workshop at the University of Ibadan. Oluwatomisin Dada served as a programme chair.
 category:

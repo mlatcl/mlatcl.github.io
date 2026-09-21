@@ -1,5 +1,7 @@
 ---
-layout: news-single
+layout: event-single
+event_date: 2023-05-24
+date: 2023-05-24
 title: First UK AI Conference at the Natural History Museum
 excerpt: The inaugural UK AI Conference brought Turing AI Fellows and their groups together in London. Neil co-chaired; Christian Cabrera served on the programme committee.
 category:

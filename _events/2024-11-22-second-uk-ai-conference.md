@@ -1,5 +1,7 @@
 ---
-layout: news-single
+layout: event-single
+event_date: 2024-11-22
+date: 2024-11-22
 title: Second UK AI Conference in Birmingham
 excerpt: The UK AI Conference returned at the University of Birmingham. Christian Cabrera led the organising contact and co-edited the PMLR proceedings.
 category:

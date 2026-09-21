@@ -1,5 +1,7 @@
 ---
-layout: news-single
+layout: event-single
+event_date: 2026-09-07
+date: 2026-09-07
 title: Neil Lawrence keynote at the IPPR digital markets launch
 excerpt: Neil gave a keynote at the Financial Times for the launch of the IPPR paper Bottleneck Britain.
 category:

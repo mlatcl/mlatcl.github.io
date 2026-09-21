@@ -1,5 +1,7 @@
 ---
-layout: news-single
+layout: event-single
+event_date: 2024-12-03
+date: 2024-12-03
 title: Neil Lawrence gives the Bennett Institute Annual Public Policy Lecture
 excerpt: On 3 December 2024 Neil Lawrence gave the Bennett Institute’s Annual Public Policy Lecture, on the gap between AI innovation and public demand.
 category:

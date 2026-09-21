@@ -1,5 +1,7 @@
 ---
-layout: news-single
+layout: event-single
+event_date: 2025-09-01
+date: 2025-09-01
 title: Machine Learning Foundations course delivered in Kenya
 excerpt: Neil Lawrence, with Radzim Sendyka and Frederick Lawrence, taught the Machine Learning Foundations course at Dedan Kimathi University in Nyeri.
 category:

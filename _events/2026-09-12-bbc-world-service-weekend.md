@@ -1,5 +1,7 @@
 ---
-layout: news-single
+layout: event-single
+event_date: 2026-09-12
+date: 2026-09-12
 title: Neil Lawrence on BBC World Service Weekend
 excerpt: On 12 September Neil joined Weekend to discuss the week’s news, including an AI claim on the Navier–Stokes equations and a warning that the technology could kill us all.
 category:

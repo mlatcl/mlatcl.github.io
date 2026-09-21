@@ -1,5 +1,7 @@
 ---
-layout: news-single
+layout: event-single
+event_date: 2026-03-30
+date: 2026-03-30
 title: Sorrento Meeting marks twenty years of PMLR
 excerpt: The 2026 Sorrento Meeting centred on the future of machine learning publishing, celebrating two decades of the Proceedings of Machine Learning Research.
 category:

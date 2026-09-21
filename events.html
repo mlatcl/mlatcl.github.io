@@ -5,11 +5,19 @@ permalink: /events/
 ---
 
 {% assign todayDate = 'now' | date: '%Y%m%d' %}
-{% assign events = site.events | sort: "date" %}
+{% assign events = site.events | sort: "event_date" %}
 
 {% for post in events %}
   {% assign eventDate = post.event_date | date: '%Y%m%d' %}
   {% if todayDate <= eventDate %}
+    {% include events__post.html %}
+  {% endif %}
+{% endfor %}
+
+{% assign past_events = site.events | sort: "event_date" | reverse %}
+{% for post in past_events %}
+  {% assign eventDate = post.event_date | date: '%Y%m%d' %}
+  {% if eventDate < todayDate %}
     {% include events__post.html %}
   {% endif %}
 {% endfor %}

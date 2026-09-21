@@ -1,5 +1,7 @@
 ---
-layout: news-single
+layout: event-single
+event_date: 2025-06-23
+date: 2025-06-23
 title: Third UK AI Conference in London
 excerpt: The third UK AI Conference met at the Gibbs Building with support from HDR UK. Christian Cabrera continued as principal organiser.
 category:

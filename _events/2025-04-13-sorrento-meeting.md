@@ -1,5 +1,7 @@
 ---
-layout: news-single
+layout: event-single
+event_date: 2025-04-13
+date: 2025-04-13
 title: Sorrento Meeting 2025
 excerpt: The first Sorrento Meeting brought DALI-style workshops and a plenary to the Grand Hotel Vesuvio. Cambridge colleagues chaired the meeting.
 category:
