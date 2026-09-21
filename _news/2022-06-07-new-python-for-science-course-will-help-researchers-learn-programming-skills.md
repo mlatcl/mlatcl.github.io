@@ -7,6 +7,9 @@ excerpt: The Accelerate Science Programme and education technology company
 category:
   - ai-for-research-and-innovation
 featured_image: julia-koblitz-rloawxt2fea-unsplash.jpg
+people:
+  - neil-d-lawrence
+  - jessica-montgomery
 ---
 ### The new Python for Science e-learning programme teaches researchers from across disciplines how to program using Python. It introduces the essential knowledge needed to process, manage and analyse data using Python and pandas (a software library written for the Python programming language for data manipulation and analysis). This will provide skills that researchers can immediately apply to their own data analysis.
 

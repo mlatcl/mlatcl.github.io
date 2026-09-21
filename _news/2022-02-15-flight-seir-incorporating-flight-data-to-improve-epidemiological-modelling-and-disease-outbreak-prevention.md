@@ -8,6 +8,10 @@ category:
   - ai-deployment-and-system-design
   - ai-policy-and-data-governance
 featured_image: terry-starmore-yeqkvq6wkvw-unsplash.jpg
+people:
+  - jessica-montgomery
+  - neil-d-lawrence
+  - paula-bibby
 ---
 The Data Trusts Initiative is pleased to introduce our first cohort of **data trust pioneers** who will be leading the creation of real-world data trusts in 2022. 
 

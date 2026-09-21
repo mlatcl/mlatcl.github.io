@@ -21,6 +21,7 @@ biography: Neil Lawrence is the inaugural DeepMind Professor of Machine Learning
   the interface of machine learning and systems research. Neil is also visiting
   Professor at the University of Sheffield and at LUISS Guido Carli University in Rome.
 publications:
+  - is-embodiment-necessary-for-consciousness
   - national-commission-into-the-regulation-of-ai-in-healthcare
   - ai-for-science-reframing-ais-role-in-discovery
   - mind-the-gap-connecting-ai-innovation-to-widespread-public-value
