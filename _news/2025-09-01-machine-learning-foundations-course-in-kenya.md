@@ -8,6 +8,8 @@ featured_image: stock-photo-programmer-working-and-developing-software-in-office
 people:
   - neil-d-lawrence
   - radzim-sendyka
+projects:
+  - community-building
 ---
 
 From 1 to 24 September 2025 Neil Lawrence, [Radzim Sendyka](/people/radzim-sendyka.html) and Frederick Lawrence delivered the [Machine Learning Foundations course](https://mlatcl.github.io/mlfc/) at Dedan Kimathi University of Technology in Nyeri, Kenya. The Centre for Data Science and Artificial Intelligence (DSAIL), a Data Science Africa centre, hosted the three weeks of lectures, practicals and student projects.
