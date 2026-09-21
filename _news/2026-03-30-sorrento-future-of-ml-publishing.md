@@ -14,7 +14,7 @@ projects:
   - community-building
 ---
 
-The second Sorrento Meeting ran from 30 March to 1 April 2026 at the Grand Hotel Vesuvio. Its theme was the future of machine learning publishing. A full-day plenary on 31 March, organised by Neil Lawrence with Katherine Gorman and [Christian Cabrera](/people/christian-cabrera.html), brought contributed talks and group discussion on peer review, LLM effects on conferences, AI-assisted authorship and open archival.
+The [Sorrento Meeting 2026](https://inverseprobability.com/sorrento2026/) ran from 30 March to 1 April 2026 at the Grand Hotel Vesuvio. Its theme was the future of machine learning publishing. A full-day plenary on 31 March, organised by Neil Lawrence with Katherine Gorman and [Christian Cabrera](/people/christian-cabrera.html), brought contributed talks and group discussion on peer review, LLM effects on conferences, AI-assisted authorship and open archival.
 
 The meeting also marked twenty years of the [Proceedings of Machine Learning Research](https://proceedings.mlr.press/). Neil proposed a workshop-and-conference proceedings track to JMLR in 2006 after the Gaussian Processes in Practice workshop at Bletchley Park; the first volume appeared in March 2007. Rebranded as PMLR in 2015–17, the series remains a community-run, open venue for conference and workshop proceedings. Neil continues as a series editor.
 
