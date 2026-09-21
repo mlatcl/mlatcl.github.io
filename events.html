@@ -5,19 +5,41 @@ permalink: /events/
 ---
 
 {% assign todayDate = 'now' | date: '%Y%m%d' %}
-{% assign events = site.events | sort: "event_date" %}
+{% assign stamped_events = "" | split: "" %}
+{% for post in site.events %}
+  {% if post.event_date %}
+    {% assign sort_date = post.event_date | date: "%Y-%m-%d" %}
+  {% elsif post.date %}
+    {% assign sort_date = post.date | date: "%Y-%m-%d" %}
+  {% else %}
+    {% assign sort_date = "0000-00-00" %}
+  {% endif %}
+  {% capture stamped %}{{ sort_date }}|{{ post.url }}{% endcapture %}
+  {% assign stamped_events = stamped_events | push: stamped %}
+{% endfor %}
+{% assign stamped_events = stamped_events | sort %}
 
-{% for post in events %}
-  {% assign eventDate = post.event_date | date: '%Y%m%d' %}
+{% for stamped in stamped_events %}
+  {% assign event_url = stamped | split: "|" | last %}
+  {% assign eventDate = stamped | split: "|" | first | date: "%Y%m%d" %}
   {% if todayDate <= eventDate %}
-    {% include events__post.html %}
+    {% for post in site.events %}
+      {% if post.url == event_url %}
+        {% include events__post.html %}
+      {% endif %}
+    {% endfor %}
   {% endif %}
 {% endfor %}
 
-{% assign past_events = site.events | sort: "event_date" | reverse %}
-{% for post in past_events %}
-  {% assign eventDate = post.event_date | date: '%Y%m%d' %}
+{% assign stamped_events = stamped_events | reverse %}
+{% for stamped in stamped_events %}
+  {% assign event_url = stamped | split: "|" | last %}
+  {% assign eventDate = stamped | split: "|" | first | date: "%Y%m%d" %}
   {% if eventDate < todayDate %}
-    {% include events__post.html %}
+    {% for post in site.events %}
+      {% if post.url == event_url %}
+        {% include events__post.html %}
+      {% endif %}
+    {% endfor %}
   {% endif %}
 {% endfor %}

@@ -1,7 +1,8 @@
 ---
 layout: event-single
 title: Neil Lawrence giving the Strachey Lecture in Computing Science
-event_date: 2022-05-03T08:51:49.303Z
+event_date: 2022-05-03
+date: 2022-05-03
 excerpt: >-
   It’s said that Henry Ford’s customers wanted a “a faster horse”. If Henry Ford
   was selling us artificial intelligence today, what would the customer call

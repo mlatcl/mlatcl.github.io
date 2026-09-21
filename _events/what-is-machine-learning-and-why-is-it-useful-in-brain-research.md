@@ -1,7 +1,8 @@
 ---
 layout: event-single
 title: What is machine learning and why is it useful in brain research?
-event_date: 2022-04-06T14:45:44.183Z
+event_date: 2022-04-06
+date: 2022-04-06
 excerpt: "How are machine learning and AI being used in modern brain research
   and more importantly, would you allow your medical treatment to be altered
   based on their findings? This panel discussion with Dr Sarah Morgan will
