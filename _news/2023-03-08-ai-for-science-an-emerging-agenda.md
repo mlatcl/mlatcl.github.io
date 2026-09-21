@@ -8,6 +8,8 @@ featured_image: mert-kahveci-bqsfx5-zuji-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery
+projects:
+  - accelerate-science
 ---
 
 Philipp Berens, Kyle Cranmer, Neil D. Lawrence, Ulrike von Luxburg and Jessica Montgomery have published [AI for Science: an emerging agenda](/publications/ai-for-science-an-emerging-agenda.html), the report of Dagstuhl Seminar 22382, “Machine Learning for Science: Bridging Data-Driven and Mechanistic Modelling”.

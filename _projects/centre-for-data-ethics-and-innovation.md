@@ -9,4 +9,4 @@ publications:
 ---
 
 
-Neil is interim chair of the advisory board for the centre. 
+Neil Lawrence joined the advisory board in January 2022 and later became its interim chair, a role first recorded in the minutes of 7 March 2023. The board held its last meeting on 5 September 2023 and closed on 9 September 2023. 

@@ -8,6 +8,8 @@ featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery
+projects:
+  - ai-adoption
 ---
 
 Neil Lawrence and Jessica Montgomery have published [Mind the gap: connecting AI innovation to widespread public value](/publications/mind-the-gap-connecting-ai-innovation-to-widespread-public-value.html) in *Science and Public Policy*. The article builds on the argument of the [Bennett Institute Annual Public Policy Lecture](/news/2024-12-03-bennett-institute-annual-public-policy-lecture.html) (December 2024), *Mind the Gap: Bridging Innovation’s Supply and Demand in the AI Era*.

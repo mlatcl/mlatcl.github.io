@@ -7,6 +7,8 @@ category:
 featured_image: fusion-medical-animation-npjp0dctoxo-unsplash.jpg
 people:
   - neil-d-lawrence
+projects:
+  - mhra-national-ai-commission
 ---
 
 On 10 September 2026 the [National Commission into the Regulation of AI in Healthcare](/projects/mhra-national-ai-commission.html) published [Recommendations for a future regulatory framework](/publications/national-commission-into-the-regulation-of-ai-in-healthcare.html).

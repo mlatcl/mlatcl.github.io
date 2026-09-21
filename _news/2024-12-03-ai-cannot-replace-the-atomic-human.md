@@ -8,6 +8,9 @@ category:
 featured_image: kier-in-sight-5tc6rrnxami-unsplash.jpg
 people:
   - neil-d-lawrence
+projects:
+  - ai-adoption
+  - information-topography
 ---
 
 On 3 December 2024 the *Financial Times* published [AI cannot replace the atomic human](https://www.ft.com/content/6ac0ad1b-29b4-4f43-a4ce-be209649c316), an opinion piece by Neil Lawrence. The standfirst is “Attempting to measure human capital poses a productivity paradox”.

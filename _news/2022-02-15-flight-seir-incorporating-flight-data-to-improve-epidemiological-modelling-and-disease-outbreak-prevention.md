@@ -12,6 +12,8 @@ people:
   - jessica-montgomery
   - neil-d-lawrence
   - paula-bibby
+projects:
+  - data-trusts-initiative
 ---
 The Data Trusts Initiative is pleased to introduce our first cohort of **data trust pioneers** who will be leading the creation of real-world data trusts in 2022. 
 

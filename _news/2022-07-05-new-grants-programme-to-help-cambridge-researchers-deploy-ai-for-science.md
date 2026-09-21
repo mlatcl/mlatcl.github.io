@@ -12,6 +12,8 @@ featured_image: hans-reniers-lqgjcmy5qcm-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery
+projects:
+  - accelerate-science
 ---
 **(5 July 2022) The Accelerate Programme in collaboration with C2D3 is offering small grants for Cambridge University researchers pursuing innovative applications of AI, in research or real-world contexts. Funding can support a variety of activities, including events, workshops, teaching, software development, or research, with a focus on interdisciplinary collaboration.**
 

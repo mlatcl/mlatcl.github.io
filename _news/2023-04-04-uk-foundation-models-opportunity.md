@@ -9,6 +9,8 @@ people:
   - neil-d-lawrence
   - jessica-montgomery
   - tabitha-goldstaub
+projects:
+  - ai-council
 ---
 
 In April 2023 a subgroup of the [UK AI Council](/projects/ai-council.html) published [The UK Foundation Models Opportunity](/publications/ai-council-foundation-models-policy-paper.html). Neil Lawrence led the subgroup, with Tabitha Goldstaub, Wendy Hall, Nick Jennings and Marc Warner. [Jess Montgomery](/people/jessica-montgomery.html) supported the briefing, though she was not a member of the Council. The briefing draws on a stakeholder workshop with government, international allies, academia, industry and civil society, and on deliberations within the Council.

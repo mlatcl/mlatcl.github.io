@@ -8,6 +8,8 @@ featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
 people:
   - jessica-montgomery
   - neil-d-lawrence
+projects:
+  - ai-adoption
 ---
 
 On 29 April 2026 [ai@cam](https://www.ai.cam.ac.uk/news/cambridge-launches-ai-accelerator-to-help-local-government-deploy-ai/) announced the six projects in its Local Government AI Accelerator. The Ministry of Housing, Communities and Local Government funds the twelve-month programme. It pairs Cambridge researchers with councils on proof-of-concept work: housing-trajectory surveys, social-housing maintenance risk, planning-map automation, fly-tipping detection, choice-based lettings, and a framework for reaching vulnerable tenants. Each project receives up to £25,000, engineering support, and a community of practice. Residents will be brought into the design, following ai@cam’s public dialogues on AI in local government.

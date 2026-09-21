@@ -9,6 +9,8 @@ people:
   - morine-amutorine
   - neil-d-lawrence
   - jessica-montgomery
+projects:
+  - data-sharing-in-africa-lessons-from-covid-19
 ---
 
 Morine Amutorine, Neil Lawrence and Jessica Montgomery have published [Increasing data sharing and use for social good: Lessons from Africa’s data-sharing practices during the COVID-19 response](/publications/increasing-data-sharing-and-use-for-social-good.html) in *Data & Policy*.

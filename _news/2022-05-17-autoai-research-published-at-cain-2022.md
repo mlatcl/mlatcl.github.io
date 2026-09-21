@@ -11,6 +11,9 @@ people:
   - andrei-paleyes
   - christian-cabrera
   - neil-d-lawrence
+projects:
+  - autoai
+  - evaluation-of-dataflow-for-ml-deployment
 ---
 
 A new research paper by Andrei Paleyes, Christian Cabrera and Neil D. Lawrence is published this month at CAIN 2022, the first International Conference on AI Engineering, taking place on 16 and 17 May 2022.

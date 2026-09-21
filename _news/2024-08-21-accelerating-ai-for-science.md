@@ -8,6 +8,8 @@ featured_image: andy-holmes-lupdjljv4_c-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery
+projects:
+  - accelerate-science
 ---
 
 Neil Lawrence and Jessica Montgomery have published [Accelerating AI for science: open data science for science](/publications/accelerating-ai-for-science-open-data-science-for-science.html) in *Royal Society Open Science*.

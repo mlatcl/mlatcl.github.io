@@ -10,6 +10,9 @@ people:
   - andrei-paleyes
   - pierre-thodoroff
   - neil-d-lawrence
+projects:
+  - data-oriented-architectures-for-ai-based-systems
+  - interfaces
 ---
 
 Christian Cabrera, Andrei Paleyes, Pierre Thodoroff and Neil Lawrence have published [Machine Learning Systems: A Survey from a Data-Oriented Perspective](/publications/real-world-machine-learning-systems-a-survey-from-a-data-oriented-architecture-perspective.html) in *ACM Computing Surveys*. The article appeared online on 24 September 2025 and is in the November 2025 issue.

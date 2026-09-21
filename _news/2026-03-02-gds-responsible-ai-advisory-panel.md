@@ -7,6 +7,8 @@ category:
 featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
 people:
   - neil-d-lawrence
+projects:
+  - gds-responsible-ai-advisory-panel
 ---
 
 The [GDS Responsible AI Advisory Panel](https://www.gov.uk/government/groups/gds-responsible-ai-advisory-panel) held its first meeting on 2 March 2026. The Government Digital Service established the panel, under the Department for Science, Innovation and Technology, to advise ministers and senior officials on the responsible use of AI across government. It sits within the government’s AI for the public good agenda.

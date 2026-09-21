@@ -8,6 +8,8 @@ featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery
+projects:
+  - ai-adoption
 ---
 
 On 3 December 2024 Neil Lawrence gave the [Annual Public Policy Lecture](https://www.bennettschool.cam.ac.uk/events/mind-the-gap/) at Fitzwilliam College. The lecture is hosted by the Bennett Institute for Public Policy and the Department of Politics and International Studies. Dennis Grube chaired, and afterwards hosted a fireside chat with Jess Montgomery and Neil.

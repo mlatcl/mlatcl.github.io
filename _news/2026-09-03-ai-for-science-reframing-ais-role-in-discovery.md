@@ -8,6 +8,8 @@ featured_image: mert-kahveci-bqsfx5-zuji-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery
+projects:
+  - accelerate-science
 ---
 
 Kyle Cranmer, Neil Lawrence, Jessica Montgomery and Denis Thérien have published [AI for Science: Reframing AI’s Role in Discovery](/publications/ai-for-science-reframing-ais-role-in-discovery.html) in *RSS: Data Science and Artificial Intelligence*.

@@ -8,6 +8,8 @@ category:
 featured_image: kier-in-sight-5tc6rrnxami-unsplash.jpg
 people:
   - neil-d-lawrence
+projects:
+  - information-topography
 ---
 
 [*The Atomic Human: Understanding ourselves in the age of AI*](/publications/the-atomic-human.html) is published by Allen Lane.

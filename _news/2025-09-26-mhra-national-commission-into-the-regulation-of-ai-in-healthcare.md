@@ -7,6 +7,8 @@ category:
 featured_image: fusion-medical-animation-npjp0dctoxo-unsplash.jpg
 people:
   - neil-d-lawrence
+projects:
+  - mhra-national-ai-commission
 ---
 
 On 26 September 2025 the Medicines and Healthcare products Regulatory Agency established the [National Commission into the Regulation of AI in Healthcare](https://www.gov.uk/government/groups/national-commission-into-the-regulation-of-ai-in-healthcare). The Commission is an expert, non-statutory advisory body. Its remit covers software and AI-enabled medical devices, and wider questions of accountability, transparency, clinical practice, organisational governance and system-wide assurance.

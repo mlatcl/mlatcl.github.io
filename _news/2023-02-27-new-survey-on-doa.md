@@ -10,6 +10,9 @@ people:
   - andrei-paleyes
   - pierre-thodoroff
   - neil-d-lawrence
+projects:
+  - data-oriented-architectures-for-ai-based-systems
+  - autoai
 ---
 Our group has recently released [a new paper](https://arxiv.org/abs/2302.04810) surveying deployed ML systems for their compliance with the principles of Data-Oriented Architecture. Here we wanted to give a more informal summary of this paper, explain why we think DOA is particularly relevant to the AutoAI project, detail our findings, and showcase a few examples of real-life DOA systems.
 
