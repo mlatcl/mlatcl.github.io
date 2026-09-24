@@ -8,12 +8,12 @@ crsid:
 website:
 orcid: 0009-0008-2927-7448
 linkedin: joery-de-vries
-github:
+github: joeryjoery
 twitter:
 start: 2026-06-01
 position: Visiting Researcher
 institution: Trent AI
-image:
+image: joery-de-vries.jpg
 biography: >-
   Joery is a visiting researcher with ML@CL and an AI Research Scientist at
   Trent AI, where he works on applied and fundamental machine learning
