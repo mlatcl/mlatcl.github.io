@@ -38,6 +38,9 @@ collections:
   availableprojects:
     output: true
     permalink: /internal/projects/:title:output_ext
+  supervisorprojects:
+    output: true
+    permalink: /people/:title/projects:output_ext
   publications:
     output: true
     permalink: /publications/:title:output_ext
