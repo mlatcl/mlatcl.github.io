@@ -25,6 +25,13 @@ jobs:
         with:
           ruby-version: "3.2"
           bundler-cache: true
+        env:
+          # Gemfile.lock is missing CHECKSUMS entries for some ffi
+          # platform variants (it was generated on macOS). Bundler runs
+          # in frozen mode by default on CI and refuses to fill these in,
+          # so relax that just for install; the resolved gem set is
+          # still exactly what Gemfile.lock specifies.
+          BUNDLE_FROZEN: "false"
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
