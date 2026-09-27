@@ -4,19 +4,24 @@ given: Friedrich
 family: Weberling
 student: True
 visitor: True
-url: 
+website: https://fweberling.github.io/
 orcid:
-twitter: 
+twitter:
 github: fweberling
-linkedin: friedrich-maximilian-weberling-581b3316a/
+linkedin: friedrich-maximilian-weberling-581b3316a
 start: 2021-06-01
 end: 2021-07-31
 alumni: True
 crsid: fmw37
 supervisor: che29
-position: Visiting Student
-institution: Technical University Munich (TUM)
+position: PhD Student
+institution: University of Cambridge
 image: friedrich-weberling.jpeg
-biography: Friedrich is a visiting student from the Technical University Munich for writing his M.Sc. thesis supervised by Carl Henrik Ek and Markus Kaiser. Friedrich is interested in probabilistic machine learning focussing on interpreting deep generative inference schemes such as Variational Autoencoders using Bayesian non-parametric models. He is also interested in computational biology.  
-publications:
+biography: >-
+  Friedrich is a PhD student in Biochemistry at the University of Cambridge,
+  supervised by Florian Hollfelder, working on machine learning for enzyme
+  optimisation, directed evolution, and single-cell sequencing. He previously
+  visited ML@CL from the Technical University of Munich to write his M.Sc.
+  thesis, supervised by Carl Henrik Ek and Markus Kaiser, on probabilistic
+  machine learning and deep generative models.
 ---

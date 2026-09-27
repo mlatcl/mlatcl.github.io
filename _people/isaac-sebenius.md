@@ -2,19 +2,21 @@
 layout: person
 given: Isaac
 family: Sebenius
-position: PhD Student
-institution: Cambridge University
+position: MD Candidate
+institution: Harvard Medical School
 image: isaac-sebenius.jpg
 crsid: iss31
 end: 2025-01-01
 alumni: true
+website: https://samvidscholars.org/team/isaac-sebenius/
 biography: >-
-  Isaac completed his PhD at Cambridge. He is interested in developing new
-  computational methods that leverage biological knowledge to address open
-  questions related to mental health and psychiatric disorders. In particular,
-  his work sought to characterize and predict the spectrum of psychotic disorders
-  by using machine learning to combine multiple types of neuroimaging-derived
-  brain connectivity as well as genetic and other biological data.
+  Isaac is an MD candidate at Harvard Medical School in the joint Harvard–MIT
+  Health Sciences and Technology (HST) programme, focusing on psychiatry and
+  neuroscience. He previously completed a PhD in Psychiatry and an MPhil in
+  Computer Science at the University of Cambridge as a Gates Cambridge and
+  Herchel Smith Scholar. His research develops computational tools to
+  characterise brain network structure, its genetic influences, and its
+  relevance to psychiatric disorders.
 publications:
   - multimodal-graph-coarsening-for-interpretable-mri-based-brain-graph-neural-network
 ---
