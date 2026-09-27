@@ -2,9 +2,31 @@
 layout: news-events
 title: News
 permalink: /news/
+pagination:
+  enabled: true
+  collection: news
+  permalink: '/news/page/:num/'
 ---
 
-{% assign news_collection = site.news | sort: 'date' | reverse %}
-{% for item in news_collection %}
+{% for item in paginator.posts %}
 	{% include news-events__post.html %}
 {% endfor %}
+
+{% if paginator.total_pages > 1 %}
+	<section class="block block__pagination block__pagination--simple">
+		<div class="container">
+			<ul>
+				{% if paginator.previous_page %}
+					<li>
+						<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
+					</li>
+				{% endif %}
+				{% if paginator.next_page %}
+					<li>
+						<a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
+					</li>
+				{% endif %}
+			</ul>
+		</div>
+	</section>
+{% endif %}
