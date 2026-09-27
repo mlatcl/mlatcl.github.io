@@ -1,6 +1,5 @@
 ---
-layout: event-single
-event_date: 2026-04-14
+layout: news-single
 date: 2026-04-14
 title: "AI policy’s missing half: evidence to Business and Trade"
 excerpt: Neil Lawrence told the Business and Trade Select Committee that UK AI policy is strong on supply and weak on demand — and set the argument out in AI Policy’s Missing Half.

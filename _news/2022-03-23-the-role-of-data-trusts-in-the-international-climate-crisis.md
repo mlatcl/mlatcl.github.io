@@ -1,7 +1,6 @@
 ---
-layout: event-single
+layout: news-single
 title: The role of data trusts in the international climate crisis
-event_date: 2022-03-23
 date: 2022-03-23
 excerpt: At 2022's AI:UK conference, the Global Partnership of AI will launch
   its report on the role of data trusts in helping address the international
@@ -9,7 +8,7 @@ excerpt: At 2022's AI:UK conference, the Global Partnership of AI will launch
   will chair a panel discussion with Jack Hardinges (ODI), Astha Kapoor (Aapti
   Institue), Claudia Juech (Patrick J. McGovern Foundation) and Nico Miailhe
   (Future Society).
-image: kelly-sikkema-_whs7fpfkwq-unsplash.jpg
+featured_image: kelly-sikkema-_whs7fpfkwq-unsplash.jpg
 ---
 At 2022's AI:UK conference, the Global Partnership of AI will launch its report on the role of data trusts in helping address the international climate crisis. As the Working Group co-lead on Data Trusts, Neil Lawrence will chair a panel discussion with Jack Hardinges (ODI), Astha Kapoor (Aapti Institue), Claudia Juech (Patrick J. McGovern Foundation) and Nico Miailhe (Future Society).
 
