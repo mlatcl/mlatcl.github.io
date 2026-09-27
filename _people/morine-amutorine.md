@@ -6,16 +6,19 @@ crsid: xxma02
 start: 2021-03-01
 visitor: True
 alumni: true
-position: Data Science Africa Fellow
-institution: UN Global Pulse
+position: Africa Sandboxes Forum Lead
+institution: Datasphere Initiative
+website: https://www.thedatasphere.org/about-us/our-team/morine-amutorine/
 image: morine-amutorine.jpeg
 linkedin: morine-amutorine
 twitter: theAmutorine
-biography: Morine is a software engineer turned data analyst who worked with
-  Pulse Lab Kampala. Her analytics work has focused on social data including
-  social media data (real-time content analysis and knowledge translation),
-  public radio (public perceptions informing SDG work) and Google search data
-  (knowledge gaps and health information disparities). Her research fellowship
-  with Data Science Africa explored opportunities and challenges associated with
-  data sharing in Africa.
+biography: >-
+  Morine is Africa Sandboxes Forum Lead at the Datasphere Initiative. She is a
+  data analyst who has been active in Africa’s data space for nearly a decade,
+  with past work on analysing, visualising and translating social data —
+  including social media, public radio and search data — into insights for
+  policy and SDG work. She previously worked with Pulse Lab Kampala (UN Global
+  Pulse) and held a Data Science Africa research fellowship on opportunities and
+  challenges of data sharing in Africa. She is also a board member of Data
+  Science Africa.
 ---
