@@ -2,25 +2,25 @@
 layout: person
 given: Jess
 family: Montgomery
-website: 
-orcid: 
-scholar: 
-twitter: 
-github: 
 crsid: jkm40
 start: 2020-09-14
-position: Executive Director, Accelerate Science
+website: null
+orcid: null
+position: Director, ai@cam and Accelerate Science
 institution: Cambridge University
+github: null
+scholar: null
 image: jessica-montgomery.jpg
-biography: Jess is Director of ai@cam and the Accelerate Programme for Scientific
-  Discovery. She has a range of
-  collaborations in areas where AI is being used to tackle real-world
-  challenges. These explore the roles that technological advances, scientific
-  evidence, policy development and public dialogue can play in sharing the
-  benefits of AI technologies across society. Her interests in AI and its
-  consequences for science and society stem from her policy career, in which she
-  worked with senior parliamentarians, leading researchers and civil society
-  organisations to bring scientific evidence to bear on major policy issues.
+twitter: null
+biography: Jessica Montgomery is Director of ai@cam and the Accelerate Programme
+  for Scientific Discovery at the University of Cambridge. Her research examines
+  how AI moves from technological capability into institutions and practice, and
+  the conditions under which its adoption creates public value. Her work focuses
+  on institutional capability for AI adoption, public dialogue and the
+  democratic direction of technology, AI for policymaking and public
+  institutions, and the adoption of AI in research. This builds on her
+  experience leading major policy programmes for the UK national academies and
+  House of Commons select committees.
 publications:
   - ai-for-science-reframing-ais-role-in-discovery
   - mind-the-gap-connecting-ai-innovation-to-widespread-public-value
@@ -36,5 +36,12 @@ publications:
   - from-research-data-ethics-principles-to-practice-data-trusts-as-a-governance-tool
   - ai-council-foundation-models-policy-paper
 ---
+Jessica’s research focuses on the policies and institutions through which AI is developed, adopted, and governed. A central concern across her work is the gap between advances in technological capability and their translation into widespread public value, and how the direction of technological development can respond to societal priorities.
 
-Jess Montgomery is Executive Director of the Accelerate Programme for Scientific Discovery, a new initiative developing artificial intelligence tools and collaborations to advance research. Her interests in AI and its consequences for science and society stem from her policy career, in which she worked with parliamentarians, leading researchers and civil society organisations to bring scientific evidence to bear on major policy issues.
+Her work on public dialogue examines how deliberative approaches can inform the development and adoption of AI. This includes research on public expectations for AI in government and public services, and on how dialogue can provide evidence about where AI is wanted, the conditions people place on its use, and what successful adoption should mean. This work builds on earlier research on participatory data governance and the development of Data Trusts.
+
+In AI for science, Jessica studies the conditions that enable AI to become useful in scientific practice. Drawing in part on the experience of the Accelerate Programme for Scientific Discovery, this work examines the technical, human, and institutional capabilities needed for adoption.
+
+Jessica also works on the use of AI in policymaking and public institutions. Her research considers the capabilities AI may create for policy analysis and decision-making, alongside the organisational capacity, governance and forms of human judgement needed to use those capabilities well. Her work with local government provides an empirical setting in which to study how AI is adopted within public institutions and the practical barriers that arise as systems move from experimentation towards routine use.
+
+She has advised UK and international organisations on AI policy, AI in science, data governance, and the institutional implications of emerging technologies.
