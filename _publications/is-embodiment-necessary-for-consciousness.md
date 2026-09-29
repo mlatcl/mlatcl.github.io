@@ -14,6 +14,7 @@ author:
     person_page: neil-d-lawrence
   - given: Nicola S.
     family: Clayton
+    person_page: nicky-clayton
 container-title: Perspectives on Machine Consciousness
 publisher: Chapman & Hall
 website: https://www.routledge.com/Perspectives-on-Machine-Consciousness/Chace-Lappas/p/book/9781041282341
