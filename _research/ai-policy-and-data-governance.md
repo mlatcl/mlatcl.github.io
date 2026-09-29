@@ -42,6 +42,8 @@ projects:
   - delve-data-evaluation-and-learning-for-viral-epidemics
   - gds-responsible-ai-advisory-panel
   - mhra-national-ai-commission
+  - ai-for-policy-and-public-services
+  - public-dialogue-and-ai
 people:
   - morine-amutorine
   - paula-bibby
