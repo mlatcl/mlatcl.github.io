@@ -11,7 +11,7 @@ people:
   - jessica-montgomery
 projects:
   - ai-for-policy-and-public-services
-featured_image: /assets/images/mylo-kaye-efujyuthmck-unsplash.jpg
+featured_image: mylo-kaye-efujyuthmck-unsplash.jpg
 ---
 Jessica Montgomery has joined the new Liverpool City Region AI Task Force, an expert advisory group established to help shape the development and adoption of AI across the region.
 
