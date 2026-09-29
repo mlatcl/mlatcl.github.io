@@ -35,6 +35,8 @@ publications:
   - democratising-the-digital-revolution-the-role-of-data-governance
   - from-research-data-ethics-principles-to-practice-data-trusts-as-a-governance-tool
   - ai-council-foundation-models-policy-paper
+  - machine-learning-from-innovation-to-deployment-a-strategic-research-agenda-for-autoai
+  - large-language-model-opportunity
 ---
 Jessica’s research focuses on the policies and institutions through which AI is developed, adopted, and governed. A central concern across her work is the gap between advances in technological capability and their translation into widespread public value, and how the direction of technological development can respond to societal priorities.
 
