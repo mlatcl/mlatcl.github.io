@@ -11,7 +11,11 @@ author:
   - family: Montgomery
     given: Jessica
     person_page: jessica-montgomery
-    consortium:
+  - family: Lawrence
+    given: Neil D.
+    person_page: neil-d-lawrence
+  - consortium:
       name: Hopkins Van Mil
+publisher: ai@cam
 html: https://www.ai.cam.ac.uk/reports/public-dialogue-on-ai-in-local-government-2026/
 ---

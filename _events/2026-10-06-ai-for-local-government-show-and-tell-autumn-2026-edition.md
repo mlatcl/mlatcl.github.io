@@ -1,5 +1,7 @@
 ---
 layout: event-single
+event_date: 2026-10-06
+date: 2026-10-06
 title: AI for Local Government Show and Tell (Autumn 2026 Edition)
 excerpt: "The AI for Local Government Show and Tell brings together local
   government officials working with AI to share experience from live projects,
@@ -13,7 +15,7 @@ people:
 projects:
   - ai-adoption
   - ai-for-policy-and-public-services
-featured_image: /assets/images/ai-for-local-goverment-event-cambridge.jpeg
+featured_image: ai-for-local-government-event-cambridge.jpeg
 ---
 As local authorities move from early experimentation with AI towards deployment in public services, they are encountering practical questions about where AI is useful, how it should be integrated into existing workflows, and what capabilities and safeguards are needed for responsible adoption.
 

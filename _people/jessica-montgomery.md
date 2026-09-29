@@ -27,13 +27,14 @@ publications:
   - ai-scientists-as-engines-of-discovery-a-case-for-development-within-reformed-institutions
   - ai-for-science-reframing-ais-role-in-discovery
   - mind-the-gap-connecting-ai-innovation-to-widespread-public-value
-  - framework-conditions-and-funding-for-ai-in-science-mutual-learning-exercise-on-national-policies-for-ai-in-science-–-first-thematic-report
+  - framework-conditions-and-funding-for-ai-in-science-mutual-learning-exercise-on-national-policies-for-ai-in-science-first-thematic-report
   - accelerating-ai-for-science-open-data-science-for-science
   - ai-public-dialogues-understanding-public-perspectives-on-ai-in-government-missions
   - increasing-data-sharing-and-use-for-social-good
   - machine-learning-for-science-mathematics-at-the-interface-of-data-driven-and-mechanistic-modelling
   - ai-for-science-an-emerging-agenda
   - creating-a-pathway-to-successful-real-world-data-trusts
+  - data-trusts-supporting-trustworthy-data-use
   - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
   - data-trusts-from-theory-to-practice-working-paper-1
   - international-perspectives-on-the-development-of-data-institutions

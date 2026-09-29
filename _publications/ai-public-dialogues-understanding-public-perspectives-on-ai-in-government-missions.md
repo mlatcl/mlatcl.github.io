@@ -30,7 +30,7 @@ author:
   - family: Montgomery
     given: Jessica
     person_page: jessica-montgomery
-    consortium:
+  - consortium:
       name: Hopkins Van Mil
 publisher: ai@cam
 html: https://www.ai.cam.ac.uk/reports/ai-public-dialogues-understanding-public-perspectives-on-ai-in-government-missions/

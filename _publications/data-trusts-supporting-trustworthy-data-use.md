@@ -8,5 +8,12 @@ abstract: The challenge for data governance in the 21st century is to bridge
   enable data access, while managing the rights and responsibilities associated
   with different data types. In this article, we explore the role that data
   trusts can play in bridging this governance gap.
-published: 2022-03-14
+published: 2021-03-24
+author:
+  - family: Montgomery
+    given: Jessica
+    person_page: jessica-montgomery
+  - family: Delacroix
+    given: Sylvie
+html: https://datatrusts.uk/publications/supporting-trustworthy-data-use
 ---

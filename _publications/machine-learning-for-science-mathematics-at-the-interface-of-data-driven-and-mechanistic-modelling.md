@@ -15,9 +15,9 @@ abstract: Rapid progress in machine learning is enabling scientific advances
   scientific discovery.
 published: 2023-12-22
 author:
-  - person_page: jessica-montgomery
-    family: Montgomery
+  - family: Montgomery
     given: Jessica
+    person_page: jessica-montgomery
   - family: Lawrence
     given: Neil D.
     person_page: neil-d-lawrence

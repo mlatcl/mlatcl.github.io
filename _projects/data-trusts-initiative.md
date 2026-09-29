@@ -15,6 +15,8 @@ publications:
   - data-governance-in-the-21st-century-citizen-dialogue-and-the-development-of-data-trusts
   - democratising-the-digital-revolution-the-role-of-data-governance
   - from-research-data-ethics-principles-to-practice-data-trusts-as-a-governance-tool
+  - creating-a-pathway-to-successful-real-world-data-trusts
+  - data-trusts-supporting-trustworthy-data-use
   - data-trusts-from-theory-to-practice-working-paper-1
   - international-perspectives-on-the-development-of-data-institutions
   - a-research-agenda-for-data-trusts-working-paper-3

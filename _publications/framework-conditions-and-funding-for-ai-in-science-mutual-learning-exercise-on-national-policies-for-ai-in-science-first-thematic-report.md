@@ -7,7 +7,7 @@ abstract: The Mutual Learning Exercise (MLE) on National Policies for Artificial
   Countries of Horizon Europe to share operational and policy approaches to
   advance the adoption of AI in science. Building on previous discussions about
   infrastructure and talent, this report focuses on funding and framework
-  conditions for AI in science. Drawing from discussions at the MLE workshop in
+  conditions for AI in science. Drawing from discussions at the MLE workshop in
   Belgium on 20-21 March 2025, a survey of national policymakers, and desk-based
   research, this report explores funding, governance, and institutional support
   models for AI in science from across Europe. It identifies different types of
@@ -23,8 +23,6 @@ author:
   - family: Montgomery
     given: Jessica
     person_page: jessica-montgomery
-    consortium:
-      name: Directorate-General for Research and Innovation, European Commission
 publisher: Publications Office of the European Union
 html: https://op.europa.eu/en/publication-detail/-/publication/1a24158a-2640-11f0-8a44-01aa75ed71a1/language-en
 doi: 10.2777/7211107
