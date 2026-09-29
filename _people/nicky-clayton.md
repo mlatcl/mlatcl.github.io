@@ -1,6 +1,6 @@
 ---
 layout: person
-given: Nicky
+given: Nicola S.
 family: Clayton
 preferred: Nicky
 crsid: nsc22
