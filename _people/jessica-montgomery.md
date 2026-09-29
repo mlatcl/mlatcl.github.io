@@ -10,7 +10,7 @@ position: Director, ai@cam and Accelerate Science
 institution: Cambridge University
 github: null
 scholar: null
-image: jessica-montgomery.jpg
+image: /assets/images/jessica-montgomery.webp
 twitter: null
 biography: Jessica Montgomery is Director of ai@cam and the Accelerate Programme
   for Scientific Discovery at the University of Cambridge. Her research examines
