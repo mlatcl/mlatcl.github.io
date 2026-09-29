@@ -15,6 +15,7 @@ people:
   - morine-amutorine
   - radzim-sendyka
   - ciira-maina
+  - frederick-lawrence
 ---
 
 Machine learning advances through communities as much as through papers. ML@CL
@@ -41,7 +42,8 @@ including attendance at the 2025 summer school and workshop in Ibadan, and longe
 collaboration on data-sharing policy and teaching such as the [Machine Learning
 Foundations course in Kenya](/events/2025-09-01-machine-learning-foundations-course-in-kenya.html),
 hosted with [Ciira Maina](/people/ciira-maina.html) and DSAIL at Dedan Kimathi
-University of Technology.
+University of Technology, with teaching support from
+[Frederick Lawrence](/people/frederick-lawrence.html).
 
 ## Sorrento Meeting
 
