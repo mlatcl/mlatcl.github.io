@@ -26,6 +26,6 @@ volume: "20"
 number: "2"
 pages: 1453-1484
 publisher: EMS Press
-html: https://ems.press/journals/owr/articles/13750338?utm_source=chatgpt.com
+html: https://ems.press/journals/owr/articles/13750338
 doi: 10.4171/OWR/2023/26
 ---
