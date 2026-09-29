@@ -1,6 +1,7 @@
 ---
 layout: person
-given: Jess
+given: Jessica
+preferred: Jess
 family: Montgomery
 crsid: jkm40
 start: 2020-09-14

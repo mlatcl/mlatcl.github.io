@@ -46,7 +46,9 @@ module MlAtCl
     end
 
     def display_name(person)
-      [person.data["given"], person.data["family"]].compact.join(" ")
+      first = person.data["preferred"]
+      first = person.data["given"] if first.nil? || first.to_s.strip.empty?
+      [first, person.data["family"]].compact.join(" ")
     end
 
     def build_page(site, slug, name)
