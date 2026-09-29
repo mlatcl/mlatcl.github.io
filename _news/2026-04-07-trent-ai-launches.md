@@ -4,7 +4,7 @@ title: "Trent AI launches with $13M for agentic security"
 excerpt: Neil Lawrence co-founds Trent AI, emerging from stealth with a $13M seed round to secure autonomous AI agents as they evolve.
 category:
   - ai-deployment-and-system-design
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: cosmin-dorobantu-1o1Wd5jpxBI-unsplash.jpg
 people:
   - neil-d-lawrence
 ---

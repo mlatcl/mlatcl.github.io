@@ -5,7 +5,7 @@ title: "AI policy’s missing half: evidence to Business and Trade"
 excerpt: Neil Lawrence told the Business and Trade Select Committee that UK AI policy is strong on supply and weak on demand — and set the argument out in AI Policy’s Missing Half.
 category:
   - ai-policy-and-data-governance
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: ryoji-iwata-ibavuzsjjto-unsplash.jpg
 people:
   - neil-d-lawrence
 projects:

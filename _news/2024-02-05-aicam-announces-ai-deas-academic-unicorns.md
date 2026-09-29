@@ -5,7 +5,7 @@ excerpt: Cambridge’s flagship AI mission goes public with five interdisciplina
 category:
   - ai-policy-and-data-governance
   - ai-for-research-and-innovation
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: vladislav-nikonov-quzpqh5vno4-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery

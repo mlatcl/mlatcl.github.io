@@ -4,7 +4,7 @@ title: "Excessive confidence in AI: evidence to the Treasury Committee"
 excerpt: Neil Lawrence told the Treasury Select Committee that financial services must not place excessive confidence in AI, and that lawmakers should listen to honest brokers rather than issue advocates.
 category:
   - ai-policy-and-data-governance
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: austin-hervias-VLpWpv3oDB4-unsplash.jpg
 people:
   - neil-d-lawrence
 projects:

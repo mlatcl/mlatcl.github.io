@@ -5,7 +5,7 @@ excerpt: Neil Lawrence and Jess Montgomery set out Cambridge’s vision for a fl
 category:
   - ai-policy-and-data-governance
   - ai-for-research-and-innovation
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: jose-martin-ramirez-carrasco-45sjajsjarq-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery

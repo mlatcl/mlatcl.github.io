@@ -4,7 +4,7 @@ title: "Mind the gap: connecting AI innovation to public value"
 excerpt: A Science and Public Policy paper argues that public demand for AI and the path of AI innovation have diverged, and sets out what would close that gap.
 category:
   - ai-policy-and-data-governance
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: katja-ano-8h1j3poLXWM-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery

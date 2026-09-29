@@ -6,7 +6,7 @@ title: Third UK AI Conference in London
 excerpt: The third UK AI Conference met at the Gibbs Building with support from HDR UK. Christian Cabrera continued as principal organiser.
 category:
   - ai-for-research-and-innovation
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: michal-czyz-alm7rnzudh8-unsplash.jpg
 people:
   - christian-cabrera
   - neil-d-lawrence

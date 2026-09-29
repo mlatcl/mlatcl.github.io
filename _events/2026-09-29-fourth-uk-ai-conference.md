@@ -6,7 +6,7 @@ title: Fourth UK AI Conference in Nottingham
 excerpt: The UK AI Conference returns on 29–30 September 2026 at the Hilton Nottingham, with support from the Somabotics Turing AI Fellowship. Neil chairs; Christian Cabrera serves on the programme committee.
 category:
   - ai-for-research-and-innovation
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: mike-kononov-lfv0v3_2h6s-unsplash.jpg
 people:
   - christian-cabrera
   - neil-d-lawrence

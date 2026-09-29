@@ -2,7 +2,7 @@
 layout: project-single
 title: The AI Council
 excerpt: The UK AI Council was an independent committee that provided advice on AI policy and strategy to the UK Government from 2018 – 2023. In 2022-23, the Council convened a series of discussions focused on the policy implications of advances in Large Language Models, with the aim of supporting rapid Government action to build national capability in Foundation Models. 
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: vicky-yu-jn1ffptnsuo-unsplash.jpg
 people:
   - tabitha-goldstaub
   - neil-d-lawrence

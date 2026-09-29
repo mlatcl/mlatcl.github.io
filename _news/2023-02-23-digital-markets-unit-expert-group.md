@@ -4,7 +4,7 @@ title: Neil Lawrence appointed to the Digital Markets Unit expert group
 excerpt: The CMA appointed Neil Lawrence as an independent digital expert advising the Digital Markets Unit. The group has since been disbanded.
 category:
   - ai-policy-and-data-governance
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: claudio-schwarz-fyeOxvYvIyY-unsplash.jpg
 people:
   - neil-d-lawrence
 ---

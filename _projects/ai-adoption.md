@@ -5,7 +5,7 @@ excerpt: The AI Adoption programme studies how institutions take up AI in ways
   that deliver public value — through public dialogue, practitioner partnership,
   and emerging theory on judgement, model minimisation, and the information
   topography of organisational change.
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: katja-ano-8h1j3poLXWM-unsplash.jpg
 people:
   - jessica-montgomery
   - neil-d-lawrence

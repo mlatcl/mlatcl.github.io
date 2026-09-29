@@ -6,7 +6,7 @@ title: Second UK AI Conference in Birmingham
 excerpt: The UK AI Conference returned at the University of Birmingham. Christian Cabrera led the organising contact and co-edited the PMLR proceedings.
 category:
   - ai-for-research-and-innovation
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: jose-martin-ramirez-carrasco-45sjajsjarq-unsplash.jpg
 people:
   - christian-cabrera
   - neil-d-lawrence

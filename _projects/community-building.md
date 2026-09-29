@@ -4,7 +4,7 @@ title: Community Building
 excerpt: Building research communities that connect machine learning researchers
   across the UK, Africa and Europe — from the UK AI Conference series and Data
   Science Africa to the Sorrento meetings and open publishing through PMLR.
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: ryoji-iwata-ibavuzsjjto-unsplash.jpg
 people:
   - neil-d-lawrence
   - christian-cabrera

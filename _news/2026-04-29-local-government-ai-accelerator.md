@@ -4,7 +4,7 @@ title: Local Government AI Accelerator launches
 excerpt: ai@cam has announced six council partnerships, funded by MHCLG, to try AI on operational problems in local public services.
 category:
   - ai-policy-and-data-governance
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: brett-jordan-SiExnuoE4UE-unsplash.jpg
 people:
   - jessica-montgomery
   - neil-d-lawrence

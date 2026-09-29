@@ -5,7 +5,7 @@ title: Neil Lawrence on BBC World Service Weekend
 excerpt: On 12 September Neil joined Weekend to discuss the week’s news, including an AI claim on the Navier–Stokes equations and a warning that the technology could kill us all.
 category:
   - ai-policy-and-data-governance
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: hansjorg-keller-56l_Sq7iT-s-unsplash.jpg
 people:
   - neil-d-lawrence
 ---
