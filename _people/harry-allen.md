@@ -9,7 +9,7 @@ twitter:
 github:
 linkedin: harry-allen-04169b240
 start: 2026-10-01
-crsid:
+crsid: ha642
 supervisor: [chc79, ndl21]
 position: PhD Student
 institution: Cambridge University
