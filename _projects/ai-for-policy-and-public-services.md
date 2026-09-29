@@ -6,7 +6,7 @@ excerpt: The AI for Policy programme examines how AI changes the capabilities of
   considers both the opportunities created by AI and the institutional
   arrangements needed to preserve judgement, accountability, and democratic
   authority as parts of policy work become increasingly mediated by AI systems.
-featured_image: /assets/images/francesco-zivoli-qkyfn27gye4-unsplash.jpg
+featured_image: francesco-zivoli-qkyfn27gye4-unsplash.jpg
 people:
   - jessica-montgomery
   - neil-d-lawrence
