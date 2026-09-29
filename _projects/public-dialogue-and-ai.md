@@ -7,7 +7,7 @@ excerpt: Our work examines how public dialogue can contribute to the democratic
   innovation; how public perspectives can inform decisions about AI adoption;
   and how institutions can develop the capacity to continue listening and
   responding as technologies and their uses change.
-featured_image: /assets/images/img_2181.jpeg
+featured_image: img_2181.jpeg
 people:
   - jessica-montgomery
   - neil-d-lawrence
