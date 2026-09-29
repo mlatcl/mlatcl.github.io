@@ -47,6 +47,8 @@ projects:
   - challenges-in-machine-learning-deployment
   - data-oriented-architectures-for-ai-based-systems
   - evaluation-of-dataflow-for-ml-deployment
+  - accelerate-science
+  - ai-for-policy-and-public-services
 people:
   - andrei-paleyes
   - carl-henrik-ek
