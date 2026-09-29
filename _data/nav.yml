@@ -8,8 +8,11 @@ main_nav:
         link: /people/
       - label: Alumni
         link: /alumni/
+      - label: Collaborators
+        link: /collaborators/
       - label: Current Opportunities
         link: /about/current-opportunities
+
   - label: Research
     link: /research/
     submenu_item:

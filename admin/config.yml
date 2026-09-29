@@ -618,7 +618,13 @@ collections:
       widget: "boolean"
       required: false
       hint: "Set for visiting researchers or visiting students (for example Visiting Researcher)."
+    - label: Collaborator
+      name: collaborator
+      widget: "boolean"
+      required: false
+      hint: "External collaborators linked on projects; listed under Collaborators, not Team or Alumni."
     - name: start
+
       label: "Date of start in ml@cl"
       hint: "Provide the day that the individual started in the ml@cl group."
       widget: 'datetime'
