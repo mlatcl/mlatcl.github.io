@@ -10,7 +10,7 @@ position: Director, ai@cam and Accelerate Science
 institution: Cambridge University
 github: null
 scholar: null
-image: jessica-montgomery.jpg
+image: jessica-montgomery.webp
 twitter: null
 biography: Jessica Montgomery is Director of ai@cam and the Accelerate Programme
   for Scientific Discovery at the University of Cambridge. Her research examines
@@ -22,11 +22,18 @@ biography: Jessica Montgomery is Director of ai@cam and the Accelerate Programme
   experience leading major policy programmes for the UK national academies and
   House of Commons select committees.
 publications:
+  - public-dialogue-on-ai-in-local-government
+  - societal-frameworks-can-improve-llm-alignment
+  - ai-scientists-as-engines-of-discovery-a-case-for-development-within-reformed-institutions
   - ai-for-science-reframing-ais-role-in-discovery
   - mind-the-gap-connecting-ai-innovation-to-widespread-public-value
+  - framework-conditions-and-funding-for-ai-in-science-mutual-learning-exercise-on-national-policies-for-ai-in-science-–-first-thematic-report
   - accelerating-ai-for-science-open-data-science-for-science
+  - ai-public-dialogues-understanding-public-perspectives-on-ai-in-government-missions
   - increasing-data-sharing-and-use-for-social-good
+  - machine-learning-for-science-mathematics-at-the-interface-of-data-driven-and-mechanistic-modelling
   - ai-for-science-an-emerging-agenda
+  - creating-a-pathway-to-successful-real-world-data-trusts
   - creating-a-european-ai-powerhouse-a-strategic-research-agenda-from-the-european-learning-and-intelligent-systems-excellence-elise-consortium
   - data-trusts-from-theory-to-practice-working-paper-1
   - international-perspectives-on-the-development-of-data-institutions
@@ -35,6 +42,8 @@ publications:
   - democratising-the-digital-revolution-the-role-of-data-governance
   - from-research-data-ethics-principles-to-practice-data-trusts-as-a-governance-tool
   - ai-council-foundation-models-policy-paper
+  - machine-learning-from-innovation-to-deployment-a-strategic-research-agenda-for-autoai
+  - large-language-model-opportunity
 ---
 Jessica’s research focuses on the policies and institutions through which AI is developed, adopted, and governed. A central concern across her work is the gap between advances in technological capability and their translation into widespread public value, and how the direction of technological development can respond to societal priorities.
 
