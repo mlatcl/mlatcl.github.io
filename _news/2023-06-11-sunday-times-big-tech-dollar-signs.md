@@ -4,7 +4,7 @@ title: "Sunday Times: Big Tech just sees dollar signs"
 excerpt: Neil’s Sunday Times piece argues that AI could enhance lives, but incumbents are steering the technology toward commercial gain rather than the problems the public names.
 category:
   - ai-policy-and-data-governance
-featured_image: absolutvision-WYd_PkCa1BY-unsplash.jpg
+featured_image: the-blowup-BuacM_kotEY-unsplash.jpg
 people:
   - neil-d-lawrence
 projects:

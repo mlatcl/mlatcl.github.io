@@ -1,7 +1,7 @@
 ---
 layout: news-single
 title: "The Atomic Human published in the US"
-excerpt: PublicAffairs releases the North American edition of Neil’s book, titled The Atomic Human: What Makes Us Unique in the Age of AI.
+excerpt: "PublicAffairs releases the North American edition of Neil’s book, titled The Atomic Human: What Makes Us Unique in the Age of AI."
 category:
   - machine-learning-theory-and-methods
   - ai-policy-and-data-governance
