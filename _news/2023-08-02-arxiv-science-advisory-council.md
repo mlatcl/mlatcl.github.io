@@ -4,7 +4,7 @@ title: "Neil Lawrence joins arXiv’s Science Advisory Council"
 excerpt: Under arXiv’s new governance model, Neil is among the inaugural members of the Science Advisory Council for 2023–2026.
 category:
   - machine-learning-theory-and-methods
-featured_image: katja-ano-8h1j3poLXWM-unsplash.jpg
+featured_image: ArXiv_logo_2022.svg
 people:
   - neil-d-lawrence
 ---

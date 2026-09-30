@@ -4,7 +4,7 @@ title: "Neil Lawrence on BBC Radio 4’s The Life Scientific"
 excerpt: Jim Al-Khalili talks to Neil about machine learning in the wild, digital oligarchy, and why we should embrace AI with scepticism rather than fear.
 category:
   - ai-policy-and-data-governance
-featured_image: hansjorg-keller-56l_Sq7iT-s-unsplash.jpg
+featured_image: p0m1wsx5.jpg
 people:
   - neil-d-lawrence
 projects:

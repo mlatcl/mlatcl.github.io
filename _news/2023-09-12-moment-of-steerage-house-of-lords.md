@@ -4,7 +4,7 @@ title: "A moment of steerage: evidence to the Lords on large language models"
 excerpt: Neil Lawrence told the House of Lords Communications and Digital Committee that governments have a rare chance to shape AI — and must resist simple answers, regulatory capture, and consequential decisions without human accountability.
 category:
   - ai-policy-and-data-governance
-featured_image: vicky-yu-jn1ffptnsuo-unsplash.jpg
+featured_image: frank-eiffert-G9gHtroxnaI-unsplash.jpg
 people:
   - neil-d-lawrence
 projects:

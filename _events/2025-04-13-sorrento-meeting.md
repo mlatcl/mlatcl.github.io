@@ -6,7 +6,7 @@ title: Sorrento Meeting 2025
 excerpt: The first Sorrento Meeting brought DALI-style workshops and a plenary to the Grand Hotel Vesuvio. Cambridge colleagues chaired the meeting.
 category:
   - ai-for-research-and-innovation
-featured_image: martin-sanchez-j2c7yf223mk-unsplash.jpg
+featured_image: P1270709.jpg
 people:
   - neil-d-lawrence
   - christian-cabrera

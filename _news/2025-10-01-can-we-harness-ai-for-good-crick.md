@@ -5,7 +5,7 @@ title: "Can we harness AI for good? Neil Lawrence on A Question of Science"
 excerpt: Neil joined Brian Cox’s Crick Institute panel with Adrian Weller, Jeanette Winterson and Steph Wright to discuss whether AI can be a force for good — and what that question leaves out.
 category:
   - ai-policy-and-data-governance
-featured_image: hans-reniers-lqgjcmy5qcm-unsplash.jpg
+featured_image: 2025_06_18_Crick_For_Web_00079_0.jpg
 people:
   - neil-d-lawrence
 projects:

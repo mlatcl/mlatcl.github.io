@@ -5,7 +5,7 @@ excerpt: Neil Lawrence’s FT letter, responding to reporting on Visma, argues t
 category:
   - ai-policy-and-data-governance
   - ai-deployment-and-system-design
-featured_image: absolutvision-WYd_PkCa1BY-unsplash.jpg
+featured_image: the-blowup-BuacM_kotEY-unsplash.jpg
 people:
   - neil-d-lawrence
 projects:

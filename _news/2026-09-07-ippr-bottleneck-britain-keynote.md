@@ -5,7 +5,7 @@ title: Neil Lawrence keynote at the IPPR digital markets launch
 excerpt: Neil gave a keynote at the Financial Times for the launch of the IPPR paper Bottleneck Britain.
 category:
   - ai-policy-and-data-governance
-featured_image: mike-kononov-lfv0v3_2h6s-unsplash.jpg
+featured_image: salah-ait-mokhtar--GqvJ5g-Z4A-unsplash.jpg
 people:
   - neil-d-lawrence
 ---
