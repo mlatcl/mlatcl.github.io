@@ -1,6 +1,7 @@
 ---
 month: 09
 layout: project-to-supervise
+theme: interfaces-theme
 status: Available
 categories:
   - prtiii
