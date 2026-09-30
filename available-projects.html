@@ -11,7 +11,7 @@ permalink: /internal/projects/
       <span></span>
     </div>
     <div class="publications__list">
-      {% assign projects = site.availableprojects | sort: "title" %}
+      {% assign projects = site.availableprojects | sort: "title" | sort: "layout" %}
       
       {% for project in projects %}
       {% if project.status == 'Available' %}
@@ -33,7 +33,7 @@ permalink: /internal/projects/
       <span></span>
     </div>
     <div class="publications__list">
-      {% assign projects = site.availableprojects | sort: "title" %}
+      {% assign projects = site.availableprojects | sort: "title" | sort: "layout" %}
       
       {% for project in projects %}
       {% if project.status == 'Available' %}
