@@ -1,5 +1,6 @@
 ---
 layout: project-to-supervise
+theme: probabilistic-machine-learning-theme
 title: "Machine Learning (Bayesian Methodology, Inference and Applications)  "
 status: Available
 categories:

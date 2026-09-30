@@ -1,6 +1,7 @@
 ---
 title: Constrained Bayesian Optimisation with Unknown Constraints
 layout: project-to-supervise
+theme: probabilistic-machine-learning-theme
 status: Hidden
 categories:
   - prtiii
