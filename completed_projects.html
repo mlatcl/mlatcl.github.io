@@ -15,7 +15,10 @@ permalink: /internal/completed-projects/
       
       {% for project in projects %}
         {% if project.status == 'Completed' %}
-          {% include listavailableproject.html %}
+          {% include availableproject-list-visible.html %}
+          {% if list_availableproject %}
+            {% include listavailableproject.html %}
+          {% endif %}
         {% endif %}
       {% endfor %}
     </div>

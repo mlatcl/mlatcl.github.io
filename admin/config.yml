@@ -1084,12 +1084,18 @@ collections:
     fields:
       - label: 'Layout'
         name: 'layout'
-        widget: 'hidden'
+        widget: 'select'
+        options:
+          - label: "Project"
+            value: "project-to-supervise"
+          - label: "Theme"
+            value: "available-project-theme"
         default: 'project-to-supervise'
+        hint: "Theme entries group related projects. Children set the Theme field to the theme's slug and are hidden from top-level lists."
       - label: 'Title'
         name: 'title'
         widget: 'string'
-        hint: "The title of the project."
+        hint: "The title of the project or theme."
       - label: 'Status'
         name: 'status'
         widget: 'select'
@@ -1102,17 +1108,31 @@ collections:
         options: ["prtii", "prtiii", "MPhil", "mphil", "PhD"]
         multiple: true
         hint: "Prefer MPhil (capital M) for masters briefs. Both MPhil and mphil are recognised on the public list."
+      - label: 'Theme'
+        name: 'theme'
+        widget: 'relation'
+        collection: 'availableprojects'
+        search_fields: ["title"]
+        value_field: "{{slug}}"
+        display_fields: ["title"]
+        options_length: 999
+        multiple: false
+        required: false
+        filter:
+          field: layout
+          value: available-project-theme
+        hint: "Optional parent theme. If set, this entry is omitted from top-level lists and appears on the theme page instead. Themes may nest under other themes."
       - label: 'Prerequisites'
         name: 'prerequisites'
         widget: 'markdown'
         required: false
-        hint: "Required preparation (modules, background). Markdown links are supported, for example to the IEI module site."
+        hint: "Required preparation (modules, background). Markdown links are supported, for example to the IEI module site. Themes can share prerequisites for their children."
       - label: 'Short Overview'
         name: 'overview'
         widget: 'markdown'
-        hint: "Use this field to give a brief overview of the project."
+        hint: "Use this field to give a brief overview of the project or theme."
       - label: 'Supervisors'
-        hint: "Use this field to list who's supervising the project. First listed is primary contact point. If a student is primary contact point you need a UTO as an additional supervisor."
+        hint: "People associated with this project or theme. First listed is primary contact point. If a student is primary contact point you need a UTO as an additional supervisor. People listed on a theme see the theme (not its children) on their project list."
         name: 'supervisors'
         widget: 'relation'
         collection: 'people'

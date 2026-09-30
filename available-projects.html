@@ -16,7 +16,10 @@ permalink: /internal/projects/
       {% for project in projects %}
       {% if project.status == 'Available' %}
       {% if project.categories contains "prtiii" or project.categories contains "MPhil" or project.categories contains "mphil" %}
+      {% include availableproject-list-visible.html %}
+      {% if list_availableproject %}
       {% include listavailableproject.html %}
+      {% endif %}
       {% endif %}
       {% endif %}
       {% endfor %}
@@ -35,7 +38,10 @@ permalink: /internal/projects/
       {% for project in projects %}
       {% if project.status == 'Available' %}
       {% if project.categories contains "prtii"  %}
+      {% include availableproject-list-visible.html %}
+      {% if list_availableproject %}
       {% include listavailableproject.html %}
+      {% endif %}
       {% endif %}
       {% endif %}
       {% endfor %}
