@@ -1,7 +1,7 @@
 ---
 month: 09
 layout: project-to-supervise
-theme: information-topography-theme
+theme: interfaces-theme
 status: Available
 categories:
   - prtiii

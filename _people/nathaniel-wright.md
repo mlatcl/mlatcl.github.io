@@ -1,6 +1,7 @@
 ---
 layout: person
 given: Nathaniel
+preferred: Nate
 family: Wright
 student: True
 website: https://www.psychol.cam.ac.uk/staff/nathaniel-wright

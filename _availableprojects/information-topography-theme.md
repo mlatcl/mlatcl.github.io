@@ -9,12 +9,10 @@ prerequisites: >-
   [L172 Information, Energy and Intelligence (IEI)](https://mlatcl.github.io/iei/), or equivalent preparation in information theory, maximum entropy, and information geometry.
 supervisors:
   - neil-d-lawrence
-  - christian-cabrera
-  - joery-de-vries
 projects:
   - information-topography
 published: 2026-09-30
-title: Information Topography
+title: Projects on Information Topography
 overview: >-
   Information topography is the geometry of how information flows through a
   complex system. These Part III / MPhil projects develop the mathematical
