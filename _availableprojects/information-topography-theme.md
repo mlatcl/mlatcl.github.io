@@ -12,7 +12,7 @@ supervisors:
 projects:
   - information-topography
 published: 2026-09-30
-title: Information Topography
+title: Projects on Information Topography
 overview: >-
   Information topography is the geometry of how information flows through a
   complex system. These Part III / MPhil projects develop the mathematical
