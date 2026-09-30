@@ -14,7 +14,7 @@ projects:
   - interfaces
   - ai-adoption
 published: 2026-09-30
-title: Interfaces and Agentic Systems
+title: Projects on Agentic System Implementation
 overview: >-
   These Part III / MPhil projects apply information-topographic ideas to
   engineered multi-agent and organisational systems: belief bottlenecks,
