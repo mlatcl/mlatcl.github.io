@@ -4,7 +4,7 @@ title: "DELVE releases a global COVID-19 dataset"
 excerpt: Andrei Paleyes and collaborators publish an openly licensed country-level join of cases, deaths, tests, NPIs, mobility and related metadata for up to 170 countries.
 category:
   - ai-policy-and-data-governance
-featured_image: nasa-q1p7bh3shj8-unsplash.jpg
+featured_image: markus-winkler-z6hKpyCuQME-unsplash.jpg
 people:
   - andrei-paleyes
   - neil-d-lawrence

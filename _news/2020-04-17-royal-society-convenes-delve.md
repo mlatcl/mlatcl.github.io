@@ -4,7 +4,7 @@ title: "Royal Society convenes DELVE for COVID-19 data analysis"
 excerpt: The Royal Society launches DELVE — Data Evaluation and Learning for Viral Epidemics — to feed data-driven analysis into SAGE. Neil Lawrence helps lead the group; Jessica Montgomery provides secretariat.
 category:
   - ai-policy-and-data-governance
-featured_image: martin-sanchez-j2c7yf223mk-unsplash.jpg
+featured_image: stephan-de-maranthi-ZbxEgEaxDew-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery

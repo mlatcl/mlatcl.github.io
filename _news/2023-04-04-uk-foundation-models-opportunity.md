@@ -4,7 +4,7 @@ title: AI Council briefing on the UK foundation models opportunity
 excerpt: A subgroup of the UK AI Council, led by Neil Lawrence, published a briefing on the policy implications of progress in foundation models.
 category:
   - ai-policy-and-data-governance
-featured_image: andres-urena-39mvkfrm3ta-unsplash.jpg
+featured_image: markus-winkler-N7150PzZW3w-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery

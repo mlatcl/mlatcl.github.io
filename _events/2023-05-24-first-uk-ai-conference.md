@@ -6,7 +6,7 @@ title: First UK AI Conference at the Natural History Museum
 excerpt: The inaugural UK AI Conference brought Turing AI Fellows and their groups together in London. Neil co-chaired; Christian Cabrera served on the programme committee.
 category:
   - ai-for-research-and-innovation
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: stephen-kidd-5VhNj02LxEM-unsplash.jpg
 people:
   - neil-d-lawrence
   - christian-cabrera

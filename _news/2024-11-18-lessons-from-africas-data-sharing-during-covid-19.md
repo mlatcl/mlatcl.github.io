@@ -4,7 +4,7 @@ title: Lessons from Africa’s data-sharing practices during COVID-19
 excerpt: A Data & Policy commentary draws on African data-centric COVID-19 interventions to set out how data sharing for social good can be sustained.
 category:
   - ai-policy-and-data-governance
-featured_image: fusion-medical-animation-npjp0dctoxo-unsplash.jpg
+featured_image: james-wiseman-IebZAH6kaNw-unsplash.jpg
 people:
   - morine-amutorine
   - neil-d-lawrence

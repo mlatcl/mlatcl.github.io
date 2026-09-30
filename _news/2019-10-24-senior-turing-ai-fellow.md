@@ -4,7 +4,7 @@ title: "Neil Lawrence appointed Senior Turing AI Fellow"
 excerpt: The Alan Turing Institute names Neil among the first five Turing AI Fellows. His five-year Senior Fellowship funds the AutoAI programme on deploying and monitoring machine learning systems.
 category:
   - ai-deployment-and-system-design
-featured_image: alina-grubnyak-ziqkhi7417a-unsplash.jpg
+featured_image: alexey-melechin-osBKsN5J6V0-unsplash.jpg
 people:
   - neil-d-lawrence
 projects:

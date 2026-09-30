@@ -6,7 +6,7 @@ title: Data Science Africa 2025 in Ibadan
 excerpt: Neil Lawrence gave a keynote at DSA’s summer school and workshop at the University of Ibadan. Oluwatomisin Dada attended from the lab.
 category:
   - ai-for-research-and-innovation
-featured_image: andy-holmes-lupdjljv4_c-unsplash.jpg
+featured_image: emmanuel-ikwuegbu-fmPdMlgcaeY-unsplash.jpg
 people:
   - neil-d-lawrence
   - oluwatomisin-dada

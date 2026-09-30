@@ -4,7 +4,7 @@ title: "DELVE: balancing the risks of pupils returning to schools"
 excerpt: DELVE argues that the costs of keeping schools shut — learning loss, health, inequality — weigh heavily against infection risk, and that reopening should be prioritised.
 category:
   - ai-policy-and-data-governance
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: cdc-GDokEYnOfnE-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery

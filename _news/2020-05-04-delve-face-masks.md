@@ -4,7 +4,7 @@ title: "DELVE: face masks for the general public"
 excerpt: The first DELVE report argues that face coverings, including homemade cloth masks, could reduce community transmission when physical distancing is hard to maintain.
 category:
   - ai-policy-and-data-governance
-featured_image: fusion-medical-animation-npjp0dctoxo-unsplash.jpg
+featured_image: liza-pooor-VSfNS3MoYCw-unsplash.jpg
 people:
   - neil-d-lawrence
   - jessica-montgomery

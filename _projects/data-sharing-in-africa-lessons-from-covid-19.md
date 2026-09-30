@@ -7,7 +7,7 @@ excerpt: The COVID-19 pandemic intensified the need for timely and accurate data
   the spread of COVID-19 among their populations. Drawing from real-world
   examples, this projects the lessons offered by these innovations for future
   data policy frameworks.
-featured_image: fusion-medical-animation-npjp0dctoxo-unsplash.jpg
+featured_image: marek-studzinski-Dzzs2EFckLk-unsplash.jpg
 people:
   - morine-amutorine
   - jessica-montgomery

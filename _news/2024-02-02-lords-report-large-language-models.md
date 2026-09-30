@@ -4,7 +4,7 @@ title: "Lords report on large language models cites a moment of steerage"
 excerpt: The House of Lords Communications and Digital Committee published Large language models and generative AI, drawing on Neil Lawrence’s evidence that governments still have a chance to shape how AI develops.
 category:
   - ai-policy-and-data-governance
-featured_image: dylan-gillis-KdeqA3aTnBY-unsplash.jpg
+featured_image: martine-mussies-xnqYSIK6UA0-unsplash.jpg
 people:
   - neil-d-lawrence
 projects:

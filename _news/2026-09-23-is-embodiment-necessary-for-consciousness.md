@@ -4,7 +4,7 @@ title: "Is embodiment necessary for consciousness?"
 excerpt: Nathaniel Wright’s chapter, with Neil Lawrence and Nicky Clayton, appears in Perspectives on Machine Consciousness.
 category:
   - machine-learning-theory-and-methods
-featured_image: kier-in-sight-5tc6rrnxami-unsplash.jpg
+featured_image: wiki-sinaloa-raJrSL-LfVg-unsplash.jpg
 people:
   - nathaniel-wright
   - neil-d-lawrence
