@@ -6,12 +6,12 @@ title: Machine Learning Foundations course delivered in Kenya
 excerpt: Neil Lawrence, with Radzim Sendyka and Frederick Lawrence, taught the Machine Learning Foundations course at Dedan Kimathi University in Nyeri.
 category:
   - machine-learning-theory-and-methods
-featured_image: stock-photo-programmer-working-and-developing-software-in-office-1823014802.jpg
+featured_image: dekut.jpg
 people:
-  - neil-d-lawrence
   - radzim-sendyka
   - ciira-maina
   - frederick-lawrence
+  - neil-d-lawrence
 projects:
   - community-building
 ---
