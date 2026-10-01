@@ -1,7 +1,7 @@
 ---
 month: 09
 layout: available-project-theme
-status: Available
+status: Hidden
 categories:
   - prtii
   - prtiii
