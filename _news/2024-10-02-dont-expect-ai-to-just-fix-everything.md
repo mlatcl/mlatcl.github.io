@@ -5,7 +5,7 @@ excerpt: "At The Times Tech Summit, Neil Lawrence warned that treating AI or AGI
 category:
   - ai-policy-and-data-governance
   - ai-deployment-and-system-design
-featured_image: sarah-doffman-u44HcmdG0Oo-unsplash.jpg
+featured_image: absolutvision-WYd_PkCa1BY-unsplash.jpg
 people:
   - neil-d-lawrence
 projects:
