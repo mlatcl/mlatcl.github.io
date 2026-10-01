@@ -4,7 +4,7 @@ given: Ciira
 prefix: wa
 family: Maina
 crsid:
-website:
+website: http://ciirawamaina.com/
 orcid:
 linkedin:
 github:
@@ -15,8 +15,9 @@ institution: Dedan Kimathi University of Technology
 image: ciira-wa-maina.jpg
 biography: >-
   Ciira Maina is an Associate Professor at Dedan Kimathi University of
-  Technology in Nyeri, Kenya, and works with the Centre for Data Science and
-  Artificial Intelligence (DSAIL), a Data Science Africa centre. He
-  collaborates with ML@CL on machine learning education and research in
-  Africa.
+  Technology in Nyeri, Kenya, and leads the Centre for [Data Science and
+  Artificial Intelligence](https://dekut-dsail.github.io/) (DSAIL), a Data 
+  Science Africa centre. He is the board chair for 
+  [Data Science Africa](https://www.datascienceafrica.org/) and
+  he collaborates with ml@cl on machine learning research and education.
 ---
