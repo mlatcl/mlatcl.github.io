@@ -19,4 +19,4 @@ On a panel moderated by Danny Fortson — with Naila Murray (Meta AI Research) a
 
 Amadeus Capital’s [summit takeaways](https://www.amadeuscapital.com/the-2024-times-tech-summit-key-takeaways/) also note Neil’s point that generative AI has changed how ordinary people interact with machines — speaking to them directly, unmediated by software engineers — while the policy risk remains misplaced faith in AI as a central fix for institutions.
 
-The argument sits with the group’s [AI Adoption](/projects/ai-adoption.html) and [AI for Policy and Public Services](/projects/ai-for-policy-and-public-services.html) work, and with the later FT letter on [AI arriving workflow by workflow](/news/2026-05-12-ft-letter-ai-workflow-by-workflow.html).
+The argument sits with the group’s [AI Adoption](/projects/ai-adoption.html) and [AI for Policy and Public Services](/projects/ai-for-policy-and-public-services.html) work.
