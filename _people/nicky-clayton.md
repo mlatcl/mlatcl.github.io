@@ -4,7 +4,7 @@ given: Nicola S.
 family: Clayton
 preferred: Nicky
 crsid: nsc22
-website: https://www.cam.ac.uk/women-at-cambridge/profiles/nicky-clayton
+website: https://www.nickyclayton.com/
 orcid:
 linkedin:
 github:
