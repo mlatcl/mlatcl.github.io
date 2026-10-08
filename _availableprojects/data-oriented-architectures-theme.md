@@ -1,7 +1,7 @@
 ---
 month: 10
 layout: available-project-theme
-title: Projects on Data-Oriented Architectures
+title: Projects on Data-Oriented Multi-Agent Systems
 status: Available
 categories:
   - prtii
