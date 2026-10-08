@@ -1,6 +1,7 @@
 ---
 month: 4
 layout: project-to-supervise
+theme: data-oriented-architectures-theme
 status: Available
 categories:
   - prtii
@@ -10,6 +11,7 @@ supervisors:
   - christian-cabrera
   - neil-d-lawrence
 projects:
+  - data-oriented-architectures-for-ai-based-systems
   - interfaces
 student_learn: >-
   You will learn about multi-agent systems, data-oriented architectures, and
