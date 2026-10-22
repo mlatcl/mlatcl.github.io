@@ -17,8 +17,8 @@ biography: >-
   [Neil Lawrence](/people/neil-d-lawrence.html). His research combines machine
   learning with the comparative science of magic, to study how embodiment
   shapes cognition and decision-making. He is a member of the Comparative
-  Cognition Lab in the Department of Psychology and holds a Cambridge
-  Biosciences DTP studentship.
+  Cognition Lab in the Department of Psychology and holds a Vice Chancellor Award under the Cambridge
+  Biosciences Doctoral Training Partnership (BBSRC).
 publications:
   - is-embodiment-necessary-for-consciousness
 ---
