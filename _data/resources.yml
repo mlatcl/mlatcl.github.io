@@ -53,3 +53,7 @@ resources:
     category: Software
     link: https://github.com/mlatcl/library
     icon: /assets/images/software-icon.svg
+  - title: Data Science Africa Lectures
+    category: Teaching
+    link: https://mlatcl.github.io/dsa/
+    icon: /assets/images/teaching-icon.svg
